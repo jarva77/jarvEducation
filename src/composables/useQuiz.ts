@@ -36,7 +36,7 @@ export function useQuiz() {
     answers.value.push({
       question,
       userAnswer,
-      isCorrect: isAnswerCorrect(userAnswer, question.answer),
+      isCorrect: isAnswerCorrect(userAnswer, question),
     })
 
     if (currentIndex.value + 1 < quizQuestions.value.length) {

@@ -8,6 +8,8 @@ export interface Question {
   question: string
   options?: string[]
   answer: string
+  /** Extra answers that also count as correct (open-ended questions). */
+  acceptedAnswers?: string[]
 }
 
 export interface AnsweredQuestion {
