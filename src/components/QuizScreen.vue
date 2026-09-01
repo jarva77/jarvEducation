@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, watch } from 'vue'
 import type { Question } from '../types'
-import { CATEGORY_LABELS } from '../types'
+import { CATEGORY_EMOJI, CATEGORY_LABELS } from '../types'
 
 const props = defineProps<{
   question: Question
@@ -33,7 +33,9 @@ function submitText() {
   <section class="card quiz-screen">
     <div class="progress-row">
       <span class="progress-text">Ερώτηση {{ current }} / {{ total }}</span>
-      <span class="category-badge">{{ CATEGORY_LABELS[question.category] }}</span>
+      <span class="category-badge" :class="'cat-' + question.category">
+        {{ CATEGORY_EMOJI[question.category] }} {{ CATEGORY_LABELS[question.category] }}
+      </span>
     </div>
     <div class="progress-bar">
       <div class="progress-bar-fill" :style="{ width: (current / total) * 100 + '%' }" />

@@ -2,7 +2,7 @@
 import { computed, ref } from 'vue'
 import { useHistory } from '../composables/useHistory'
 import type { Category } from '../types'
-import { CATEGORY_LABELS } from '../types'
+import { CATEGORY_EMOJI, CATEGORY_LABELS } from '../types'
 
 const emit = defineEmits<{ back: [] }>()
 const { history, clearHistory } = useHistory()
@@ -97,7 +97,7 @@ function onClear() {
       <h3>Ανά μάθημα</h3>
       <div class="category-averages">
         <div v-for="c in categoryAverages" :key="c.cat" class="cat-avg-row">
-          <span class="cat-avg-label">{{ c.label }}</span>
+          <span class="cat-avg-label">{{ CATEGORY_EMOJI[c.cat] }} {{ c.label }}</span>
           <div class="cat-avg-bar">
             <div class="cat-avg-fill" :style="{ width: c.pct + '%', background: barColor(c.pct) }" />
           </div>

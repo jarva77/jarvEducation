@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import type { AnsweredQuestion, Category } from '../types'
-import { CATEGORY_LABELS } from '../types'
+import { CATEGORY_EMOJI, CATEGORY_LABELS } from '../types'
 
 const props = defineProps<{ answers: AnsweredQuestion[] }>()
 const emit = defineEmits<{ restart: [] }>()
@@ -26,23 +26,31 @@ const byCategory = computed(() => {
 const wrongAnswers = computed(() => props.answers.filter((a) => !a.isCorrect))
 
 const encouragement = computed(() => {
-  if (percentage.value >= 90) return 'Άριστα! 🌟'
-  if (percentage.value >= 70) return 'Πολύ καλά! 👏'
-  if (percentage.value >= 50) return 'Καλή προσπάθεια! 💪'
-  return 'Χρειάζεται λίγη ακόμα εξάσκηση 📚'
+  if (percentage.value >= 90) return 'Άριστα! Είσαι σούπερ σταρ!'
+  if (percentage.value >= 70) return 'Πολύ καλά! Μπράβο σου!'
+  if (percentage.value >= 50) return 'Καλή προσπάθεια! Συνέχισε έτσι!'
+  return 'Μην τα παρατάς! Η εξάσκηση κάνει θαύματα!'
+})
+
+const resultEmoji = computed(() => {
+  if (percentage.value >= 90) return '🏆'
+  if (percentage.value >= 70) return '🌟'
+  if (percentage.value >= 50) return '💪'
+  return '📚'
 })
 </script>
 
 <template>
   <section class="card results-screen">
     <h1>Αποτελέσματα</h1>
+    <span class="result-emoji">{{ resultEmoji }}</span>
     <p class="score-big">{{ correct }} / {{ total }}</p>
     <p class="score-percentage">{{ percentage }}%</p>
     <p class="encouragement">{{ encouragement }}</p>
 
     <div class="category-breakdown">
-      <div v-for="c in byCategory" :key="c.cat" class="category-row">
-        <span>{{ CATEGORY_LABELS[c.cat] }}</span>
+      <div v-for="c in byCategory" :key="c.cat" class="category-row" :class="'cat-' + c.cat">
+        <span>{{ CATEGORY_EMOJI[c.cat] }} {{ CATEGORY_LABELS[c.cat] }}</span>
         <span>{{ c.ok }} / {{ c.total }}</span>
       </div>
     </div>

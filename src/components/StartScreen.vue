@@ -15,10 +15,10 @@ function start(count: number) {
 
 <template>
   <section class="card start-screen">
-    <h1>Επαναληπτικό Τεστ</h1>
-    <p class="subtitle">Γ' Δημοτικού &mdash; Μαθηματικά, Γραμματική, Ορθογραφία &amp; Μελέτη Περιβάλλοντος</p>
+    <h1>🚀 Επαναληπτικό Τεστ</h1>
+    <p class="subtitle">Γ' Δημοτικού &mdash; 🔢 Μαθηματικά, 📖 Γραμματική, ✏️ Ορθογραφία &amp; 🌍 Μελέτη Περιβάλλοντος</p>
 
-    <p class="label">Πόσες ερωτήσεις θέλεις;</p>
+    <p class="label">Πόσες ερωτήσεις θέλεις; 🤔</p>
     <div class="presets">
       <button
         v-for="p in presets"

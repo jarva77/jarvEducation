@@ -22,3 +22,10 @@ export const CATEGORY_LABELS: Record<Category, string> = {
   spelling: 'Ορθογραφία',
   environment: 'Μελέτη Περιβάλλοντος',
 }
+
+export const CATEGORY_EMOJI: Record<Category, string> = {
+  math: '🔢',
+  grammar: '📖',
+  spelling: '✏️',
+  environment: '🌍',
+}
