@@ -13,7 +13,7 @@ const percentage = computed(() =>
 )
 
 const byCategory = computed(() => {
-  const categories: Category[] = ['math', 'grammar', 'spelling']
+  const categories = Object.keys(CATEGORY_LABELS) as Category[]
   return categories
     .map((cat) => {
       const items = props.answers.filter((a) => a.question.category === cat)

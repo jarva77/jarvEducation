@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import PoweredBy from './components/PoweredBy.vue'
 import QuizScreen from './components/QuizScreen.vue'
 import ResultsScreen from './components/ResultsScreen.vue'
 import StartScreen from './components/StartScreen.vue'
@@ -21,5 +22,7 @@ const { phase, bankSize, currentQuestion, progress, answers, startQuiz, submitAn
     />
 
     <ResultsScreen v-else-if="phase === 'results'" :answers="answers" @restart="restart" />
+
+    <PoweredBy />
   </main>
 </template>

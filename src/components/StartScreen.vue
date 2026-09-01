@@ -16,7 +16,7 @@ function start(count: number) {
 <template>
   <section class="card start-screen">
     <h1>Επαναληπτικό Τεστ</h1>
-    <p class="subtitle">Γ' Δημοτικού &mdash; Μαθηματικά, Γραμματική &amp; Ορθογραφία</p>
+    <p class="subtitle">Γ' Δημοτικού &mdash; Μαθηματικά, Γραμματική, Ορθογραφία &amp; Μελέτη Περιβάλλοντος</p>
 
     <p class="label">Πόσες ερωτήσεις θέλεις;</p>
     <div class="presets">

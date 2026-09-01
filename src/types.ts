@@ -1,4 +1,4 @@
-export type Category = 'math' | 'grammar' | 'spelling'
+export type Category = 'math' | 'grammar' | 'spelling' | 'environment'
 export type QuestionType = 'multiple-choice' | 'text'
 
 export interface Question {
@@ -20,4 +20,5 @@ export const CATEGORY_LABELS: Record<Category, string> = {
   math: 'Μαθηματικά',
   grammar: 'Γραμματική',
   spelling: 'Ορθογραφία',
+  environment: 'Μελέτη Περιβάλλοντος',
 }
