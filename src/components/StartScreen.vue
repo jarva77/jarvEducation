@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 
 const props = defineProps<{ bankSize: number }>()
-const emit = defineEmits<{ start: [count: number] }>()
+const emit = defineEmits<{ start: [count: number]; history: [] }>()
 
 const presets = [10, 20, 50, 100]
 const custom = ref(20)
@@ -42,5 +42,7 @@ function start(count: number) {
       />
       <button class="primary-btn" @click="start(custom)">Ξεκίνα</button>
     </div>
+
+    <button class="history-link" @click="emit('history')">📊 Ιστορικό &amp; πρόοδος</button>
   </section>
 </template>

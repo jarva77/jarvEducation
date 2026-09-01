@@ -241,6 +241,164 @@ h1 {
   border: 2px solid var(--color-border);
 }
 
+.history-link {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0.8rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-primary-dark);
+  background: #eef2ff;
+  border: none;
+  border-radius: 0.7rem;
+  cursor: pointer;
+}
+
+.history-link:hover {
+  background: #e0e7ff;
+}
+
+/* History screen */
+.empty-msg {
+  text-align: center;
+  color: var(--color-muted);
+  margin: 2rem 0;
+}
+
+.history-summary {
+  display: flex;
+  gap: 0.75rem;
+  margin: 1.25rem 0;
+}
+
+.summary-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.9rem 0.5rem;
+  background: var(--color-bg);
+  border-radius: 0.75rem;
+}
+
+.summary-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.summary-label {
+  font-size: 0.8rem;
+  color: var(--color-muted);
+}
+
+.history-screen h3 {
+  margin: 1.25rem 0 0.6rem;
+  font-size: 1rem;
+}
+
+.category-averages {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cat-avg-row {
+  display: grid;
+  grid-template-columns: minmax(90px, auto) 1fr 3rem;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.9rem;
+}
+
+.cat-avg-label {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cat-avg-bar {
+  height: 10px;
+  background: var(--color-border);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.cat-avg-fill {
+  height: 100%;
+  border-radius: 999px;
+}
+
+.cat-avg-pct {
+  text-align: right;
+  font-weight: 600;
+}
+
+.history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.history-item {
+  padding: 0.6rem 0.8rem;
+  background: var(--color-bg);
+  border-radius: 0.6rem;
+}
+
+.history-item-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin-bottom: 0.35rem;
+  font-size: 0.9rem;
+}
+
+.history-date {
+  color: var(--color-muted);
+  font-size: 0.8rem;
+}
+
+.history-score {
+  font-weight: 600;
+}
+
+.history-pct {
+  font-weight: 700;
+}
+
+.history-bar {
+  height: 6px;
+  background: var(--color-border);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.history-bar-fill {
+  height: 100%;
+  border-radius: 999px;
+}
+
+.danger-link {
+  display: block;
+  margin: 1rem auto 0;
+  background: none;
+  border: none;
+  color: var(--color-incorrect);
+  font-size: 0.85rem;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.history-screen .back-btn {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
 /* Results screen */
 .score-big {
   text-align: center;

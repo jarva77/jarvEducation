@@ -1,17 +1,27 @@
 <script setup lang="ts">
+import HistoryScreen from './components/HistoryScreen.vue'
 import PoweredBy from './components/PoweredBy.vue'
 import QuizScreen from './components/QuizScreen.vue'
 import ResultsScreen from './components/ResultsScreen.vue'
 import StartScreen from './components/StartScreen.vue'
 import { useQuiz } from './composables/useQuiz'
 
-const { phase, bankSize, currentQuestion, progress, answers, startQuiz, submitAnswer, restart } =
-  useQuiz()
+const {
+  phase,
+  bankSize,
+  currentQuestion,
+  progress,
+  answers,
+  startQuiz,
+  submitAnswer,
+  restart,
+  showHistory,
+} = useQuiz()
 </script>
 
 <template>
   <main class="app-shell">
-    <StartScreen v-if="phase === 'start'" :bank-size="bankSize" @start="startQuiz" />
+    <StartScreen v-if="phase === 'start'" :bank-size="bankSize" @start="startQuiz" @history="showHistory" />
 
     <QuizScreen
       v-else-if="phase === 'quiz' && currentQuestion"
@@ -22,6 +32,8 @@ const { phase, bankSize, currentQuestion, progress, answers, startQuiz, submitAn
     />
 
     <ResultsScreen v-else-if="phase === 'results'" :answers="answers" @restart="restart" />
+
+    <HistoryScreen v-else-if="phase === 'history'" @back="restart" />
 
     <PoweredBy />
   </main>
