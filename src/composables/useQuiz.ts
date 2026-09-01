@@ -3,6 +3,7 @@ import rawQuestions from '../data/questions.json'
 import type { AnsweredQuestion, Question } from '../types'
 import { isAnswerCorrect } from '../utils/grading'
 import { pickQuestions } from '../utils/selection'
+import { playCorrect, playWrong } from '../utils/sound'
 import { useHistory } from './useHistory'
 
 const bank = rawQuestions as Question[]
@@ -33,10 +34,13 @@ export function useQuiz() {
   function submitAnswer(userAnswer: string) {
     const question = currentQuestion.value
     if (!question) return
+    const isCorrect = isAnswerCorrect(userAnswer, question)
+    if (isCorrect) playCorrect()
+    else playWrong()
     answers.value.push({
       question,
       userAnswer,
-      isCorrect: isAnswerCorrect(userAnswer, question),
+      isCorrect,
     })
 
     if (currentIndex.value + 1 < quizQuestions.value.length) {

@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import confetti from 'canvas-confetti'
+import { computed, onMounted } from 'vue'
 import type { AnsweredQuestion, Category } from '../types'
 import { CATEGORY_EMOJI, CATEGORY_LABELS } from '../types'
 
@@ -37,6 +38,19 @@ const resultEmoji = computed(() => {
   if (percentage.value >= 70) return '🌟'
   if (percentage.value >= 50) return '💪'
   return '📚'
+})
+
+onMounted(() => {
+  if (percentage.value < 90) return
+  const colors = ['#6366f1', '#f59e0b', '#22c55e', '#ec4899', '#3b82f6']
+  confetti({ particleCount: 120, spread: 75, origin: { x: 0.5, y: 0.6 }, colors })
+  setTimeout(() => {
+    confetti({ particleCount: 60, angle: 60, spread: 60, origin: { x: 0, y: 0.7 }, colors })
+    confetti({ particleCount: 60, angle: 120, spread: 60, origin: { x: 1, y: 0.7 }, colors })
+  }, 350)
+  setTimeout(() => {
+    confetti({ particleCount: 90, spread: 100, origin: { x: 0.5, y: 0.4 }, colors })
+  }, 800)
 })
 </script>
 
