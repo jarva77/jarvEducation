@@ -1,0 +1,5610 @@
+[
+  {
+    "id": "b-m1",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 52 + 33;",
+    "answer": "85",
+    "options": [
+      "87",
+      "86",
+      "85",
+      "84"
+    ]
+  },
+  {
+    "id": "b-e1",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πού μένουν τα άλογα;",
+    "answer": "στον στάβλο",
+    "options": [
+      "στον στάβλο",
+      "στο κοτέτσι",
+      "στη φωλιά",
+      "στην κυψέλη"
+    ]
+  },
+  {
+    "id": "b-m2",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ο Νίκος αγόρασε ένα παγωτό 2€ και έναν χυμό 4€. Πόσα ευρώ πλήρωσε;",
+    "answer": "6€",
+    "options": [
+      "8€",
+      "7€",
+      "6€",
+      "5€"
+    ]
+  },
+  {
+    "id": "b-m3",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 10 x 6;",
+    "answer": "60",
+    "options": [
+      "70",
+      "66",
+      "60",
+      "50"
+    ]
+  },
+  {
+    "id": "b-s1",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "πορτοκαλάδα",
+    "options": [
+      "πωρτοκαλάδα",
+      "πορτοκαλάδα"
+    ]
+  },
+  {
+    "id": "b-s2",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ψαλίδι",
+    "options": [
+      "ψαλίδυ",
+      "ψαλίδη",
+      "ψαλίδι"
+    ]
+  },
+  {
+    "id": "b-m4",
+    "category": "math",
+    "type": "text",
+    "question": "Η Δέσποινα έχει 36 βιβλία και παίρνει ακόμα 27. Πόσα βιβλία έχει τώρα;",
+    "answer": "63"
+  },
+  {
+    "id": "b-g1",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τον πληθυντικό αριθμό της λέξης «το ψάρι».",
+    "answer": "τα ψάρια"
+  },
+  {
+    "id": "b-m5",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 3 x 8;",
+    "answer": "24",
+    "options": [
+      "21",
+      "32",
+      "24",
+      "27"
+    ]
+  },
+  {
+    "id": "b-g2",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τον πληθυντικό αριθμό της λέξης «το ζώο».",
+    "answer": "τα ζώα"
+  },
+  {
+    "id": "b-m6",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πώς γράφουμε με ψηφία την ώρα «τέσσερις και τέταρτο»;",
+    "answer": "4:15",
+    "options": [
+      "4:00",
+      "4:15",
+      "4:45",
+      "5:15"
+    ]
+  },
+  {
+    "id": "b-s3",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "παιχνίδι",
+    "options": [
+      "παιχνίδι",
+      "πεχνίδι"
+    ]
+  },
+  {
+    "id": "b-g3",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ ταύρος",
+    "answer": "ο",
+    "options": [
+      "ο",
+      "το",
+      "η"
+    ]
+  },
+  {
+    "id": "b-m7",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 55 + 43;",
+    "answer": "98",
+    "options": [
+      "97",
+      "98",
+      "99",
+      "100"
+    ]
+  },
+  {
+    "id": "b-g4",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «ζωγραφίζω» με το «αυτός» γίνεται: αυτός ...",
+    "answer": "ζωγραφίζει",
+    "options": [
+      "ζωγραφίζω",
+      "ζωγραφίζει",
+      "ζωγραφίζεις",
+      "ζωγραφίζουν"
+    ]
+  },
+  {
+    "id": "b-m8",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 75 - 73;",
+    "answer": "2",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "1"
+    ]
+  },
+  {
+    "id": "b-m9",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το μισό του 52;",
+    "answer": "26",
+    "options": [
+      "28",
+      "25",
+      "27",
+      "26"
+    ]
+  },
+  {
+    "id": "b-g5",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ μπαλόνι",
+    "answer": "το",
+    "options": [
+      "η",
+      "ο",
+      "το"
+    ]
+  },
+  {
+    "id": "b-g6",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ αυτί",
+    "answer": "το",
+    "options": [
+      "ο",
+      "η",
+      "το"
+    ]
+  },
+  {
+    "id": "b-m10",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το μισό του 12;",
+    "answer": "6",
+    "options": [
+      "5",
+      "6",
+      "8",
+      "7"
+    ]
+  },
+  {
+    "id": "b-s4",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: ψαλίδ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "ψαλίδι"
+    ]
+  },
+  {
+    "id": "b-s5",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: γ__τονιά",
+    "answer": "ει",
+    "acceptedAnswers": [
+      "γειτονιά"
+    ]
+  },
+  {
+    "id": "b-m11",
+    "category": "math",
+    "type": "text",
+    "question": "Ποιο είναι το μισό του 28;",
+    "answer": "14"
+  },
+  {
+    "id": "b-s6",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: κύρ_ος",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "κύριος"
+    ]
+  },
+  {
+    "id": "b-s7",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: παγ_τό",
+    "answer": "ω",
+    "acceptedAnswers": [
+      "παγωτό"
+    ]
+  },
+  {
+    "id": "b-g7",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ σχολείο",
+    "answer": "το",
+    "options": [
+      "ο",
+      "η",
+      "το"
+    ]
+  },
+  {
+    "id": "b-g8",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «αρκούδα»;",
+    "answer": "3",
+    "options": [
+      "4",
+      "5",
+      "2",
+      "3"
+    ]
+  },
+  {
+    "id": "b-g9",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε το αντίθετο της λέξης «σκληρός».",
+    "answer": "μαλακός"
+  },
+  {
+    "id": "b-m12",
+    "category": "math",
+    "type": "text",
+    "question": "Η Χριστίνα έχει 5 λουλούδια και παίρνει ακόμα 94. Πόσα λουλούδια έχει τώρα;",
+    "answer": "99"
+  },
+  {
+    "id": "b-m13",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μικρότερος: το 34 ή το 29;",
+    "answer": "29",
+    "options": [
+      "34",
+      "29"
+    ]
+  },
+  {
+    "id": "b-g10",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τον πληθυντικό αριθμό της λέξης «ο ταχυδρόμος».",
+    "answer": "οι ταχυδρόμοι"
+  },
+  {
+    "id": "b-g11",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τον πληθυντικό αριθμό της λέξης «το μπαλόνι».",
+    "answer": "τα μπαλόνια"
+  },
+  {
+    "id": "b-m14",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 10 x 2;",
+    "answer": "20",
+    "options": [
+      "10",
+      "22",
+      "30",
+      "20"
+    ]
+  },
+  {
+    "id": "b-m15",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ο Μιχάλης έχει 36 βιβλία και παίρνει ακόμα 23. Πόσα βιβλία έχει τώρα;",
+    "answer": "59",
+    "options": [
+      "60",
+      "61",
+      "59",
+      "58"
+    ]
+  },
+  {
+    "id": "b-s8",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "σοκολάτα",
+    "options": [
+      "σωκολάτα",
+      "σοκολάτα"
+    ]
+  },
+  {
+    "id": "b-m16",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 3 x 9;",
+    "answer": "27",
+    "options": [
+      "30",
+      "36",
+      "27",
+      "24"
+    ]
+  },
+  {
+    "id": "b-e2",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο ζώο κάνει τον χειμώνα χειμερία νάρκη;",
+    "answer": "η αρκούδα",
+    "options": [
+      "η κότα",
+      "το άλογο",
+      "η αρκούδα",
+      "ο σκύλος"
+    ]
+  },
+  {
+    "id": "b-e3",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια ημέρα έρχεται μετά την Κυριακή;",
+    "answer": "Δευτέρα",
+    "options": [
+      "Τρίτη",
+      "Τετάρτη",
+      "Πέμπτη",
+      "Δευτέρα"
+    ]
+  },
+  {
+    "id": "b-g12",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τον πληθυντικό αριθμό της λέξης «το τραγούδι».",
+    "answer": "τα τραγούδια"
+  },
+  {
+    "id": "b-g13",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «μαγειρεύω» με το «αυτοί» γίνεται: αυτοί ...",
+    "answer": "μαγειρεύουν",
+    "options": [
+      "μαγειρεύετε",
+      "μαγειρεύεις",
+      "μαγειρεύουν",
+      "μαγειρεύει"
+    ]
+  },
+  {
+    "id": "b-g14",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ μηχανή",
+    "answer": "η",
+    "options": [
+      "το",
+      "ο",
+      "η"
+    ]
+  },
+  {
+    "id": "b-g15",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το γένος της λέξης «λουλούδι»;",
+    "answer": "Ουδέτερο",
+    "options": [
+      "Θηλυκό",
+      "Αρσενικό",
+      "Ουδέτερο"
+    ]
+  },
+  {
+    "id": "b-e4",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Από πού παίρνουμε το μέλι;",
+    "answer": "από τις μέλισσες",
+    "options": [
+      "από τις μέλισσες",
+      "από τα πρόβατα",
+      "από τις κότες",
+      "από τα δέντρα μόνο"
+    ]
+  },
+  {
+    "id": "b-e5",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Με ποιο μέρος του ρουφά το φυτό νερό από το χώμα;",
+    "answer": "με τη ρίζα",
+    "options": [
+      "με τη ρίζα",
+      "με τα φύλλα",
+      "με τον καρπό",
+      "με το άνθος"
+    ]
+  },
+  {
+    "id": "b-e6",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιος μήνας έχει τα Χριστούγεννα;",
+    "answer": "ο Δεκέμβριος",
+    "options": [
+      "ο Μάρτιος",
+      "ο Δεκέμβριος",
+      "ο Μάιος",
+      "ο Αύγουστος"
+    ]
+  },
+  {
+    "id": "b-g16",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τον πληθυντικό αριθμό της λέξης «το τετράδιο».",
+    "answer": "τα τετράδια"
+  },
+  {
+    "id": "b-s9",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: α__ούρι",
+    "answer": "γγ",
+    "acceptedAnswers": [
+      "αγγούρι"
+    ]
+  },
+  {
+    "id": "b-s10",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "λαχανικά",
+    "options": [
+      "λαχανυκά",
+      "λαχανηκά",
+      "λαχανικά"
+    ]
+  },
+  {
+    "id": "b-g17",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τον πληθυντικό αριθμό της λέξης «ο πατέρας».",
+    "answer": "οι πατέρες"
+  },
+  {
+    "id": "b-m17",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πώς γράφουμε με ψηφία την ώρα «δέκα ακριβώς»;",
+    "answer": "10:00",
+    "options": [
+      "10:00",
+      "10:45",
+      "10:30",
+      "11:00"
+    ]
+  },
+  {
+    "id": "b-e7",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιος μήνας έρχεται μετά τον Οκτώβριο;",
+    "answer": "Νοέμβριος",
+    "options": [
+      "Ιούλιος",
+      "Ιανουάριος",
+      "Νοέμβριος",
+      "Σεπτέμβριος"
+    ]
+  },
+  {
+    "id": "b-g18",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη θα βρεις πρώτη στο λεξικό (αλφαβητική σειρά);",
+    "answer": "καράβι",
+    "options": [
+      "καράβι",
+      "ουρανός",
+      "τραπέζι",
+      "ξύλο"
+    ]
+  },
+  {
+    "id": "b-m18",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πώς γράφουμε με ψηφία την ώρα «εννιά και τέταρτο»;",
+    "answer": "9:15",
+    "options": [
+      "9:45",
+      "9:15",
+      "10:15",
+      "9:00"
+    ]
+  },
+  {
+    "id": "b-m19",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 6 - 3;",
+    "answer": "3",
+    "options": [
+      "3",
+      "5",
+      "4",
+      "2"
+    ]
+  },
+  {
+    "id": "b-s11",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: π_περιά",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "πιπεριά"
+    ]
+  },
+  {
+    "id": "b-g19",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «καπέλο» βρίσκεται σε:",
+    "answer": "Ενικός αριθμός",
+    "options": [
+      "Ενικός αριθμός",
+      "Πληθυντικός αριθμός"
+    ]
+  },
+  {
+    "id": "b-g20",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Τι σημείο στίξης βάζουμε στο τέλος μιας ερώτησης;",
+    "answer": "το ερωτηματικό (;)",
+    "options": [
+      "το ερωτηματικό (;)",
+      "το θαυμαστικό (!)",
+      "την τελεία (.)",
+      "το κόμμα (,)"
+    ]
+  },
+  {
+    "id": "b-m20",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως πριν από το 586;",
+    "answer": "585",
+    "options": [
+      "585",
+      "596",
+      "586",
+      "584"
+    ]
+  },
+  {
+    "id": "b-s12",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ξαδέρφη",
+    "options": [
+      "ξαδέρφυ",
+      "ξαδέρφι",
+      "ξαδέρφη"
+    ]
+  },
+  {
+    "id": "b-s13",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: φθινόπ_ρο",
+    "answer": "ω",
+    "acceptedAnswers": [
+      "φθινόπωρο"
+    ]
+  },
+  {
+    "id": "b-m21",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 31 + 27;",
+    "answer": "58",
+    "options": [
+      "60",
+      "59",
+      "57",
+      "58"
+    ]
+  },
+  {
+    "id": "b-g21",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το γένος της λέξης «δρόμος»;",
+    "answer": "Αρσενικό",
+    "options": [
+      "Αρσενικό",
+      "Ουδέτερο",
+      "Θηλυκό"
+    ]
+  },
+  {
+    "id": "b-m22",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μεγαλύτερος: το 8 ή το 48;",
+    "answer": "48",
+    "options": [
+      "48",
+      "8"
+    ]
+  },
+  {
+    "id": "b-s14",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: καλάθ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "καλάθι"
+    ]
+  },
+  {
+    "id": "b-s15",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "νοσοκομείο",
+    "options": [
+      "νωσοκομείο",
+      "νοσοκομείο"
+    ]
+  },
+  {
+    "id": "b-s16",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ομπρέλα",
+    "options": [
+      "ομπρέλα",
+      "ωμπρέλα"
+    ]
+  },
+  {
+    "id": "b-g22",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «ανοίγω» με το «αυτοί» γίνεται: αυτοί ...",
+    "answer": "ανοίγουν"
+  },
+  {
+    "id": "b-g23",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τον πληθυντικό αριθμό της λέξης «το μάτι».",
+    "answer": "τα μάτια"
+  },
+  {
+    "id": "b-m23",
+    "category": "math",
+    "type": "text",
+    "question": "Ποιο είναι το μισό του 6;",
+    "answer": "3"
+  },
+  {
+    "id": "b-g24",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «μήλο»;",
+    "answer": "2",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "id": "b-s17",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "μάθημα",
+    "options": [
+      "μάθυμα",
+      "μάθιμα",
+      "μάθημα"
+    ]
+  },
+  {
+    "id": "b-m24",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 86 - 18;",
+    "answer": "68",
+    "options": [
+      "68",
+      "67",
+      "70",
+      "69"
+    ]
+  },
+  {
+    "id": "b-m25",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πώς γράφουμε με ψηφία την ώρα «τέσσερις ακριβώς»;",
+    "answer": "4:00",
+    "options": [
+      "4:45",
+      "4:00",
+      "4:30",
+      "5:00"
+    ]
+  },
+  {
+    "id": "b-e8",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Τι μας δίνει ο ήλιος;",
+    "answer": "φως και ζέστη",
+    "options": [
+      "αέρα",
+      "χιόνι",
+      "φως και ζέστη",
+      "βροχή"
+    ]
+  },
+  {
+    "id": "b-s18",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: κοχύλ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "κοχύλι"
+    ]
+  },
+  {
+    "id": "b-m26",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Η Ζωή έχει 8 μπισκότα και παίρνει ακόμα 4. Πόσα μπισκότα έχει τώρα;",
+    "answer": "12",
+    "options": [
+      "11",
+      "13",
+      "12",
+      "14"
+    ]
+  },
+  {
+    "id": "b-m27",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πώς γράφουμε με ψηφία την ώρα «έντεκα ακριβώς»;",
+    "answer": "11:00",
+    "options": [
+      "11:00",
+      "11:30",
+      "12:00",
+      "11:45"
+    ]
+  },
+  {
+    "id": "b-s19",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "καλάθι",
+    "options": [
+      "καλάθη",
+      "καλάθυ",
+      "καλάθι"
+    ]
+  },
+  {
+    "id": "b-g25",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ ζωγράφος",
+    "answer": "ο",
+    "options": [
+      "το",
+      "ο",
+      "η"
+    ]
+  },
+  {
+    "id": "b-m28",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μικρότερος: το 50 ή το 72;",
+    "answer": "50",
+    "options": [
+      "50",
+      "72"
+    ]
+  },
+  {
+    "id": "b-s20",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "γειτονιά",
+    "options": [
+      "γιτονιά",
+      "γειτονιά",
+      "γητονιά",
+      "γοιτονιά"
+    ]
+  },
+  {
+    "id": "b-e9",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιος καλλιεργεί τα χωράφια;",
+    "answer": "ο γεωργός",
+    "options": [
+      "ο γιατρός",
+      "ο ναυτικός",
+      "ο κομμωτής",
+      "ο γεωργός"
+    ]
+  },
+  {
+    "id": "b-m29",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 74 - 8;",
+    "answer": "66"
+  },
+  {
+    "id": "b-s21",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: εκκλ_σία",
+    "answer": "η",
+    "acceptedAnswers": [
+      "εκκλησία"
+    ]
+  },
+  {
+    "id": "b-g26",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «ανοίγω» με το «εμείς» γίνεται: εμείς ...",
+    "answer": "ανοίγουμε",
+    "options": [
+      "ανοίγω",
+      "ανοίγουν",
+      "ανοίγεις",
+      "ανοίγουμε"
+    ]
+  },
+  {
+    "id": "b-e10",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιος κόβει τα μαλλιά μας;",
+    "answer": "ο κουρέας",
+    "options": [
+      "ο φούρναρης",
+      "ο ταχυδρόμος",
+      "ο κουρέας",
+      "ο οδηγός"
+    ]
+  },
+  {
+    "id": "b-s22",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: κ_ρία",
+    "answer": "υ",
+    "acceptedAnswers": [
+      "κυρία"
+    ]
+  },
+  {
+    "id": "b-e11",
+    "category": "environment",
+    "type": "text",
+    "question": "Γράψε ένα επάγγελμα.",
+    "answer": "δάσκαλος",
+    "acceptedAnswers": [
+      "γιατρός",
+      "πυροσβέστης",
+      "αστυνομικός",
+      "φούρναρης",
+      "γεωργός",
+      "ψαράς",
+      "οδηγός",
+      "μάγειρας",
+      "κομμωτής",
+      "ταχυδρόμος",
+      "μανάβης",
+      "νοσηλευτής",
+      "νοσοκόμα"
+    ]
+  },
+  {
+    "id": "b-m30",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ο Αντώνης αγόρασε ένα παγωτό 6€ και έναν χυμό 1€. Πόσα ευρώ πλήρωσε;",
+    "answer": "7€",
+    "options": [
+      "8€",
+      "9€",
+      "6€",
+      "7€"
+    ]
+  },
+  {
+    "id": "b-g27",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το γένος της λέξης «τετράδιο»;",
+    "answer": "Ουδέτερο",
+    "options": [
+      "Θηλυκό",
+      "Ουδέτερο",
+      "Αρσενικό"
+    ]
+  },
+  {
+    "id": "b-g28",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το συνώνυμο της λέξης «μικρός»;",
+    "answer": "μικροσκοπικός",
+    "options": [
+      "γρήγορα",
+      "μικροσκοπικός",
+      "φιλαράκος",
+      "χαρούμενος"
+    ]
+  },
+  {
+    "id": "b-m31",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 2 x 2;",
+    "answer": "4",
+    "options": [
+      "2",
+      "4",
+      "6"
+    ]
+  },
+  {
+    "id": "b-g29",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «φωνάζω» με το «εσείς» γίνεται: εσείς ...",
+    "answer": "φωνάζετε"
+  },
+  {
+    "id": "b-m32",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 90 - 4;",
+    "answer": "86"
+  },
+  {
+    "id": "b-m33",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Αλέξανδρος πλήρωσε με 10€ κάτι που κόστιζε 5€. Πόσα ρέστα πήρε;",
+    "answer": "5€",
+    "acceptedAnswers": [
+      "5",
+      "5 ευρώ",
+      "5€"
+    ]
+  },
+  {
+    "id": "b-m34",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 10 x 5;",
+    "answer": "50",
+    "options": [
+      "40",
+      "50",
+      "60",
+      "55"
+    ]
+  },
+  {
+    "id": "b-g30",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «σκουπίζω» με το «εσείς» γίνεται: εσείς ...",
+    "answer": "σκουπίζετε",
+    "options": [
+      "σκουπίζουν",
+      "σκουπίζει",
+      "σκουπίζω",
+      "σκουπίζετε"
+    ]
+  },
+  {
+    "id": "b-m35",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 49 - 39;",
+    "answer": "10"
+  },
+  {
+    "id": "b-g31",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «ελέφαντας»;",
+    "answer": "4",
+    "options": [
+      "4",
+      "6",
+      "5",
+      "3"
+    ]
+  },
+  {
+    "id": "b-g32",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το γένος της λέξης «σκύλος»;",
+    "answer": "Αρσενικό",
+    "options": [
+      "Ουδέτερο",
+      "Θηλυκό",
+      "Αρσενικό"
+    ]
+  },
+  {
+    "id": "b-g33",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το γένος της λέξης «ιστορία»;",
+    "answer": "Θηλυκό",
+    "options": [
+      "Θηλυκό",
+      "Ουδέτερο",
+      "Αρσενικό"
+    ]
+  },
+  {
+    "id": "b-s23",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: τραγούδ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "τραγούδι"
+    ]
+  },
+  {
+    "id": "b-e12",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Τι καιρό κάνει συνήθως το καλοκαίρι;",
+    "answer": "ζέστη και λιακάδα",
+    "options": [
+      "χιόνι",
+      "συνέχεια βροχή",
+      "παγωνιά",
+      "ζέστη και λιακάδα"
+    ]
+  },
+  {
+    "id": "b-g34",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «δουλεύω» με το «εσείς» γίνεται: εσείς ...",
+    "answer": "δουλεύετε",
+    "options": [
+      "δουλεύετε",
+      "δουλεύουν",
+      "δουλεύω",
+      "δουλεύεις"
+    ]
+  },
+  {
+    "id": "b-g35",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το γένος της λέξης «όνομα»;",
+    "answer": "Ουδέτερο",
+    "options": [
+      "Ουδέτερο",
+      "Θηλυκό",
+      "Αρσενικό"
+    ]
+  },
+  {
+    "id": "b-s24",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: _μπρέλα",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "ομπρέλα"
+    ]
+  },
+  {
+    "id": "b-m36",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Στέλιος έχει 8 κεράσια και παίρνει ακόμα 70. Πόσα κεράσια έχει τώρα;",
+    "answer": "78"
+  },
+  {
+    "id": "b-s25",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: γάντ_α",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "γάντια"
+    ]
+  },
+  {
+    "id": "b-m37",
+    "category": "math",
+    "type": "text",
+    "question": "Η Ελένη αγόρασε ένα παγωτό 4€ και έναν χυμό 6€. Πόσα ευρώ πλήρωσε;",
+    "answer": "10€",
+    "acceptedAnswers": [
+      "10",
+      "10 ευρώ",
+      "10€"
+    ]
+  },
+  {
+    "id": "b-m38",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πώς γράφουμε με ψηφία την ώρα «εννιά και μισή»;",
+    "answer": "9:30",
+    "options": [
+      "10:30",
+      "9:45",
+      "9:30",
+      "9:00"
+    ]
+  },
+  {
+    "id": "b-m39",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πώς γράφουμε με ψηφία την ώρα «πέντε ακριβώς»;",
+    "answer": "5:00",
+    "options": [
+      "5:00",
+      "6:00",
+      "5:45",
+      "5:30"
+    ]
+  },
+  {
+    "id": "b-m40",
+    "category": "math",
+    "type": "text",
+    "question": "Ποιο είναι το μισό του 68;",
+    "answer": "34"
+  },
+  {
+    "id": "b-m41",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 3 x 7;",
+    "answer": "21"
+  },
+  {
+    "id": "b-g36",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τον πληθυντικό αριθμό της λέξης «η τούρτα».",
+    "answer": "οι τούρτες"
+  },
+  {
+    "id": "b-e13",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιος σβήνει τις φωτιές;",
+    "answer": "ο πυροσβέστης",
+    "options": [
+      "ο πυροσβέστης",
+      "ο γιατρός",
+      "ο ταχυδρόμος",
+      "ο αστυνομικός"
+    ]
+  },
+  {
+    "id": "b-g37",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη θα βρεις πρώτη στο λεξικό (αλφαβητική σειρά);",
+    "answer": "βάρκα",
+    "options": [
+      "βάρκα",
+      "ψάρι",
+      "τραπέζι",
+      "ώρα"
+    ]
+  },
+  {
+    "id": "b-m42",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Μιχάλης πλήρωσε με 10€ κάτι που κόστιζε 2€. Πόσα ρέστα πήρε;",
+    "answer": "8€",
+    "acceptedAnswers": [
+      "8",
+      "8 ευρώ",
+      "8€"
+    ]
+  },
+  {
+    "id": "b-m43",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσες μονάδες έχει ο αριθμός 62;",
+    "answer": "2",
+    "options": [
+      "3",
+      "2",
+      "6",
+      "1"
+    ]
+  },
+  {
+    "id": "b-m44",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ο Νίκος έχει 12 πορτοκάλια και παίρνει ακόμα 25. Πόσα πορτοκάλια έχει τώρα;",
+    "answer": "37",
+    "options": [
+      "37",
+      "39",
+      "38",
+      "36"
+    ]
+  },
+  {
+    "id": "b-m45",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσες δεκάδες έχει ο αριθμός 12;",
+    "answer": "1",
+    "options": [
+      "0",
+      "2",
+      "1"
+    ]
+  },
+  {
+    "id": "b-s26",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: εκδρ_μή",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "εκδρομή"
+    ]
+  },
+  {
+    "id": "b-g38",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «μπανάνα» βρίσκεται σε:",
+    "answer": "Ενικός αριθμός",
+    "options": [
+      "Πληθυντικός αριθμός",
+      "Ενικός αριθμός"
+    ]
+  },
+  {
+    "id": "b-e14",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιος μάς εξετάζει όταν είμαστε άρρωστοι;",
+    "answer": "ο γιατρός",
+    "options": [
+      "ο μανάβης",
+      "ο δάσκαλος",
+      "ο γιατρός",
+      "ο οδηγός"
+    ]
+  },
+  {
+    "id": "b-m46",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 62 - 44;",
+    "answer": "18"
+  },
+  {
+    "id": "b-e15",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια ημέρα έρχεται πριν από την Σάββατο;",
+    "answer": "Παρασκευή",
+    "options": [
+      "Παρασκευή",
+      "Τετάρτη",
+      "Πέμπτη",
+      "Δευτέρα"
+    ]
+  },
+  {
+    "id": "b-m47",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ο Παύλος αγόρασε ένα παγωτό 3€ και έναν χυμό 5€. Πόσα ευρώ πλήρωσε;",
+    "answer": "8€",
+    "options": [
+      "10€",
+      "9€",
+      "7€",
+      "8€"
+    ]
+  },
+  {
+    "id": "b-m48",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μικρότερος: το 2 ή το 82;",
+    "answer": "2",
+    "options": [
+      "82",
+      "2"
+    ]
+  },
+  {
+    "id": "b-g39",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «βροχή» βρίσκεται σε:",
+    "answer": "Ενικός αριθμός",
+    "options": [
+      "Ενικός αριθμός",
+      "Πληθυντικός αριθμός"
+    ]
+  },
+  {
+    "id": "b-g40",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε ένα συνώνυμο της λέξης «επιθυμώ».",
+    "answer": "θέλω",
+    "acceptedAnswers": [
+      "ποθώ"
+    ]
+  },
+  {
+    "id": "b-m49",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πώς γράφουμε με ψηφία την ώρα «μία και τέταρτο»;",
+    "answer": "1:15",
+    "options": [
+      "2:15",
+      "1:15",
+      "1:45",
+      "1:00"
+    ]
+  },
+  {
+    "id": "b-m50",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 5 x 8;",
+    "answer": "40",
+    "options": [
+      "45",
+      "48",
+      "35",
+      "40"
+    ]
+  },
+  {
+    "id": "b-g41",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ τραπέζι",
+    "answer": "το",
+    "options": [
+      "η",
+      "το",
+      "ο"
+    ]
+  },
+  {
+    "id": "b-e16",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πού πρέπει να καθόμαστε όταν ταξιδεύουμε με αυτοκίνητο;",
+    "answer": "στο παιδικό κάθισμα με ζώνη",
+    "options": [
+      "στο παράθυρο",
+      "στα γόνατα του οδηγού",
+      "στο παιδικό κάθισμα με ζώνη",
+      "όρθιοι"
+    ]
+  },
+  {
+    "id": "b-m51",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 34 - 33;",
+    "answer": "1",
+    "options": [
+      "3",
+      "0",
+      "2",
+      "1"
+    ]
+  },
+  {
+    "id": "b-s27",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ξάδερφος",
+    "options": [
+      "ξάδερφος",
+      "ξάδερφως"
+    ]
+  },
+  {
+    "id": "b-m52",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 30 + 60;",
+    "answer": "90"
+  },
+  {
+    "id": "b-m53",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 13 + 83;",
+    "answer": "96",
+    "options": [
+      "98",
+      "95",
+      "97",
+      "96"
+    ]
+  },
+  {
+    "id": "b-g42",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ κουζίνα",
+    "answer": "η",
+    "options": [
+      "η",
+      "ο",
+      "το"
+    ]
+  },
+  {
+    "id": "b-m54",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ο Νίκος έχει 42 μήλα και παίρνει ακόμα 18. Πόσα μήλα έχει τώρα;",
+    "answer": "60",
+    "options": [
+      "61",
+      "59",
+      "60",
+      "62"
+    ]
+  },
+  {
+    "id": "b-m55",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πώς γράφουμε με ψηφία την ώρα «έντεκα και τέταρτο»;",
+    "answer": "11:15",
+    "options": [
+      "11:00",
+      "12:15",
+      "11:45",
+      "11:15"
+    ]
+  },
+  {
+    "id": "b-g43",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «ψάχνω» με το «εσύ» γίνεται: εσύ ...",
+    "answer": "ψάχνεις"
+  },
+  {
+    "id": "b-e17",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιον μήνα γιορτάζουμε την 28η Οκτωβρίου;",
+    "answer": "τον Οκτώβριο",
+    "options": [
+      "τον Ιούνιο",
+      "τον Οκτώβριο",
+      "τον Μάρτιο",
+      "τον Δεκέμβριο"
+    ]
+  },
+  {
+    "id": "b-e18",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο όργανο χτυπά μέσα στο στήθος μας;",
+    "answer": "η καρδιά",
+    "options": [
+      "το στομάχι",
+      "ο εγκέφαλος",
+      "η καρδιά",
+      "τα νεφρά"
+    ]
+  },
+  {
+    "id": "b-m56",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το μισό του 32;",
+    "answer": "16",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ]
+  },
+  {
+    "id": "b-m57",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Η Βασιλική έχει 3 μολύβια και παίρνει ακόμα 77. Πόσα μολύβια έχει τώρα;",
+    "answer": "80",
+    "options": [
+      "82",
+      "81",
+      "80",
+      "79"
+    ]
+  },
+  {
+    "id": "b-m58",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ο Δημήτρης πλήρωσε με 10€ κάτι που κόστιζε 9€. Πόσα ρέστα πήρε;",
+    "answer": "1€",
+    "options": [
+      "0€",
+      "1€",
+      "9€",
+      "2€"
+    ]
+  },
+  {
+    "id": "b-e19",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Γιατί τρώμε φρούτα και λαχανικά;",
+    "answer": "για να είμαστε υγιείς",
+    "options": [
+      "επειδή είναι μόδα",
+      "για να νυστάζουμε",
+      "για να είμαστε υγιείς",
+      "χωρίς λόγο"
+    ]
+  },
+  {
+    "id": "b-m59",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως πριν από το 529;",
+    "answer": "528",
+    "options": [
+      "529",
+      "539",
+      "528",
+      "527"
+    ]
+  },
+  {
+    "id": "b-e20",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια ημέρα έρχεται πριν από την Τρίτη;",
+    "answer": "Δευτέρα",
+    "options": [
+      "Σάββατο",
+      "Πέμπτη",
+      "Δευτέρα",
+      "Κυριακή"
+    ]
+  },
+  {
+    "id": "b-m60",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Η Αγγελική έχει 16 δώρα και δίνει 6 σε έναν φίλο. Πόσα δώρα μένουν;",
+    "answer": "10",
+    "options": [
+      "11",
+      "9",
+      "10",
+      "12"
+    ]
+  },
+  {
+    "id": "b-e21",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιος μήνας έρχεται μετά τον Ιούλιο;",
+    "answer": "Αύγουστος",
+    "options": [
+      "Αύγουστος",
+      "Μάιος",
+      "Δεκέμβριος",
+      "Ιούνιος"
+    ]
+  },
+  {
+    "id": "b-m61",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μεγαλύτερος: το 16 ή το 18;",
+    "answer": "18",
+    "options": [
+      "16",
+      "18"
+    ]
+  },
+  {
+    "id": "b-e22",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια είναι τα τρία βασικά μέρη ενός φυτού;",
+    "answer": "ρίζα, βλαστός, φύλλα",
+    "options": [
+      "πέτρα, χώμα, νερό",
+      "ήλιος, αέρας, βροχή",
+      "ρίζα, βλαστός, φύλλα",
+      "κλαδί, καρπός, σπόρος μόνο"
+    ]
+  },
+  {
+    "id": "b-m62",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 79 + 9;",
+    "answer": "88",
+    "options": [
+      "89",
+      "88",
+      "87",
+      "90"
+    ]
+  },
+  {
+    "id": "b-g44",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη θα βρεις πρώτη στο λεξικό (αλφαβητική σειρά);",
+    "answer": "θάλασσα",
+    "options": [
+      "ξύλο",
+      "τραπέζι",
+      "νερό",
+      "θάλασσα"
+    ]
+  },
+  {
+    "id": "b-m63",
+    "category": "math",
+    "type": "text",
+    "question": "Ποιο είναι το διπλάσιο του 2;",
+    "answer": "4"
+  },
+  {
+    "id": "b-g45",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ μολύβι",
+    "answer": "το",
+    "options": [
+      "το",
+      "η",
+      "ο"
+    ]
+  },
+  {
+    "id": "b-m64",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσες δεκάδες έχει ο αριθμός 87;",
+    "answer": "8",
+    "options": [
+      "8",
+      "9",
+      "7"
+    ]
+  },
+  {
+    "id": "b-s28",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "σπανακόπιτα",
+    "options": [
+      "σπανακόπιτα",
+      "σπανακόπητα",
+      "σπανακόπυτα"
+    ]
+  },
+  {
+    "id": "b-e23",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιος μήνας έρχεται πριν από τον Ιούνιο;",
+    "answer": "Μάιος",
+    "options": [
+      "Μάιος",
+      "Αύγουστος",
+      "Οκτώβριος",
+      "Απρίλιος"
+    ]
+  },
+  {
+    "id": "b-g46",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «ποτίζω» με το «αυτός» γίνεται: αυτός ...",
+    "answer": "ποτίζει"
+  },
+  {
+    "id": "b-g47",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ σοκολάτα",
+    "answer": "η",
+    "options": [
+      "η",
+      "ο",
+      "το"
+    ]
+  },
+  {
+    "id": "b-m65",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το μισό του 76;",
+    "answer": "38",
+    "options": [
+      "37",
+      "39",
+      "40",
+      "38"
+    ]
+  },
+  {
+    "id": "b-g48",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ φίλος",
+    "answer": "ο",
+    "options": [
+      "το",
+      "η",
+      "ο"
+    ]
+  },
+  {
+    "id": "b-s29",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: άν__ξη",
+    "answer": "οι",
+    "acceptedAnswers": [
+      "άνοιξη"
+    ]
+  },
+  {
+    "id": "b-g49",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Τι σημείο στίξης βάζουμε στο τέλος μιας πρότασης που λέει κάτι απλά;",
+    "answer": "την τελεία (.)",
+    "options": [
+      "την τελεία (.)",
+      "το ερωτηματικό (;)",
+      "το θαυμαστικό (!)",
+      "το κόμμα (,)"
+    ]
+  },
+  {
+    "id": "b-m66",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 68 - 37;",
+    "answer": "31",
+    "options": [
+      "32",
+      "30",
+      "33",
+      "31"
+    ]
+  },
+  {
+    "id": "b-m67",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 26 - 21;",
+    "answer": "5",
+    "options": [
+      "7",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  {
+    "id": "b-s30",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "σχολείο",
+    "options": [
+      "σχολείο",
+      "σχωλείο"
+    ]
+  },
+  {
+    "id": "b-g50",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το συνώνυμο της λέξης «φιλαράκος»;",
+    "answer": "φίλος",
+    "options": [
+      "ωραίος",
+      "φίλος",
+      "εργασία",
+      "γερός"
+    ]
+  },
+  {
+    "id": "b-m68",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 41 - 20;",
+    "answer": "21"
+  },
+  {
+    "id": "b-g51",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε ένα συνώνυμο της λέξης «χαρά».",
+    "answer": "ευτυχία",
+    "acceptedAnswers": [
+      "αγαλλίαση"
+    ]
+  },
+  {
+    "id": "b-s31",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "μακαρόνια",
+    "options": [
+      "μακαρόνηα",
+      "μακαρόνυα",
+      "μακαρόνια"
+    ]
+  },
+  {
+    "id": "b-g52",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το συνώνυμο της λέξης «ωραίος»;",
+    "answer": "όμορφος",
+    "options": [
+      "χαρά",
+      "χαρούμενος",
+      "όμορφος",
+      "μαγαζί"
+    ]
+  },
+  {
+    "id": "b-g53",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Με τι γράμμα ξεκινά πάντα μια πρόταση;",
+    "answer": "με κεφαλαίο",
+    "options": [
+      "με μικρό",
+      "με όποιο θέλουμε",
+      "με τονισμένο",
+      "με κεφαλαίο"
+    ]
+  },
+  {
+    "id": "b-s32",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "διάλειμμα",
+    "options": [
+      "διάλημμα",
+      "διάλειμμα",
+      "διάλιμμα",
+      "διάλοιμμα"
+    ]
+  },
+  {
+    "id": "b-m69",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 93 + 7;",
+    "answer": "100",
+    "options": [
+      "99",
+      "101",
+      "100",
+      "102"
+    ]
+  },
+  {
+    "id": "b-g54",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το γένος της λέξης «ημέρα»;",
+    "answer": "Θηλυκό",
+    "options": [
+      "Ουδέτερο",
+      "Θηλυκό",
+      "Αρσενικό"
+    ]
+  },
+  {
+    "id": "b-s33",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: κούν_α",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "κούνια"
+    ]
+  },
+  {
+    "id": "b-m70",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως πριν από το 709;",
+    "answer": "708",
+    "options": [
+      "707",
+      "719",
+      "708",
+      "709"
+    ]
+  },
+  {
+    "id": "b-s34",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "παγωτό",
+    "options": [
+      "παγοτό",
+      "παγωτό"
+    ]
+  },
+  {
+    "id": "b-s35",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: σ_κολάτα",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "σοκολάτα"
+    ]
+  },
+  {
+    "id": "b-m71",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μικρότερος: το 60 ή το 43;",
+    "answer": "43",
+    "options": [
+      "60",
+      "43"
+    ]
+  },
+  {
+    "id": "b-s36",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: καρότ_",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "καρότο"
+    ]
+  },
+  {
+    "id": "b-m72",
+    "category": "math",
+    "type": "text",
+    "question": "Ποιο είναι το διπλάσιο του 38;",
+    "answer": "76"
+  },
+  {
+    "id": "b-m73",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πώς γράφουμε με ψηφία την ώρα «δύο και μισή»;",
+    "answer": "2:30",
+    "options": [
+      "2:00",
+      "2:30",
+      "3:30",
+      "2:45"
+    ]
+  },
+  {
+    "id": "b-e24",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο μέσο μεταφοράς κινείται σε ράγες;",
+    "answer": "το τρένο",
+    "options": [
+      "το ποδήλατο",
+      "το αεροπλάνο",
+      "το πλοίο",
+      "το τρένο"
+    ]
+  },
+  {
+    "id": "b-m74",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως μετά το 637;",
+    "answer": "638",
+    "options": [
+      "637",
+      "639",
+      "647",
+      "638"
+    ]
+  },
+  {
+    "id": "b-g55",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το γένος της λέξης «πόδι»;",
+    "answer": "Ουδέτερο",
+    "options": [
+      "Θηλυκό",
+      "Ουδέτερο",
+      "Αρσενικό"
+    ]
+  },
+  {
+    "id": "b-e25",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια ημέρα έρχεται μετά την Παρασκευή;",
+    "answer": "Σάββατο",
+    "options": [
+      "Πέμπτη",
+      "Δευτέρα",
+      "Σάββατο",
+      "Τετάρτη"
+    ]
+  },
+  {
+    "id": "b-s37",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "χειμώνας",
+    "options": [
+      "χημώνας",
+      "χειμώνας",
+      "χοιμώνας",
+      "χιμώνας"
+    ]
+  },
+  {
+    "id": "b-m75",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ο Παύλος αγόρασε ένα παγωτό 5€ και έναν χυμό 5€. Πόσα ευρώ πλήρωσε;",
+    "answer": "10€",
+    "options": [
+      "12€",
+      "11€",
+      "9€",
+      "10€"
+    ]
+  },
+  {
+    "id": "b-g56",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε ένα συνώνυμο της λέξης «δυνατός».",
+    "answer": "γερός",
+    "acceptedAnswers": [
+      "ρωμαλέος"
+    ]
+  },
+  {
+    "id": "b-s38",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "φασολάκια",
+    "options": [
+      "φασολάκια",
+      "φασολάκηα",
+      "φασολάκυα"
+    ]
+  },
+  {
+    "id": "b-m76",
+    "category": "math",
+    "type": "text",
+    "question": "Ποιο είναι το μισό του 16;",
+    "answer": "8"
+  },
+  {
+    "id": "b-m77",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Πέτρος έχει 93 βιβλία και δίνει 71 σε έναν φίλο. Πόσα βιβλία μένουν;",
+    "answer": "22"
+  },
+  {
+    "id": "b-e26",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Από τι φτιάχνεται το αλεύρι;",
+    "answer": "από το σιτάρι",
+    "options": [
+      "από τα αυγά",
+      "από τις πατάτες",
+      "από το γάλα",
+      "από το σιτάρι"
+    ]
+  },
+  {
+    "id": "b-m78",
+    "category": "math",
+    "type": "text",
+    "question": "Ποιο είναι το διπλάσιο του 29;",
+    "answer": "58"
+  },
+  {
+    "id": "b-g57",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη θα βρεις πρώτη στο λεξικό (αλφαβητική σειρά);",
+    "answer": "ζάχαρη",
+    "options": [
+      "ζάχαρη",
+      "ήλιος",
+      "θάλασσα",
+      "παιδί"
+    ]
+  },
+  {
+    "id": "b-s39",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "τσουλήθρα",
+    "options": [
+      "τσοηλήθρα",
+      "τσοιλήθρα",
+      "τσουλήθρα"
+    ]
+  },
+  {
+    "id": "b-g58",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ χαρά",
+    "answer": "η",
+    "options": [
+      "ο",
+      "η",
+      "το"
+    ]
+  },
+  {
+    "id": "b-g59",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη θα βρεις πρώτη στο λεξικό (αλφαβητική σειρά);",
+    "answer": "φεγγάρι",
+    "options": [
+      "ώρα",
+      "χαρά",
+      "ψάρι",
+      "φεγγάρι"
+    ]
+  },
+  {
+    "id": "b-s40",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: οικογέν__α",
+    "answer": "ει",
+    "acceptedAnswers": [
+      "οικογένεια"
+    ]
+  },
+  {
+    "id": "b-m79",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πώς γράφουμε με ψηφία την ώρα «πέντε και τέταρτο»;",
+    "answer": "5:15",
+    "options": [
+      "6:15",
+      "5:15",
+      "5:00",
+      "5:45"
+    ]
+  },
+  {
+    "id": "b-m80",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσες δεκάδες έχει ο αριθμός 68;",
+    "answer": "6",
+    "options": [
+      "7",
+      "6",
+      "5",
+      "8"
+    ]
+  },
+  {
+    "id": "b-e27",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πόσους μήνες έχει ένας χρόνος;",
+    "answer": "12",
+    "options": [
+      "10",
+      "7",
+      "12",
+      "24"
+    ]
+  },
+  {
+    "id": "b-m81",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ο Στέλιος αγόρασε ένα παγωτό 5€ και έναν χυμό 5€. Πόσα ευρώ πλήρωσε;",
+    "answer": "10€",
+    "options": [
+      "9€",
+      "10€",
+      "11€",
+      "12€"
+    ]
+  },
+  {
+    "id": "b-g60",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «χορεύω» με το «εμείς» γίνεται: εμείς ...",
+    "answer": "χορεύουμε"
+  },
+  {
+    "id": "b-g61",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «παίζω» με το «εσύ» γίνεται: εσύ ...",
+    "answer": "παίζεις",
+    "options": [
+      "παίζεις",
+      "παίζουν",
+      "παίζουμε",
+      "παίζω"
+    ]
+  },
+  {
+    "id": "b-g62",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «παίζω» με το «εμείς» γίνεται: εμείς ...",
+    "answer": "παίζουμε",
+    "options": [
+      "παίζουμε",
+      "παίζεις",
+      "παίζει",
+      "παίζετε"
+    ]
+  },
+  {
+    "id": "b-m82",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 91 + 4;",
+    "answer": "95",
+    "options": [
+      "94",
+      "95",
+      "96",
+      "97"
+    ]
+  },
+  {
+    "id": "b-m83",
+    "category": "math",
+    "type": "text",
+    "question": "Ποιο είναι το μισό του 90;",
+    "answer": "45"
+  },
+  {
+    "id": "b-g63",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε ένα συνώνυμο της λέξης «δουλειά».",
+    "answer": "εργασία"
+  },
+  {
+    "id": "b-g64",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το αντίθετο της λέξης «νέος»;",
+    "answer": "γέρος",
+    "options": [
+      "μικρός",
+      "βρόμικος",
+      "γέρος",
+      "δυνατός"
+    ]
+  },
+  {
+    "id": "b-g65",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τον πληθυντικό αριθμό της λέξης «το αυτοκίνητο».",
+    "answer": "τα αυτοκίνητα"
+  },
+  {
+    "id": "b-m84",
+    "category": "math",
+    "type": "text",
+    "question": "Η Δέσποινα αγόρασε ένα παγωτό 2€ και έναν χυμό 6€. Πόσα ευρώ πλήρωσε;",
+    "answer": "8€",
+    "acceptedAnswers": [
+      "8",
+      "8 ευρώ",
+      "8€"
+    ]
+  },
+  {
+    "id": "b-m85",
+    "category": "math",
+    "type": "text",
+    "question": "Ποιο είναι το διπλάσιο του 16;",
+    "answer": "32"
+  },
+  {
+    "id": "b-g66",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «σκουπίζω» με το «αυτοί» γίνεται: αυτοί ...",
+    "answer": "σκουπίζουν",
+    "options": [
+      "σκουπίζει",
+      "σκουπίζω",
+      "σκουπίζουμε",
+      "σκουπίζουν"
+    ]
+  },
+  {
+    "id": "b-s41",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: χ__μώνας",
+    "answer": "ει",
+    "acceptedAnswers": [
+      "χειμώνας"
+    ]
+  },
+  {
+    "id": "b-g67",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «δρόμος»;",
+    "answer": "2",
+    "options": [
+      "1",
+      "3",
+      "2",
+      "4"
+    ]
+  },
+  {
+    "id": "b-s42",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "γιορτή",
+    "options": [
+      "γιορτή",
+      "γυορτή",
+      "γηορτή"
+    ]
+  },
+  {
+    "id": "b-m86",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Η Ελένη πλήρωσε με 10€ κάτι που κόστιζε 5€. Πόσα ρέστα πήρε;",
+    "answer": "5€",
+    "options": [
+      "4€",
+      "6€",
+      "5€"
+    ]
+  },
+  {
+    "id": "b-m87",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το διπλάσιο του 3;",
+    "answer": "6",
+    "options": [
+      "7",
+      "5",
+      "8",
+      "6"
+    ]
+  },
+  {
+    "id": "b-g68",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «κλείνω» με το «αυτός» γίνεται: αυτός ...",
+    "answer": "κλείνει",
+    "options": [
+      "κλείνει",
+      "κλείνουμε",
+      "κλείνεις",
+      "κλείνω"
+    ]
+  },
+  {
+    "id": "b-e28",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιος μήνας έρχεται μετά τον Ιούνιο;",
+    "answer": "Ιούλιος",
+    "options": [
+      "Δεκέμβριος",
+      "Σεπτέμβριος",
+      "Μάιος",
+      "Ιούλιος"
+    ]
+  },
+  {
+    "id": "b-m88",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 7 - 6;",
+    "answer": "1",
+    "options": [
+      "2",
+      "0",
+      "1",
+      "3"
+    ]
+  },
+  {
+    "id": "b-m89",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ο Γιώργος πλήρωσε με 10€ κάτι που κόστιζε 2€. Πόσα ρέστα πήρε;",
+    "answer": "8€",
+    "options": [
+      "9€",
+      "2€",
+      "7€",
+      "8€"
+    ]
+  },
+  {
+    "id": "b-s43",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: λεμ_νάδα",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "λεμονάδα"
+    ]
+  },
+  {
+    "id": "b-g69",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «μαγειρεύω» με το «εσύ» γίνεται: εσύ ...",
+    "answer": "μαγειρεύεις"
+  },
+  {
+    "id": "b-m90",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσες δεκάδες έχει ο αριθμός 50;",
+    "answer": "5",
+    "options": [
+      "4",
+      "6",
+      "5",
+      "0"
+    ]
+  },
+  {
+    "id": "b-e29",
+    "category": "environment",
+    "type": "text",
+    "question": "Γράψε έναν μήνα του καλοκαιριού.",
+    "answer": "Ιούλιος",
+    "acceptedAnswers": [
+      "Ιούνιος",
+      "Αύγουστος"
+    ]
+  },
+  {
+    "id": "b-s44",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "πιπεριά",
+    "options": [
+      "πηπεριά",
+      "πυπεριά",
+      "πιπεριά"
+    ]
+  },
+  {
+    "id": "b-m91",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Η Ζωή έχει 25 κεράσια και παίρνει ακόμα 13. Πόσα κεράσια έχει τώρα;",
+    "answer": "38",
+    "options": [
+      "39",
+      "38",
+      "40",
+      "37"
+    ]
+  },
+  {
+    "id": "b-m92",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ο Αλέξανδρος έχει 98 μολύβια και δίνει 60 σε έναν φίλο. Πόσα μολύβια μένουν;",
+    "answer": "38",
+    "options": [
+      "37",
+      "38",
+      "40",
+      "39"
+    ]
+  },
+  {
+    "id": "b-m93",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσες μονάδες έχει ο αριθμός 43;",
+    "answer": "3",
+    "options": [
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "id": "b-s45",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "λεμονάδα",
+    "options": [
+      "λεμονάδα",
+      "λεμωνάδα"
+    ]
+  },
+  {
+    "id": "b-g70",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τον πληθυντικό αριθμό της λέξης «η πόλη».",
+    "answer": "οι πόλεις"
+  },
+  {
+    "id": "b-g71",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε το αντίθετο της λέξης «άσχημος».",
+    "answer": "όμορφος"
+  },
+  {
+    "id": "b-m94",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως πριν από το 372;",
+    "answer": "371",
+    "options": [
+      "371",
+      "382",
+      "372",
+      "370"
+    ]
+  },
+  {
+    "id": "b-m95",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πώς γράφουμε με ψηφία την ώρα «εφτά και μισή»;",
+    "answer": "7:30",
+    "options": [
+      "7:30",
+      "8:30",
+      "7:45",
+      "7:00"
+    ]
+  },
+  {
+    "id": "b-s46",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: π_ρτοκαλάδα",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "πορτοκαλάδα"
+    ]
+  },
+  {
+    "id": "b-m96",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 40 - 34;",
+    "answer": "6"
+  },
+  {
+    "id": "b-g72",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «σκουπίζω» με το «αυτός» γίνεται: αυτός ...",
+    "answer": "σκουπίζει"
+  },
+  {
+    "id": "b-s47",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "αγγούρι",
+    "options": [
+      "αγγούρι",
+      "αγκούρι"
+    ]
+  },
+  {
+    "id": "b-s48",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "αμμουδιά",
+    "options": [
+      "αμμουδιά",
+      "αμμουδυά",
+      "αμμουδηά"
+    ]
+  },
+  {
+    "id": "b-g73",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «χορεύω» με το «αυτός» γίνεται: αυτός ...",
+    "answer": "χορεύει"
+  },
+  {
+    "id": "b-s49",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "μαθητής",
+    "options": [
+      "μαθιτής",
+      "μαθυτής",
+      "μαθητής"
+    ]
+  },
+  {
+    "id": "b-g74",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «δουλεύω» με το «αυτοί» γίνεται: αυτοί ...",
+    "answer": "δουλεύουν",
+    "options": [
+      "δουλεύεις",
+      "δουλεύουν",
+      "δουλεύετε",
+      "δουλεύει"
+    ]
+  },
+  {
+    "id": "b-g75",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τον πληθυντικό αριθμό της λέξης «ο τραγουδιστής».",
+    "answer": "οι τραγουδιστές"
+  },
+  {
+    "id": "b-m97",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πώς γράφουμε με ψηφία την ώρα «μία ακριβώς»;",
+    "answer": "1:00",
+    "options": [
+      "2:00",
+      "1:00",
+      "1:45",
+      "1:30"
+    ]
+  },
+  {
+    "id": "b-m98",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 21 + 78;",
+    "answer": "99",
+    "options": [
+      "98",
+      "100",
+      "101",
+      "99"
+    ]
+  },
+  {
+    "id": "b-m99",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Πέτρος έχει 29 μήλα και παίρνει ακόμα 22. Πόσα μήλα έχει τώρα;",
+    "answer": "51"
+  },
+  {
+    "id": "b-m100",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 50 + 24;",
+    "answer": "74",
+    "options": [
+      "76",
+      "73",
+      "75",
+      "74"
+    ]
+  },
+  {
+    "id": "b-m101",
+    "category": "math",
+    "type": "text",
+    "question": "Η Ζωή έχει 96 λουλούδια και δίνει 72 σε έναν φίλο. Πόσα λουλούδια μένουν;",
+    "answer": "24"
+  },
+  {
+    "id": "b-s50",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "θάλασσα",
+    "options": [
+      "θάλασσα",
+      "θάλασα"
+    ]
+  },
+  {
+    "id": "b-g76",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «ανοίγω» με το «εσείς» γίνεται: εσείς ...",
+    "answer": "ανοίγετε"
+  },
+  {
+    "id": "b-m102",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 4 + 81;",
+    "answer": "85",
+    "options": [
+      "87",
+      "86",
+      "84",
+      "85"
+    ]
+  },
+  {
+    "id": "b-g77",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «χέρι»;",
+    "answer": "2",
+    "options": [
+      "3",
+      "4",
+      "1",
+      "2"
+    ]
+  },
+  {
+    "id": "b-e30",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιος μήνας έρχεται πριν από τον Απρίλιο;",
+    "answer": "Μάρτιος",
+    "options": [
+      "Νοέμβριος",
+      "Μάρτιος",
+      "Οκτώβριος",
+      "Μάιος"
+    ]
+  },
+  {
+    "id": "b-m103",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 4 x 3;",
+    "answer": "12"
+  },
+  {
+    "id": "b-g78",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «πιπέρι»;",
+    "answer": "3",
+    "options": [
+      "5",
+      "2",
+      "4",
+      "3"
+    ]
+  },
+  {
+    "id": "b-g79",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το γένος της λέξης «μανάβης»;",
+    "answer": "Αρσενικό",
+    "options": [
+      "Ουδέτερο",
+      "Θηλυκό",
+      "Αρσενικό"
+    ]
+  },
+  {
+    "id": "b-m104",
+    "category": "math",
+    "type": "text",
+    "question": "Η Σοφία έχει 56 μήλα και δίνει 8 σε έναν φίλο. Πόσα μήλα μένουν;",
+    "answer": "48"
+  },
+  {
+    "id": "b-g80",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ βαλίτσα",
+    "answer": "η",
+    "options": [
+      "ο",
+      "το",
+      "η"
+    ]
+  },
+  {
+    "id": "b-m105",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Γιάννης αγόρασε ένα παγωτό 1€ και έναν χυμό 4€. Πόσα ευρώ πλήρωσε;",
+    "answer": "5€",
+    "acceptedAnswers": [
+      "5",
+      "5 ευρώ",
+      "5€"
+    ]
+  },
+  {
+    "id": "b-s51",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "εκκλησία",
+    "options": [
+      "εκκλισία",
+      "εκκλυσία",
+      "εκκλησία"
+    ]
+  },
+  {
+    "id": "b-s52",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "κουλούρι",
+    "options": [
+      "κουλούρυ",
+      "κουλούρι",
+      "κουλούρη"
+    ]
+  },
+  {
+    "id": "b-g81",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «λουλούδι» βρίσκεται σε:",
+    "answer": "Ενικός αριθμός",
+    "options": [
+      "Πληθυντικός αριθμός",
+      "Ενικός αριθμός"
+    ]
+  },
+  {
+    "id": "b-m106",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 93 - 28;",
+    "answer": "65",
+    "options": [
+      "65",
+      "64",
+      "66",
+      "67"
+    ]
+  },
+  {
+    "id": "b-s53",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: φασολάκ_α",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "φασολάκια"
+    ]
+  },
+  {
+    "id": "b-g82",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ πατάτα",
+    "answer": "η",
+    "options": [
+      "το",
+      "η",
+      "ο"
+    ]
+  },
+  {
+    "id": "b-s54",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ποδήλατο",
+    "options": [
+      "πωδήλατο",
+      "ποδήλατο"
+    ]
+  },
+  {
+    "id": "b-m107",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 85 - 38;",
+    "answer": "47"
+  },
+  {
+    "id": "b-m108",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 99 + 1;",
+    "answer": "100",
+    "options": [
+      "100",
+      "99",
+      "101",
+      "102"
+    ]
+  },
+  {
+    "id": "b-m109",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως μετά το 267;",
+    "answer": "268",
+    "options": [
+      "277",
+      "267",
+      "269",
+      "268"
+    ]
+  },
+  {
+    "id": "b-s55",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "πουλόβερ",
+    "options": [
+      "πουλόβερ",
+      "ποιλόβερ",
+      "ποηλόβερ"
+    ]
+  },
+  {
+    "id": "b-m110",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 52 + 26;",
+    "answer": "78"
+  },
+  {
+    "id": "b-s56",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "κρεμμύδι",
+    "options": [
+      "κρεμμύδη",
+      "κρεμμύδυ",
+      "κρεμμύδι"
+    ]
+  },
+  {
+    "id": "b-m111",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 3 x 5;",
+    "answer": "15",
+    "options": [
+      "18",
+      "20",
+      "15",
+      "12"
+    ]
+  },
+  {
+    "id": "b-e31",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο γεύμα τρώμε το πρωί;",
+    "answer": "το πρωινό",
+    "options": [
+      "το βραδινό",
+      "το πρωινό",
+      "το μεσημεριανό",
+      "τίποτα"
+    ]
+  },
+  {
+    "id": "b-m112",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 4 x 7;",
+    "answer": "28"
+  },
+  {
+    "id": "b-e32",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια ημέρα έρχεται μετά την Σάββατο;",
+    "answer": "Κυριακή",
+    "options": [
+      "Τετάρτη",
+      "Τρίτη",
+      "Κυριακή",
+      "Δευτέρα"
+    ]
+  },
+  {
+    "id": "b-s57",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "γιατρός",
+    "options": [
+      "γυατρός",
+      "γηατρός",
+      "γιατρός"
+    ]
+  },
+  {
+    "id": "b-m113",
+    "category": "math",
+    "type": "text",
+    "question": "Η Κατερίνα έχει 23 αυγά και δίνει 21 σε έναν φίλο. Πόσα αυγά μένουν;",
+    "answer": "2"
+  },
+  {
+    "id": "b-s58",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: διάλ__μμα",
+    "answer": "ει",
+    "acceptedAnswers": [
+      "διάλειμμα"
+    ]
+  },
+  {
+    "id": "b-m114",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 5 x 5;",
+    "answer": "25"
+  },
+  {
+    "id": "b-e33",
+    "category": "environment",
+    "type": "text",
+    "question": "Γράψε έναν μήνα του χειμώνα.",
+    "answer": "Ιανουάριος",
+    "acceptedAnswers": [
+      "Δεκέμβριος",
+      "Φεβρουάριος"
+    ]
+  },
+  {
+    "id": "b-g83",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «μαγειρεύω» με το «εσείς» γίνεται: εσείς ...",
+    "answer": "μαγειρεύετε"
+  },
+  {
+    "id": "b-g84",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ καρέκλα",
+    "answer": "η",
+    "options": [
+      "ο",
+      "το",
+      "η"
+    ]
+  },
+  {
+    "id": "b-m115",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Δημήτρης έχει 41 μπισκότα και παίρνει ακόμα 6. Πόσα μπισκότα έχει τώρα;",
+    "answer": "47"
+  },
+  {
+    "id": "b-m116",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 3 - 2;",
+    "answer": "1"
+  },
+  {
+    "id": "b-s59",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: μαθ_τής",
+    "answer": "η",
+    "acceptedAnswers": [
+      "μαθητής"
+    ]
+  },
+  {
+    "id": "b-m117",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ο Στέλιος έχει 10 κεράσια και παίρνει ακόμα 75. Πόσα κεράσια έχει τώρα;",
+    "answer": "85",
+    "options": [
+      "86",
+      "85",
+      "87",
+      "84"
+    ]
+  },
+  {
+    "id": "b-m118",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 50 + 27;",
+    "answer": "77",
+    "options": [
+      "79",
+      "77",
+      "76",
+      "78"
+    ]
+  },
+  {
+    "id": "b-m119",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μεγαλύτερος: το 7 ή το 63;",
+    "answer": "63",
+    "options": [
+      "63",
+      "7"
+    ]
+  },
+  {
+    "id": "b-g85",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «πόλεις» βρίσκεται σε:",
+    "answer": "Πληθυντικός αριθμός",
+    "options": [
+      "Πληθυντικός αριθμός",
+      "Ενικός αριθμός"
+    ]
+  },
+  {
+    "id": "b-m120",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 50 + 33;",
+    "answer": "83"
+  },
+  {
+    "id": "b-g86",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «τρέχω» με το «αυτοί» γίνεται: αυτοί ...",
+    "answer": "τρέχουν",
+    "options": [
+      "τρέχουμε",
+      "τρέχει",
+      "τρέχετε",
+      "τρέχουν"
+    ]
+  },
+  {
+    "id": "b-m121",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 2 - 1;",
+    "answer": "1"
+  },
+  {
+    "id": "b-m122",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσες δεκάδες έχει ο αριθμός 78;",
+    "answer": "7",
+    "options": [
+      "6",
+      "8",
+      "7"
+    ]
+  },
+  {
+    "id": "b-m123",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 49 + 10;",
+    "answer": "59",
+    "options": [
+      "59",
+      "58",
+      "61",
+      "60"
+    ]
+  },
+  {
+    "id": "b-e34",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιος μήνας έρχεται πριν από τον Μάρτιο;",
+    "answer": "Φεβρουάριος",
+    "options": [
+      "Ιούλιος",
+      "Νοέμβριος",
+      "Φεβρουάριος",
+      "Οκτώβριος"
+    ]
+  },
+  {
+    "id": "b-g87",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «γράφω» με το «εσύ» γίνεται: εσύ ...",
+    "answer": "γράφεις"
+  },
+  {
+    "id": "b-m124",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Γιώργος πλήρωσε με 10€ κάτι που κόστιζε 6€. Πόσα ρέστα πήρε;",
+    "answer": "4€",
+    "acceptedAnswers": [
+      "4",
+      "4 ευρώ",
+      "4€"
+    ]
+  },
+  {
+    "id": "b-m125",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 87 - 64;",
+    "answer": "23"
+  },
+  {
+    "id": "b-m126",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ο Αλέξανδρος πλήρωσε με 10€ κάτι που κόστιζε 6€. Πόσα ρέστα πήρε;",
+    "answer": "4€",
+    "options": [
+      "4€",
+      "3€",
+      "5€",
+      "6€"
+    ]
+  },
+  {
+    "id": "b-g88",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ όνομα",
+    "answer": "το",
+    "options": [
+      "ο",
+      "το",
+      "η"
+    ]
+  },
+  {
+    "id": "b-s60",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "φούρνος",
+    "options": [
+      "φωύρνος",
+      "φούρνος"
+    ]
+  },
+  {
+    "id": "b-m127",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 29 + 3;",
+    "answer": "32"
+  },
+  {
+    "id": "b-s61",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "παπούτσια",
+    "options": [
+      "παπούτσια",
+      "παπούτσυα",
+      "παπούτσηα"
+    ]
+  },
+  {
+    "id": "b-g89",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τον πληθυντικό αριθμό της λέξης «ο δάσκαλος».",
+    "answer": "οι δάσκαλοι"
+  },
+  {
+    "id": "b-g90",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το συνώνυμο της λέξης «κοιτάζω»;",
+    "answer": "βλέπω",
+    "options": [
+      "αδύνατος",
+      "φαί",
+      "βλέπω",
+      "εργασία"
+    ]
+  },
+  {
+    "id": "b-e35",
+    "category": "environment",
+    "type": "text",
+    "question": "Γράψε ένα λαχανικό.",
+    "answer": "καρότο",
+    "acceptedAnswers": [
+      "ντομάτα",
+      "αγγούρι",
+      "μαρούλι",
+      "πατάτα",
+      "κρεμμύδι",
+      "πιπεριά",
+      "κολοκύθι",
+      "μπρόκολο",
+      "κουνουπίδι",
+      "σπανάκι",
+      "λάχανο",
+      "παντζάρι"
+    ]
+  },
+  {
+    "id": "b-g91",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ δέντρο",
+    "answer": "το",
+    "options": [
+      "ο",
+      "το",
+      "η"
+    ]
+  },
+  {
+    "id": "b-s62",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: αμμουδ_ά",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "αμμουδιά"
+    ]
+  },
+  {
+    "id": "b-m128",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πώς γράφουμε με ψηφία την ώρα «πέντε και μισή»;",
+    "answer": "5:30",
+    "options": [
+      "5:30",
+      "5:00",
+      "6:30",
+      "5:45"
+    ]
+  },
+  {
+    "id": "b-g92",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το γένος της λέξης «κεφάλι»;",
+    "answer": "Ουδέτερο",
+    "options": [
+      "Θηλυκό",
+      "Ουδέτερο",
+      "Αρσενικό"
+    ]
+  },
+  {
+    "id": "b-g93",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το αντίθετο της λέξης «γρήγορος»;",
+    "answer": "αργός",
+    "options": [
+      "μέρα",
+      "αργός",
+      "ψηλός",
+      "πρώτος"
+    ]
+  },
+  {
+    "id": "b-m129",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ο Νίκος έχει 30 μπισκότα και δίνει 1 σε έναν φίλο. Πόσα μπισκότα μένουν;",
+    "answer": "29",
+    "options": [
+      "31",
+      "28",
+      "29",
+      "30"
+    ]
+  },
+  {
+    "id": "b-s63",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: γενέθλ_α",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "γενέθλια"
+    ]
+  },
+  {
+    "id": "b-m130",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσες μονάδες έχει ο αριθμός 72;",
+    "answer": "2",
+    "options": [
+      "3",
+      "7",
+      "2",
+      "1"
+    ]
+  },
+  {
+    "id": "b-g94",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τον πληθυντικό αριθμό της λέξης «το καπέλο».",
+    "answer": "τα καπέλα"
+  },
+  {
+    "id": "b-m131",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσες δεκάδες έχει ο αριθμός 46;",
+    "answer": "4",
+    "options": [
+      "6",
+      "4",
+      "5",
+      "3"
+    ]
+  },
+  {
+    "id": "b-m132",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 3 x 2;",
+    "answer": "6",
+    "options": [
+      "8",
+      "9",
+      "6",
+      "3"
+    ]
+  },
+  {
+    "id": "b-g95",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «κλείνω» με το «εσείς» γίνεται: εσείς ...",
+    "answer": "κλείνετε"
+  },
+  {
+    "id": "b-m133",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μικρότερος: το 28 ή το 93;",
+    "answer": "28",
+    "options": [
+      "93",
+      "28"
+    ]
+  },
+  {
+    "id": "b-s64",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "μπουφάν",
+    "options": [
+      "μπουφάν",
+      "μποηφάν",
+      "μποιφάν"
+    ]
+  },
+  {
+    "id": "b-s65",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "φθινόπωρο",
+    "options": [
+      "φθινόπωρο",
+      "φθινόπορο"
+    ]
+  },
+  {
+    "id": "b-e36",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Από τι φτιάχνεται το τυρί;",
+    "answer": "από το γάλα",
+    "options": [
+      "από το γάλα",
+      "από το αλεύρι",
+      "από το νερό",
+      "από τη ζάχαρη"
+    ]
+  },
+  {
+    "id": "b-m134",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 80 + 4;",
+    "answer": "84",
+    "options": [
+      "83",
+      "84",
+      "86",
+      "85"
+    ]
+  },
+  {
+    "id": "b-m135",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσες μονάδες έχει ο αριθμός 87;",
+    "answer": "7",
+    "options": [
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  {
+    "id": "b-m136",
+    "category": "math",
+    "type": "text",
+    "question": "Η Βασιλική έχει 49 μήλα και παίρνει ακόμα 6. Πόσα μήλα έχει τώρα;",
+    "answer": "55"
+  },
+  {
+    "id": "b-s66",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: γ_ορτή",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "γιορτή"
+    ]
+  },
+  {
+    "id": "b-s67",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "τετράδιο",
+    "options": [
+      "τετράδυο",
+      "τετράδηο",
+      "τετράδιο"
+    ]
+  },
+  {
+    "id": "b-e37",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια ημέρα έρχεται μετά την Δευτέρα;",
+    "answer": "Τρίτη",
+    "options": [
+      "Παρασκευή",
+      "Τρίτη",
+      "Τετάρτη",
+      "Κυριακή"
+    ]
+  },
+  {
+    "id": "b-m137",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 58 + 24;",
+    "answer": "82"
+  },
+  {
+    "id": "b-g96",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το συνώνυμο της λέξης «νόστιμος»;",
+    "answer": "πεντανόστιμος",
+    "options": [
+      "γενναίος",
+      "μαγαζί",
+      "θέλω",
+      "πεντανόστιμος"
+    ]
+  },
+  {
+    "id": "b-m138",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 4 x 4;",
+    "answer": "16",
+    "options": [
+      "16",
+      "20",
+      "12"
+    ]
+  },
+  {
+    "id": "b-g97",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το γένος της λέξης «φράση»;",
+    "answer": "Θηλυκό",
+    "options": [
+      "Αρσενικό",
+      "Ουδέτερο",
+      "Θηλυκό"
+    ]
+  },
+  {
+    "id": "b-m139",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 88 + 1;",
+    "answer": "89"
+  },
+  {
+    "id": "b-m140",
+    "category": "math",
+    "type": "text",
+    "question": "Ποιο είναι το διπλάσιο του 27;",
+    "answer": "54"
+  },
+  {
+    "id": "b-m141",
+    "category": "math",
+    "type": "text",
+    "question": "Ποιο είναι το διπλάσιο του 13;",
+    "answer": "26"
+  },
+  {
+    "id": "b-m142",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 50 - 8;",
+    "answer": "42",
+    "options": [
+      "41",
+      "43",
+      "42",
+      "44"
+    ]
+  },
+  {
+    "id": "b-g98",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το αντίθετο της λέξης «μεγάλος»;",
+    "answer": "μικρός",
+    "options": [
+      "φτηνός",
+      "λίγο",
+      "κρύος",
+      "μικρός"
+    ]
+  },
+  {
+    "id": "b-m143",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 23 + 36;",
+    "answer": "59",
+    "options": [
+      "60",
+      "58",
+      "59",
+      "61"
+    ]
+  },
+  {
+    "id": "b-m144",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 10 + 40;",
+    "answer": "50"
+  },
+  {
+    "id": "b-m145",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 19 + 20;",
+    "answer": "39",
+    "options": [
+      "38",
+      "39",
+      "41",
+      "40"
+    ]
+  },
+  {
+    "id": "b-g99",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «αγελάδα» βρίσκεται σε:",
+    "answer": "Ενικός αριθμός",
+    "options": [
+      "Πληθυντικός αριθμός",
+      "Ενικός αριθμός"
+    ]
+  },
+  {
+    "id": "b-s68",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: παπούτσ_α",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "παπούτσια"
+    ]
+  },
+  {
+    "id": "b-g100",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το γένος της λέξης «βράχος»;",
+    "answer": "Αρσενικό",
+    "options": [
+      "Ουδέτερο",
+      "Θηλυκό",
+      "Αρσενικό"
+    ]
+  },
+  {
+    "id": "b-g101",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «καθαρίζω» με το «αυτοί» γίνεται: αυτοί ...",
+    "answer": "καθαρίζουν",
+    "options": [
+      "καθαρίζουν",
+      "καθαρίζει",
+      "καθαρίζετε",
+      "καθαρίζω"
+    ]
+  },
+  {
+    "id": "b-e38",
+    "category": "environment",
+    "type": "text",
+    "question": "Γράψε ένα ζώο που πετάει.",
+    "answer": "πουλί",
+    "acceptedAnswers": [
+      "πεταλούδα",
+      "μέλισσα",
+      "νυχτερίδα",
+      "κουνούπι",
+      "μύγα",
+      "περιστέρι",
+      "αετός",
+      "χελιδόνι",
+      "γλάρος",
+      "κουκουβάγια"
+    ]
+  },
+  {
+    "id": "b-s69",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: μπο_φάν",
+    "answer": "υ",
+    "acceptedAnswers": [
+      "μπουφάν"
+    ]
+  },
+  {
+    "id": "b-s70",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: χιονάνθρ_πος",
+    "answer": "ω",
+    "acceptedAnswers": [
+      "χιονάνθρωπος"
+    ]
+  },
+  {
+    "id": "b-m146",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 3 x 10;",
+    "answer": "30"
+  },
+  {
+    "id": "b-s71",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: μαθήτρ_α",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "μαθήτρια"
+    ]
+  },
+  {
+    "id": "b-e39",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιος μήνας έρχεται μετά τον Μάρτιο;",
+    "answer": "Απρίλιος",
+    "options": [
+      "Φεβρουάριος",
+      "Οκτώβριος",
+      "Απρίλιος",
+      "Αύγουστος"
+    ]
+  },
+  {
+    "id": "b-s72",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "κυρία",
+    "options": [
+      "κυρία",
+      "κηρία",
+      "κιρία"
+    ]
+  },
+  {
+    "id": "b-m147",
+    "category": "math",
+    "type": "text",
+    "question": "Η Ειρήνη έχει 81 πορτοκάλια και δίνει 31 σε έναν φίλο. Πόσα πορτοκάλια μένουν;",
+    "answer": "50"
+  },
+  {
+    "id": "b-m148",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 13 + 35;",
+    "answer": "48",
+    "options": [
+      "49",
+      "47",
+      "48",
+      "50"
+    ]
+  },
+  {
+    "id": "b-m149",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσες μονάδες έχει ο αριθμός 96;",
+    "answer": "6",
+    "options": [
+      "7",
+      "9",
+      "6",
+      "5"
+    ]
+  },
+  {
+    "id": "b-m150",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσες δεκάδες έχει ο αριθμός 14;",
+    "answer": "1",
+    "options": [
+      "2",
+      "1",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "id": "b-g102",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη θα βρεις πρώτη στο λεξικό (αλφαβητική σειρά);",
+    "answer": "μήλο",
+    "options": [
+      "ψάρι",
+      "μήλο",
+      "παιδί",
+      "ώρα"
+    ]
+  },
+  {
+    "id": "b-s73",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ζωγραφιά",
+    "options": [
+      "ζογραφιά",
+      "ζωγραφιά"
+    ]
+  },
+  {
+    "id": "b-m151",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Γιάννης αγόρασε ένα παγωτό 3€ και έναν χυμό 4€. Πόσα ευρώ πλήρωσε;",
+    "answer": "7€",
+    "acceptedAnswers": [
+      "7",
+      "7 ευρώ",
+      "7€"
+    ]
+  },
+  {
+    "id": "b-s74",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: ξάδερφ_ς",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "ξάδερφος"
+    ]
+  },
+  {
+    "id": "b-g103",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη θα βρεις πρώτη στο λεξικό (αλφαβητική σειρά);",
+    "answer": "παιδί",
+    "options": [
+      "χαρά",
+      "τραπέζι",
+      "παιδί",
+      "ώρα"
+    ]
+  },
+  {
+    "id": "b-m152",
+    "category": "math",
+    "type": "text",
+    "question": "Ποιο είναι το διπλάσιο του 36;",
+    "answer": "72"
+  },
+  {
+    "id": "b-m153",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 4 x 8;",
+    "answer": "32",
+    "options": [
+      "40",
+      "28",
+      "32",
+      "36"
+    ]
+  },
+  {
+    "id": "b-g104",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «τρέχω» με το «εσείς» γίνεται: εσείς ...",
+    "answer": "τρέχετε"
+  },
+  {
+    "id": "b-g105",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τον πληθυντικό αριθμό της λέξης «ο ελέφαντας».",
+    "answer": "οι ελέφαντες"
+  },
+  {
+    "id": "b-s75",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: λαχαν_κά",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "λαχανικά"
+    ]
+  },
+  {
+    "id": "b-g106",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «αδελφός» βρίσκεται σε:",
+    "answer": "Ενικός αριθμός",
+    "options": [
+      "Ενικός αριθμός",
+      "Πληθυντικός αριθμός"
+    ]
+  },
+  {
+    "id": "b-m154",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 2 x 3;",
+    "answer": "6",
+    "options": [
+      "6",
+      "4",
+      "9",
+      "8"
+    ]
+  },
+  {
+    "id": "b-m155",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 96 - 38;",
+    "answer": "58"
+  },
+  {
+    "id": "b-g107",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «φούρνος»;",
+    "answer": "2",
+    "options": [
+      "3",
+      "1",
+      "4",
+      "2"
+    ]
+  },
+  {
+    "id": "b-s76",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: τυρόπ_τα",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "τυρόπιτα"
+    ]
+  },
+  {
+    "id": "b-m156",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πώς γράφουμε με ψηφία την ώρα «μία και μισή»;",
+    "answer": "1:30",
+    "options": [
+      "1:00",
+      "1:30",
+      "2:30",
+      "1:45"
+    ]
+  },
+  {
+    "id": "b-m157",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 4 x 9;",
+    "answer": "36",
+    "options": [
+      "36",
+      "32",
+      "40",
+      "45"
+    ]
+  },
+  {
+    "id": "b-g108",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «παιχνίδια» βρίσκεται σε:",
+    "answer": "Πληθυντικός αριθμός",
+    "options": [
+      "Πληθυντικός αριθμός",
+      "Ενικός αριθμός"
+    ]
+  },
+  {
+    "id": "b-m158",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως πριν από το 593;",
+    "answer": "592",
+    "options": [
+      "593",
+      "592",
+      "603",
+      "591"
+    ]
+  },
+  {
+    "id": "b-s77",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: τετράδ_ο",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "τετράδιο"
+    ]
+  },
+  {
+    "id": "b-m159",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 58 + 21;",
+    "answer": "79"
+  },
+  {
+    "id": "b-m160",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μεγαλύτερος: το 82 ή το 39;",
+    "answer": "82",
+    "options": [
+      "82",
+      "39"
+    ]
+  },
+  {
+    "id": "b-g109",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «παντελόνι» βρίσκεται σε:",
+    "answer": "Ενικός αριθμός",
+    "options": [
+      "Ενικός αριθμός",
+      "Πληθυντικός αριθμός"
+    ]
+  },
+  {
+    "id": "b-m161",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσες μονάδες έχει ο αριθμός 12;",
+    "answer": "2",
+    "options": [
+      "1",
+      "3",
+      "2"
+    ]
+  },
+  {
+    "id": "b-s78",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: φαρμακεί_",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "φαρμακείο"
+    ]
+  },
+  {
+    "id": "b-g110",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το αντίθετο της λέξης «κάτω»;",
+    "answer": "πάνω",
+    "options": [
+      "τολμηρός",
+      "πάνω",
+      "μικρός",
+      "λίγο"
+    ]
+  },
+  {
+    "id": "b-g111",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το αντίθετο της λέξης «μπροστά»;",
+    "answer": "πίσω",
+    "options": [
+      "αδύνατος",
+      "ζεστός",
+      "πίσω",
+      "εχθρός"
+    ]
+  },
+  {
+    "id": "b-m162",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 31 + 41;",
+    "answer": "72"
+  },
+  {
+    "id": "b-s79",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: φρ_ύτα",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "φρούτα"
+    ]
+  },
+  {
+    "id": "b-e40",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Σε ποιον κάδο πετάμε τα χαρτιά και τα πλαστικά για ανακύκλωση;",
+    "answer": "στον μπλε κάδο",
+    "options": [
+      "στον πράσινο κάδο",
+      "στον μπλε κάδο",
+      "στον δρόμο",
+      "σε όποιον βρούμε"
+    ]
+  },
+  {
+    "id": "b-e41",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Γιατί κάνουμε ανακύκλωση;",
+    "answer": "για να προστατεύουμε τη φύση",
+    "options": [
+      "για να γεμίζουν οι κάδοι",
+      "χωρίς λόγο",
+      "για να προστατεύουμε τη φύση",
+      "για παιχνίδι"
+    ]
+  },
+  {
+    "id": "b-m163",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως μετά το 618;",
+    "answer": "619",
+    "options": [
+      "620",
+      "628",
+      "619",
+      "618"
+    ]
+  },
+  {
+    "id": "b-m164",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 93 - 19;",
+    "answer": "74",
+    "options": [
+      "76",
+      "73",
+      "75",
+      "74"
+    ]
+  },
+  {
+    "id": "b-e42",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Τι γίνεται το νερό όταν το βάλουμε στην κατάψυξη;",
+    "answer": "πάγος",
+    "options": [
+      "πάγος",
+      "αλάτι",
+      "υδρατμός",
+      "χυμός"
+    ]
+  },
+  {
+    "id": "b-s80",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: π__χνίδι",
+    "answer": "αι",
+    "acceptedAnswers": [
+      "παιχνίδι"
+    ]
+  },
+  {
+    "id": "b-m165",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 3 x 3;",
+    "answer": "9"
+  },
+  {
+    "id": "b-m166",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μικρότερος: το 6 ή το 2;",
+    "answer": "2",
+    "options": [
+      "2",
+      "6"
+    ]
+  },
+  {
+    "id": "b-m167",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 96 - 69;",
+    "answer": "27"
+  },
+  {
+    "id": "b-m168",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το διπλάσιο του 50;",
+    "answer": "100",
+    "options": [
+      "102",
+      "100",
+      "99",
+      "101"
+    ]
+  },
+  {
+    "id": "b-m169",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 10 x 9;",
+    "answer": "90"
+  },
+  {
+    "id": "b-m170",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 56 + 3;",
+    "answer": "59",
+    "options": [
+      "58",
+      "61",
+      "59",
+      "60"
+    ]
+  },
+  {
+    "id": "b-g112",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «ντομάτες» βρίσκεται σε:",
+    "answer": "Πληθυντικός αριθμός",
+    "options": [
+      "Ενικός αριθμός",
+      "Πληθυντικός αριθμός"
+    ]
+  },
+  {
+    "id": "b-g113",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ γιατρός",
+    "answer": "ο",
+    "options": [
+      "η",
+      "το",
+      "ο"
+    ]
+  },
+  {
+    "id": "b-m171",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 81 + 4;",
+    "answer": "85",
+    "options": [
+      "85",
+      "86",
+      "84",
+      "87"
+    ]
+  },
+  {
+    "id": "b-g114",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το γένος της λέξης «άνθρωπος»;",
+    "answer": "Αρσενικό",
+    "options": [
+      "Αρσενικό",
+      "Ουδέτερο",
+      "Θηλυκό"
+    ]
+  },
+  {
+    "id": "b-s81",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: σχ_λείο",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "σχολείο"
+    ]
+  },
+  {
+    "id": "b-g115",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το συνώνυμο της λέξης «μεγάλος»;",
+    "answer": "τεράστιος",
+    "options": [
+      "τεράστιος",
+      "μαγαζί",
+      "αμέσως",
+      "αδύναμος"
+    ]
+  },
+  {
+    "id": "b-m172",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μικρότερος: το 18 ή το 72;",
+    "answer": "18",
+    "options": [
+      "72",
+      "18"
+    ]
+  },
+  {
+    "id": "b-m173",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ο Θανάσης πλήρωσε με 10€ κάτι που κόστιζε 8€. Πόσα ρέστα πήρε;",
+    "answer": "2€",
+    "options": [
+      "2€",
+      "1€",
+      "3€",
+      "8€"
+    ]
+  },
+  {
+    "id": "b-e43",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Τι γίνεται το νερό όταν βράζει;",
+    "answer": "υδρατμός",
+    "options": [
+      "λάδι",
+      "πάγος",
+      "υδρατμός",
+      "χιόνι"
+    ]
+  },
+  {
+    "id": "b-g116",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ εβδομάδα",
+    "answer": "η",
+    "options": [
+      "ο",
+      "το",
+      "η"
+    ]
+  },
+  {
+    "id": "b-m174",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 90 - 22;",
+    "answer": "68",
+    "options": [
+      "69",
+      "68",
+      "67",
+      "70"
+    ]
+  },
+  {
+    "id": "b-s82",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: μανάβ_κο",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "μανάβικο"
+    ]
+  },
+  {
+    "id": "b-s83",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: σύννεφ_",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "σύννεφο"
+    ]
+  },
+  {
+    "id": "b-s84",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "φαρμακείο",
+    "options": [
+      "φαρμακείο",
+      "φαρμακείω"
+    ]
+  },
+  {
+    "id": "b-g117",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το συνώνυμο της λέξης «πεντανόστιμος»;",
+    "answer": "νόστιμος",
+    "options": [
+      "αδύνατος",
+      "νόστιμος",
+      "μεγάλος",
+      "στενοχωρημένος"
+    ]
+  },
+  {
+    "id": "b-g118",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ ντομάτα",
+    "answer": "η",
+    "options": [
+      "το",
+      "ο",
+      "η"
+    ]
+  },
+  {
+    "id": "b-m175",
+    "category": "math",
+    "type": "text",
+    "question": "Η Μαρία πλήρωσε με 10€ κάτι που κόστιζε 9€. Πόσα ρέστα πήρε;",
+    "answer": "1€",
+    "acceptedAnswers": [
+      "1",
+      "1 ευρώ",
+      "1€"
+    ]
+  },
+  {
+    "id": "b-g119",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το αντίθετο της λέξης «καλός»;",
+    "answer": "κακός",
+    "options": [
+      "κακός",
+      "βρόμικος",
+      "αρχή",
+      "σκοτεινός"
+    ]
+  },
+  {
+    "id": "b-s85",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "παραμύθι",
+    "options": [
+      "παραμύθι",
+      "παραμύθη",
+      "παραμύθυ"
+    ]
+  },
+  {
+    "id": "b-m176",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως μετά το 879;",
+    "answer": "880",
+    "options": [
+      "881",
+      "879",
+      "889",
+      "880"
+    ]
+  },
+  {
+    "id": "b-m177",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 54 - 21;",
+    "answer": "33"
+  },
+  {
+    "id": "b-m178",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 85 - 35;",
+    "answer": "50",
+    "options": [
+      "52",
+      "49",
+      "51",
+      "50"
+    ]
+  },
+  {
+    "id": "b-m179",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 8 + 12;",
+    "answer": "20",
+    "options": [
+      "19",
+      "22",
+      "21",
+      "20"
+    ]
+  },
+  {
+    "id": "b-s86",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "καράβι",
+    "options": [
+      "καράβυ",
+      "καράβη",
+      "καράβι"
+    ]
+  },
+  {
+    "id": "b-s87",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "τυρόπιτα",
+    "options": [
+      "τυρόπητα",
+      "τυρόπυτα",
+      "τυρόπιτα"
+    ]
+  },
+  {
+    "id": "b-s88",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: μάθ_μα",
+    "answer": "η",
+    "acceptedAnswers": [
+      "μάθημα"
+    ]
+  },
+  {
+    "id": "b-g120",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «γράφω» με το «εσείς» γίνεται: εσείς ...",
+    "answer": "γράφετε",
+    "options": [
+      "γράφουμε",
+      "γράφετε",
+      "γράφουν",
+      "γράφει"
+    ]
+  },
+  {
+    "id": "b-m180",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 10 x 8;",
+    "answer": "80"
+  },
+  {
+    "id": "b-s89",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "άνοιξη",
+    "options": [
+      "άνηξη",
+      "άνοιξη",
+      "άνιξη",
+      "άνειξη"
+    ]
+  },
+  {
+    "id": "b-s90",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "μανάβικο",
+    "options": [
+      "μανάβηκο",
+      "μανάβυκο",
+      "μανάβικο"
+    ]
+  },
+  {
+    "id": "b-m181",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 33 - 2;",
+    "answer": "31"
+  },
+  {
+    "id": "b-g121",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το γένος της λέξης «μαθητής»;",
+    "answer": "Αρσενικό",
+    "options": [
+      "Θηλυκό",
+      "Αρσενικό",
+      "Ουδέτερο"
+    ]
+  },
+  {
+    "id": "b-m182",
+    "category": "math",
+    "type": "text",
+    "question": "Ποιο είναι το μισό του 96;",
+    "answer": "48"
+  },
+  {
+    "id": "b-m183",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 2 x 5;",
+    "answer": "10",
+    "options": [
+      "15",
+      "10",
+      "8",
+      "12"
+    ]
+  },
+  {
+    "id": "b-m184",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως πριν από το 377;",
+    "answer": "376",
+    "options": [
+      "375",
+      "387",
+      "376",
+      "377"
+    ]
+  },
+  {
+    "id": "b-m185",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Παύλος πλήρωσε με 10€ κάτι που κόστιζε 2€. Πόσα ρέστα πήρε;",
+    "answer": "8€",
+    "acceptedAnswers": [
+      "8",
+      "8 ευρώ",
+      "8€"
+    ]
+  },
+  {
+    "id": "b-m186",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 20 + 65;",
+    "answer": "85",
+    "options": [
+      "86",
+      "84",
+      "87",
+      "85"
+    ]
+  },
+  {
+    "id": "b-g122",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «σκουπίζω» με το «εμείς» γίνεται: εμείς ...",
+    "answer": "σκουπίζουμε"
+  },
+  {
+    "id": "b-s91",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: μπ_σκότο",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "μπισκότο"
+    ]
+  },
+  {
+    "id": "b-m187",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 2 x 10;",
+    "answer": "20",
+    "options": [
+      "22",
+      "20",
+      "18",
+      "30"
+    ]
+  },
+  {
+    "id": "b-g123",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το γένος της λέξης «ποτήρι»;",
+    "answer": "Ουδέτερο",
+    "options": [
+      "Αρσενικό",
+      "Ουδέτερο",
+      "Θηλυκό"
+    ]
+  },
+  {
+    "id": "b-m188",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μεγαλύτερος: το 11 ή το 76;",
+    "answer": "76",
+    "options": [
+      "76",
+      "11"
+    ]
+  },
+  {
+    "id": "b-s92",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "γάντια",
+    "options": [
+      "γάντυα",
+      "γάντηα",
+      "γάντια"
+    ]
+  },
+  {
+    "id": "b-m189",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το διπλάσιο του 4;",
+    "answer": "8",
+    "options": [
+      "8",
+      "7",
+      "10",
+      "9"
+    ]
+  },
+  {
+    "id": "b-m190",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 49 - 9;",
+    "answer": "40",
+    "options": [
+      "39",
+      "40",
+      "42",
+      "41"
+    ]
+  },
+  {
+    "id": "b-m191",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως μετά το 923;",
+    "answer": "924",
+    "options": [
+      "925",
+      "924",
+      "923",
+      "933"
+    ]
+  },
+  {
+    "id": "b-m192",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσες μονάδες έχει ο αριθμός 75;",
+    "answer": "5",
+    "options": [
+      "6",
+      "4",
+      "5",
+      "7"
+    ]
+  },
+  {
+    "id": "b-s93",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "κύριος",
+    "options": [
+      "κύρηος",
+      "κύριος",
+      "κύρυος"
+    ]
+  },
+  {
+    "id": "b-g124",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «πουλιά» βρίσκεται σε:",
+    "answer": "Πληθυντικός αριθμός",
+    "options": [
+      "Ενικός αριθμός",
+      "Πληθυντικός αριθμός"
+    ]
+  },
+  {
+    "id": "b-s94",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "μαθήτρια",
+    "options": [
+      "μαθήτρυα",
+      "μαθήτρηα",
+      "μαθήτρια"
+    ]
+  },
+  {
+    "id": "b-g125",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «χορεύω» με το «εσύ» γίνεται: εσύ ...",
+    "answer": "χορεύεις",
+    "options": [
+      "χορεύετε",
+      "χορεύεις",
+      "χορεύω",
+      "χορεύει"
+    ]
+  },
+  {
+    "id": "b-m193",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 2 x 6;",
+    "answer": "12"
+  },
+  {
+    "id": "b-g126",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το γένος της λέξης «αδελφή»;",
+    "answer": "Θηλυκό",
+    "options": [
+      "Ουδέτερο",
+      "Αρσενικό",
+      "Θηλυκό"
+    ]
+  },
+  {
+    "id": "b-g127",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τον πληθυντικό αριθμό της λέξης «η ιστορία».",
+    "answer": "οι ιστορίες"
+  },
+  {
+    "id": "b-g128",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το γένος της λέξης «κουζίνα»;",
+    "answer": "Θηλυκό",
+    "options": [
+      "Θηλυκό",
+      "Ουδέτερο",
+      "Αρσενικό"
+    ]
+  },
+  {
+    "id": "b-m194",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Παύλος αγόρασε ένα παγωτό 4€ και έναν χυμό 3€. Πόσα ευρώ πλήρωσε;",
+    "answer": "7€",
+    "acceptedAnswers": [
+      "7",
+      "7 ευρώ",
+      "7€"
+    ]
+  },
+  {
+    "id": "b-s95",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "οικογένεια",
+    "options": [
+      "οικογένια",
+      "οικογένεια",
+      "οικογένηα",
+      "οικογένοια"
+    ]
+  },
+  {
+    "id": "b-e44",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Από πού πέφτει η βροχή;",
+    "answer": "από τα σύννεφα",
+    "options": [
+      "από τον ήλιο",
+      "από τα σύννεφα",
+      "από τα αστέρια",
+      "από τα βουνά"
+    ]
+  },
+  {
+    "id": "b-m195",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το μισό του 22;",
+    "answer": "11",
+    "options": [
+      "11",
+      "12",
+      "13",
+      "10"
+    ]
+  },
+  {
+    "id": "b-m196",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 35 + 17;",
+    "answer": "52",
+    "options": [
+      "53",
+      "52",
+      "54",
+      "51"
+    ]
+  },
+  {
+    "id": "b-m197",
+    "category": "math",
+    "type": "text",
+    "question": "Η Μαρία έχει 43 μήλα και παίρνει ακόμα 15. Πόσα μήλα έχει τώρα;",
+    "answer": "58"
+  },
+  {
+    "id": "b-e45",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια ημέρα έρχεται μετά την Τετάρτη;",
+    "answer": "Πέμπτη",
+    "options": [
+      "Κυριακή",
+      "Σάββατο",
+      "Δευτέρα",
+      "Πέμπτη"
+    ]
+  },
+  {
+    "id": "b-s96",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "σύννεφο",
+    "options": [
+      "σύννεφω",
+      "σύννεφο"
+    ]
+  },
+  {
+    "id": "b-g129",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ κότα",
+    "answer": "η",
+    "options": [
+      "το",
+      "ο",
+      "η"
+    ]
+  },
+  {
+    "id": "b-m198",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Στέλιος έχει 6 καπέλα και δίνει 1 σε έναν φίλο. Πόσα καπέλα μένουν;",
+    "answer": "5"
+  },
+  {
+    "id": "b-m199",
+    "category": "math",
+    "type": "text",
+    "question": "Η Αγγελική έχει 7 αυτοκολλητάκια και παίρνει ακόμα 76. Πόσα αυτοκολλητάκια έχει τώρα;",
+    "answer": "83"
+  },
+  {
+    "id": "b-g130",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το αντίθετο της λέξης «αριστερά»;",
+    "answer": "δεξιά",
+    "options": [
+      "δεξιά",
+      "ψηλός",
+      "όμορφος",
+      "χοντρός"
+    ]
+  },
+  {
+    "id": "b-m200",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ο Γιώργος πλήρωσε με 10€ κάτι που κόστιζε 5€. Πόσα ρέστα πήρε;",
+    "answer": "5€",
+    "options": [
+      "4€",
+      "5€",
+      "6€"
+    ]
+  },
+  {
+    "id": "b-g131",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη θα βρεις πρώτη στο λεξικό (αλφαβητική σειρά);",
+    "answer": "ελέφαντας",
+    "options": [
+      "παιδί",
+      "καράβι",
+      "φεγγάρι",
+      "ελέφαντας"
+    ]
+  },
+  {
+    "id": "b-m201",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το μισό του 38;",
+    "answer": "19",
+    "options": [
+      "19",
+      "18",
+      "20",
+      "21"
+    ]
+  },
+  {
+    "id": "b-s97",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: παραμύθ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "παραμύθι"
+    ]
+  },
+  {
+    "id": "b-g132",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε το αντίθετο της λέξης «γεμάτος».",
+    "answer": "άδειος"
+  },
+  {
+    "id": "b-m202",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 99 - 41;",
+    "answer": "58",
+    "options": [
+      "57",
+      "59",
+      "60",
+      "58"
+    ]
+  },
+  {
+    "id": "b-m203",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Γιάννης έχει 4 μολύβια και δίνει 3 σε έναν φίλο. Πόσα μολύβια μένουν;",
+    "answer": "1"
+  },
+  {
+    "id": "b-g133",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «ντομάτα»;",
+    "answer": "3",
+    "options": [
+      "3",
+      "5",
+      "2",
+      "4"
+    ]
+  },
+  {
+    "id": "b-m204",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσες μονάδες έχει ο αριθμός 25;",
+    "answer": "5",
+    "options": [
+      "4",
+      "6",
+      "2",
+      "5"
+    ]
+  },
+  {
+    "id": "b-s98",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: θάλα__α",
+    "answer": "σσ",
+    "acceptedAnswers": [
+      "θάλασσα"
+    ]
+  },
+  {
+    "id": "b-m205",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 82 + 12;",
+    "answer": "94",
+    "options": [
+      "94",
+      "96",
+      "93",
+      "95"
+    ]
+  },
+  {
+    "id": "b-m206",
+    "category": "math",
+    "type": "text",
+    "question": "Ποιο είναι το μισό του 86;",
+    "answer": "43"
+  },
+  {
+    "id": "b-g134",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το γένος της λέξης «χέρι»;",
+    "answer": "Ουδέτερο",
+    "options": [
+      "Ουδέτερο",
+      "Θηλυκό",
+      "Αρσενικό"
+    ]
+  },
+  {
+    "id": "b-g135",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «ψωμί»;",
+    "answer": "2",
+    "options": [
+      "2",
+      "1",
+      "4",
+      "3"
+    ]
+  },
+  {
+    "id": "b-g136",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «πεταλούδα»;",
+    "answer": "4",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  {
+    "id": "b-g137",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το γένος της λέξης «λαχανικό»;",
+    "answer": "Ουδέτερο",
+    "options": [
+      "Αρσενικό",
+      "Ουδέτερο",
+      "Θηλυκό"
+    ]
+  },
+  {
+    "id": "b-m207",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πώς γράφουμε με ψηφία την ώρα «έξι και τέταρτο»;",
+    "answer": "6:15",
+    "options": [
+      "6:45",
+      "7:15",
+      "6:15",
+      "6:00"
+    ]
+  },
+  {
+    "id": "b-e46",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Τι φτιάχνει ο φούρναρης;",
+    "answer": "ψωμί",
+    "options": [
+      "ρούχα",
+      "παπούτσια",
+      "έπιπλα",
+      "ψωμί"
+    ]
+  },
+  {
+    "id": "b-g138",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «τραγούδια» βρίσκεται σε:",
+    "answer": "Πληθυντικός αριθμός",
+    "options": [
+      "Πληθυντικός αριθμός",
+      "Ενικός αριθμός"
+    ]
+  },
+  {
+    "id": "b-g139",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το συνώνυμο της λέξης «τρομαγμένος»;",
+    "answer": "φοβισμένος",
+    "options": [
+      "πεντανόστιμος",
+      "δυνατός",
+      "φοβισμένος",
+      "γρήγορα"
+    ]
+  },
+  {
+    "id": "b-s99",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: κουλούρ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "κουλούρι"
+    ]
+  },
+  {
+    "id": "b-s100",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: ξαδέρφ_",
+    "answer": "η",
+    "acceptedAnswers": [
+      "ξαδέρφη"
+    ]
+  },
+  {
+    "id": "b-s101",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: σπανακόπ_τα",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "σπανακόπιτα"
+    ]
+  },
+  {
+    "id": "b-e47",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πώς λέγεται το σπίτι του σκύλου;",
+    "answer": "σκυλόσπιτο",
+    "options": [
+      "σκυλόσπιτο",
+      "κυψέλη",
+      "στάβλος",
+      "κοτέτσι"
+    ]
+  },
+  {
+    "id": "b-s102",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "τραγούδι",
+    "options": [
+      "τραγούδι",
+      "τραγούδυ",
+      "τραγούδη"
+    ]
+  },
+  {
+    "id": "b-m208",
+    "category": "math",
+    "type": "text",
+    "question": "Η Ζωή αγόρασε ένα παγωτό 4€ και έναν χυμό 3€. Πόσα ευρώ πλήρωσε;",
+    "answer": "7€",
+    "acceptedAnswers": [
+      "7",
+      "7 ευρώ",
+      "7€"
+    ]
+  },
+  {
+    "id": "b-g140",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «σκόρδο»;",
+    "answer": "2",
+    "options": [
+      "1",
+      "3",
+      "4",
+      "2"
+    ]
+  },
+  {
+    "id": "b-m209",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 12 - 2;",
+    "answer": "10"
+  },
+  {
+    "id": "b-s103",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: _στορία",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "ιστορία"
+    ]
+  },
+  {
+    "id": "b-m210",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 4 x 10;",
+    "answer": "40",
+    "options": [
+      "50",
+      "40",
+      "36",
+      "44"
+    ]
+  }
+]

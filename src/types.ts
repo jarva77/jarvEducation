@@ -1,9 +1,13 @@
 export type Category = 'math' | 'grammar' | 'spelling' | 'environment'
-export type Grade = 'c' | 'd'
+export type Grade = 'a' | 'b' | 'c' | 'd' | 'e' | 'f'
 
 export const GRADE_LABELS: Record<Grade, string> = {
+  a: "Α' Δημοτικού",
+  b: "Β' Δημοτικού",
   c: "Γ' Δημοτικού",
   d: "Δ' Δημοτικού",
+  e: "Ε' Δημοτικού",
+  f: "ΣΤ' Δημοτικού",
 }
 export type QuestionType = 'multiple-choice' | 'text'
 

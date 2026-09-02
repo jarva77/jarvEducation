@@ -15,7 +15,7 @@ const emit = defineEmits<{
 
 const { user, cloudEnabled, signInWithGoogle, signOut } = useAuth()
 
-const GRADES: Grade[] = ['c', 'd']
+const GRADES: Grade[] = ['a', 'b', 'c', 'd', 'e', 'f']
 const ALL_CATEGORIES = Object.keys(CATEGORY_LABELS) as Category[]
 
 const selectedCategories = ref<Category[]>([...ALL_CATEGORIES])

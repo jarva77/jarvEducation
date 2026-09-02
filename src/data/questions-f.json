@@ -1,0 +1,5904 @@
+[
+  {
+    "id": "f-s1",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "επιχείρημα",
+    "options": [
+      "επιχείρυμα",
+      "επιχείρημα",
+      "επιχείριμα"
+    ]
+  },
+  {
+    "id": "f-m1",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 1/4 + 1/4;",
+    "answer": "1/2",
+    "acceptedAnswers": [
+      "2/4"
+    ]
+  },
+  {
+    "id": "f-m2",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα παιχνίδι κοστίζει 20€ και έχει έκπτωση 25%. Πόσο θα το πληρώσουμε;",
+    "answer": "15€",
+    "options": [
+      "15€",
+      "5€",
+      "20€"
+    ]
+  },
+  {
+    "id": "f-g1",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη ΔΕΝ ανήκει στην ίδια οικογένεια λέξεων με τις υπόλοιπες;",
+    "answer": "δέντρο",
+    "options": [
+      "άνθος",
+      "δέντρο",
+      "ανθοδέσμη",
+      "ανθίζω"
+    ]
+  },
+  {
+    "id": "f-g2",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο ρήμα βρίσκεται σε ενεργητική φωνή;",
+    "answer": "παίρνω",
+    "options": [
+      "ετοιμάζομαι",
+      "πλένομαι",
+      "παίρνω",
+      "σκέφτομαι"
+    ]
+  },
+  {
+    "id": "f-g3",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Τι σχήμα λόγου έχει η πρόταση: «Έχει καρδιά από χρυσάφι.»",
+    "answer": "μεταφορά",
+    "options": [
+      "κυριολεξία",
+      "παρομοίωση",
+      "μεταφορά"
+    ]
+  },
+  {
+    "id": "f-g4",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο ρήμα βρίσκεται σε παθητική φωνή;",
+    "answer": "σκέφτομαι",
+    "options": [
+      "χτίζω",
+      "κλαίω",
+      "γελάω",
+      "σκέφτομαι"
+    ]
+  },
+  {
+    "id": "f-s2",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: εξ__κονόμηση",
+    "answer": "οι",
+    "acceptedAnswers": [
+      "εξοικονόμηση"
+    ]
+  },
+  {
+    "id": "f-e1",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πόσοι πλανήτες υπάρχουν στο ηλιακό μας σύστημα;",
+    "answer": "8",
+    "options": [
+      "10",
+      "7",
+      "9",
+      "8"
+    ]
+  },
+  {
+    "id": "f-g5",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «πηδάω» στον Συντελεσμένο Μέλλοντα γίνεται:",
+    "answer": "θα έχω πηδήσει",
+    "options": [
+      "θα έχω ρωτήσει",
+      "έχω πηδήσει",
+      "πήδησα",
+      "θα έχω πηδήσει"
+    ]
+  },
+  {
+    "id": "f-m3",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένας κύβος έχει ακμή 3 εκ. Ποιος είναι ο όγκος του;",
+    "answer": "27 κ.εκ.",
+    "options": [
+      "9 κ.εκ.",
+      "18 κ.εκ.",
+      "27 κ.εκ.",
+      "30 κ.εκ."
+    ]
+  },
+  {
+    "id": "f-e2",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιας χώρας πρωτεύουσα είναι οι Βρυξέλλες;",
+    "answer": "το Βέλγιο",
+    "options": [
+      "το Βέλγιο",
+      "η Κίνα",
+      "η Νορβηγία",
+      "η Τουρκία"
+    ]
+  },
+  {
+    "id": "f-s3",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: αρχ__ολογία",
+    "answer": "αι",
+    "acceptedAnswers": [
+      "αρχαιολογία"
+    ]
+  },
+  {
+    "id": "f-s4",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "θεατρικός",
+    "options": [
+      "θεατρικός",
+      "θεατρηκός",
+      "θεατρυκός"
+    ]
+  },
+  {
+    "id": "f-e3",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιας χώρας πρωτεύουσα είναι η Λευκωσία;",
+    "answer": "η Κύπρος",
+    "options": [
+      "η Νορβηγία",
+      "η Σουηδία",
+      "οι ΗΠΑ",
+      "η Κύπρος"
+    ]
+  },
+  {
+    "id": "f-m4",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα παιχνίδι κοστίζει 6€ και έχει έκπτωση 50%. Πόσο θα το πληρώσουμε;",
+    "answer": "3€",
+    "acceptedAnswers": [
+      "3",
+      "3 ευρώ",
+      "3€"
+    ]
+  },
+  {
+    "id": "f-s5",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: μυθιστόρ_μα",
+    "answer": "η",
+    "acceptedAnswers": [
+      "μυθιστόρημα"
+    ]
+  },
+  {
+    "id": "f-s6",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "μουσικός",
+    "options": [
+      "μουσηκός",
+      "μουσυκός",
+      "μουσικός"
+    ]
+  },
+  {
+    "id": "f-m5",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο Μέγιστος Κοινός Διαιρέτης (ΜΚΔ) των αριθμών 20 και 8;",
+    "answer": "4",
+    "options": [
+      "40",
+      "8",
+      "5",
+      "4"
+    ]
+  },
+  {
+    "id": "f-m6",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένας κύκλος έχει διάμετρο 5 εκ. Ποια είναι η περίμετρός του; (π = 3,14)",
+    "answer": "15,7 εκ.",
+    "options": [
+      "7,85 εκ.",
+      "15 εκ.",
+      "31,4 εκ.",
+      "15,7 εκ."
+    ]
+  },
+  {
+    "id": "f-g6",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Σε ποια έγκλιση βρίσκεται το ρήμα «να καθαρίσει»;",
+    "answer": "Υποτακτική",
+    "options": [
+      "Προστακτική",
+      "Οριστική",
+      "Υποτακτική"
+    ]
+  },
+  {
+    "id": "f-e4",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιας χώρας πρωτεύουσα είναι η Λισαβόνα;",
+    "answer": "η Πορτογαλία",
+    "options": [
+      "οι ΗΠΑ",
+      "η Ελβετία",
+      "η Ιταλία",
+      "η Πορτογαλία"
+    ]
+  },
+  {
+    "id": "f-s7",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "πλειοψηφία",
+    "options": [
+      "πληοψηφία",
+      "πλειοψηφία",
+      "πλοιοψηφία",
+      "πλιοψηφία"
+    ]
+  },
+  {
+    "id": "f-e5",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο ποτάμι περνά μέσα από το Λονδίνο;",
+    "answer": "ο Τάμεσης",
+    "options": [
+      "ο Ρήνος",
+      "ο Βόλγας",
+      "ο Σηκουάνας",
+      "ο Τάμεσης"
+    ]
+  },
+  {
+    "id": "f-s8",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "δικαίωμα",
+    "options": [
+      "δικαίομα",
+      "δικαίωμα"
+    ]
+  },
+  {
+    "id": "f-g7",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «φτιάχνω» στον Παρατατικό γίνεται:",
+    "answer": "έφτιαχνα",
+    "acceptedAnswers": [
+      "έφτιαχνε"
+    ]
+  },
+  {
+    "id": "f-g8",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Σε ποια έγκλιση βρίσκεται το ρήμα «ψάχνει»;",
+    "answer": "Οριστική",
+    "options": [
+      "Οριστική",
+      "Υποτακτική",
+      "Προστακτική"
+    ]
+  },
+  {
+    "id": "f-g9",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Σε ποια έγκλιση βρίσκεται το ρήμα «απάντησε»;",
+    "answer": "Προστακτική",
+    "options": [
+      "Προστακτική",
+      "Οριστική",
+      "Υποτακτική"
+    ]
+  },
+  {
+    "id": "f-m7",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Αν x - 14 = 1, πόσο είναι το x;",
+    "answer": "15",
+    "options": [
+      "15",
+      "20",
+      "16",
+      "14"
+    ]
+  },
+  {
+    "id": "f-e6",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πόσο διαρκεί περίπου η περιφορά της Σελήνης γύρω από τη Γη;",
+    "answer": "περίπου έναν μήνα",
+    "options": [
+      "μία ημέρα",
+      "μία εβδομάδα",
+      "περίπου έναν μήνα",
+      "έναν χρόνο"
+    ]
+  },
+  {
+    "id": "f-s9",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: ηθοπ__ός",
+    "answer": "οι",
+    "acceptedAnswers": [
+      "ηθοποιός"
+    ]
+  },
+  {
+    "id": "f-s10",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "κλιματικός",
+    "options": [
+      "κλιματικός",
+      "κλυματικός",
+      "κληματικός"
+    ]
+  },
+  {
+    "id": "f-m8",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Αν 3 · x = 33, πόσο είναι το x;",
+    "answer": "11",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "16"
+    ]
+  },
+  {
+    "id": "f-e7",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πόσες είναι οι ήπειροι της Γης (μαζί με την Ανταρκτική);",
+    "answer": "6",
+    "options": [
+      "5",
+      "8",
+      "4",
+      "6"
+    ]
+  },
+  {
+    "id": "f-g10",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «πλένω» στον Αόριστο γίνεται:",
+    "answer": "έπλυνα",
+    "options": [
+      "έπλυνα",
+      "ήπια",
+      "θα πλύνω",
+      "θα έχω πλύνει"
+    ]
+  },
+  {
+    "id": "f-g11",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «πλένω» στον Υπερσυντέλικο γίνεται:",
+    "answer": "είχα πλύνει",
+    "acceptedAnswers": [
+      "είχε πλύνει"
+    ]
+  },
+  {
+    "id": "f-g12",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική ενικού της λέξης «το όνομα».",
+    "answer": "του ονόματος",
+    "acceptedAnswers": [
+      "ονόματος"
+    ]
+  },
+  {
+    "id": "f-m9",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 26,16 - 25,45;",
+    "answer": "0,71",
+    "options": [
+      "1,71",
+      "0,81",
+      "0,71",
+      "0,01"
+    ]
+  },
+  {
+    "id": "f-s11",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: _ρχήστρα",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "ορχήστρα"
+    ]
+  },
+  {
+    "id": "f-e8",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο μεγαλύτερος πλανήτης του ηλιακού συστήματος;",
+    "answer": "ο Δίας",
+    "options": [
+      "η Γη",
+      "ο Άρης",
+      "ο Δίας",
+      "ο Κρόνος"
+    ]
+  },
+  {
+    "id": "f-g13",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο ρήμα βρίσκεται σε παθητική φωνή;",
+    "answer": "κρύβομαι",
+    "options": [
+      "χτίζω",
+      "ζωγραφίζω",
+      "γράφω",
+      "κρύβομαι"
+    ]
+  },
+  {
+    "id": "f-s12",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: δικαί_μα",
+    "answer": "ω",
+    "acceptedAnswers": [
+      "δικαίωμα"
+    ]
+  },
+  {
+    "id": "f-g14",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη είναι αντωνυμία;",
+    "answer": "ποιος",
+    "options": [
+      "αγελάδα",
+      "στενός",
+      "ποιος",
+      "μιλάω"
+    ]
+  },
+  {
+    "id": "f-s13",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ποδηλατόδρομος",
+    "options": [
+      "ποδηλατόδρομος",
+      "ποδυλατόδρομος",
+      "ποδιλατόδρομος"
+    ]
+  },
+  {
+    "id": "f-m10",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα αυτοκίνητο διένυσε 80 χιλιόμετρα με σταθερή ταχύτητα 40 χλμ. την ώρα. Πόσες ώρες ταξίδεψε;",
+    "answer": "2",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "id": "f-g15",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική ενικού της λέξης «ο ουρανός».",
+    "answer": "του ουρανού",
+    "acceptedAnswers": [
+      "ουρανού"
+    ]
+  },
+  {
+    "id": "f-m11",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 1/3 + 1/3;",
+    "answer": "2/3"
+  },
+  {
+    "id": "f-s14",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ψηφοφορία",
+    "options": [
+      "ψιφοφορία",
+      "ψηφοφορία",
+      "ψυφοφορία"
+    ]
+  },
+  {
+    "id": "f-m12",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα παιχνίδι κοστίζει 20€ και έχει έκπτωση 20%. Πόσο θα το πληρώσουμε;",
+    "answer": "16€",
+    "options": [
+      "16€",
+      "20€",
+      "4€",
+      "21€"
+    ]
+  },
+  {
+    "id": "f-m13",
+    "category": "math",
+    "type": "text",
+    "question": "Αν 3 · x = 36, πόσο είναι το x;",
+    "answer": "12"
+  },
+  {
+    "id": "f-m14",
+    "category": "math",
+    "type": "text",
+    "question": "Αν x + 27 = 44, πόσο είναι το x;",
+    "answer": "17"
+  },
+  {
+    "id": "f-m15",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένας κύκλος έχει διάμετρο 2 εκ. Ποια είναι η περίμετρός του; (π = 3,14)",
+    "answer": "6,28 εκ.",
+    "options": [
+      "6,28 εκ.",
+      "12,56 εκ.",
+      "6 εκ.",
+      "3,14 εκ."
+    ]
+  },
+  {
+    "id": "f-g16",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Από ποιες λέξεις είναι σύνθετη η λέξη «νυχτοπούλι»;",
+    "answer": "νύχτα + πουλί",
+    "options": [
+      "νύχτα + πουλί",
+      "ελιά + λάδι",
+      "μεγάλος + σώμα",
+      "βόρειος + δυτικός"
+    ]
+  },
+  {
+    "id": "f-s15",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "συνύπαρξη",
+    "options": [
+      "συνύπαρξι",
+      "συνύπαρξη",
+      "συνύπαρξυ"
+    ]
+  },
+  {
+    "id": "f-m16",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα τρίγωνο έχει βάση 38 εκ. και ύψος 10 εκ. Ποιο είναι το εμβαδόν του;",
+    "answer": "190 τ.εκ.",
+    "options": [
+      "180 τ.εκ.",
+      "380 τ.εκ.",
+      "190 τ.εκ.",
+      "228 τ.εκ."
+    ]
+  },
+  {
+    "id": "f-m17",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένας κύκλος έχει διάμετρο 50 εκ. Ποια είναι η ακτίνα του;",
+    "answer": "25 εκ.",
+    "options": [
+      "50 εκ.",
+      "100 εκ.",
+      "25 εκ.",
+      "26 εκ."
+    ]
+  },
+  {
+    "id": "f-s16",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: υπερθέρμανσ_",
+    "answer": "η",
+    "acceptedAnswers": [
+      "υπερθέρμανση"
+    ]
+  },
+  {
+    "id": "f-m18",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα παραλληλόγραμμο έχει βάση 15 εκ. και ύψος 8 εκ. Ποιο είναι το εμβαδόν του;",
+    "answer": "120 τ.εκ.",
+    "options": [
+      "112 τ.εκ.",
+      "135 τ.εκ.",
+      "46 τ.εκ.",
+      "120 τ.εκ."
+    ]
+  },
+  {
+    "id": "f-m19",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Αν x - 16 = 3, πόσο είναι το x;",
+    "answer": "19",
+    "options": [
+      "18",
+      "20",
+      "24",
+      "19"
+    ]
+  },
+  {
+    "id": "f-m20",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα παιχνίδι κοστίζει 12€ και έχει έκπτωση 25%. Πόσο θα το πληρώσουμε;",
+    "answer": "9€",
+    "options": [
+      "14€",
+      "12€",
+      "9€",
+      "3€"
+    ]
+  },
+  {
+    "id": "f-m21",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα ορθογώνιο παραλληλεπίπεδο έχει διαστάσεις 8 x 5 x 3 εκ. Ποιος είναι ο όγκος του;",
+    "answer": "120 κ.εκ.",
+    "options": [
+      "32 κ.εκ.",
+      "40 κ.εκ.",
+      "120 κ.εκ.",
+      "128 κ.εκ."
+    ]
+  },
+  {
+    "id": "f-m22",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Αν x - 6 = 28, πόσο είναι το x;",
+    "answer": "34",
+    "options": [
+      "39",
+      "35",
+      "34",
+      "33"
+    ]
+  },
+  {
+    "id": "f-s17",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "συνεννόηση",
+    "options": [
+      "συνεννόυση",
+      "συνεννόηση",
+      "συνεννόιση"
+    ]
+  },
+  {
+    "id": "f-m23",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα αυτοκίνητο κινείται με 40 χλμ. την ώρα. Πόσα χιλιόμετρα θα διανύσει σε 6 ώρες;",
+    "answer": "240",
+    "options": [
+      "280",
+      "240",
+      "250",
+      "200"
+    ]
+  },
+  {
+    "id": "f-s18",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "περιβαλλοντικός",
+    "options": [
+      "περιβαλοντικός",
+      "περιβαλλοντικός"
+    ]
+  },
+  {
+    "id": "f-s19",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: σ_ναυλία",
+    "answer": "υ",
+    "acceptedAnswers": [
+      "συναυλία"
+    ]
+  },
+  {
+    "id": "f-e9",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πώς λέγεται το φαινόμενο όταν η Σελήνη κρύβει τον Ήλιο;",
+    "answer": "έκλειψη Ηλίου",
+    "options": [
+      "κομήτης",
+      "βόρειο σέλας",
+      "έκλειψη Σελήνης",
+      "έκλειψη Ηλίου"
+    ]
+  },
+  {
+    "id": "f-s20",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ρύπανση",
+    "options": [
+      "ρύπανσι",
+      "ρύπανση",
+      "ρύπανσυ"
+    ]
+  },
+  {
+    "id": "f-s21",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "παραγωγή",
+    "options": [
+      "παραγωγή",
+      "παραγογή"
+    ]
+  },
+  {
+    "id": "f-s22",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: συνεννό_ση",
+    "answer": "η",
+    "acceptedAnswers": [
+      "συνεννόηση"
+    ]
+  },
+  {
+    "id": "f-g17",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη είναι αντωνυμία;",
+    "answer": "εμείς",
+    "options": [
+      "φωνάζω",
+      "δύσκολος",
+      "εμείς",
+      "χαρά"
+    ]
+  },
+  {
+    "id": "f-s23",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "εισαγωγή",
+    "options": [
+      "ησαγωγή",
+      "οισαγωγή",
+      "εισαγωγή",
+      "ισαγωγή"
+    ]
+  },
+  {
+    "id": "f-g18",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η γενική ενικού της λέξης «το παράθυρο»;",
+    "answer": "του παραθύρου",
+    "options": [
+      "του παραθύρου",
+      "το παράθυρο",
+      "του κήπου",
+      "των παραθύρων"
+    ]
+  },
+  {
+    "id": "f-m24",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένας κύκλος έχει διάμετρο 28 εκ. Ποια είναι η ακτίνα του;",
+    "answer": "14 εκ.",
+    "options": [
+      "56 εκ.",
+      "28 εκ.",
+      "15 εκ.",
+      "14 εκ."
+    ]
+  },
+  {
+    "id": "f-g19",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Σε ποια έγκλιση βρίσκεται το ρήμα «βρίσκει»;",
+    "answer": "Οριστική",
+    "options": [
+      "Οριστική",
+      "Υποτακτική",
+      "Προστακτική"
+    ]
+  },
+  {
+    "id": "f-m25",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα παιχνίδι κοστίζει 4€ και έχει έκπτωση 25%. Πόσο θα το πληρώσουμε;",
+    "answer": "3€",
+    "options": [
+      "4€",
+      "1€",
+      "3€",
+      "8€"
+    ]
+  },
+  {
+    "id": "f-g20",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη είναι αντωνυμία;",
+    "answer": "αυτή",
+    "options": [
+      "αυτή",
+      "βαρύς",
+      "παιχνίδι",
+      "κλαίω"
+    ]
+  },
+  {
+    "id": "f-m26",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένας κύκλος έχει ακτίνα 22 εκ. Ποια είναι η διάμετρός του;",
+    "answer": "44 εκ.",
+    "options": [
+      "45 εκ.",
+      "44 εκ.",
+      "88 εκ.",
+      "22 εκ."
+    ]
+  },
+  {
+    "id": "f-s24",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: περιβα__οντικός",
+    "answer": "λλ",
+    "acceptedAnswers": [
+      "περιβαλλοντικός"
+    ]
+  },
+  {
+    "id": "f-m27",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Αν x - 44 = 41, πόσο είναι το x;",
+    "answer": "85",
+    "options": [
+      "86",
+      "84",
+      "90",
+      "85"
+    ]
+  },
+  {
+    "id": "f-m28",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα αυτοκίνητο κινείται με 50 χλμ. την ώρα. Πόσα χιλιόμετρα θα διανύσει σε 2 ώρες;",
+    "answer": "100",
+    "options": [
+      "150",
+      "50",
+      "100",
+      "110"
+    ]
+  },
+  {
+    "id": "f-m29",
+    "category": "math",
+    "type": "text",
+    "question": "Αν x - 40 = 12, πόσο είναι το x;",
+    "answer": "52"
+  },
+  {
+    "id": "f-m30",
+    "category": "math",
+    "type": "text",
+    "question": "Ένας κύκλος έχει διάμετρο 52 εκ. Ποια είναι η ακτίνα του;",
+    "answer": "26 εκ.",
+    "acceptedAnswers": [
+      "26",
+      "26 εκ",
+      "26 εκ.",
+      "26 εκατοστά"
+    ]
+  },
+  {
+    "id": "f-g21",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Τι σχήμα λόγου έχει η πρόταση: «Μου ράγισε την καρδιά.»",
+    "answer": "μεταφορά",
+    "options": [
+      "κυριολεξία",
+      "μεταφορά",
+      "παρομοίωση"
+    ]
+  },
+  {
+    "id": "f-m31",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένας κύβος έχει ακμή 6 εκ. Ποιος είναι ο όγκος του;",
+    "answer": "216 κ.εκ.",
+    "options": [
+      "222 κ.εκ.",
+      "36 κ.εκ.",
+      "216 κ.εκ."
+    ]
+  },
+  {
+    "id": "f-g22",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «ανοίγω» στον Υπερσυντέλικο γίνεται:",
+    "answer": "είχα ανοίξει",
+    "acceptedAnswers": [
+      "είχε ανοίξει"
+    ]
+  },
+  {
+    "id": "f-g23",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «ζωγραφίζω» στον Μέλλοντα γίνεται:",
+    "answer": "θα ζωγραφίσω",
+    "options": [
+      "έχω ζωγραφίσει",
+      "θα ζωγραφίσω",
+      "θα φάω",
+      "ζωγράφισα"
+    ]
+  },
+  {
+    "id": "f-g24",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη ΔΕΝ ανήκει στην ίδια οικογένεια λέξεων με τις υπόλοιπες;",
+    "answer": "παίζω",
+    "options": [
+      "γράμμα",
+      "γράφω",
+      "παίζω",
+      "γραφή"
+    ]
+  },
+  {
+    "id": "f-m32",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 2/5 + 1/5;",
+    "answer": "3/5",
+    "options": [
+      "3/5",
+      "4/5",
+      "3/10",
+      "2/5"
+    ]
+  },
+  {
+    "id": "f-m33",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 17,73 + 27,76;",
+    "answer": "45,49",
+    "acceptedAnswers": [
+      "45,49",
+      "45.49"
+    ]
+  },
+  {
+    "id": "f-m34",
+    "category": "math",
+    "type": "text",
+    "question": "Ποιος είναι ο Ελάχιστο Κοινό Πολλαπλάσιο (ΕΚΠ) των αριθμών 24 και 6;",
+    "answer": "24"
+  },
+  {
+    "id": "f-g25",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Τι σχήμα λόγου έχει η πρόταση: «Το παιδί έφαγε το μήλο.»",
+    "answer": "κυριολεξία",
+    "options": [
+      "μεταφορά",
+      "κυριολεξία",
+      "παρομοίωση"
+    ]
+  },
+  {
+    "id": "f-g26",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Τι σχήμα λόγου έχει η πρόταση: «Είναι γρήγορος σαν αστραπή.»",
+    "answer": "παρομοίωση",
+    "options": [
+      "παρομοίωση",
+      "μεταφορά",
+      "κυριολεξία"
+    ]
+  },
+  {
+    "id": "f-m35",
+    "category": "math",
+    "type": "text",
+    "question": "Ποιος είναι ο Μέγιστος Κοινός Διαιρέτης (ΜΚΔ) των αριθμών 14 και 21;",
+    "answer": "7"
+  },
+  {
+    "id": "f-m36",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα παιχνίδι κοστίζει 10€ και έχει έκπτωση 20%. Πόσο θα το πληρώσουμε;",
+    "answer": "8€",
+    "acceptedAnswers": [
+      "8",
+      "8 ευρώ",
+      "8€"
+    ]
+  },
+  {
+    "id": "f-m37",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα ορθογώνιο παραλληλεπίπεδο έχει διαστάσεις 9 x 2 x 2 εκ. Ποιος είναι ο όγκος του;",
+    "answer": "36 κ.εκ.",
+    "options": [
+      "45 κ.εκ.",
+      "36 κ.εκ.",
+      "18 κ.εκ.",
+      "26 κ.εκ."
+    ]
+  },
+  {
+    "id": "f-m38",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 8,33 x 10;",
+    "answer": "83,3",
+    "acceptedAnswers": [
+      "83,3",
+      "83.3"
+    ]
+  },
+  {
+    "id": "f-m39",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα αυτοκίνητο κινείται με 90 χλμ. την ώρα. Πόσα χιλιόμετρα θα διανύσει σε 4 ώρες;",
+    "answer": "360"
+  },
+  {
+    "id": "f-m40",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα παιχνίδι κοστίζει 15€ και έχει έκπτωση 20%. Πόσο θα το πληρώσουμε;",
+    "answer": "12€",
+    "acceptedAnswers": [
+      "12",
+      "12 ευρώ",
+      "12€"
+    ]
+  },
+  {
+    "id": "f-g27",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «ακούω» στον Αόριστο γίνεται:",
+    "answer": "άκουσα",
+    "acceptedAnswers": [
+      "άκουσε"
+    ]
+  },
+  {
+    "id": "f-m41",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 49,66 + 49,83;",
+    "answer": "99,49",
+    "options": [
+      "99,49",
+      "100,49",
+      "98,49",
+      "99,59"
+    ]
+  },
+  {
+    "id": "f-s25",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "πολίτευμα",
+    "options": [
+      "πολίτεημα",
+      "πολίτειμα",
+      "πολίτευμα"
+    ]
+  },
+  {
+    "id": "f-g28",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «φτιάχνω» στον Παρακείμενο γίνεται:",
+    "answer": "έχω φτιάξει",
+    "options": [
+      "έφτιαχνα",
+      "έχω χορέψει",
+      "έχω φτιάξει",
+      "έφτιαξα"
+    ]
+  },
+  {
+    "id": "f-m42",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένας κύκλος έχει διάμετρο 38 εκ. Ποια είναι η ακτίνα του;",
+    "answer": "19 εκ.",
+    "options": [
+      "20 εκ.",
+      "76 εκ.",
+      "38 εκ.",
+      "19 εκ."
+    ]
+  },
+  {
+    "id": "f-m43",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα παραλληλόγραμμο έχει βάση 7 εκ. και ύψος 9 εκ. Ποιο είναι το εμβαδόν του;",
+    "answer": "63 τ.εκ.",
+    "options": [
+      "54 τ.εκ.",
+      "70 τ.εκ.",
+      "32 τ.εκ.",
+      "63 τ.εκ."
+    ]
+  },
+  {
+    "id": "f-g29",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «χτίζω» στον Μέλλοντα γίνεται:",
+    "answer": "θα χτίσω",
+    "acceptedAnswers": [
+      "θα χτίσει"
+    ]
+  },
+  {
+    "id": "f-g30",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Σε ποια έγκλιση βρίσκεται το ρήμα «γελάει»;",
+    "answer": "Οριστική",
+    "options": [
+      "Οριστική",
+      "Υποτακτική",
+      "Προστακτική"
+    ]
+  },
+  {
+    "id": "f-g31",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Σε ποια έγκλιση βρίσκεται το ρήμα «να απαντήσει»;",
+    "answer": "Υποτακτική",
+    "options": [
+      "Υποτακτική",
+      "Προστακτική",
+      "Οριστική"
+    ]
+  },
+  {
+    "id": "f-e10",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η πρωτεύουσα της χώρας «Νορβηγία»;",
+    "answer": "το Όσλο",
+    "options": [
+      "η Βιέννη",
+      "η Λισαβόνα",
+      "το Λονδίνο",
+      "το Όσλο"
+    ]
+  },
+  {
+    "id": "f-m44",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Αν 3 · x = 12, πόσο είναι το x;",
+    "answer": "4",
+    "options": [
+      "4",
+      "5",
+      "9",
+      "3"
+    ]
+  },
+  {
+    "id": "f-g32",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Τι σχήμα λόγου έχει η πρόταση: «Πνίγηκε στη δουλειά.»",
+    "answer": "μεταφορά",
+    "options": [
+      "μεταφορά",
+      "παρομοίωση",
+      "κυριολεξία"
+    ]
+  },
+  {
+    "id": "f-m45",
+    "category": "math",
+    "type": "text",
+    "question": "Ποιος είναι ο Μέγιστος Κοινός Διαιρέτης (ΜΚΔ) των αριθμών 20 και 10;",
+    "answer": "10"
+  },
+  {
+    "id": "f-s26",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: κ__νοβούλιο",
+    "answer": "οι",
+    "acceptedAnswers": [
+      "κοινοβούλιο"
+    ]
+  },
+  {
+    "id": "f-s27",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "αεροπορία",
+    "options": [
+      "αερωπορία",
+      "αεροπορία"
+    ]
+  },
+  {
+    "id": "f-m46",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Αν x + 45 = 76, πόσο είναι το x;",
+    "answer": "31",
+    "options": [
+      "31",
+      "36",
+      "32",
+      "30"
+    ]
+  },
+  {
+    "id": "f-m47",
+    "category": "math",
+    "type": "text",
+    "question": "Αν 8 · x = 80, πόσο είναι το x;",
+    "answer": "10"
+  },
+  {
+    "id": "f-m48",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 3,0 x 100;",
+    "answer": "300,0",
+    "options": [
+      "300,0",
+      "301,0",
+      "3000,0",
+      "30,0"
+    ]
+  },
+  {
+    "id": "f-g33",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «τρέχω» στον Συντελεσμένο Μέλλοντα γίνεται:",
+    "answer": "θα έχω τρέξει",
+    "acceptedAnswers": [
+      "θα έχει τρέξει"
+    ]
+  },
+  {
+    "id": "f-m49",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένας κύκλος έχει διάμετρο 10 εκ. Ποια είναι η περίμετρός του; (π = 3,14)",
+    "answer": "31,4 εκ.",
+    "options": [
+      "15,7 εκ.",
+      "30 εκ.",
+      "31,4 εκ.",
+      "62,8 εκ."
+    ]
+  },
+  {
+    "id": "f-g34",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η γενική πληθυντικού της λέξης «ο ουρανός»;",
+    "answer": "των ουρανών",
+    "options": [
+      "των βιβλίων",
+      "των ουρανών",
+      "ο ουρανός",
+      "του ουρανού"
+    ]
+  },
+  {
+    "id": "f-s28",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "συγκοινωνία",
+    "options": [
+      "συγκεινωνία",
+      "συγκινωνία",
+      "συγκηνωνία",
+      "συγκοινωνία"
+    ]
+  },
+  {
+    "id": "f-m50",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα τρίγωνο έχει βάση 22 εκ. και ύψος 11 εκ. Ποιο είναι το εμβαδόν του;",
+    "answer": "121 τ.εκ.",
+    "options": [
+      "143 τ.εκ.",
+      "242 τ.εκ.",
+      "110 τ.εκ.",
+      "121 τ.εκ."
+    ]
+  },
+  {
+    "id": "f-g35",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο ρήμα βρίσκεται σε παθητική φωνή;",
+    "answer": "κάθομαι",
+    "options": [
+      "γεννάω",
+      "φωνάζω",
+      "κάθομαι",
+      "ζωγραφίζω"
+    ]
+  },
+  {
+    "id": "f-m51",
+    "category": "math",
+    "type": "text",
+    "question": "Ένας κύκλος έχει διάμετρο 44 εκ. Ποια είναι η ακτίνα του;",
+    "answer": "22 εκ.",
+    "acceptedAnswers": [
+      "22",
+      "22 εκ",
+      "22 εκ.",
+      "22 εκατοστά"
+    ]
+  },
+  {
+    "id": "f-m52",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Αν x + 33 = 76, πόσο είναι το x;",
+    "answer": "43",
+    "options": [
+      "42",
+      "44",
+      "43",
+      "48"
+    ]
+  },
+  {
+    "id": "f-s29",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: __σαγωγή",
+    "answer": "ει",
+    "acceptedAnswers": [
+      "εισαγωγή"
+    ]
+  },
+  {
+    "id": "f-m53",
+    "category": "math",
+    "type": "text",
+    "question": "Ένας κύκλος έχει διάμετρο 48 εκ. Ποια είναι η ακτίνα του;",
+    "answer": "24 εκ.",
+    "acceptedAnswers": [
+      "24",
+      "24 εκ",
+      "24 εκ.",
+      "24 εκατοστά"
+    ]
+  },
+  {
+    "id": "f-e11",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η πρωτεύουσα της χώρας «Ιταλία»;",
+    "answer": "η Ρώμη",
+    "options": [
+      "η Ρώμη",
+      "το Λονδίνο",
+      "η Λευκωσία",
+      "οι Βρυξέλλες"
+    ]
+  },
+  {
+    "id": "f-m54",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο Μέγιστος Κοινός Διαιρέτης (ΜΚΔ) των αριθμών 15 και 18;",
+    "answer": "3",
+    "options": [
+      "90",
+      "4",
+      "6",
+      "3"
+    ]
+  },
+  {
+    "id": "f-g36",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «μιλάω» στον Μέλλοντα γίνεται:",
+    "answer": "θα μιλήσω",
+    "acceptedAnswers": [
+      "θα μιλήσει"
+    ]
+  },
+  {
+    "id": "f-m55",
+    "category": "math",
+    "type": "text",
+    "question": "Αν x + 14 = 30, πόσο είναι το x;",
+    "answer": "16"
+  },
+  {
+    "id": "f-g37",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Από ποιες λέξεις είναι σύνθετη η λέξη «μεγαλόσωμος»;",
+    "answer": "μεγάλος + σώμα",
+    "options": [
+      "ήλιος + βασίλεμα",
+      "άσπρος + μαύρος",
+      "χαρτί + πετσέτα",
+      "μεγάλος + σώμα"
+    ]
+  },
+  {
+    "id": "f-e12",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η πρωτεύουσα της χώρας «Ολλανδία»;",
+    "answer": "το Άμστερνταμ",
+    "options": [
+      "η Άγκυρα",
+      "το Άμστερνταμ",
+      "η Βαρσοβία",
+      "το Λονδίνο"
+    ]
+  },
+  {
+    "id": "f-g38",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη είναι αντωνυμία;",
+    "answer": "εγώ",
+    "options": [
+      "χτενίζω",
+      "χάρτης",
+      "φτωχός",
+      "εγώ"
+    ]
+  },
+  {
+    "id": "f-g39",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «πλένω» στον Συντελεσμένο Μέλλοντα γίνεται:",
+    "answer": "θα έχω πλύνει",
+    "options": [
+      "θα έχω πλύνει",
+      "έπλενα",
+      "έχω πλύνει",
+      "θα έχω μαγειρέψει"
+    ]
+  },
+  {
+    "id": "f-s30",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: μαέστρ_ς",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "μαέστρος"
+    ]
+  },
+  {
+    "id": "f-g40",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Τι σχήμα λόγου έχει η πρόταση: «Ο δρόμος ήταν κλειστός.»",
+    "answer": "κυριολεξία",
+    "options": [
+      "παρομοίωση",
+      "μεταφορά",
+      "κυριολεξία"
+    ]
+  },
+  {
+    "id": "f-e13",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η πρωτεύουσα της χώρας «Γαλλία»;",
+    "answer": "το Παρίσι",
+    "options": [
+      "η Βέρνη",
+      "το Παρίσι",
+      "το Λονδίνο",
+      "η Ρώμη"
+    ]
+  },
+  {
+    "id": "f-m56",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα αυτοκίνητο διένυσε 200 χιλιόμετρα με σταθερή ταχύτητα 50 χλμ. την ώρα. Πόσες ώρες ταξίδεψε;",
+    "answer": "4"
+  },
+  {
+    "id": "f-g41",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Από ποιες λέξεις είναι σύνθετη η λέξη «ελαιόλαδο»;",
+    "answer": "ελιά + λάδι",
+    "options": [
+      "θάλασσα + πουλί",
+      "ελιά + λάδι",
+      "άσπρος + μαύρος",
+      "πόδι + σφαίρα"
+    ]
+  },
+  {
+    "id": "f-s31",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: μουσ_κός",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "μουσικός"
+    ]
+  },
+  {
+    "id": "f-m57",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα ορθογώνιο παραλληλεπίπεδο έχει διαστάσεις 3 x 9 x 3 εκ. Ποιος είναι ο όγκος του;",
+    "answer": "81 κ.εκ.",
+    "acceptedAnswers": [
+      "81",
+      "81 κ.εκ",
+      "81 κ.εκ.",
+      "81 κυβικά εκατοστά"
+    ]
+  },
+  {
+    "id": "f-m58",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Αν x + 23 = 61, πόσο είναι το x;",
+    "answer": "38",
+    "options": [
+      "43",
+      "39",
+      "37",
+      "38"
+    ]
+  },
+  {
+    "id": "f-s32",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "βουλευτής",
+    "options": [
+      "βοιλευτής",
+      "βοηλευτής",
+      "βουλευτής"
+    ]
+  },
+  {
+    "id": "f-m59",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένας κύκλος έχει διάμετρο 20 εκ. Ποια είναι η περίμετρός του; (π = 3,14)",
+    "answer": "62,8 εκ.",
+    "options": [
+      "62,8 εκ.",
+      "125,6 εκ.",
+      "31,4 εκ.",
+      "60 εκ."
+    ]
+  },
+  {
+    "id": "f-s33",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: ποδ_λατόδρομος",
+    "answer": "η",
+    "acceptedAnswers": [
+      "ποδηλατόδρομος"
+    ]
+  },
+  {
+    "id": "f-g42",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Σε ποια έγκλιση βρίσκεται το ρήμα «να βρει»;",
+    "answer": "Υποτακτική",
+    "options": [
+      "Προστακτική",
+      "Υποτακτική",
+      "Οριστική"
+    ]
+  },
+  {
+    "id": "f-e14",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το ψηλότερο βουνό του κόσμου;",
+    "answer": "το Έβερεστ",
+    "options": [
+      "το Κιλιμάντζαρο",
+      "το Έβερεστ",
+      "ο Όλυμπος",
+      "το Μον Μπλαν"
+    ]
+  },
+  {
+    "id": "f-e15",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Τι ταξιδεύει πιο γρήγορα: το φως ή ο ήχος;",
+    "answer": "το φως",
+    "options": [
+      "το ίδιο",
+      "ο ήχος",
+      "το φως",
+      "κανένα από τα δύο"
+    ]
+  },
+  {
+    "id": "f-g43",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Τι σχήμα λόγου έχει η πρόταση: «Πετάει από τη χαρά του.»",
+    "answer": "μεταφορά",
+    "options": [
+      "παρομοίωση",
+      "κυριολεξία",
+      "μεταφορά"
+    ]
+  },
+  {
+    "id": "f-g44",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη ΔΕΝ ανήκει στην ίδια οικογένεια λέξεων με τις υπόλοιπες;",
+    "answer": "τρώω",
+    "options": [
+      "παίκτης",
+      "τρώω",
+      "παίζω",
+      "παιχνίδι"
+    ]
+  },
+  {
+    "id": "f-m60",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 1/5 + 3/10;",
+    "answer": "1/2",
+    "options": [
+      "2/2",
+      "3/2",
+      "1/2",
+      "1/4"
+    ]
+  },
+  {
+    "id": "f-m61",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Αν x - 25 = 62, πόσο είναι το x;",
+    "answer": "87",
+    "options": [
+      "92",
+      "88",
+      "86",
+      "87"
+    ]
+  },
+  {
+    "id": "f-m62",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 1/2 + 1/3;",
+    "answer": "5/6",
+    "options": [
+      "5/6",
+      "5/12",
+      "4/6",
+      "6/6"
+    ]
+  },
+  {
+    "id": "f-m63",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα αυτοκίνητο κινείται με 110 χλμ. την ώρα. Πόσα χιλιόμετρα θα διανύσει σε 5 ώρες;",
+    "answer": "550"
+  },
+  {
+    "id": "f-m64",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Αν x + 23 = 51, πόσο είναι το x;",
+    "answer": "28",
+    "options": [
+      "29",
+      "33",
+      "27",
+      "28"
+    ]
+  },
+  {
+    "id": "f-m65",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 8,41 - 4,96;",
+    "answer": "3,45",
+    "acceptedAnswers": [
+      "3,45",
+      "3.45"
+    ]
+  },
+  {
+    "id": "f-g45",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη είναι αντωνυμία;",
+    "answer": "εσείς",
+    "options": [
+      "εύκολος",
+      "παιχνίδι",
+      "μαγειρεύω",
+      "εσείς"
+    ]
+  },
+  {
+    "id": "f-m66",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 1/3 + 1/6;",
+    "answer": "1/2",
+    "options": [
+      "3/2",
+      "1/2",
+      "2/2",
+      "1/4"
+    ]
+  },
+  {
+    "id": "f-m67",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα τρίγωνο έχει βάση 28 εκ. και ύψος 8 εκ. Ποιο είναι το εμβαδόν του;",
+    "answer": "112 τ.εκ.",
+    "options": [
+      "224 τ.εκ.",
+      "112 τ.εκ.",
+      "140 τ.εκ.",
+      "104 τ.εκ."
+    ]
+  },
+  {
+    "id": "f-s34",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "υποχρέωση",
+    "options": [
+      "υποχρέωση",
+      "υποχρέοση"
+    ]
+  },
+  {
+    "id": "f-g46",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο ρήμα βρίσκεται σε ενεργητική φωνή;",
+    "answer": "καθαρίζω",
+    "options": [
+      "πλένομαι",
+      "ετοιμάζομαι",
+      "σκέφτομαι",
+      "καθαρίζω"
+    ]
+  },
+  {
+    "id": "f-m68",
+    "category": "math",
+    "type": "text",
+    "question": "Ποιος είναι ο Ελάχιστο Κοινό Πολλαπλάσιο (ΕΚΠ) των αριθμών 11 και 7;",
+    "answer": "77"
+  },
+  {
+    "id": "f-g47",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Από ποιες λέξεις είναι σύνθετη η λέξη «γλυκόξινος»;",
+    "answer": "γλυκός + ξινός",
+    "options": [
+      "άνεμος + μύλος",
+      "άσπρος + μαύρος",
+      "κόκκινος + μαλλιά",
+      "γλυκός + ξινός"
+    ]
+  },
+  {
+    "id": "f-e16",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια δύναμη μάς κρατά πάνω στο έδαφος;",
+    "answer": "η βαρύτητα",
+    "options": [
+      "ο μαγνητισμός",
+      "η τριβή μόνο",
+      "ο ηλεκτρισμός",
+      "η βαρύτητα"
+    ]
+  },
+  {
+    "id": "f-s35",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: απόδ__ξη",
+    "answer": "ει",
+    "acceptedAnswers": [
+      "απόδειξη"
+    ]
+  },
+  {
+    "id": "f-m69",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα αυτοκίνητο διένυσε 500 χιλιόμετρα με σταθερή ταχύτητα 100 χλμ. την ώρα. Πόσες ώρες ταξίδεψε;",
+    "answer": "5"
+  },
+  {
+    "id": "f-m70",
+    "category": "math",
+    "type": "text",
+    "question": "Ένας κύκλος έχει διάμετρο 46 εκ. Ποια είναι η ακτίνα του;",
+    "answer": "23 εκ.",
+    "acceptedAnswers": [
+      "23",
+      "23 εκ",
+      "23 εκ.",
+      "23 εκατοστά"
+    ]
+  },
+  {
+    "id": "f-s36",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "περιστροφή",
+    "options": [
+      "περυστροφή",
+      "περιστροφή",
+      "περηστροφή"
+    ]
+  },
+  {
+    "id": "f-g48",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «βλέπω» στον Παρακείμενο γίνεται:",
+    "answer": "έχω δει",
+    "acceptedAnswers": [
+      "έχει δει"
+    ]
+  },
+  {
+    "id": "f-s37",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: ρύπανσ_",
+    "answer": "η",
+    "acceptedAnswers": [
+      "ρύπανση"
+    ]
+  },
+  {
+    "id": "f-m71",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο Μέγιστος Κοινός Διαιρέτης (ΜΚΔ) των αριθμών 20 και 12;",
+    "answer": "4",
+    "options": [
+      "8",
+      "5",
+      "4",
+      "60"
+    ]
+  },
+  {
+    "id": "f-e17",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η μεγαλύτερη οροσειρά της Ευρώπης;",
+    "answer": "οι Άλπεις",
+    "options": [
+      "οι Άλπεις",
+      "η Πίνδος",
+      "τα Καρπάθια",
+      "τα Πυρηναία"
+    ]
+  },
+  {
+    "id": "f-g49",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη είναι αντωνυμία;",
+    "answer": "εσύ",
+    "options": [
+      "φοβισμένος",
+      "χτενίζω",
+      "χορευτής",
+      "εσύ"
+    ]
+  },
+  {
+    "id": "f-m72",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Αν x - 29 = 11, πόσο είναι το x;",
+    "answer": "40",
+    "options": [
+      "39",
+      "40",
+      "45",
+      "41"
+    ]
+  },
+  {
+    "id": "f-g50",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο ρήμα βρίσκεται σε ενεργητική φωνή;",
+    "answer": "φωνάζω",
+    "options": [
+      "φωνάζω",
+      "ετοιμάζομαι",
+      "κάθομαι",
+      "σκέφτομαι"
+    ]
+  },
+  {
+    "id": "f-e18",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η πρωτεύουσα της χώρας «Ισπανία»;",
+    "answer": "η Μαδρίτη",
+    "options": [
+      "το Πεκίνο",
+      "η Ουάσινγκτον",
+      "η Βέρνη",
+      "η Μαδρίτη"
+    ]
+  },
+  {
+    "id": "f-m73",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 41,22 - 23,32;",
+    "answer": "17,9",
+    "options": [
+      "18,0",
+      "16,9",
+      "17,9",
+      "18,9"
+    ]
+  },
+  {
+    "id": "f-g51",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «γελάω» στον Αόριστο γίνεται:",
+    "answer": "γέλασα",
+    "options": [
+      "βρήκα",
+      "γέλασα",
+      "γελούσα",
+      "θα έχω γελάσει"
+    ]
+  },
+  {
+    "id": "f-m74",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα αυτοκίνητο κινείται με 60 χλμ. την ώρα. Πόσα χιλιόμετρα θα διανύσει σε 4 ώρες;",
+    "answer": "240",
+    "options": [
+      "180",
+      "300",
+      "250",
+      "240"
+    ]
+  },
+  {
+    "id": "f-m75",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα ορθογώνιο παραλληλεπίπεδο έχει διαστάσεις 6 x 10 x 6 εκ. Ποιος είναι ο όγκος του;",
+    "answer": "360 κ.εκ.",
+    "options": [
+      "366 κ.εκ.",
+      "44 κ.εκ.",
+      "360 κ.εκ.",
+      "60 κ.εκ."
+    ]
+  },
+  {
+    "id": "f-s38",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "συναυλία",
+    "options": [
+      "συναυλία",
+      "σηναυλία",
+      "σιναυλία"
+    ]
+  },
+  {
+    "id": "f-s39",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: συνύπαρξ_",
+    "answer": "η",
+    "acceptedAnswers": [
+      "συνύπαρξη"
+    ]
+  },
+  {
+    "id": "f-s40",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "αειφορία",
+    "options": [
+      "αειφορία",
+      "αιφορία",
+      "αηφορία",
+      "αοιφορία"
+    ]
+  },
+  {
+    "id": "f-g52",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «βρίσκω» στον Αόριστο γίνεται:",
+    "answer": "βρήκα",
+    "acceptedAnswers": [
+      "βρήκε"
+    ]
+  },
+  {
+    "id": "f-m76",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα παιχνίδι κοστίζει 14€ και έχει έκπτωση 50%. Πόσο θα το πληρώσουμε;",
+    "answer": "7€",
+    "options": [
+      "12€",
+      "7€",
+      "14€"
+    ]
+  },
+  {
+    "id": "f-m77",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα παιχνίδι κοστίζει 16€ και έχει έκπτωση 50%. Πόσο θα το πληρώσουμε;",
+    "answer": "8€",
+    "options": [
+      "8€",
+      "13€",
+      "16€"
+    ]
+  },
+  {
+    "id": "f-s41",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: διήγ_μα",
+    "answer": "η",
+    "acceptedAnswers": [
+      "διήγημα"
+    ]
+  },
+  {
+    "id": "f-s42",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: μ__οψηφία",
+    "answer": "ει",
+    "acceptedAnswers": [
+      "μειοψηφία"
+    ]
+  },
+  {
+    "id": "f-g53",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «φωνάζω» στον Υπερσυντέλικο γίνεται:",
+    "answer": "είχα φωνάξει",
+    "acceptedAnswers": [
+      "είχε φωνάξει"
+    ]
+  },
+  {
+    "id": "f-m78",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 33,87 - 21,87;",
+    "answer": "12,0",
+    "options": [
+      "13,0",
+      "12,0",
+      "11,0",
+      "12,1"
+    ]
+  },
+  {
+    "id": "f-g54",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «δουλεύω» στον Υπερσυντέλικο γίνεται:",
+    "answer": "είχα δουλέψει",
+    "acceptedAnswers": [
+      "είχε δουλέψει"
+    ]
+  },
+  {
+    "id": "f-e19",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιας χώρας πρωτεύουσα είναι η Ουάσινγκτον;",
+    "answer": "οι ΗΠΑ",
+    "options": [
+      "η Σουηδία",
+      "οι ΗΠΑ",
+      "η Ολλανδία",
+      "η Ελβετία"
+    ]
+  },
+  {
+    "id": "f-m79",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα παραλληλόγραμμο έχει βάση 19 εκ. και ύψος 20 εκ. Ποιο είναι το εμβαδόν του;",
+    "answer": "380 τ.εκ.",
+    "options": [
+      "380 τ.εκ.",
+      "399 τ.εκ.",
+      "78 τ.εκ.",
+      "360 τ.εκ."
+    ]
+  },
+  {
+    "id": "f-e20",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιας χώρας πρωτεύουσα είναι η Βιέννη;",
+    "answer": "η Αυστρία",
+    "options": [
+      "η Αίγυπτος",
+      "οι ΗΠΑ",
+      "η Αυστρία",
+      "η Πολωνία"
+    ]
+  },
+  {
+    "id": "f-g55",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «χορεύω» στον Αόριστο γίνεται:",
+    "answer": "χόρεψα",
+    "options": [
+      "θα χορέψω",
+      "πότισα",
+      "χόρεψα",
+      "θα έχω χορέψει"
+    ]
+  },
+  {
+    "id": "f-s43",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: πεζ_γραφία",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "πεζογραφία"
+    ]
+  },
+  {
+    "id": "f-g56",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «βοηθάω» στον Αόριστο γίνεται:",
+    "answer": "βοήθησα",
+    "options": [
+      "θα έχω βοηθήσει",
+      "είχα βοηθήσει",
+      "βοήθησα",
+      "βρήκα"
+    ]
+  },
+  {
+    "id": "f-m80",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 49,04 - 33,16;",
+    "answer": "15,88",
+    "options": [
+      "14,88",
+      "15,98",
+      "16,88",
+      "15,88"
+    ]
+  },
+  {
+    "id": "f-m81",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα αυτοκίνητο διένυσε 100 χιλιόμετρα με σταθερή ταχύτητα 50 χλμ. την ώρα. Πόσες ώρες ταξίδεψε;",
+    "answer": "2",
+    "options": [
+      "1",
+      "4",
+      "2",
+      "3"
+    ]
+  },
+  {
+    "id": "f-g57",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική ενικού της λέξης «η θάλασσα».",
+    "answer": "της θάλασσας",
+    "acceptedAnswers": [
+      "θάλασσας"
+    ]
+  },
+  {
+    "id": "f-m82",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο Μέγιστος Κοινός Διαιρέτης (ΜΚΔ) των αριθμών 9 και 12;",
+    "answer": "3",
+    "options": [
+      "36",
+      "4",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "id": "f-m83",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Αν x + 49 = 91, πόσο είναι το x;",
+    "answer": "42",
+    "options": [
+      "47",
+      "43",
+      "41",
+      "42"
+    ]
+  },
+  {
+    "id": "f-g58",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Από ποιες λέξεις είναι σύνθετη η λέξη «ηλιοβασίλεμα»;",
+    "answer": "ήλιος + βασίλεμα",
+    "options": [
+      "ήλιος + βασίλεμα",
+      "άσπρος + μαύρος",
+      "βόρειος + δυτικός",
+      "άνεμος + μύλος"
+    ]
+  },
+  {
+    "id": "f-m84",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο Ελάχιστο Κοινό Πολλαπλάσιο (ΕΚΠ) των αριθμών 8 και 18;",
+    "answer": "72",
+    "options": [
+      "2",
+      "72",
+      "73",
+      "144"
+    ]
+  },
+  {
+    "id": "f-g59",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική ενικού της λέξης «το σχολείο».",
+    "answer": "του σχολείου",
+    "acceptedAnswers": [
+      "σχολείου"
+    ]
+  },
+  {
+    "id": "f-e21",
+    "category": "environment",
+    "type": "text",
+    "question": "Γράψε έναν πλανήτη του ηλιακού μας συστήματος (εκτός της Γης).",
+    "answer": "Άρης",
+    "acceptedAnswers": [
+      "Ερμής",
+      "Αφροδίτη",
+      "Δίας",
+      "Κρόνος",
+      "Ουρανός",
+      "Ποσειδώνας"
+    ]
+  },
+  {
+    "id": "f-g60",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη ΔΕΝ ανήκει στην ίδια οικογένεια λέξεων με τις υπόλοιπες;",
+    "answer": "φούρνος",
+    "options": [
+      "μαγείρεμα",
+      "φούρνος",
+      "μάγειρας",
+      "μαγειρεύω"
+    ]
+  },
+  {
+    "id": "f-m85",
+    "category": "math",
+    "type": "text",
+    "question": "Αν x + 15 = 32, πόσο είναι το x;",
+    "answer": "17"
+  },
+  {
+    "id": "f-s44",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: εγκυκλοπαίδ__α",
+    "answer": "ει",
+    "acceptedAnswers": [
+      "εγκυκλοπαίδεια"
+    ]
+  },
+  {
+    "id": "f-s45",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: παράδοσ_",
+    "answer": "η",
+    "acceptedAnswers": [
+      "παράδοση"
+    ]
+  },
+  {
+    "id": "f-g61",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «γράφω» στον Παρατατικό γίνεται:",
+    "answer": "έγραφα",
+    "options": [
+      "έτρωγα",
+      "έχω γράψει",
+      "θα γράψω",
+      "έγραφα"
+    ]
+  },
+  {
+    "id": "f-m86",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα ορθογώνιο παραλληλεπίπεδο έχει διαστάσεις 12 x 7 x 5 εκ. Ποιος είναι ο όγκος του;",
+    "answer": "420 κ.εκ.",
+    "acceptedAnswers": [
+      "420",
+      "420 κ.εκ",
+      "420 κ.εκ.",
+      "420 κυβικά εκατοστά"
+    ]
+  },
+  {
+    "id": "f-m87",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένας κύβος έχει ακμή 10 εκ. Ποιος είναι ο όγκος του;",
+    "answer": "1000 κ.εκ.",
+    "options": [
+      "60 κ.εκ.",
+      "100 κ.εκ.",
+      "1000 κ.εκ.",
+      "1010 κ.εκ."
+    ]
+  },
+  {
+    "id": "f-s46",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: αμφ_βολία",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "αμφιβολία"
+    ]
+  },
+  {
+    "id": "f-m88",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα αυτοκίνητο κινείται με 80 χλμ. την ώρα. Πόσα χιλιόμετρα θα διανύσει σε 3 ώρες;",
+    "answer": "240",
+    "options": [
+      "240",
+      "320",
+      "160",
+      "250"
+    ]
+  },
+  {
+    "id": "f-m89",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 8,21 x 10;",
+    "answer": "82,1",
+    "acceptedAnswers": [
+      "82,1",
+      "82.1"
+    ]
+  },
+  {
+    "id": "f-s47",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "υπόθεση",
+    "options": [
+      "υπόθεσυ",
+      "υπόθεση",
+      "υπόθεσι"
+    ]
+  },
+  {
+    "id": "f-s48",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "κοινοβούλιο",
+    "options": [
+      "κηνοβούλιο",
+      "κεινοβούλιο",
+      "κινοβούλιο",
+      "κοινοβούλιο"
+    ]
+  },
+  {
+    "id": "f-e22",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιος πλανήτης ονομάζεται «κόκκινος πλανήτης»;",
+    "answer": "ο Άρης",
+    "options": [
+      "ο Ποσειδώνας",
+      "η Αφροδίτη",
+      "ο Ερμής",
+      "ο Άρης"
+    ]
+  },
+  {
+    "id": "f-g62",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο ρήμα βρίσκεται σε ενεργητική φωνή;",
+    "answer": "χορεύω",
+    "options": [
+      "ντύνομαι",
+      "χορεύω",
+      "πλένομαι",
+      "σηκώνομαι"
+    ]
+  },
+  {
+    "id": "f-g63",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «φωνάζω» στον Αόριστο γίνεται:",
+    "answer": "φώναξα",
+    "acceptedAnswers": [
+      "φώναξε"
+    ]
+  },
+  {
+    "id": "f-m90",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 3,39 x 10;",
+    "answer": "33,9",
+    "options": [
+      "3,39",
+      "33,9",
+      "339,0",
+      "34,9"
+    ]
+  },
+  {
+    "id": "f-m91",
+    "category": "math",
+    "type": "text",
+    "question": "Ένας κύκλος έχει ακτίνα 25 εκ. Ποια είναι η διάμετρός του;",
+    "answer": "50 εκ.",
+    "acceptedAnswers": [
+      "50",
+      "50 εκ",
+      "50 εκ.",
+      "50 εκατοστά"
+    ]
+  },
+  {
+    "id": "f-g64",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Από ποιες λέξεις είναι σύνθετη η λέξη «ποδόσφαιρο»;",
+    "answer": "πόδι + σφαίρα",
+    "options": [
+      "αλάτι + πιπέρι",
+      "πόδι + σφαίρα",
+      "κόκκινος + μαλλιά",
+      "θάλασσα + πουλί"
+    ]
+  },
+  {
+    "id": "f-m92",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 7,87 x 100;",
+    "answer": "787,0",
+    "acceptedAnswers": [
+      "787,0",
+      "787.0"
+    ]
+  },
+  {
+    "id": "f-s49",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "συμπέρασμα",
+    "options": [
+      "σιμπέρασμα",
+      "σημπέρασμα",
+      "συμπέρασμα"
+    ]
+  },
+  {
+    "id": "f-g65",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική πληθυντικού της λέξης «ο δάσκαλος».",
+    "answer": "των δασκάλων",
+    "acceptedAnswers": [
+      "δασκάλων"
+    ]
+  },
+  {
+    "id": "f-e23",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η πρωτεύουσα της χώρας «Γερμανία»;",
+    "answer": "το Βερολίνο",
+    "options": [
+      "η Λευκωσία",
+      "το Παρίσι",
+      "το Βερολίνο",
+      "η Ρώμη"
+    ]
+  },
+  {
+    "id": "f-g66",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Από ποιες λέξεις είναι σύνθετη η λέξη «ανεμόμυλος»;",
+    "answer": "άνεμος + μύλος",
+    "options": [
+      "άνεμος + μύλος",
+      "άσπρος + μαύρος",
+      "θάλασσα + πουλί",
+      "ήλιος + βασίλεμα"
+    ]
+  },
+  {
+    "id": "f-g67",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο ρήμα βρίσκεται σε ενεργητική φωνή;",
+    "answer": "φτιάχνω",
+    "options": [
+      "ετοιμάζομαι",
+      "φτιάχνω",
+      "σηκώνομαι",
+      "πλένομαι"
+    ]
+  },
+  {
+    "id": "f-s50",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ορχήστρα",
+    "options": [
+      "ορχήστρα",
+      "ωρχήστρα"
+    ]
+  },
+  {
+    "id": "f-s51",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: πρ_θυπουργός",
+    "answer": "ω",
+    "acceptedAnswers": [
+      "πρωθυπουργός"
+    ]
+  },
+  {
+    "id": "f-m93",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα ορθογώνιο παραλληλεπίπεδο έχει διαστάσεις 4 x 5 x 6 εκ. Ποιος είναι ο όγκος του;",
+    "answer": "120 κ.εκ.",
+    "options": [
+      "124 κ.εκ.",
+      "30 κ.εκ.",
+      "20 κ.εκ.",
+      "120 κ.εκ."
+    ]
+  },
+  {
+    "id": "f-g68",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Από ποιες λέξεις είναι σύνθετη η λέξη «σαπουνόφουσκα»;",
+    "answer": "σαπούνι + φούσκα",
+    "options": [
+      "αλάτι + πιπέρι",
+      "ήλιος + βασίλεμα",
+      "σαπούνι + φούσκα",
+      "κόκκινος + μαλλιά"
+    ]
+  },
+  {
+    "id": "f-m94",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 1/6 + 1/3;",
+    "answer": "1/2",
+    "options": [
+      "1/2",
+      "1/4",
+      "3/2",
+      "2/2"
+    ]
+  },
+  {
+    "id": "f-m95",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο Μέγιστος Κοινός Διαιρέτης (ΜΚΔ) των αριθμών 18 και 12;",
+    "answer": "6",
+    "options": [
+      "7",
+      "36",
+      "12",
+      "6"
+    ]
+  },
+  {
+    "id": "f-m96",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα αυτοκίνητο κινείται με 70 χλμ. την ώρα. Πόσα χιλιόμετρα θα διανύσει σε 6 ώρες;",
+    "answer": "420"
+  },
+  {
+    "id": "f-m97",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα παιχνίδι κοστίζει 70€ και έχει έκπτωση 10%. Πόσο θα το πληρώσουμε;",
+    "answer": "63€",
+    "options": [
+      "70€",
+      "63€",
+      "7€",
+      "68€"
+    ]
+  },
+  {
+    "id": "f-m98",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 1/2 + 1/4;",
+    "answer": "3/4",
+    "options": [
+      "3/8",
+      "2/4",
+      "3/4",
+      "4/4"
+    ]
+  },
+  {
+    "id": "f-g69",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική ενικού της λέξης «το παράθυρο».",
+    "answer": "του παραθύρου",
+    "acceptedAnswers": [
+      "παραθύρου"
+    ]
+  },
+  {
+    "id": "f-s52",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "εγκυκλοπαίδεια",
+    "options": [
+      "εγκυκλοπαίδεια",
+      "εγκυκλοπαίδοια",
+      "εγκυκλοπαίδια",
+      "εγκυκλοπαίδηα"
+    ]
+  },
+  {
+    "id": "f-s53",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "πεζοδρόμιο",
+    "options": [
+      "πεζοδρόμιο",
+      "πεζοδρόμηο",
+      "πεζοδρόμυο"
+    ]
+  },
+  {
+    "id": "f-m99",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο Ελάχιστο Κοινό Πολλαπλάσιο (ΕΚΠ) των αριθμών 5 και 6;",
+    "answer": "30",
+    "options": [
+      "30",
+      "1",
+      "60",
+      "31"
+    ]
+  },
+  {
+    "id": "f-g70",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Σε ποια έγκλιση βρίσκεται το ρήμα «τρέχει»;",
+    "answer": "Οριστική",
+    "options": [
+      "Προστακτική",
+      "Υποτακτική",
+      "Οριστική"
+    ]
+  },
+  {
+    "id": "f-s54",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: αυτοκιν_τόδρομος",
+    "answer": "η",
+    "acceptedAnswers": [
+      "αυτοκινητόδρομος"
+    ]
+  },
+  {
+    "id": "f-m100",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα αυτοκίνητο κινείται με 80 χλμ. την ώρα. Πόσα χιλιόμετρα θα διανύσει σε 4 ώρες;",
+    "answer": "320",
+    "options": [
+      "320",
+      "400",
+      "240",
+      "330"
+    ]
+  },
+  {
+    "id": "f-e24",
+    "category": "environment",
+    "type": "text",
+    "question": "Γράψε έναν ωκεανό της Γης.",
+    "answer": "Ειρηνικός",
+    "acceptedAnswers": [
+      "Ατλαντικός",
+      "Ινδικός",
+      "Αρκτικός",
+      "Νότιος"
+    ]
+  },
+  {
+    "id": "f-e25",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο σύστημα του σώματος μάς βοηθά να αναπνέουμε;",
+    "answer": "το αναπνευστικό",
+    "options": [
+      "το κυκλοφορικό",
+      "το μυϊκό",
+      "το αναπνευστικό",
+      "το πεπτικό"
+    ]
+  },
+  {
+    "id": "f-g71",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική πληθυντικού της λέξης «το βιβλίο».",
+    "answer": "των βιβλίων",
+    "acceptedAnswers": [
+      "βιβλίων"
+    ]
+  },
+  {
+    "id": "f-m101",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα αυτοκίνητο διένυσε 180 χιλιόμετρα με σταθερή ταχύτητα 60 χλμ. την ώρα. Πόσες ώρες ταξίδεψε;",
+    "answer": "3",
+    "options": [
+      "6",
+      "2",
+      "4",
+      "3"
+    ]
+  },
+  {
+    "id": "f-s55",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "αρχαιολογία",
+    "options": [
+      "αρχεολογία",
+      "αρχαιολογία"
+    ]
+  },
+  {
+    "id": "f-g72",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «φτιάχνω» στον Συντελεσμένο Μέλλοντα γίνεται:",
+    "answer": "θα έχω φτιάξει",
+    "acceptedAnswers": [
+      "θα έχει φτιάξει"
+    ]
+  },
+  {
+    "id": "f-s56",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ναυτιλία",
+    "options": [
+      "ναυτηλία",
+      "ναυτυλία",
+      "ναυτιλία"
+    ]
+  },
+  {
+    "id": "f-g73",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Σε ποια έγκλιση βρίσκεται το ρήμα «να μιλήσει»;",
+    "answer": "Υποτακτική",
+    "options": [
+      "Οριστική",
+      "Προστακτική",
+      "Υποτακτική"
+    ]
+  },
+  {
+    "id": "f-m102",
+    "category": "math",
+    "type": "text",
+    "question": "Ένας κύκλος έχει ακτίνα 6 εκ. Ποια είναι η διάμετρός του;",
+    "answer": "12 εκ.",
+    "acceptedAnswers": [
+      "12",
+      "12 εκ",
+      "12 εκ.",
+      "12 εκατοστά"
+    ]
+  },
+  {
+    "id": "f-s57",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "λογοτεχνία",
+    "options": [
+      "λωγοτεχνία",
+      "λογοτεχνία"
+    ]
+  },
+  {
+    "id": "f-m103",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 38,09 - 16,29;",
+    "answer": "21,8",
+    "acceptedAnswers": [
+      "21,8",
+      "21.8"
+    ]
+  },
+  {
+    "id": "f-g74",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Τι σχήμα λόγου έχει η πρόταση: «Το τρένο έφτασε στην ώρα του.»",
+    "answer": "κυριολεξία",
+    "options": [
+      "παρομοίωση",
+      "κυριολεξία",
+      "μεταφορά"
+    ]
+  },
+  {
+    "id": "f-g75",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «γελάω» στον Παρακείμενο γίνεται:",
+    "answer": "έχω γελάσει",
+    "acceptedAnswers": [
+      "έχει γελάσει"
+    ]
+  },
+  {
+    "id": "f-g76",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Σε ποια έγκλιση βρίσκεται το ρήμα «να πάρει»;",
+    "answer": "Υποτακτική",
+    "options": [
+      "Προστακτική",
+      "Οριστική",
+      "Υποτακτική"
+    ]
+  },
+  {
+    "id": "f-e26",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιας χώρας πρωτεύουσα είναι το Λονδίνο;",
+    "answer": "το Ηνωμένο Βασίλειο",
+    "options": [
+      "η Ισπανία",
+      "το Ηνωμένο Βασίλειο",
+      "η Τουρκία",
+      "η Κύπρος"
+    ]
+  },
+  {
+    "id": "f-m104",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα αυτοκίνητο κινείται με 120 χλμ. την ώρα. Πόσα χιλιόμετρα θα διανύσει σε 2 ώρες;",
+    "answer": "240",
+    "options": [
+      "250",
+      "360",
+      "240",
+      "120"
+    ]
+  },
+  {
+    "id": "f-m105",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα ορθογώνιο παραλληλεπίπεδο έχει διαστάσεις 4 x 4 x 3 εκ. Ποιος είναι ο όγκος του;",
+    "answer": "48 κ.εκ.",
+    "options": [
+      "16 κ.εκ.",
+      "48 κ.εκ.",
+      "22 κ.εκ.",
+      "52 κ.εκ."
+    ]
+  },
+  {
+    "id": "f-g77",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «γράφω» στον Παρακείμενο γίνεται:",
+    "answer": "έχω γράψει",
+    "options": [
+      "έχω απαντήσει",
+      "έχω γράψει",
+      "έγραψα",
+      "θα γράψω"
+    ]
+  },
+  {
+    "id": "f-e27",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Με ποια μονάδα μετράμε τη θερμοκρασία;",
+    "answer": "με βαθμούς Κελσίου",
+    "options": [
+      "με κιλά",
+      "με λίτρα",
+      "με βαθμούς Κελσίου",
+      "με μέτρα"
+    ]
+  },
+  {
+    "id": "f-g78",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Τι σχήμα λόγου έχει η πρόταση: «Δουλεύει σαν μέλισσα.»",
+    "answer": "παρομοίωση",
+    "options": [
+      "κυριολεξία",
+      "μεταφορά",
+      "παρομοίωση"
+    ]
+  },
+  {
+    "id": "f-m106",
+    "category": "math",
+    "type": "text",
+    "question": "Ένας κύκλος έχει ακτίνα 13 εκ. Ποια είναι η διάμετρός του;",
+    "answer": "26 εκ.",
+    "acceptedAnswers": [
+      "26",
+      "26 εκ",
+      "26 εκ.",
+      "26 εκατοστά"
+    ]
+  },
+  {
+    "id": "f-m107",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα αυτοκίνητο διένυσε 200 χιλιόμετρα με σταθερή ταχύτητα 100 χλμ. την ώρα. Πόσες ώρες ταξίδεψε;",
+    "answer": "2",
+    "options": [
+      "1",
+      "3",
+      "2",
+      "4"
+    ]
+  },
+  {
+    "id": "f-m108",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα παιχνίδι κοστίζει 80€ και έχει έκπτωση 10%. Πόσο θα το πληρώσουμε;",
+    "answer": "72€",
+    "options": [
+      "77€",
+      "80€",
+      "72€",
+      "8€"
+    ]
+  },
+  {
+    "id": "f-s58",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: βο_λευτής",
+    "answer": "υ",
+    "acceptedAnswers": [
+      "βουλευτής"
+    ]
+  },
+  {
+    "id": "f-g79",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Σε ποια έγκλιση βρίσκεται το ρήμα «βλέπει»;",
+    "answer": "Οριστική",
+    "options": [
+      "Υποτακτική",
+      "Προστακτική",
+      "Οριστική"
+    ]
+  },
+  {
+    "id": "f-e28",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η πρωτεύουσα της χώρας «Πολωνία»;",
+    "answer": "η Βαρσοβία",
+    "options": [
+      "η Βιέννη",
+      "η Βέρνη",
+      "η Βαρσοβία",
+      "η Λισαβόνα"
+    ]
+  },
+  {
+    "id": "f-m109",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 38,45 + 45,62;",
+    "answer": "84,07",
+    "acceptedAnswers": [
+      "84,07",
+      "84.07"
+    ]
+  },
+  {
+    "id": "f-m110",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα ορθογώνιο παραλληλεπίπεδο έχει διαστάσεις 2 x 5 x 2 εκ. Ποιος είναι ο όγκος του;",
+    "answer": "20 κ.εκ.",
+    "acceptedAnswers": [
+      "20",
+      "20 κ.εκ",
+      "20 κ.εκ.",
+      "20 κυβικά εκατοστά"
+    ]
+  },
+  {
+    "id": "f-m111",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένας κύβος έχει ακμή 5 εκ. Ποιος είναι ο όγκος του;",
+    "answer": "125 κ.εκ.",
+    "options": [
+      "25 κ.εκ.",
+      "125 κ.εκ.",
+      "130 κ.εκ.",
+      "30 κ.εκ."
+    ]
+  },
+  {
+    "id": "f-m112",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένας κύβος έχει ακμή 4 εκ. Ποιος είναι ο όγκος του;",
+    "answer": "64 κ.εκ.",
+    "options": [
+      "68 κ.εκ.",
+      "24 κ.εκ.",
+      "64 κ.εκ.",
+      "16 κ.εκ."
+    ]
+  },
+  {
+    "id": "f-m113",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα παραλληλόγραμμο έχει βάση 10 εκ. και ύψος 6 εκ. Ποιο είναι το εμβαδόν του;",
+    "answer": "60 τ.εκ.",
+    "acceptedAnswers": [
+      "60",
+      "60 τ.εκ",
+      "60 τ.εκ.",
+      "60 τετραγωνικά εκατοστά"
+    ]
+  },
+  {
+    "id": "f-s59",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: πολυκατ__κία",
+    "answer": "οι",
+    "acceptedAnswers": [
+      "πολυκατοικία"
+    ]
+  },
+  {
+    "id": "f-s60",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "συνθέτης",
+    "options": [
+      "συνθέτης",
+      "συνθέτις",
+      "συνθέτυς"
+    ]
+  },
+  {
+    "id": "f-g80",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «κλαίω» στον Παρακείμενο γίνεται:",
+    "answer": "έχω κλάψει",
+    "acceptedAnswers": [
+      "έχει κλάψει"
+    ]
+  },
+  {
+    "id": "f-m114",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο Μέγιστος Κοινός Διαιρέτης (ΜΚΔ) των αριθμών 14 και 6;",
+    "answer": "2",
+    "options": [
+      "2",
+      "42",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "id": "f-m115",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένας κύκλος έχει ακτίνα 16 εκ. Ποια είναι η διάμετρός του;",
+    "answer": "32 εκ.",
+    "options": [
+      "64 εκ.",
+      "33 εκ.",
+      "32 εκ.",
+      "16 εκ."
+    ]
+  },
+  {
+    "id": "f-g81",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «πίνω» στον Υπερσυντέλικο γίνεται:",
+    "answer": "είχα πιει",
+    "acceptedAnswers": [
+      "είχε πιει"
+    ]
+  },
+  {
+    "id": "f-m116",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 3/8 + 1/8;",
+    "answer": "1/2",
+    "options": [
+      "1/4",
+      "1/2",
+      "2/2",
+      "3/2"
+    ]
+  },
+  {
+    "id": "f-g82",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο ρήμα βρίσκεται σε παθητική φωνή;",
+    "answer": "βρίσκομαι",
+    "options": [
+      "διαβάζω",
+      "κολυμπάω",
+      "χτενίζω",
+      "βρίσκομαι"
+    ]
+  },
+  {
+    "id": "f-m117",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα αυτοκίνητο κινείται με 80 χλμ. την ώρα. Πόσα χιλιόμετρα θα διανύσει σε 6 ώρες;",
+    "answer": "480"
+  },
+  {
+    "id": "f-m118",
+    "category": "math",
+    "type": "text",
+    "question": "Ποιος είναι ο Μέγιστος Κοινός Διαιρέτης (ΜΚΔ) των αριθμών 20 και 22;",
+    "answer": "2"
+  },
+  {
+    "id": "f-m119",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Αν x - 35 = 5, πόσο είναι το x;",
+    "answer": "40",
+    "options": [
+      "39",
+      "41",
+      "45",
+      "40"
+    ]
+  },
+  {
+    "id": "f-m120",
+    "category": "math",
+    "type": "text",
+    "question": "Αν 8 · x = 56, πόσο είναι το x;",
+    "answer": "7"
+  },
+  {
+    "id": "f-s61",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: πρ_στασία",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "προστασία"
+    ]
+  },
+  {
+    "id": "f-m121",
+    "category": "math",
+    "type": "text",
+    "question": "Ένας κύκλος έχει διάμετρο 4 εκ. Ποια είναι η ακτίνα του;",
+    "answer": "2 εκ.",
+    "acceptedAnswers": [
+      "2",
+      "2 εκ",
+      "2 εκ.",
+      "2 εκατοστά"
+    ]
+  },
+  {
+    "id": "f-e29",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο ποτάμι περνά μέσα από το Παρίσι;",
+    "answer": "ο Σηκουάνας",
+    "options": [
+      "ο Τίβερης",
+      "ο Τάμεσης",
+      "ο Σηκουάνας",
+      "ο Δούναβης"
+    ]
+  },
+  {
+    "id": "f-m122",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα παραλληλόγραμμο έχει βάση 19 εκ. και ύψος 3 εκ. Ποιο είναι το εμβαδόν του;",
+    "answer": "57 τ.εκ.",
+    "options": [
+      "44 τ.εκ.",
+      "76 τ.εκ.",
+      "57 τ.εκ.",
+      "54 τ.εκ."
+    ]
+  },
+  {
+    "id": "f-m123",
+    "category": "math",
+    "type": "text",
+    "question": "Ποιος είναι ο Ελάχιστο Κοινό Πολλαπλάσιο (ΕΚΠ) των αριθμών 10 και 16;",
+    "answer": "80"
+  },
+  {
+    "id": "f-g83",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη είναι αντωνυμία;",
+    "answer": "αυτοί",
+    "options": [
+      "λίμνη",
+      "τρώω",
+      "σκληρός",
+      "αυτοί"
+    ]
+  },
+  {
+    "id": "f-m124",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα παραλληλόγραμμο έχει βάση 10 εκ. και ύψος 5 εκ. Ποιο είναι το εμβαδόν του;",
+    "answer": "50 τ.εκ.",
+    "options": [
+      "45 τ.εκ.",
+      "50 τ.εκ.",
+      "30 τ.εκ.",
+      "60 τ.εκ."
+    ]
+  },
+  {
+    "id": "f-m125",
+    "category": "math",
+    "type": "text",
+    "question": "Αν x + 14 = 57, πόσο είναι το x;",
+    "answer": "43"
+  },
+  {
+    "id": "f-m126",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένας κύκλος έχει διάμετρο 40 εκ. Ποια είναι η ακτίνα του;",
+    "answer": "20 εκ.",
+    "options": [
+      "80 εκ.",
+      "20 εκ.",
+      "21 εκ.",
+      "40 εκ."
+    ]
+  },
+  {
+    "id": "f-g84",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Σε ποια έγκλιση βρίσκεται το ρήμα «καθάρισε»;",
+    "answer": "Προστακτική",
+    "options": [
+      "Υποτακτική",
+      "Οριστική",
+      "Προστακτική"
+    ]
+  },
+  {
+    "id": "f-g85",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Σε ποια έγκλιση βρίσκεται το ρήμα «ρωτάει»;",
+    "answer": "Οριστική",
+    "options": [
+      "Προστακτική",
+      "Οριστική",
+      "Υποτακτική"
+    ]
+  },
+  {
+    "id": "f-s62",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "οικοσύστημα",
+    "options": [
+      "οικοσύστημα",
+      "εικοσύστημα",
+      "ικοσύστημα",
+      "ηκοσύστημα"
+    ]
+  },
+  {
+    "id": "f-m127",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Αν 8 · x = 64, πόσο είναι το x;",
+    "answer": "8",
+    "options": [
+      "8",
+      "13",
+      "7",
+      "9"
+    ]
+  },
+  {
+    "id": "f-m128",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα παιχνίδι κοστίζει 32€ και έχει έκπτωση 25%. Πόσο θα το πληρώσουμε;",
+    "answer": "24€",
+    "acceptedAnswers": [
+      "24",
+      "24 ευρώ",
+      "24€"
+    ]
+  },
+  {
+    "id": "f-m129",
+    "category": "math",
+    "type": "text",
+    "question": "Ποιος είναι ο Ελάχιστο Κοινό Πολλαπλάσιο (ΕΚΠ) των αριθμών 9 και 21;",
+    "answer": "63"
+  },
+  {
+    "id": "f-g86",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «περπατάω» στον Παρακείμενο γίνεται:",
+    "answer": "έχω περπατήσει",
+    "acceptedAnswers": [
+      "έχει περπατήσει"
+    ]
+  },
+  {
+    "id": "f-m130",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 8,83 x 100;",
+    "answer": "883,0",
+    "options": [
+      "883,0",
+      "88,3",
+      "8830,0",
+      "884,0"
+    ]
+  },
+  {
+    "id": "f-s63",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "πολιτισμός",
+    "options": [
+      "πολυτισμός",
+      "πολητισμός",
+      "πολιτισμός"
+    ]
+  },
+  {
+    "id": "f-g87",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «ποτίζω» στον Υπερσυντέλικο γίνεται:",
+    "answer": "είχα ποτίσει",
+    "options": [
+      "πότισα",
+      "είχα περπατήσει",
+      "έχω ποτίσει",
+      "είχα ποτίσει"
+    ]
+  },
+  {
+    "id": "f-m131",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα παιχνίδι κοστίζει 2€ και έχει έκπτωση 50%. Πόσο θα το πληρώσουμε;",
+    "answer": "1€",
+    "acceptedAnswers": [
+      "1",
+      "1 ευρώ",
+      "1€"
+    ]
+  },
+  {
+    "id": "f-m132",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένας κύκλος έχει διάμετρο 6 εκ. Ποια είναι η ακτίνα του;",
+    "answer": "3 εκ.",
+    "options": [
+      "12 εκ.",
+      "3 εκ.",
+      "4 εκ.",
+      "6 εκ."
+    ]
+  },
+  {
+    "id": "f-g88",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Σε ποια έγκλιση βρίσκεται το ρήμα «να γράψει»;",
+    "answer": "Υποτακτική",
+    "options": [
+      "Υποτακτική",
+      "Οριστική",
+      "Προστακτική"
+    ]
+  },
+  {
+    "id": "f-e30",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η πρωτεύουσα της χώρας «Ελβετία»;",
+    "answer": "η Βέρνη",
+    "options": [
+      "η Βέρνη",
+      "η Μαδρίτη",
+      "το Πεκίνο",
+      "η Βιέννη"
+    ]
+  },
+  {
+    "id": "f-g89",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Σε ποια έγκλιση βρίσκεται το ρήμα «σκουπίζει»;",
+    "answer": "Οριστική",
+    "options": [
+      "Υποτακτική",
+      "Προστακτική",
+      "Οριστική"
+    ]
+  },
+  {
+    "id": "f-m133",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 45,73 - 22,31;",
+    "answer": "23,42",
+    "options": [
+      "23,42",
+      "23,52",
+      "22,42",
+      "24,42"
+    ]
+  },
+  {
+    "id": "f-m134",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα παραλληλόγραμμο έχει βάση 7 εκ. και ύψος 6 εκ. Ποιο είναι το εμβαδόν του;",
+    "answer": "42 τ.εκ.",
+    "options": [
+      "26 τ.εκ.",
+      "36 τ.εκ.",
+      "42 τ.εκ.",
+      "49 τ.εκ."
+    ]
+  },
+  {
+    "id": "f-g90",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Σε ποια έγκλιση βρίσκεται το ρήμα «γράψε»;",
+    "answer": "Προστακτική",
+    "options": [
+      "Υποτακτική",
+      "Οριστική",
+      "Προστακτική"
+    ]
+  },
+  {
+    "id": "f-s64",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "κυκλοφορία",
+    "options": [
+      "κηκλοφορία",
+      "κυκλοφορία",
+      "κικλοφορία"
+    ]
+  },
+  {
+    "id": "f-g91",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη είναι αντωνυμία;",
+    "answer": "κανένας",
+    "options": [
+      "κανένας",
+      "καρέκλα",
+      "γελάω",
+      "σκοτεινός"
+    ]
+  },
+  {
+    "id": "f-g92",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο ρήμα βρίσκεται σε παθητική φωνή;",
+    "answer": "πλένομαι",
+    "options": [
+      "βλέπω",
+      "απαντάω",
+      "πλένομαι",
+      "ψάχνω"
+    ]
+  },
+  {
+    "id": "f-g93",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «ανοίγω» στον Παρακείμενο γίνεται:",
+    "answer": "έχω ανοίξει",
+    "acceptedAnswers": [
+      "έχει ανοίξει"
+    ]
+  },
+  {
+    "id": "f-m135",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα παιχνίδι κοστίζει 5€ και έχει έκπτωση 20%. Πόσο θα το πληρώσουμε;",
+    "answer": "4€",
+    "options": [
+      "9€",
+      "4€",
+      "1€",
+      "5€"
+    ]
+  },
+  {
+    "id": "f-m136",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα τρίγωνο έχει βάση 26 εκ. και ύψος 19 εκ. Ποιο είναι το εμβαδόν του;",
+    "answer": "247 τ.εκ.",
+    "acceptedAnswers": [
+      "247",
+      "247 τ.εκ",
+      "247 τ.εκ.",
+      "247 τετραγωνικά εκατοστά"
+    ]
+  },
+  {
+    "id": "f-m137",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα παιχνίδι κοστίζει 10€ και έχει έκπτωση 50%. Πόσο θα το πληρώσουμε;",
+    "answer": "5€",
+    "options": [
+      "10€",
+      "5€"
+    ]
+  },
+  {
+    "id": "f-m138",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 7,37 x 10;",
+    "answer": "73,7",
+    "acceptedAnswers": [
+      "73,7",
+      "73.7"
+    ]
+  },
+  {
+    "id": "f-m139",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα ορθογώνιο παραλληλεπίπεδο έχει διαστάσεις 10 x 4 x 3 εκ. Ποιος είναι ο όγκος του;",
+    "answer": "120 κ.εκ.",
+    "options": [
+      "120 κ.εκ.",
+      "130 κ.εκ.",
+      "34 κ.εκ.",
+      "40 κ.εκ."
+    ]
+  },
+  {
+    "id": "f-m140",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα παιχνίδι κοστίζει 20€ και έχει έκπτωση 10%. Πόσο θα το πληρώσουμε;",
+    "answer": "18€",
+    "acceptedAnswers": [
+      "18",
+      "18 ευρώ",
+      "18€"
+    ]
+  },
+  {
+    "id": "f-e31",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιος πλανήτης έχει τα εντυπωσιακά δαχτυλίδια;",
+    "answer": "ο Κρόνος",
+    "options": [
+      "ο Άρης",
+      "ο Ουρανός",
+      "ο Δίας",
+      "ο Κρόνος"
+    ]
+  },
+  {
+    "id": "f-m141",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα παιχνίδι κοστίζει 28€ και έχει έκπτωση 25%. Πόσο θα το πληρώσουμε;",
+    "answer": "21€",
+    "options": [
+      "28€",
+      "7€",
+      "26€",
+      "21€"
+    ]
+  },
+  {
+    "id": "f-s65",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: ανανεώσ_μος",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "ανανεώσιμος"
+    ]
+  },
+  {
+    "id": "f-g94",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Τι σχήμα λόγου έχει η πρόταση: «Είναι άσπρος σαν το χιόνι.»",
+    "answer": "παρομοίωση",
+    "options": [
+      "κυριολεξία",
+      "μεταφορά",
+      "παρομοίωση"
+    ]
+  },
+  {
+    "id": "f-m142",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 49,18 - 21,59;",
+    "answer": "27,59",
+    "options": [
+      "27,69",
+      "26,59",
+      "27,59",
+      "28,59"
+    ]
+  },
+  {
+    "id": "f-s66",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ειρηνικός",
+    "options": [
+      "οιρηνικός",
+      "ηρηνικός",
+      "ειρηνικός",
+      "ιρηνικός"
+    ]
+  },
+  {
+    "id": "f-s67",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: ανεξαρτ_σία",
+    "answer": "η",
+    "acceptedAnswers": [
+      "ανεξαρτησία"
+    ]
+  },
+  {
+    "id": "f-m143",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Αν x - 5 = 67, πόσο είναι το x;",
+    "answer": "72",
+    "options": [
+      "77",
+      "72",
+      "73",
+      "71"
+    ]
+  },
+  {
+    "id": "f-s68",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: περ_στροφή",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "περιστροφή"
+    ]
+  },
+  {
+    "id": "f-s69",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "παράδοση",
+    "options": [
+      "παράδοσι",
+      "παράδοση",
+      "παράδοσυ"
+    ]
+  },
+  {
+    "id": "f-m144",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα αυτοκίνητο κινείται με 100 χλμ. την ώρα. Πόσα χιλιόμετρα θα διανύσει σε 4 ώρες;",
+    "answer": "400",
+    "options": [
+      "410",
+      "500",
+      "300",
+      "400"
+    ]
+  },
+  {
+    "id": "f-m145",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 20,31 - 15,28;",
+    "answer": "5,03",
+    "options": [
+      "4,03",
+      "5,13",
+      "5,03",
+      "6,03"
+    ]
+  },
+  {
+    "id": "f-g95",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Από ποιες λέξεις είναι σύνθετη η λέξη «μαχαιροπίρουνο»;",
+    "answer": "μαχαίρι + πιρούνι",
+    "options": [
+      "ψάρι + βάρκα",
+      "ελιά + λάδι",
+      "κόκκινος + μαλλιά",
+      "μαχαίρι + πιρούνι"
+    ]
+  },
+  {
+    "id": "f-g96",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη ΔΕΝ ανήκει στην ίδια οικογένεια λέξεων με τις υπόλοιπες;",
+    "answer": "φωτιά",
+    "options": [
+      "φωτιά",
+      "νερό",
+      "νεροποντή",
+      "νερουλάς"
+    ]
+  },
+  {
+    "id": "f-m146",
+    "category": "math",
+    "type": "text",
+    "question": "Αν x + 7 = 61, πόσο είναι το x;",
+    "answer": "54"
+  },
+  {
+    "id": "f-e32",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Σε ποια πόλη εδρεύουν τα κύρια όργανα της Ευρωπαϊκής Ένωσης;",
+    "answer": "στις Βρυξέλλες",
+    "options": [
+      "στο Παρίσι",
+      "στις Βρυξέλλες",
+      "στο Βερολίνο",
+      "στη Ρώμη"
+    ]
+  },
+  {
+    "id": "f-s70",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: πλ__οψηφία",
+    "answer": "ει",
+    "acceptedAnswers": [
+      "πλειοψηφία"
+    ]
+  },
+  {
+    "id": "f-g97",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Σε ποια έγκλιση βρίσκεται το ρήμα «να σκουπίσει»;",
+    "answer": "Υποτακτική",
+    "options": [
+      "Υποτακτική",
+      "Προστακτική",
+      "Οριστική"
+    ]
+  },
+  {
+    "id": "f-g98",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Σε ποια έγκλιση βρίσκεται το ρήμα «να φάει»;",
+    "answer": "Υποτακτική",
+    "options": [
+      "Οριστική",
+      "Υποτακτική",
+      "Προστακτική"
+    ]
+  },
+  {
+    "id": "f-e33",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η πρωτεύουσα της χώρας «Τουρκία»;",
+    "answer": "η Άγκυρα",
+    "options": [
+      "η Άγκυρα",
+      "η Στοκχόλμη",
+      "η Ρώμη",
+      "το Άμστερνταμ"
+    ]
+  },
+  {
+    "id": "f-s71",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "πολυκατοικία",
+    "options": [
+      "πολυκατεικία",
+      "πολυκατικία",
+      "πολυκατοικία",
+      "πολυκατηκία"
+    ]
+  },
+  {
+    "id": "f-m147",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα αυτοκίνητο διένυσε 140 χιλιόμετρα με σταθερή ταχύτητα 70 χλμ. την ώρα. Πόσες ώρες ταξίδεψε;",
+    "answer": "2",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "1"
+    ]
+  },
+  {
+    "id": "f-g99",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «χάνω» στον Παρακείμενο γίνεται:",
+    "answer": "έχω χάσει",
+    "acceptedAnswers": [
+      "έχει χάσει"
+    ]
+  },
+  {
+    "id": "f-e34",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Τι μεταφέρουν τα ερυθρά αιμοσφαίρια;",
+    "answer": "οξυγόνο",
+    "options": [
+      "νερό",
+      "τροφή",
+      "μικρόβια",
+      "οξυγόνο"
+    ]
+  },
+  {
+    "id": "f-s72",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ανανεώσιμος",
+    "options": [
+      "ανανεώσυμος",
+      "ανανεώσιμος",
+      "ανανεώσημος"
+    ]
+  },
+  {
+    "id": "f-g100",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η γενική ενικού της λέξης «το δέντρο»;",
+    "answer": "του δέντρου",
+    "options": [
+      "των δέντρων",
+      "του παιδιού",
+      "του δέντρου",
+      "το δέντρο"
+    ]
+  },
+  {
+    "id": "f-m148",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα παραλληλόγραμμο έχει βάση 22 εκ. και ύψος 3 εκ. Ποιο είναι το εμβαδόν του;",
+    "answer": "66 τ.εκ.",
+    "acceptedAnswers": [
+      "66",
+      "66 τ.εκ",
+      "66 τ.εκ.",
+      "66 τετραγωνικά εκατοστά"
+    ]
+  },
+  {
+    "id": "f-s73",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "συλλογή",
+    "options": [
+      "συλογή",
+      "συλλογή"
+    ]
+  },
+  {
+    "id": "f-s74",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "συμφωνία",
+    "options": [
+      "συμφονία",
+      "συμφωνία"
+    ]
+  },
+  {
+    "id": "f-s75",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "βιοτεχνία",
+    "options": [
+      "βηοτεχνία",
+      "βιοτεχνία",
+      "βυοτεχνία"
+    ]
+  },
+  {
+    "id": "f-m149",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα τρίγωνο έχει βάση 8 εκ. και ύψος 9 εκ. Ποιο είναι το εμβαδόν του;",
+    "answer": "36 τ.εκ.",
+    "acceptedAnswers": [
+      "36",
+      "36 τ.εκ",
+      "36 τ.εκ.",
+      "36 τετραγωνικά εκατοστά"
+    ]
+  },
+  {
+    "id": "f-m150",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα παραλληλόγραμμο έχει βάση 7 εκ. και ύψος 17 εκ. Ποιο είναι το εμβαδόν του;",
+    "answer": "119 τ.εκ.",
+    "options": [
+      "119 τ.εκ.",
+      "48 τ.εκ.",
+      "126 τ.εκ.",
+      "102 τ.εκ."
+    ]
+  },
+  {
+    "id": "f-m151",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα παιχνίδι κοστίζει 4€ και έχει έκπτωση 50%. Πόσο θα το πληρώσουμε;",
+    "answer": "2€",
+    "options": [
+      "2€",
+      "4€",
+      "7€"
+    ]
+  },
+  {
+    "id": "f-s76",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "σκηνικό",
+    "options": [
+      "σκινικό",
+      "σκηνικό",
+      "σκυνικό"
+    ]
+  },
+  {
+    "id": "f-m152",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα αυτοκίνητο διένυσε 480 χιλιόμετρα με σταθερή ταχύτητα 80 χλμ. την ώρα. Πόσες ώρες ταξίδεψε;",
+    "answer": "6"
+  },
+  {
+    "id": "f-g101",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο ρήμα βρίσκεται σε ενεργητική φωνή;",
+    "answer": "τρώω",
+    "options": [
+      "κρύβομαι",
+      "ετοιμάζομαι",
+      "τρώω",
+      "σηκώνομαι"
+    ]
+  },
+  {
+    "id": "f-m153",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα παραλληλόγραμμο έχει βάση 17 εκ. και ύψος 10 εκ. Ποιο είναι το εμβαδόν του;",
+    "answer": "170 τ.εκ.",
+    "acceptedAnswers": [
+      "170",
+      "170 τ.εκ",
+      "170 τ.εκ.",
+      "170 τετραγωνικά εκατοστά"
+    ]
+  },
+  {
+    "id": "f-m154",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένας κύκλος έχει διάμετρο 24 εκ. Ποια είναι η ακτίνα του;",
+    "answer": "12 εκ.",
+    "options": [
+      "13 εκ.",
+      "48 εκ.",
+      "12 εκ.",
+      "24 εκ."
+    ]
+  },
+  {
+    "id": "f-g102",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική ενικού της λέξης «η αδελφή».",
+    "answer": "της αδελφής",
+    "acceptedAnswers": [
+      "αδελφής"
+    ]
+  },
+  {
+    "id": "f-m155",
+    "category": "math",
+    "type": "text",
+    "question": "Αν x + 46 = 81, πόσο είναι το x;",
+    "answer": "35"
+  },
+  {
+    "id": "f-g103",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Από ποιες λέξεις είναι σύνθετη η λέξη «βορειοδυτικός»;",
+    "answer": "βόρειος + δυτικός",
+    "options": [
+      "μεγάλος + σώμα",
+      "βόρειος + δυτικός",
+      "πόδι + σφαίρα",
+      "σαπούνι + φούσκα"
+    ]
+  },
+  {
+    "id": "f-m156",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο Μέγιστος Κοινός Διαιρέτης (ΜΚΔ) των αριθμών 12 και 18;",
+    "answer": "6",
+    "options": [
+      "7",
+      "12",
+      "36",
+      "6"
+    ]
+  },
+  {
+    "id": "f-g104",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η γενική ενικού της λέξης «το βιβλίο»;",
+    "answer": "του βιβλίου",
+    "options": [
+      "του βιβλίου",
+      "των βιβλίων",
+      "του μαθητή",
+      "το βιβλίο"
+    ]
+  },
+  {
+    "id": "f-e35",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιας χώρας πρωτεύουσα είναι το Άμστερνταμ;",
+    "answer": "η Ολλανδία",
+    "options": [
+      "η Ισπανία",
+      "η Ολλανδία",
+      "η Τουρκία",
+      "το Βέλγιο"
+    ]
+  },
+  {
+    "id": "f-e36",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο μεγαλύτερος ωκεανός;",
+    "answer": "ο Ειρηνικός",
+    "options": [
+      "ο Αρκτικός",
+      "ο Ατλαντικός",
+      "ο Ειρηνικός",
+      "ο Ινδικός"
+    ]
+  },
+  {
+    "id": "f-s77",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: _γρότοπος",
+    "answer": "υ",
+    "acceptedAnswers": [
+      "υγρότοπος"
+    ]
+  },
+  {
+    "id": "f-g105",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική πληθυντικού της λέξης «ο άνθρωπος».",
+    "answer": "των ανθρώπων",
+    "acceptedAnswers": [
+      "ανθρώπων"
+    ]
+  },
+  {
+    "id": "f-s78",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: __κοσύστημα",
+    "answer": "οι",
+    "acceptedAnswers": [
+      "οικοσύστημα"
+    ]
+  },
+  {
+    "id": "f-g106",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «ανοίγω» στον Μέλλοντα γίνεται:",
+    "answer": "θα ανοίξω",
+    "acceptedAnswers": [
+      "θα ανοίξει"
+    ]
+  },
+  {
+    "id": "f-s79",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "πεζογραφία",
+    "options": [
+      "πεζωγραφία",
+      "πεζογραφία"
+    ]
+  },
+  {
+    "id": "f-s80",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ανεξαρτησία",
+    "options": [
+      "ανεξαρτυσία",
+      "ανεξαρτησία",
+      "ανεξαρτισία"
+    ]
+  },
+  {
+    "id": "f-m157",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα παιχνίδι κοστίζει 60€ και έχει έκπτωση 10%. Πόσο θα το πληρώσουμε;",
+    "answer": "54€",
+    "options": [
+      "54€",
+      "59€",
+      "60€",
+      "6€"
+    ]
+  },
+  {
+    "id": "f-m158",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Αν x + 7 = 11, πόσο είναι το x;",
+    "answer": "4",
+    "options": [
+      "4",
+      "9",
+      "5",
+      "3"
+    ]
+  },
+  {
+    "id": "f-m159",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα ορθογώνιο παραλληλεπίπεδο έχει διαστάσεις 10 x 8 x 7 εκ. Ποιος είναι ο όγκος του;",
+    "answer": "560 κ.εκ.",
+    "options": [
+      "80 κ.εκ.",
+      "560 κ.εκ.",
+      "50 κ.εκ.",
+      "570 κ.εκ."
+    ]
+  },
+  {
+    "id": "f-m160",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο Ελάχιστο Κοινό Πολλαπλάσιο (ΕΚΠ) των αριθμών 6 και 7;",
+    "answer": "42",
+    "options": [
+      "42",
+      "43",
+      "84",
+      "1"
+    ]
+  },
+  {
+    "id": "f-g107",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική πληθυντικού της λέξης «η αδελφή».",
+    "answer": "των αδελφών",
+    "acceptedAnswers": [
+      "αδελφών"
+    ]
+  },
+  {
+    "id": "f-e37",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Σε ποια οροσειρά βρίσκεται το Έβερεστ;",
+    "answer": "στα Ιμαλάια",
+    "options": [
+      "στις Άλπεις",
+      "στις Άνδεις",
+      "στα Ιμαλάια",
+      "στον Καύκασο"
+    ]
+  },
+  {
+    "id": "f-m161",
+    "category": "math",
+    "type": "text",
+    "question": "Ένας κύκλος έχει διάμετρο 22 εκ. Ποια είναι η ακτίνα του;",
+    "answer": "11 εκ.",
+    "acceptedAnswers": [
+      "11",
+      "11 εκ",
+      "11 εκ.",
+      "11 εκατοστά"
+    ]
+  },
+  {
+    "id": "f-m162",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα ορθογώνιο παραλληλεπίπεδο έχει διαστάσεις 4 x 4 x 4 εκ. Ποιος είναι ο όγκος του;",
+    "answer": "64 κ.εκ.",
+    "options": [
+      "68 κ.εκ.",
+      "64 κ.εκ.",
+      "16 κ.εκ.",
+      "24 κ.εκ."
+    ]
+  },
+  {
+    "id": "f-m163",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα παιχνίδι κοστίζει 30€ και έχει έκπτωση 20%. Πόσο θα το πληρώσουμε;",
+    "answer": "24€",
+    "acceptedAnswers": [
+      "24",
+      "24 ευρώ",
+      "24€"
+    ]
+  },
+  {
+    "id": "f-m164",
+    "category": "math",
+    "type": "text",
+    "question": "Αν 2 · x = 6, πόσο είναι το x;",
+    "answer": "3"
+  },
+  {
+    "id": "f-m165",
+    "category": "math",
+    "type": "text",
+    "question": "Ποιος είναι ο Μέγιστος Κοινός Διαιρέτης (ΜΚΔ) των αριθμών 6 και 20;",
+    "answer": "2"
+  },
+  {
+    "id": "f-g108",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «ακούω» στον Υπερσυντέλικο γίνεται:",
+    "answer": "είχα ακούσει",
+    "acceptedAnswers": [
+      "είχε ακούσει"
+    ]
+  },
+  {
+    "id": "f-m166",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα αυτοκίνητο κινείται με 90 χλμ. την ώρα. Πόσα χιλιόμετρα θα διανύσει σε 5 ώρες;",
+    "answer": "450",
+    "options": [
+      "450",
+      "360",
+      "540",
+      "460"
+    ]
+  },
+  {
+    "id": "f-m167",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα παιχνίδι κοστίζει 8€ και έχει έκπτωση 25%. Πόσο θα το πληρώσουμε;",
+    "answer": "6€",
+    "options": [
+      "11€",
+      "2€",
+      "8€",
+      "6€"
+    ]
+  },
+  {
+    "id": "f-g109",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «παίρνω» στον Παρακείμενο γίνεται:",
+    "answer": "έχω πάρει",
+    "acceptedAnswers": [
+      "έχει πάρει"
+    ]
+  },
+  {
+    "id": "f-m168",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα παραλληλόγραμμο έχει βάση 14 εκ. και ύψος 15 εκ. Ποιο είναι το εμβαδόν του;",
+    "answer": "210 τ.εκ.",
+    "options": [
+      "58 τ.εκ.",
+      "210 τ.εκ.",
+      "195 τ.εκ.",
+      "224 τ.εκ."
+    ]
+  },
+  {
+    "id": "f-m169",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα αυτοκίνητο διένυσε 450 χιλιόμετρα με σταθερή ταχύτητα 90 χλμ. την ώρα. Πόσες ώρες ταξίδεψε;",
+    "answer": "5"
+  },
+  {
+    "id": "f-m170",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 44,06 - 36,72;",
+    "answer": "7,34",
+    "options": [
+      "7,44",
+      "6,34",
+      "8,34",
+      "7,34"
+    ]
+  },
+  {
+    "id": "f-m171",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα παιχνίδι κοστίζει 8€ και έχει έκπτωση 50%. Πόσο θα το πληρώσουμε;",
+    "answer": "4€",
+    "options": [
+      "4€",
+      "9€",
+      "8€"
+    ]
+  },
+  {
+    "id": "f-s81",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "εξαγωγή",
+    "options": [
+      "εξαγογή",
+      "εξαγωγή"
+    ]
+  },
+  {
+    "id": "f-m172",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 46,61 + 30,74;",
+    "answer": "77,35",
+    "options": [
+      "77,35",
+      "76,35",
+      "78,35",
+      "77,45"
+    ]
+  },
+  {
+    "id": "f-m173",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο Ελάχιστο Κοινό Πολλαπλάσιο (ΕΚΠ) των αριθμών 21 και 4;",
+    "answer": "84",
+    "options": [
+      "1",
+      "84",
+      "85",
+      "168"
+    ]
+  },
+  {
+    "id": "f-g110",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη ΔΕΝ ανήκει στην ίδια οικογένεια λέξεων με τις υπόλοιπες;",
+    "answer": "τραγούδι",
+    "options": [
+      "χορός",
+      "χορεύω",
+      "χορευτής",
+      "τραγούδι"
+    ]
+  },
+  {
+    "id": "f-e38",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η πρωτεύουσα της χώρας «Βέλγιο»;",
+    "answer": "οι Βρυξέλλες",
+    "options": [
+      "το Κάιρο",
+      "το Τόκιο",
+      "οι Βρυξέλλες",
+      "το Πεκίνο"
+    ]
+  },
+  {
+    "id": "f-m174",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 1/2 + 1/8;",
+    "answer": "5/8"
+  },
+  {
+    "id": "f-g111",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο ρήμα βρίσκεται σε ενεργητική φωνή;",
+    "answer": "κολυμπάω",
+    "options": [
+      "χτενίζομαι",
+      "κρύβομαι",
+      "κολυμπάω",
+      "πλένομαι"
+    ]
+  },
+  {
+    "id": "f-m175",
+    "category": "math",
+    "type": "text",
+    "question": "Αν 9 · x = 72, πόσο είναι το x;",
+    "answer": "8"
+  },
+  {
+    "id": "f-s82",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "αυτοκινητόδρομος",
+    "options": [
+      "αυτοκινιτόδρομος",
+      "αυτοκινητόδρομος",
+      "αυτοκινυτόδρομος"
+    ]
+  },
+  {
+    "id": "f-s83",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "μόλυνση",
+    "options": [
+      "μόλυνσυ",
+      "μόλυνσι",
+      "μόλυνση"
+    ]
+  },
+  {
+    "id": "f-g112",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο ρήμα βρίσκεται σε παθητική φωνή;",
+    "answer": "σηκώνομαι",
+    "options": [
+      "σηκώνομαι",
+      "απαντάω",
+      "χτίζω",
+      "κλαίω"
+    ]
+  },
+  {
+    "id": "f-m176",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένας κύβος έχει ακμή 8 εκ. Ποιος είναι ο όγκος του;",
+    "answer": "512 κ.εκ.",
+    "options": [
+      "48 κ.εκ.",
+      "512 κ.εκ.",
+      "64 κ.εκ.",
+      "520 κ.εκ."
+    ]
+  },
+  {
+    "id": "f-s84",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: θεατρ_κός",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "θεατρικός"
+    ]
+  },
+  {
+    "id": "f-g113",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «δίνω» στον Παρακείμενο γίνεται:",
+    "answer": "έχω δώσει",
+    "options": [
+      "έδωσα",
+      "έχω χορέψει",
+      "έχω δώσει",
+      "είχα δώσει"
+    ]
+  },
+  {
+    "id": "f-m177",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 14,91 + 8,24;",
+    "answer": "23,15",
+    "options": [
+      "22,15",
+      "24,15",
+      "23,25",
+      "23,15"
+    ]
+  },
+  {
+    "id": "f-m178",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα ορθογώνιο παραλληλεπίπεδο έχει διαστάσεις 9 x 7 x 5 εκ. Ποιος είναι ο όγκος του;",
+    "answer": "315 κ.εκ.",
+    "acceptedAnswers": [
+      "315",
+      "315 κ.εκ",
+      "315 κ.εκ.",
+      "315 κυβικά εκατοστά"
+    ]
+  },
+  {
+    "id": "f-g114",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική ενικού της λέξης «η τάξη».",
+    "answer": "της τάξης",
+    "acceptedAnswers": [
+      "τάξης"
+    ]
+  },
+  {
+    "id": "f-m179",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα ορθογώνιο παραλληλεπίπεδο έχει διαστάσεις 7 x 6 x 2 εκ. Ποιος είναι ο όγκος του;",
+    "answer": "84 κ.εκ.",
+    "options": [
+      "42 κ.εκ.",
+      "30 κ.εκ.",
+      "91 κ.εκ.",
+      "84 κ.εκ."
+    ]
+  },
+  {
+    "id": "f-g115",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Τι σχήμα λόγου έχει η πρόταση: «Η βροχή έπεφτε όλη νύχτα.»",
+    "answer": "κυριολεξία",
+    "options": [
+      "κυριολεξία",
+      "παρομοίωση",
+      "μεταφορά"
+    ]
+  },
+  {
+    "id": "f-s85",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "φεστιβάλ",
+    "options": [
+      "φεστηβάλ",
+      "φεστυβάλ",
+      "φεστιβάλ"
+    ]
+  },
+  {
+    "id": "f-s86",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "υπερθέρμανση",
+    "options": [
+      "υπερθέρμανσι",
+      "υπερθέρμανσυ",
+      "υπερθέρμανση"
+    ]
+  },
+  {
+    "id": "f-s87",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: πεζοδρόμ_ο",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "πεζοδρόμιο"
+    ]
+  },
+  {
+    "id": "f-s88",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: μόλυνσ_",
+    "answer": "η",
+    "acceptedAnswers": [
+      "μόλυνση"
+    ]
+  },
+  {
+    "id": "f-s89",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "μαέστρος",
+    "options": [
+      "μαέστρος",
+      "μαέστρως"
+    ]
+  },
+  {
+    "id": "f-m180",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένας κύβος έχει ακμή 9 εκ. Ποιος είναι ο όγκος του;",
+    "answer": "729 κ.εκ.",
+    "options": [
+      "738 κ.εκ.",
+      "54 κ.εκ.",
+      "729 κ.εκ.",
+      "81 κ.εκ."
+    ]
+  },
+  {
+    "id": "f-e39",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιας χώρας πρωτεύουσα είναι το Βερολίνο;",
+    "answer": "η Γερμανία",
+    "options": [
+      "η Ελβετία",
+      "η Γερμανία",
+      "η Νορβηγία",
+      "η Ρωσία"
+    ]
+  },
+  {
+    "id": "f-g116",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Σε ποια έγκλιση βρίσκεται το ρήμα «ποτίζει»;",
+    "answer": "Οριστική",
+    "options": [
+      "Οριστική",
+      "Υποτακτική",
+      "Προστακτική"
+    ]
+  },
+  {
+    "id": "f-s90",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "διήγημα",
+    "options": [
+      "διήγημα",
+      "διήγιμα",
+      "διήγυμα"
+    ]
+  },
+  {
+    "id": "f-s91",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "κληρονομιά",
+    "options": [
+      "κληρονομιά",
+      "κλιρονομιά",
+      "κλυρονομιά"
+    ]
+  },
+  {
+    "id": "f-g117",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο ρήμα βρίσκεται σε ενεργητική φωνή;",
+    "answer": "πίνω",
+    "options": [
+      "φαίνομαι",
+      "σηκώνομαι",
+      "κρύβομαι",
+      "πίνω"
+    ]
+  },
+  {
+    "id": "f-g118",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη είναι αντωνυμία;",
+    "answer": "όλοι",
+    "options": [
+      "όλοι",
+      "βιβλίο",
+      "σκληρός",
+      "πηδάω"
+    ]
+  },
+  {
+    "id": "f-g119",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη ΔΕΝ ανήκει στην ίδια οικογένεια λέξεων με τις υπόλοιπες;",
+    "answer": "γελάω",
+    "options": [
+      "τρέχω",
+      "τρέξιμο",
+      "τρεχάλα",
+      "γελάω"
+    ]
+  },
+  {
+    "id": "f-m181",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 40,18 - 37,1;",
+    "answer": "3,08",
+    "options": [
+      "3,08",
+      "2,08",
+      "4,08",
+      "3,18"
+    ]
+  },
+  {
+    "id": "f-e40",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια αιμοσφαίρια πολεμούν τα μικρόβια;",
+    "answer": "τα λευκά",
+    "options": [
+      "τα ερυθρά",
+      "τα λευκά",
+      "τα αιμοπετάλια",
+      "κανένα"
+    ]
+  },
+  {
+    "id": "f-m182",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα παραλληλόγραμμο έχει βάση 7 εκ. και ύψος 10 εκ. Ποιο είναι το εμβαδόν του;",
+    "answer": "70 τ.εκ.",
+    "options": [
+      "70 τ.εκ.",
+      "60 τ.εκ.",
+      "34 τ.εκ.",
+      "77 τ.εκ."
+    ]
+  },
+  {
+    "id": "f-s92",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: θε_ρία",
+    "answer": "ω",
+    "acceptedAnswers": [
+      "θεωρία"
+    ]
+  },
+  {
+    "id": "f-s93",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "διαφωνία",
+    "options": [
+      "διαφονία",
+      "διαφωνία"
+    ]
+  },
+  {
+    "id": "f-m183",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα τρίγωνο έχει βάση 32 εκ. και ύψος 11 εκ. Ποιο είναι το εμβαδόν του;",
+    "answer": "176 τ.εκ.",
+    "options": [
+      "208 τ.εκ.",
+      "352 τ.εκ.",
+      "165 τ.εκ.",
+      "176 τ.εκ."
+    ]
+  },
+  {
+    "id": "f-g120",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «χάνω» στον Παρατατικό γίνεται:",
+    "answer": "έχανα",
+    "options": [
+      "θα χάσω",
+      "χόρευα",
+      "έχασα",
+      "έχανα"
+    ]
+  },
+  {
+    "id": "f-g121",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η γενική πληθυντικού της λέξης «ο κήπος»;",
+    "answer": "των κήπων",
+    "options": [
+      "του κήπου",
+      "ο κήπος",
+      "των ουρανών",
+      "των κήπων"
+    ]
+  },
+  {
+    "id": "f-g122",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Σε ποια έγκλιση βρίσκεται το ρήμα «να πιει»;",
+    "answer": "Υποτακτική",
+    "options": [
+      "Υποτακτική",
+      "Οριστική",
+      "Προστακτική"
+    ]
+  },
+  {
+    "id": "f-g123",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Τι σχήμα λόγου έχει η πρόταση: «Τα μάγουλά της είναι σαν τριαντάφυλλα.»",
+    "answer": "παρομοίωση",
+    "options": [
+      "κυριολεξία",
+      "μεταφορά",
+      "παρομοίωση"
+    ]
+  },
+  {
+    "id": "f-m184",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 6,2 x 10;",
+    "answer": "62,0",
+    "options": [
+      "620,0",
+      "6,2",
+      "63,0",
+      "62,0"
+    ]
+  },
+  {
+    "id": "f-m185",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο Μέγιστος Κοινός Διαιρέτης (ΜΚΔ) των αριθμών 7 και 14;",
+    "answer": "7",
+    "options": [
+      "7",
+      "8",
+      "14"
+    ]
+  },
+  {
+    "id": "f-g124",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «φωνάζω» στον Παρακείμενο γίνεται:",
+    "answer": "έχω φωνάξει",
+    "options": [
+      "έχω πλύνει",
+      "φώναξα",
+      "θα έχω φωνάξει",
+      "έχω φωνάξει"
+    ]
+  },
+  {
+    "id": "f-g125",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Σε ποια έγκλιση βρίσκεται το ρήμα «πλένει»;",
+    "answer": "Οριστική",
+    "options": [
+      "Προστακτική",
+      "Υποτακτική",
+      "Οριστική"
+    ]
+  },
+  {
+    "id": "f-s94",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "φαινόμενο",
+    "options": [
+      "φενόμενο",
+      "φαινόμενο"
+    ]
+  },
+  {
+    "id": "f-e41",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο όργανο καθαρίζει το αίμα από τις άχρηστες ουσίες;",
+    "answer": "τα νεφρά",
+    "options": [
+      "οι πνεύμονες",
+      "το στομάχι",
+      "τα νεφρά",
+      "τα μάτια"
+    ]
+  },
+  {
+    "id": "f-s95",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "εμπόριο",
+    "options": [
+      "εμπόριο",
+      "εμπόρηο",
+      "εμπόρυο"
+    ]
+  },
+  {
+    "id": "f-e42",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο σύστημα του σώματος μεταφέρει το αίμα;",
+    "answer": "το κυκλοφορικό",
+    "options": [
+      "το κυκλοφορικό",
+      "το πεπτικό",
+      "το νευρικό",
+      "το αναπνευστικό"
+    ]
+  },
+  {
+    "id": "f-g126",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη είναι αντωνυμία;",
+    "answer": "αυτός",
+    "options": [
+      "αυτός",
+      "παίζω",
+      "γενναίος",
+      "ποδήλατο"
+    ]
+  },
+  {
+    "id": "f-m186",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα αυτοκίνητο κινείται με 80 χλμ. την ώρα. Πόσα χιλιόμετρα θα διανύσει σε 2 ώρες;",
+    "answer": "160"
+  },
+  {
+    "id": "f-s96",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "θεωρία",
+    "options": [
+      "θεωρία",
+      "θεορία"
+    ]
+  },
+  {
+    "id": "f-m187",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 3,63 + 16,87;",
+    "answer": "20,5",
+    "options": [
+      "19,5",
+      "20,5",
+      "21,5",
+      "20,6"
+    ]
+  },
+  {
+    "id": "f-m188",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα τρίγωνο έχει βάση 34 εκ. και ύψος 14 εκ. Ποιο είναι το εμβαδόν του;",
+    "answer": "238 τ.εκ.",
+    "options": [
+      "272 τ.εκ.",
+      "224 τ.εκ.",
+      "238 τ.εκ.",
+      "476 τ.εκ."
+    ]
+  },
+  {
+    "id": "f-m189",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 19,85 + 1,29;",
+    "answer": "21,14",
+    "acceptedAnswers": [
+      "21,14",
+      "21.14"
+    ]
+  },
+  {
+    "id": "f-s97",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: συνθέτ_ς",
+    "answer": "η",
+    "acceptedAnswers": [
+      "συνθέτης"
+    ]
+  },
+  {
+    "id": "f-m190",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα παιχνίδι κοστίζει 12€ και έχει έκπτωση 50%. Πόσο θα το πληρώσουμε;",
+    "answer": "6€",
+    "options": [
+      "6€",
+      "12€",
+      "11€"
+    ]
+  },
+  {
+    "id": "f-e43",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιας χώρας πρωτεύουσα είναι το Τόκιο;",
+    "answer": "η Ιαπωνία",
+    "options": [
+      "η Ισπανία",
+      "η Ιαπωνία",
+      "η Κίνα",
+      "η Ολλανδία"
+    ]
+  },
+  {
+    "id": "f-g127",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «βρίσκω» στον Παρακείμενο γίνεται:",
+    "answer": "έχω βρει",
+    "acceptedAnswers": [
+      "έχει βρει"
+    ]
+  },
+  {
+    "id": "f-e44",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η μεγαλύτερη έρημος του κόσμου;",
+    "answer": "η Σαχάρα",
+    "options": [
+      "η Αραβική",
+      "η Γκόμπι",
+      "η Καλαχάρι",
+      "η Σαχάρα"
+    ]
+  },
+  {
+    "id": "f-e45",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πόσοι είναι οι ωκεανοί της Γης;",
+    "answer": "5",
+    "options": [
+      "5",
+      "7",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "id": "f-g128",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική ενικού της λέξης «ο μαθητής».",
+    "answer": "του μαθητή",
+    "acceptedAnswers": [
+      "μαθητή"
+    ]
+  },
+  {
+    "id": "f-g129",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Από ποιες λέξεις είναι σύνθετη η λέξη «κοκκινομάλλης»;",
+    "answer": "κόκκινος + μαλλιά",
+    "options": [
+      "νύχτα + πουλί",
+      "ήλιος + βασίλεμα",
+      "κόκκινος + μαλλιά",
+      "άσπρος + μαύρος"
+    ]
+  },
+  {
+    "id": "f-m191",
+    "category": "math",
+    "type": "text",
+    "question": "Αν x + 2 = 23, πόσο είναι το x;",
+    "answer": "21"
+  },
+  {
+    "id": "f-s98",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: εξαγ_γή",
+    "answer": "ω",
+    "acceptedAnswers": [
+      "εξαγωγή"
+    ]
+  },
+  {
+    "id": "f-m192",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα ορθογώνιο παραλληλεπίπεδο έχει διαστάσεις 9 x 7 x 4 εκ. Ποιος είναι ο όγκος του;",
+    "answer": "252 κ.εκ.",
+    "acceptedAnswers": [
+      "252",
+      "252 κ.εκ",
+      "252 κ.εκ.",
+      "252 κυβικά εκατοστά"
+    ]
+  },
+  {
+    "id": "f-m193",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 1/2 + 1/6;",
+    "answer": "2/3",
+    "options": [
+      "2/6",
+      "4/3",
+      "2/3",
+      "3/3"
+    ]
+  },
+  {
+    "id": "f-g130",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Από ποιες λέξεις είναι σύνθετη η λέξη «θαλασσοπούλι»;",
+    "answer": "θάλασσα + πουλί",
+    "options": [
+      "νύχτα + πουλί",
+      "θάλασσα + πουλί",
+      "μαχαίρι + πιρούνι",
+      "καλός + καρδιά"
+    ]
+  },
+  {
+    "id": "f-m194",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο Ελάχιστο Κοινό Πολλαπλάσιο (ΕΚΠ) των αριθμών 22 και 4;",
+    "answer": "44",
+    "options": [
+      "88",
+      "45",
+      "44",
+      "2"
+    ]
+  },
+  {
+    "id": "f-m195",
+    "category": "math",
+    "type": "text",
+    "question": "Ένας κύκλος έχει ακτίνα 21 εκ. Ποια είναι η διάμετρός του;",
+    "answer": "42 εκ.",
+    "acceptedAnswers": [
+      "42",
+      "42 εκ",
+      "42 εκ.",
+      "42 εκατοστά"
+    ]
+  },
+  {
+    "id": "f-g131",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «κλαίω» στον Υπερσυντέλικο γίνεται:",
+    "answer": "είχα κλάψει",
+    "acceptedAnswers": [
+      "είχε κλάψει"
+    ]
+  },
+  {
+    "id": "f-g132",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η γενική ενικού της λέξης «το όνομα»;",
+    "answer": "του ονόματος",
+    "options": [
+      "το όνομα",
+      "του ονόματος",
+      "των ονομάτων",
+      "του πατέρα"
+    ]
+  },
+  {
+    "id": "f-s99",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ποίηση",
+    "options": [
+      "ποίυση",
+      "ποίηση",
+      "ποίιση"
+    ]
+  },
+  {
+    "id": "f-s100",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: εμπόρ_ο",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "εμπόριο"
+    ]
+  },
+  {
+    "id": "f-m196",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 43,18 - 1,84;",
+    "answer": "41,34",
+    "options": [
+      "41,34",
+      "42,34",
+      "41,44",
+      "40,34"
+    ]
+  },
+  {
+    "id": "f-e46",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η πρωτεύουσα της χώρας «Ηνωμένο Βασίλειο»;",
+    "answer": "το Λονδίνο",
+    "options": [
+      "το Λονδίνο",
+      "η Άγκυρα",
+      "η Μαδρίτη",
+      "η Στοκχόλμη"
+    ]
+  },
+  {
+    "id": "f-m197",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα ορθογώνιο παραλληλεπίπεδο έχει διαστάσεις 6 x 8 x 3 εκ. Ποιος είναι ο όγκος του;",
+    "answer": "144 κ.εκ.",
+    "options": [
+      "34 κ.εκ.",
+      "150 κ.εκ.",
+      "144 κ.εκ.",
+      "48 κ.εκ."
+    ]
+  },
+  {
+    "id": "f-g133",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Σε ποια έγκλιση βρίσκεται το ρήμα «δίνει»;",
+    "answer": "Οριστική",
+    "options": [
+      "Προστακτική",
+      "Υποτακτική",
+      "Οριστική"
+    ]
+  },
+  {
+    "id": "f-e47",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η πρωτεύουσα της χώρας «Αυστρία»;",
+    "answer": "η Βιέννη",
+    "options": [
+      "το Τόκιο",
+      "η Στοκχόλμη",
+      "η Ρώμη",
+      "η Βιέννη"
+    ]
+  },
+  {
+    "id": "f-g134",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Από ποιες λέξεις είναι σύνθετη η λέξη «ασπρόμαυρος»;",
+    "answer": "άσπρος + μαύρος",
+    "options": [
+      "άσπρος + μαύρος",
+      "ήλιος + βασίλεμα",
+      "άνεμος + μύλος",
+      "καλός + καρδιά"
+    ]
+  },
+  {
+    "id": "f-g135",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη είναι αντωνυμία;",
+    "answer": "κάποιος",
+    "options": [
+      "σκουπίζω",
+      "φοβισμένος",
+      "ποδήλατο",
+      "κάποιος"
+    ]
+  },
+  {
+    "id": "f-m198",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα αυτοκίνητο κινείται με 120 χλμ. την ώρα. Πόσα χιλιόμετρα θα διανύσει σε 6 ώρες;",
+    "answer": "720"
+  },
+  {
+    "id": "f-m199",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 1/4 + 1/8;",
+    "answer": "3/8",
+    "options": [
+      "3/8",
+      "4/8",
+      "2/8",
+      "3/16"
+    ]
+  },
+  {
+    "id": "f-s101",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "αμφιβολία",
+    "options": [
+      "αμφηβολία",
+      "αμφιβολία",
+      "αμφυβολία"
+    ]
+  },
+  {
+    "id": "f-m200",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 40,99 - 28,25;",
+    "answer": "12,74",
+    "options": [
+      "12,74",
+      "12,84",
+      "11,74",
+      "13,74"
+    ]
+  },
+  {
+    "id": "f-m201",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα ορθογώνιο παραλληλεπίπεδο έχει διαστάσεις 6 x 2 x 6 εκ. Ποιος είναι ο όγκος του;",
+    "answer": "72 κ.εκ.",
+    "options": [
+      "78 κ.εκ.",
+      "72 κ.εκ.",
+      "28 κ.εκ.",
+      "12 κ.εκ."
+    ]
+  },
+  {
+    "id": "f-m202",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα αυτοκίνητο διένυσε 240 χιλιόμετρα με σταθερή ταχύτητα 60 χλμ. την ώρα. Πόσες ώρες ταξίδεψε;",
+    "answer": "4",
+    "options": [
+      "4",
+      "3",
+      "8",
+      "5"
+    ]
+  },
+  {
+    "id": "f-s102",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "μυθιστόρημα",
+    "options": [
+      "μυθιστόριμα",
+      "μυθιστόρημα",
+      "μυθιστόρυμα"
+    ]
+  },
+  {
+    "id": "f-g136",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «χτενίζω» στον Αόριστο γίνεται:",
+    "answer": "χτένισα",
+    "options": [
+      "χτένιζα",
+      "χτένισα",
+      "έφαγα",
+      "θα έχω χτενίσει"
+    ]
+  },
+  {
+    "id": "f-m203",
+    "category": "math",
+    "type": "text",
+    "question": "Αν 8 · x = 96, πόσο είναι το x;",
+    "answer": "12"
+  },
+  {
+    "id": "f-s103",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "κατανάλωση",
+    "options": [
+      "κατανάλοση",
+      "κατανάλωση"
+    ]
+  },
+  {
+    "id": "f-m204",
+    "category": "math",
+    "type": "text",
+    "question": "Αν 2 · x = 22, πόσο είναι το x;",
+    "answer": "11"
+  },
+  {
+    "id": "f-g137",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Από ποιες λέξεις είναι σύνθετη η λέξη «ψαρόβαρκα»;",
+    "answer": "ψάρι + βάρκα",
+    "options": [
+      "ελιά + λάδι",
+      "νύχτα + πουλί",
+      "καλός + καρδιά",
+      "ψάρι + βάρκα"
+    ]
+  },
+  {
+    "id": "f-m205",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα παιχνίδι κοστίζει 50€ και έχει έκπτωση 10%. Πόσο θα το πληρώσουμε;",
+    "answer": "45€",
+    "options": [
+      "5€",
+      "50€",
+      "45€"
+    ]
+  },
+  {
+    "id": "f-m206",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα αυτοκίνητο κινείται με 70 χλμ. την ώρα. Πόσα χιλιόμετρα θα διανύσει σε 4 ώρες;",
+    "answer": "280"
+  },
+  {
+    "id": "f-g138",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη ΔΕΝ ανήκει στην ίδια οικογένεια λέξεων με τις υπόλοιπες;",
+    "answer": "σκοτάδι",
+    "options": [
+      "φως",
+      "φωτεινός",
+      "σκοτάδι",
+      "φωτίζω"
+    ]
+  },
+  {
+    "id": "f-m207",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 5,98 x 1000;",
+    "answer": "5980,0",
+    "acceptedAnswers": [
+      "5980,0",
+      "5980.0"
+    ]
+  },
+  {
+    "id": "f-m208",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένας κύκλος έχει διάμετρο 100 εκ. Ποια είναι η περίμετρός του; (π = 3,14)",
+    "answer": "314,0 εκ.",
+    "options": [
+      "300 εκ.",
+      "314,0 εκ.",
+      "157,0 εκ.",
+      "628,0 εκ."
+    ]
+  },
+  {
+    "id": "f-g139",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Σε ποια έγκλιση βρίσκεται το ρήμα «άνοιξε»;",
+    "answer": "Προστακτική",
+    "options": [
+      "Υποτακτική",
+      "Οριστική",
+      "Προστακτική"
+    ]
+  },
+  {
+    "id": "f-m209",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 25,25 + 46,69;",
+    "answer": "71,94",
+    "acceptedAnswers": [
+      "71,94",
+      "71.94"
+    ]
+  },
+  {
+    "id": "f-m210",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα ορθογώνιο παραλληλεπίπεδο έχει διαστάσεις 3 x 3 x 6 εκ. Ποιος είναι ο όγκος του;",
+    "answer": "54 κ.εκ.",
+    "options": [
+      "9 κ.εκ.",
+      "57 κ.εκ.",
+      "54 κ.εκ.",
+      "24 κ.εκ."
+    ]
+  },
+  {
+    "id": "f-g140",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «ποτίζω» στον Παρακείμενο γίνεται:",
+    "answer": "έχω ποτίσει",
+    "acceptedAnswers": [
+      "έχει ποτίσει"
+    ]
+  }
+]

@@ -5,8 +5,12 @@ import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
+const OUT_A = join(__dirname, '../src/data/questions-a.json')
+const OUT_B = join(__dirname, '../src/data/questions-b.json')
 const OUT_C = join(__dirname, '../src/data/questions-c.json')
 const OUT_D = join(__dirname, '../src/data/questions-d.json')
+const OUT_E = join(__dirname, '../src/data/questions-e.json')
+const OUT_F = join(__dirname, '../src/data/questions-f.json')
 
 // ---------- seeded RNG ----------
 function mulberry32(seed) {
@@ -93,10 +97,11 @@ const NAMES = [
 const fullName = (n) => `${n.article} ${n.name}`
 const midSentenceName = (n) => `${n.article.toLowerCase()} ${n.name}`
 
+// μόνο ουδέτερα στον πληθυντικό, ώστε το «Πόσα ...» να είναι πάντα σωστό
 const ITEMS = [
-  'μπάλες', 'αυτοκολλητάκια', 'βιβλία', 'καραμέλες', 'μολύβια', 'τετράδια',
-  'μπισκότα', 'μήλα', 'πορτοκάλια', 'κάρτες', 'μαρκαδόρους', 'αχλάδια',
-  'αυγά', 'λουλούδια', 'μπαλόνια',
+  'αυτοκολλητάκια', 'βιβλία', 'μολύβια', 'τετράδια', 'μπισκότα', 'μήλα',
+  'πορτοκάλια', 'αχλάδια', 'αυγά', 'λουλούδια', 'μπαλόνια', 'παιχνίδια',
+  'καπέλα', 'δώρα', 'κεράσια',
 ]
 
 // noun, article/gender: 'ο' | 'η' | 'το', plural
@@ -1450,7 +1455,1129 @@ const ENVIRONMENT_D = [
 ]
 
 // ==================================================================
-// ASSEMBLE — two banks of 500 (Γ' και Δ'), ~65% MC each
+// Α' & Β' ΔΗΜΟΤΙΚΟΥ — data & generators
+// ==================================================================
+
+const ALPHABET = ['Α', 'Β', 'Γ', 'Δ', 'Ε', 'Ζ', 'Η', 'Θ', 'Ι', 'Κ', 'Λ', 'Μ', 'Ν', 'Ξ', 'Ο', 'Π', 'Ρ', 'Σ', 'Τ', 'Υ', 'Φ', 'Χ', 'Ψ', 'Ω']
+const VOWELS = ['α', 'ε', 'η', 'ι', 'ο', 'υ', 'ω']
+const CONSONANTS = ['β', 'γ', 'δ', 'ζ', 'θ', 'κ', 'λ', 'μ', 'ν', 'ξ', 'π', 'ρ', 'σ', 'τ', 'φ', 'χ', 'ψ']
+const DAYS = ['Δευτέρα', 'Τρίτη', 'Τετάρτη', 'Πέμπτη', 'Παρασκευή', 'Σάββατο', 'Κυριακή']
+const MONTHS = ['Ιανουάριος', 'Φεβρουάριος', 'Μάρτιος', 'Απρίλιος', 'Μάιος', 'Ιούνιος', 'Ιούλιος', 'Αύγουστος', 'Σεπτέμβριος', 'Οκτώβριος', 'Νοέμβριος', 'Δεκέμβριος']
+
+// [λέξη, συλλαβές] — μόνο λέξεις με αδιαμφισβήτητο συλλαβισμό
+const SYLLABLE_WORDS = [
+  ['μαμά', 2], ['νερό', 2], ['μήλο', 2], ['ψωμί', 2], ['γάλα', 2], ['σπίτι', 2],
+  ['χέρι', 2], ['πόδι', 2], ['μύτη', 2], ['μπάλα', 2], ['κούκλα', 2], ['γόμα', 2],
+  ['τσάντα', 2], ['πόρτα', 2], ['λύκος', 2], ['βροχή', 2], ['βουνό', 2], ['δάσος', 2],
+  ['δρόμος', 2], ['φούρνος', 2], ['σκόρδο', 2], ['αρκούδα', 3], ['καπέλο', 3],
+  ['πατάτα', 3], ['ντομάτα', 3], ['μπανάνα', 3], ['παπούτσι', 3], ['φεγγάρι', 3],
+  ['αστέρι', 3], ['ποτήρι', 3], ['κουτάλι', 3], ['σελίδα', 3], ['θάλασσα', 3],
+  ['ποτάμι', 3], ['ζάχαρη', 3], ['αλάτι', 3], ['πιπέρι', 3], ['μαρούλι', 3],
+  ['λεμόνι', 3], ['κεράσι', 3], ['καρπούζι', 3], ['μαξιλάρι', 4], ['τηλέφωνο', 4],
+  ['καλοκαίρι', 4], ['σοκολάτα', 4], ['πορτοκάλι', 4], ['κολοκύθα', 4],
+  ['πεταλούδα', 4], ['καραμέλα', 4], ['ελέφαντας', 4],
+]
+
+const SPELLING_WORDS_A = [
+  'μαμά', 'νερό', 'ψωμί', 'γάλα', 'μήλο', 'σπίτι', 'ήλιος', 'φίλος', 'παιδί',
+  'χέρι', 'πόδι', 'μάτι', 'μύτη', 'αυτί', 'βιβλίο', 'μολύβι', 'γόμα', 'τσάντα',
+  'πίνακας', 'δάσκαλος', 'κήπος', 'δέντρο', 'λουλούδι', 'γάτα', 'σκύλος', 'ψάρι',
+  'πουλί', 'κότα', 'αγελάδα', 'άλογο', 'πρόβατο', 'ώρα', 'ημέρα', 'νύχτα',
+  'ουρανός', 'φεγγάρι', 'αστέρι', 'βροχή', 'χιόνι', 'μπάλα', 'κούκλα', 'τρένο',
+  'βάρκα', 'δώρο', 'κερί', 'τούρτα', 'γιαγιά', 'παππούς', 'θεία', 'θείος',
+  'αδελφή', 'αδελφός', 'κουζίνα', 'καρέκλα', 'τραπέζι', 'κρεβάτι', 'πόρτα',
+  'παράθυρο', 'ποτήρι', 'πιάτο', 'ζώο', 'φύλλο', 'ρίζα', 'ήχος', 'φωνή', 'χαρά',
+  'παγωτό', 'ψυγείο', 'καλοκαίρι', 'χειμώνας', 'ποδήλατο', 'πεταλούδα',
+  'καραμέλα', 'σοκολάτα', 'πορτοκάλι', 'καρπούζι', 'λεμόνι', 'κεράσι',
+  'ελέφαντας', 'μέλισσα', 'χελώνα', 'κουνέλι', 'ποντίκι', 'λιοντάρι',
+  'ομπρέλα', 'φαγητό', 'ψάρεμα', 'βόλτα', 'δρόμος', 'πλατεία',
+]
+
+const SPELLING_WORDS_B = [
+  'σχολείο', 'μάθημα', 'διάλειμμα', 'τετράδιο', 'κασετίνα', 'ξύστρα', 'ψαλίδι',
+  'ζωγραφιά', 'παραμύθι', 'ιστορία', 'τραγούδι', 'παιχνίδι', 'ποδήλατο',
+  'κούνια', 'τσουλήθρα', 'γειτονιά', 'πλατεία', 'εκκλησία', 'φούρνος',
+  'μανάβικο', 'φαρμακείο', 'νοσοκομείο', 'γιατρός', 'δασκάλα', 'μαθητής',
+  'μαθήτρια', 'κυρία', 'κύριος', 'οικογένεια', 'ξάδερφος', 'ξαδέρφη', 'γενέθλια',
+  'γιορτή', 'εκδρομή', 'θάλασσα', 'αμμουδιά', 'κοχύλι', 'καράβι', 'ψαράς',
+  'καλάθι', 'πορτοκαλάδα', 'λεμονάδα', 'σοκολάτα', 'παγωτό', 'μπισκότο',
+  'κουλούρι', 'τυρόπιτα', 'σπανακόπιτα', 'μακαρόνια', 'σαλάτα', 'φρούτα',
+  'λαχανικά', 'καρότο', 'αγγούρι', 'κρεμμύδι', 'πιπεριά', 'φασολάκια',
+  'χειμώνας', 'άνοιξη', 'φθινόπωρο', 'σύννεφο', 'ομπρέλα', 'μπουφάν', 'κασκόλ',
+  'γάντια', 'χιονάνθρωπος', 'πουλόβερ', 'φανέλα', 'παπούτσια', 'κάλτσες',
+]
+
+function genLettersAB(n) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const askVowel = rng() < 0.5
+    if (askVowel) {
+      const correct = pick(VOWELS)
+      const opts = shuffle([correct, ...pickN(CONSONANTS, 3)])
+      if (addQ(grammar, 'grammar', 'multiple-choice', 'Ποιο από τα παρακάτω γράμματα είναι φωνήεν;', correct, opts)) made++
+    } else {
+      const correct = pick(CONSONANTS)
+      const opts = shuffle([correct, ...pickN(VOWELS, 3)])
+      if (addQ(grammar, 'grammar', 'multiple-choice', 'Ποιο από τα παρακάτω γράμματα είναι σύμφωνο;', correct, opts)) made++
+    }
+  }
+}
+
+function genAlphabetOrder(n) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const after = rng() < 0.5
+    const idx = after ? randInt(0, ALPHABET.length - 2) : randInt(1, ALPHABET.length - 1)
+    const base = ALPHABET[idx]
+    const answer = after ? ALPHABET[idx + 1] : ALPHABET[idx - 1]
+    const q = `Ποιο γράμμα έρχεται αμέσως ${after ? 'μετά' : 'πριν από'} το ${base};`
+    const wrongPool = ALPHABET.filter((l) => l !== answer && l !== base)
+    const opts = mcOptions(answer, pickN(wrongPool, 3))
+    if (addQ(grammar, 'grammar', 'multiple-choice', q, answer, opts)) made++
+  }
+}
+
+function genSyllables(n) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const [word, count] = pick(SYLLABLE_WORDS)
+    const q = `Πόσες συλλαβές έχει η λέξη «${word}»;`
+    const opts = mcOptions(count, [count + 1, count - 1 > 0 ? count - 1 : count + 2, count + 2])
+    if (addQ(grammar, 'grammar', 'multiple-choice', q, count, opts)) made++
+  }
+}
+
+// ρήματα με απόλυτα ομαλή κλίση ενεστώτα (stem + ω/εις/ει/ουμε/ετε/ουν)
+const REGULAR_PRESENT_VERBS = [
+  'παίζω', 'γράφω', 'διαβάζω', 'τρέχω', 'χορεύω', 'μαγειρεύω', 'καθαρίζω',
+  'ανοίγω', 'κλείνω', 'δουλεύω', 'ζωγραφίζω', 'σκουπίζω', 'ποτίζω', 'φωνάζω', 'ψάχνω',
+]
+const PERSON_LABELS = ['εγώ', 'εσύ', 'αυτός', 'εμείς', 'εσείς', 'αυτοί']
+const PERSON_ENDINGS = ['ω', 'εις', 'ει', 'ουμε', 'ετε', 'ουν']
+
+function genPresentConjugation(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const verb = pick(REGULAR_PRESENT_VERBS)
+    const stem = verb.slice(0, -1)
+    const personIdx = randInt(1, 5) // όχι το "εγώ" (είναι η ίδια η λέξη)
+    const answer = stem + PERSON_ENDINGS[personIdx]
+    const q = `Το ρήμα «${verb}» με το «${PERSON_LABELS[personIdx]}» γίνεται: ${PERSON_LABELS[personIdx]} ...`
+    const isMc = rng() < mcRatio
+    let opts
+    if (isMc) {
+      const wrongs = PERSON_ENDINGS.filter((_, i) => i !== personIdx).map((e) => stem + e)
+      opts = mcOptions(answer, pickN(wrongs, 3))
+    }
+    if (addQ(grammar, 'grammar', isMc ? 'multiple-choice' : 'text', q, answer, opts)) made++
+  }
+}
+
+const PUNCTUATION_QS = [
+  ['Τι σημείο στίξης βάζουμε στο τέλος μιας ερώτησης;', 'το ερωτηματικό (;)', ['την τελεία (.)', 'το θαυμαστικό (!)', 'το κόμμα (,)']],
+  ['Τι σημείο στίξης βάζουμε στο τέλος μιας πρότασης που λέει κάτι απλά;', 'την τελεία (.)', ['το ερωτηματικό (;)', 'το θαυμαστικό (!)', 'το κόμμα (,)']],
+  ['Τι σημείο στίξης βάζουμε όταν φωνάζουμε ή θαυμάζουμε κάτι;', 'το θαυμαστικό (!)', ['την τελεία (.)', 'το ερωτηματικό (;)', 'το κόμμα (,)']],
+  ['Με τι γράμμα ξεκινά πάντα μια πρόταση;', 'με κεφαλαίο', ['με μικρό', 'με τονισμένο', 'με όποιο θέλουμε']],
+  ['Τι σημείο στίξης χωρίζει λέξεις όταν απαριθμούμε πράγματα;', 'το κόμμα (,)', ['η τελεία (.)', 'το ερωτηματικό (;)', 'το θαυμαστικό (!)']],
+]
+
+function genPunctuation(n) {
+  for (const [q, answer, wrongs] of pickN(PUNCTUATION_QS, Math.min(n, PUNCTUATION_QS.length))) {
+    addQ(grammar, 'grammar', 'multiple-choice', q, answer, mcOptions(answer, wrongs))
+  }
+}
+
+const SIMPLE_DICTIONARY_WORDS = [
+  'αγελάδα', 'βάρκα', 'γάτα', 'δέντρο', 'ελέφαντας', 'ζάχαρη', 'ήλιος', 'θάλασσα',
+  'ιστορία', 'καράβι', 'λουλούδι', 'μήλο', 'νερό', 'ξύλο', 'ουρανός', 'παιδί',
+  'ρολόι', 'σπίτι', 'τραπέζι', 'φεγγάρι', 'χαρά', 'ψάρι', 'ώρα',
+]
+
+function stripAccents(s) {
+  return s.normalize('NFD').replace(/[̀-ͯ]/g, '')
+}
+
+function genDictionaryOrder(n) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 30) {
+    guard++
+    const words = pickN(SIMPLE_DICTIONARY_WORDS, 4)
+    const firstLetters = words.map((w) => stripAccents(w[0]).toUpperCase())
+    if (new Set(firstLetters).size !== 4) continue
+    const sorted = [...words].sort((a, b) =>
+      ALPHABET.indexOf(stripAccents(a[0]).toUpperCase()) - ALPHABET.indexOf(stripAccents(b[0]).toUpperCase()),
+    )
+    const answer = sorted[0]
+    const q = 'Ποια λέξη θα βρεις πρώτη στο λεξικό (αλφαβητική σειρά);'
+    if (addQ(grammar, 'grammar', 'multiple-choice', q, answer, shuffle(words))) made++
+  }
+}
+
+// --- Α' μαθηματικά ---
+function genShapesOnly(n) {
+  const shapes = [['τρίγωνο', 3], ['τετράγωνο', 4], ['πεντάγωνο', 5], ['εξάγωνο', 6], ['ορθογώνιο', 4]]
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const [name, sides] = pick(shapes)
+    const q = `Πόσες πλευρές έχει ένα ${name};`
+    const opts = mcOptions(sides, [sides + 1, sides - 1, sides + 2])
+    if (addQ(math, 'math', 'multiple-choice', q, sides, opts)) made++
+  }
+}
+
+function genAdditionSmall(n, mcRatio, maxSum) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const a = randInt(1, maxSum - 1)
+    const b = randInt(1, maxSum - a)
+    const sum = a + b
+    const isMc = rng() < mcRatio
+    const q = `Πόσο κάνει ${a} + ${b};`
+    const opts = isMc ? mcOptions(sum, [sum + 1, sum - 1 > 0 ? sum - 1 : sum + 2, sum + 2]) : undefined
+    if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, sum, opts)) made++
+  }
+}
+
+function genSubtractionSmall(n, mcRatio, maxVal) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const a = randInt(2, maxVal)
+    const b = randInt(1, a - 1)
+    const diff = a - b
+    const isMc = rng() < mcRatio
+    const q = `Πόσο κάνει ${a} - ${b};`
+    const opts = isMc ? mcOptions(diff, [diff + 1, diff - 1 >= 0 ? diff - 1 : diff + 2, diff + 2]) : undefined
+    if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, diff, opts)) made++
+  }
+}
+
+function genNextPrev(n, maxVal) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const after = rng() < 0.5
+    const base = randInt(2, maxVal - 1)
+    const answer = after ? base + 1 : base - 1
+    const q = `Ποιος αριθμός έρχεται αμέσως ${after ? 'μετά το' : 'πριν από το'} ${base};`
+    const opts = mcOptions(answer, [answer + 1, answer - 1, base + 10])
+    if (addQ(math, 'math', 'multiple-choice', q, answer, opts)) made++
+  }
+}
+
+function genCompareNumbers(n, maxVal) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const a = randInt(1, maxVal)
+    const b = randInt(1, maxVal)
+    if (a === b) continue
+    const bigger = rng() < 0.5
+    const answer = bigger ? Math.max(a, b) : Math.min(a, b)
+    const q = `Ποιος αριθμός είναι ${bigger ? 'μεγαλύτερος' : 'μικρότερος'}: το ${a} ή το ${b};`
+    const opts = mcOptions(answer, [bigger ? Math.min(a, b) : Math.max(a, b)])
+    if (addQ(math, 'math', 'multiple-choice', q, answer, opts)) made++
+  }
+}
+
+function genOddEvenSmall(n, maxVal) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const nums = [randInt(1, maxVal), randInt(1, maxVal), randInt(1, maxVal), randInt(1, maxVal)]
+    if (new Set(nums).size !== 4) continue
+    const wantOdd = rng() < 0.5
+    const matching = nums.filter((x) => (x % 2 !== 0) === wantOdd)
+    if (matching.length !== 1) continue
+    const q = `Ποιος αριθμός είναι ${wantOdd ? 'μονός' : 'ζυγός'};`
+    if (addQ(math, 'math', 'multiple-choice', q, matching[0], shuffle(nums))) made++
+  }
+}
+
+function genWordProblemsSmall(n, mcRatio, maxVal) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 30) {
+    guard++
+    const name = pick(NAMES)
+    const item = pick(ITEMS)
+    const add = rng() < 0.5
+    if (add) {
+      const a = randInt(2, Math.floor(maxVal / 2))
+      const b = randInt(1, maxVal - a)
+      const q = `${fullName(name)} έχει ${a} ${item} και παίρνει ακόμα ${b}. Πόσα ${item} έχει τώρα;`
+      const isMc = rng() < mcRatio
+      const opts = isMc ? mcOptions(a + b, [a + b + 1, a + b - 1, a + b + 2]) : undefined
+      if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, a + b, opts)) made++
+    } else {
+      const a = randInt(3, maxVal)
+      const b = randInt(1, a - 1)
+      const q = `${fullName(name)} έχει ${a} ${item} και δίνει ${b} σε έναν φίλο. Πόσα ${item} μένουν;`
+      const isMc = rng() < mcRatio
+      const opts = isMc ? mcOptions(a - b, [a - b + 1, a - b - 1 >= 0 ? a - b - 1 : a - b + 2, a - b + 2]) : undefined
+      if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, a - b, opts)) made++
+    }
+  }
+}
+
+// --- Β' μαθηματικά ---
+function genMultiplicationTables(n, mcRatio, tables) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const a = pick(tables)
+    const b = randInt(2, 10)
+    const prod = a * b
+    const isMc = rng() < mcRatio
+    const q = `Πόσο κάνει ${a} x ${b};`
+    const opts = isMc ? mcOptions(prod, [prod + a, prod - a, prod + b]) : undefined
+    if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, prod, opts)) made++
+  }
+}
+
+function genDoublesHalves(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const double = rng() < 0.5
+    if (double) {
+      const a = randInt(2, 50)
+      const q = `Ποιο είναι το διπλάσιο του ${a};`
+      const isMc = rng() < mcRatio
+      const opts = isMc ? mcOptions(a * 2, [a * 2 + 1, a * 2 - 1, a * 2 + 2]) : undefined
+      if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, a * 2, opts)) made++
+    } else {
+      const half = randInt(2, 50)
+      const q = `Ποιο είναι το μισό του ${half * 2};`
+      const isMc = rng() < mcRatio
+      const opts = isMc ? mcOptions(half, [half + 1, half - 1, half + 2]) : undefined
+      if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, half, opts)) made++
+    }
+  }
+}
+
+function genPlaceValue2Digit(n) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const t = randInt(1, 9)
+    const u = randInt(0, 9)
+    const num = t * 10 + u
+    const askTens = rng() < 0.5
+    const answer = askTens ? t : u
+    const q = `Πόσες ${askTens ? 'δεκάδες' : 'μονάδες'} έχει ο αριθμός ${num};`
+    const opts = mcOptions(answer, [askTens ? u : t, answer + 1, answer - 1 >= 0 ? answer - 1 : answer + 2])
+    if (addQ(math, 'math', 'multiple-choice', q, answer, opts)) made++
+  }
+}
+
+function genClockB(n) {
+  let made = 0, guard = 0
+  const variants = [
+    { word: (h) => `${numWordHour(h)} ακριβώς`, min: '00' },
+    { word: (h) => `${numWordHour(h)} και μισή`, min: '30' },
+    { word: (h) => `${numWordHour(h)} και τέταρτο`, min: '15' },
+  ]
+  while (made < n && guard < n * 20) {
+    guard++
+    const h = randInt(1, 12)
+    const v = pick(variants)
+    const answer = `${h}:${v.min}`
+    const q = `Πώς γράφουμε με ψηφία την ώρα «${v.word(h)}»;`
+    const wrongMin = v.min === '00' ? '30' : '00'
+    const opts = mcOptions(answer, [`${h}:${wrongMin}`, `${(h % 12) + 1}:${v.min}`, `${h}:45`])
+    if (addQ(math, 'math', 'multiple-choice', q, answer, opts)) made++
+  }
+}
+
+const HOUR_WORDS = ['μία', 'δύο', 'τρεις', 'τέσσερις', 'πέντε', 'έξι', 'εφτά', 'οχτώ', 'εννιά', 'δέκα', 'έντεκα', 'δώδεκα']
+function numWordHour(h) {
+  return HOUR_WORDS[h - 1]
+}
+
+function genMoneyB(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const name = pick(NAMES)
+    const price1 = randInt(1, 6)
+    const price2 = randInt(1, 6)
+    const kind = rng() < 0.5
+    if (kind) {
+      const q = `${fullName(name)} αγόρασε ένα παγωτό ${price1}€ και έναν χυμό ${price2}€. Πόσα ευρώ πλήρωσε;`
+      const total = price1 + price2
+      const isMc = rng() < mcRatio
+      const opts = isMc ? mcOptions(`${total}€`, [`${total + 1}€`, `${total - 1}€`, `${total + 2}€`]) : undefined
+      if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, `${total}€`, opts, isMc ? undefined : moneyAccepted(total))) made++
+    } else {
+      const cost = randInt(2, 9)
+      const q = `${fullName(name)} πλήρωσε με 10€ κάτι που κόστιζε ${cost}€. Πόσα ρέστα πήρε;`
+      const isMc = rng() < mcRatio
+      const rest = 10 - cost
+      const opts = isMc ? mcOptions(`${rest}€`, [`${rest + 1}€`, `${rest - 1}€`, `${cost}€`]) : undefined
+      if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, `${rest}€`, opts, isMc ? undefined : moneyAccepted(rest))) made++
+    }
+  }
+}
+
+// --- Μελέτη Α' ---
+const ENVIRONMENT_A = [
+  ['Ποια ημέρα έρχεται μετά την Κυριακή;', 'η Δευτέρα', ['η Τρίτη', 'το Σάββατο', 'η Παρασκευή']],
+  ['Πόσες ημέρες έχει μία εβδομάδα;', '7', ['5', '6', '10']],
+  ['Πόσες εποχές έχει ο χρόνος;', '4', ['2', '3', '5']],
+  ['Σε ποια εποχή χιονίζει συνήθως;', 'τον χειμώνα', ['το καλοκαίρι', 'την άνοιξη', 'το φθινόπωρο']],
+  ['Σε ποια εποχή ανθίζουν τα περισσότερα λουλούδια;', 'την άνοιξη', ['τον χειμώνα', 'το φθινόπωρο', 'το καλοκαίρι']],
+  ['Σε ποια εποχή πηγαίνουμε συνήθως για μπάνιο στη θάλασσα;', 'το καλοκαίρι', ['τον χειμώνα', 'την άνοιξη', 'το φθινόπωρο']],
+  ['Σε ποια εποχή πέφτουν τα φύλλα των δέντρων;', 'το φθινόπωρο', ['την άνοιξη', 'το καλοκαίρι', 'τον χειμώνα']],
+  ['Τι χρώμα ανάβει το φανάρι για να περάσουν οι πεζοί;', 'πράσινο', ['κόκκινο', 'κίτρινο', 'μπλε']],
+  ['Τι κάνουμε όταν το φανάρι των πεζών είναι κόκκινο;', 'περιμένουμε', ['περνάμε τρέχοντας', 'περνάμε αργά', 'φωνάζουμε δυνατά']],
+  ['Από πού περνάμε τον δρόμο με ασφάλεια;', 'από τη διάβαση', ['από όπου θέλουμε', 'ανάμεσα από τα αυτοκίνητα', 'τρέχοντας']],
+  ['Πού μένει η μέλισσα;', 'στην κυψέλη', ['στη φωλιά', 'στο κοτέτσι', 'στη σπηλιά']],
+  ['Πού μένει το πουλί;', 'στη φωλιά', ['στην κυψέλη', 'στο κοτέτσι', 'στο κλουβί πάντα']],
+  ['Πού μένει η κότα;', 'στο κοτέτσι', ['στη φωλιά στα δέντρα', 'στην κυψέλη', 'στη θάλασσα']],
+  ['Ποιο ζώο μάς δίνει το γάλα που πίνουμε συνήθως;', 'η αγελάδα', ['η γάτα', 'ο σκύλος', 'το ψάρι']],
+  ['Ποιο ζώο μάς δίνει τα αυγά;', 'η κότα', ['η αγελάδα', 'το πρόβατο', 'η γάτα']],
+  ['Ποιο ζώο μάς δίνει το μαλλί;', 'το πρόβατο', ['η κότα', 'η γάτα', 'το ψάρι']],
+  ['Ποιο ζώο γαβγίζει;', 'ο σκύλος', ['η γάτα', 'η κότα', 'το άλογο']],
+  ['Ποιο ζώο νιαουρίζει;', 'η γάτα', ['ο σκύλος', 'η αγελάδα', 'το πρόβατο']],
+  ['Πόσα πόδια έχει η κότα;', '2', ['4', '6', '8']],
+  ['Πόσα πόδια έχει η γάτα;', '4', ['2', '6', '8']],
+  ['Με ποιο μέρος του σώματος βλέπουμε;', 'με τα μάτια', ['με τα αυτιά', 'με τη μύτη', 'με τα χέρια']],
+  ['Με ποιο μέρος του σώματος ακούμε;', 'με τα αυτιά', ['με τα μάτια', 'με το στόμα', 'με τα πόδια']],
+  ['Με τι μυρίζουμε;', 'με τη μύτη', ['με τα αυτιά', 'με τα μάτια', 'με τα χέρια']],
+  ['Πόσα δάχτυλα έχουμε στα δύο χέρια μαζί;', '10', ['5', '8', '20']],
+  ['Τι φοράμε στα πόδια μας για να βγούμε έξω;', 'παπούτσια', ['γάντια', 'καπέλο', 'κασκόλ']],
+  ['Τι κρατάμε όταν βρέχει για να μη βραχούμε;', 'ομπρέλα', ['μπάλα', 'βιβλίο', 'ποδήλατο']],
+  ['Ποιο μέσο μεταφοράς πετάει;', 'το αεροπλάνο', ['το τρένο', 'το λεωφορείο', 'το ποδήλατο']],
+  ['Ποιο μέσο μεταφοράς ταξιδεύει στη θάλασσα;', 'το πλοίο', ['το τρένο', 'το αυτοκίνητο', 'το ποδήλατο']],
+  ['Πού πετάμε τα σκουπίδια;', 'στον κάδο', ['στον δρόμο', 'στη θάλασσα', 'στο πάρκο']],
+  ['Τι λέμε όταν κάποιος μάς δίνει ένα δώρο;', 'ευχαριστώ', ['τίποτα', 'αντίο', 'έλα']],
+  ['Τι λέμε όταν ζητάμε κάτι ευγενικά;', 'παρακαλώ', ['γρήγορα', 'φύγε', 'τίποτα']],
+  ['Τι πρέπει να κάνουμε πριν φάμε;', 'να πλύνουμε τα χέρια μας', ['να τρέξουμε', 'να κοιμηθούμε', 'τίποτα']],
+  ['Πότε βουρτσίζουμε τα δόντια μας;', 'πρωί και βράδυ', ['ποτέ', 'μόνο τις γιορτές', 'μία φορά τον μήνα']],
+  ['Ο ήλιος βγαίνει...', 'το πρωί', ['τη νύχτα', 'μόνο τον χειμώνα', 'ποτέ']],
+  ['Τι βλέπουμε στον ουρανό τη νύχτα;', 'το φεγγάρι και τα αστέρια', ['τον ήλιο', 'το ουράνιο τόξο', 'τίποτα ποτέ']],
+  ['Ποιο από τα παρακάτω είναι φρούτο;', 'το μήλο', ['το καρότο', 'η πατάτα', 'το μαρούλι']],
+  ['Ποιο από τα παρακάτω είναι λαχανικό;', 'το καρότο', ['το μήλο', 'η μπανάνα', 'το κεράσι']],
+  ['Ποιο ζώο ζει στο νερό;', 'το ψάρι', ['η γάτα', 'η κότα', 'το άλογο']],
+  ['Γράψε μία ημέρα της εβδομάδας.', 'Δευτέρα', null, ['Τρίτη', 'Τετάρτη', 'Πέμπτη', 'Παρασκευή', 'Σάββατο', 'Κυριακή']],
+  ['Γράψε μία εποχή του χρόνου.', 'άνοιξη', null, ['καλοκαίρι', 'φθινόπωρο', 'χειμώνας']],
+  ['Γράψε ένα ζώο που ζει στη φάρμα.', 'αγελάδα', null, ['κότα', 'πρόβατο', 'κατσίκα', 'άλογο', 'γουρούνι', 'πάπια', 'γάιδαρος', 'κόκορας', 'κουνέλι']],
+  ['Γράψε ένα φρούτο.', 'μήλο', null, ['πορτοκάλι', 'μπανάνα', 'αχλάδι', 'σταφύλι', 'καρπούζι', 'πεπόνι', 'φράουλα', 'κεράσι', 'ροδάκινο', 'βερίκοκο', 'μανταρίνι', 'αγγούρι' === 'x' ? 'x' : 'λεμόνι']],
+  ['Γράψε ένα χρώμα.', 'κόκκινο', null, ['μπλε', 'πράσινο', 'κίτρινο', 'πορτοκαλί', 'μοβ', 'ροζ', 'μαύρο', 'άσπρο', 'καφέ', 'γκρι', 'γαλάζιο']],
+  ['Γράψε ένα μέρος του σώματος.', 'χέρι', null, ['πόδι', 'μάτι', 'αυτί', 'μύτη', 'στόμα', 'κεφάλι', 'κοιλιά', 'πλάτη', 'δάχτυλο', 'μαλλιά']],
+  ['Ποιο ζώο λέγεται «βασιλιάς των ζώων»;', 'το λιοντάρι', ['η γάτα', 'ο σκύλος', 'το άλογο']],
+  ['Πόσα μάτια έχουμε;', '2', ['1', '3', '4']],
+  ['Τι χρώμα έχει το γρασίδι;', 'πράσινο', ['κόκκινο', 'μπλε', 'κίτρινο']],
+  ['Τι χρώμα έχει ο ουρανός μια ηλιόλουστη μέρα;', 'γαλάζιο', ['πράσινο', 'μαύρο', 'καφέ']],
+  ['Ποιο ζώο κουβαλά το σπίτι του στην πλάτη;', 'η χελώνα', ['ο σκύλος', 'το άλογο', 'η κότα']],
+  ['Τι φτιάχνει η μέλισσα;', 'μέλι', ['γάλα', 'αυγά', 'μαλλί']],
+]
+
+// --- Μελέτη Β' ---
+const ENVIRONMENT_B = [
+  ['Τι φτιάχνει ο φούρναρης;', 'ψωμί', ['παπούτσια', 'ρούχα', 'έπιπλα']],
+  ['Ποιος σβήνει τις φωτιές;', 'ο πυροσβέστης', ['ο αστυνομικός', 'ο γιατρός', 'ο ταχυδρόμος']],
+  ['Ποιος μάς εξετάζει όταν είμαστε άρρωστοι;', 'ο γιατρός', ['ο δάσκαλος', 'ο μανάβης', 'ο οδηγός']],
+  ['Ποιος φέρνει τα γράμματα στα σπίτια;', 'ο ταχυδρόμος', ['ο πυροσβέστης', 'ο ψαράς', 'ο μάγειρας']],
+  ['Ποιος καλλιεργεί τα χωράφια;', 'ο γεωργός', ['ο ναυτικός', 'ο γιατρός', 'ο κομμωτής']],
+  ['Ποιος κόβει τα μαλλιά μας;', 'ο κουρέας', ['ο φούρναρης', 'ο ταχυδρόμος', 'ο οδηγός']],
+  ['Από πού παίρνουμε το μέλι;', 'από τις μέλισσες', ['από τις κότες', 'από τα πρόβατα', 'από τα δέντρα μόνο']],
+  ['Από τι φτιάχνεται το αλεύρι;', 'από το σιτάρι', ['από το γάλα', 'από τις πατάτες', 'από τα αυγά']],
+  ['Από τι φτιάχνεται το τυρί;', 'από το γάλα', ['από το αλεύρι', 'από το νερό', 'από τη ζάχαρη']],
+  ['Ποια είναι τα τρία βασικά μέρη ενός φυτού;', 'ρίζα, βλαστός, φύλλα', ['πέτρα, χώμα, νερό', 'ήλιος, αέρας, βροχή', 'κλαδί, καρπός, σπόρος μόνο']],
+  ['Με ποιο μέρος του ρουφά το φυτό νερό από το χώμα;', 'με τη ρίζα', ['με τα φύλλα', 'με το άνθος', 'με τον καρπό']],
+  ['Τι χρειάζεται ένα φυτό για να μεγαλώσει;', 'νερό, φως και χώμα', ['μόνο σκοτάδι', 'μόνο ζάχαρη', 'τίποτα']],
+  ['Τι γίνεται το νερό όταν το βάλουμε στην κατάψυξη;', 'πάγος', ['υδρατμός', 'χυμός', 'αλάτι']],
+  ['Τι γίνεται το νερό όταν βράζει;', 'υδρατμός', ['πάγος', 'χιόνι', 'λάδι']],
+  ['Από πού πέφτει η βροχή;', 'από τα σύννεφα', ['από τον ήλιο', 'από τα αστέρια', 'από τα βουνά']],
+  ['Ποιο από τα παρακάτω ζώα είναι πουλί;', 'ο πελαργός', ['η νυχτερίδα', 'η πεταλούδα', 'ο σκίουρος']],
+  ['Ποιο ζώο ζει και στο νερό και στη στεριά;', 'ο βάτραχος', ['το πρόβατο', 'η κότα', 'ο λαγός']],
+  ['Ποιο ζώο κάνει τον χειμώνα χειμερία νάρκη;', 'η αρκούδα', ['ο σκύλος', 'η κότα', 'το άλογο']],
+  ['Σε ποιον κάδο πετάμε τα χαρτιά και τα πλαστικά για ανακύκλωση;', 'στον μπλε κάδο', ['στον πράσινο κάδο', 'σε όποιον βρούμε', 'στον δρόμο']],
+  ['Γιατί κάνουμε ανακύκλωση;', 'για να προστατεύουμε τη φύση', ['για να γεμίζουν οι κάδοι', 'για παιχνίδι', 'χωρίς λόγο']],
+  ['Πόσους μήνες έχει ένας χρόνος;', '12', ['10', '7', '24']],
+  ['Ποιος μήνας έχει τα Χριστούγεννα;', 'ο Δεκέμβριος', ['ο Μάρτιος', 'ο Αύγουστος', 'ο Μάιος']],
+  ['Ποιον μήνα γιορτάζουμε την 25η Μαρτίου;', 'τον Μάρτιο', ['τον Απρίλιο', 'τον Οκτώβριο', 'τον Ιανουάριο']],
+  ['Ποιον μήνα γιορτάζουμε την 28η Οκτωβρίου;', 'τον Οκτώβριο', ['τον Μάρτιο', 'τον Δεκέμβριο', 'τον Ιούνιο']],
+  ['Τι καιρό κάνει συνήθως το καλοκαίρι;', 'ζέστη και λιακάδα', ['χιόνι', 'παγωνιά', 'συνέχεια βροχή']],
+  ['Ποιο όργανο χτυπά μέσα στο στήθος μας;', 'η καρδιά', ['το στομάχι', 'ο εγκέφαλος', 'τα νεφρά']],
+  ['Γιατί τρώμε φρούτα και λαχανικά;', 'για να είμαστε υγιείς', ['για να νυστάζουμε', 'επειδή είναι μόδα', 'χωρίς λόγο']],
+  ['Ποιο γεύμα τρώμε το πρωί;', 'το πρωινό', ['το βραδινό', 'το μεσημεριανό', 'τίποτα']],
+  ['Πού πρέπει να καθόμαστε όταν ταξιδεύουμε με αυτοκίνητο;', 'στο παιδικό κάθισμα με ζώνη', ['στα γόνατα του οδηγού', 'όρθιοι', 'στο παράθυρο']],
+  ['Ποιο μέσο μεταφοράς κινείται σε ράγες;', 'το τρένο', ['το αεροπλάνο', 'το πλοίο', 'το ποδήλατο']],
+  ['Τι φοράμε πάντα όταν κάνουμε ποδήλατο;', 'κράνος', ['καπέλο ήλιου', 'γυαλιά κολύμβησης', 'τίποτα']],
+  ['Πώς λέγεται το σπίτι του σκύλου;', 'σκυλόσπιτο', ['κοτέτσι', 'κυψέλη', 'στάβλος']],
+  ['Πού μένουν τα άλογα;', 'στον στάβλο', ['στην κυψέλη', 'στη φωλιά', 'στο κοτέτσι']],
+  ['Τι μας δίνει ο ήλιος;', 'φως και ζέστη', ['βροχή', 'χιόνι', 'αέρα']],
+  ['Γράψε ένα επάγγελμα.', 'δάσκαλος', null, ['γιατρός', 'πυροσβέστης', 'αστυνομικός', 'φούρναρης', 'γεωργός', 'ψαράς', 'οδηγός', 'μάγειρας', 'κομμωτής', 'ταχυδρόμος', 'μανάβης', 'νοσηλευτής', 'νοσοκόμα']],
+  ['Γράψε ένα ζώο που πετάει.', 'πουλί', null, ['πεταλούδα', 'μέλισσα', 'νυχτερίδα', 'κουνούπι', 'μύγα', 'περιστέρι', 'αετός', 'χελιδόνι', 'γλάρος', 'κουκουβάγια']],
+  ['Γράψε ένα λαχανικό.', 'καρότο', null, ['ντομάτα', 'αγγούρι', 'μαρούλι', 'πατάτα', 'κρεμμύδι', 'πιπεριά', 'κολοκύθι', 'μπρόκολο', 'κουνουπίδι', 'σπανάκι', 'λάχανο', 'παντζάρι']],
+  ['Γράψε έναν μήνα του χειμώνα.', 'Ιανουάριος', null, ['Δεκέμβριος', 'Φεβρουάριος']],
+  ['Γράψε έναν μήνα του καλοκαιριού.', 'Ιούλιος', null, ['Ιούνιος', 'Αύγουστος']],
+]
+
+function genMonthsDays(n) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const useMonths = rng() < 0.5
+    const list = useMonths ? MONTHS : DAYS
+    const label = useMonths ? 'μήνας' : 'ημέρα'
+    const after = rng() < 0.5
+    const idx = randInt(0, list.length - 1)
+    const answerIdx = after ? (idx + 1) % list.length : (idx - 1 + list.length) % list.length
+    const answer = list[answerIdx]
+    const q = `Ποι${useMonths ? 'ος' : 'α'} ${label} έρχεται ${after ? 'μετά' : 'πριν από'} τ${useMonths ? 'ον' : 'ην'} ${list[idx].replace(/ος$/, useMonths ? 'ο' : '')};`
+    const wrongPool = list.filter((x) => x !== answer && x !== list[idx])
+    const opts = mcOptions(answer, pickN(wrongPool, 3))
+    if (addQ(environment, 'environment', 'multiple-choice', q, answer, opts)) made++
+  }
+}
+
+// ==================================================================
+// Ε' & ΣΤ' ΔΗΜΟΤΙΚΟΥ — data & generators
+// ==================================================================
+
+function genBigNumbersE(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const kind = pick(['thousands', 'round', 'compare'])
+    if (kind === 'thousands') {
+      const th = randInt(2, 900)
+      const rest = randInt(0, 999)
+      const num = th * 1000 + rest
+      const q = `Πόσες χιλιάδες έχει ο αριθμός ${num.toLocaleString('el-GR')};`
+      const isMc = rng() < mcRatio
+      const opts = isMc ? mcOptions(th, [th + 1, th - 1, th * 10]) : undefined
+      if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, th, opts)) made++
+    } else if (kind === 'round') {
+      const num = randInt(10500, 985000)
+      const rounded = Math.round(num / 1000) * 1000
+      const q = `Στρογγυλοποίησε τον αριθμό ${num.toLocaleString('el-GR')} στην πλησιέστερη χιλιάδα.`
+      const opts = mcOptions(rounded.toLocaleString('el-GR'), [
+        (rounded + 1000).toLocaleString('el-GR'),
+        (rounded - 1000).toLocaleString('el-GR'),
+        num.toLocaleString('el-GR'),
+      ])
+      if (addQ(math, 'math', 'multiple-choice', q, rounded.toLocaleString('el-GR'), opts)) made++
+    } else {
+      const a = randInt(10000, 999999)
+      const b = randInt(10000, 999999)
+      if (a === b) continue
+      const bigger = Math.max(a, b)
+      const q = `Ποιος αριθμός είναι μεγαλύτερος: ${a.toLocaleString('el-GR')} ή ${b.toLocaleString('el-GR')};`
+      const opts = mcOptions(bigger.toLocaleString('el-GR'), [Math.min(a, b).toLocaleString('el-GR')])
+      if (addQ(math, 'math', 'multiple-choice', q, bigger.toLocaleString('el-GR'), opts)) made++
+    }
+  }
+}
+
+function genDecimalOpsE(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const kind = pick(['add', 'sub', 'x10'])
+    if (kind === 'add' || kind === 'sub') {
+      let a = randInt(105, 5000)
+      let b = randInt(105, 5000)
+      if (kind === 'sub' && b > a) [a, b] = [b, a]
+      const res = kind === 'add' ? a + b : a - b
+      if (res === 0) continue
+      const q = `Πόσο κάνει ${asDecimal(a)} ${kind === 'add' ? '+' : '-'} ${asDecimal(b)};`
+      const isMc = rng() < mcRatio
+      const opts = isMc ? mcOptions(asDecimal(res), [asDecimal(res + 100), asDecimal(res + 10), asDecimal(Math.max(1, res - 100))]) : undefined
+      if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, asDecimal(res), opts, isMc ? undefined : decimalAccepted(res))) made++
+    } else {
+      const factor = pick([10, 100, 1000])
+      const cents = randInt(105, 900)
+      const res = cents * factor
+      const q = `Πόσο κάνει ${asDecimal(cents)} x ${factor};`
+      const isMc = rng() < mcRatio
+      const opts = isMc ? mcOptions(asDecimal(res), [asDecimal(res * 10), asDecimal(Math.round(res / 10)), asDecimal(res + 100)]) : undefined
+      if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, asDecimal(res), opts, isMc ? undefined : decimalAccepted(res))) made++
+    }
+  }
+}
+
+function genFractionsE(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const kind = pick(['add-same', 'of-quantity'])
+    if (kind === 'add-same') {
+      const den = pick([5, 6, 7, 8, 9, 10])
+      const a = randInt(1, den - 2)
+      const b = randInt(1, den - a - 1)
+      const answer = `${a + b}/${den}`
+      const q = `Πόσο κάνει ${a}/${den} + ${b}/${den};`
+      const isMc = rng() < mcRatio
+      const opts = isMc ? mcOptions(answer, [`${a + b}/${den * 2}`, `${a + b + 1}/${den}`, `${a * b}/${den}`]) : undefined
+      if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, answer, opts)) made++
+    } else {
+      const den = pick([2, 3, 4, 5, 10])
+      const num = randInt(1, den - 1)
+      const whole = den * randInt(2, 12)
+      const answer = (whole / den) * num
+      const q = `Πόσο είναι τα ${num}/${den} του ${whole};`
+      const isMc = rng() < mcRatio
+      const opts = isMc ? mcOptions(answer, [answer + num, answer - num, whole / den]) : undefined
+      if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, answer, opts)) made++
+    }
+  }
+}
+
+function genPercentE(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const pct = pick([10, 20, 25, 50])
+    const base = (100 / pct) * randInt(1, 12) * (pct === 25 ? 1 : 1)
+    const answer = (base * pct) / 100
+    if (!Number.isInteger(answer) || !Number.isInteger(base)) continue
+    const q = `Πόσο είναι το ${pct}% του ${base};`
+    const isMc = rng() < mcRatio
+    const opts = isMc ? mcOptions(answer, [answer * 2, Math.max(1, Math.round(answer / 2)), answer + pct]) : undefined
+    if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, answer, opts)) made++
+  }
+}
+
+function genAverageE(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 30) {
+    guard++
+    const count = pick([3, 4])
+    const avg = randInt(5, 50)
+    const nums = []
+    let sum = 0
+    for (let i = 0; i < count - 1; i++) {
+      const x = randInt(Math.max(1, avg - 10), avg + 10)
+      nums.push(x)
+      sum += x
+    }
+    const last = avg * count - sum
+    if (last < 1 || last > avg + 20) continue
+    nums.push(last)
+    const q = `Ποιος είναι ο μέσος όρος των αριθμών: ${shuffle(nums).join(', ')};`
+    const isMc = rng() < mcRatio
+    const opts = isMc ? mcOptions(avg, [avg + 1, avg - 1, avg + 2]) : undefined
+    if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, avg, opts)) made++
+  }
+}
+
+function genDivisibilityE(n) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 30) {
+    guard++
+    const d = pick([2, 3, 5, 10])
+    const good = d * randInt(4, 60)
+    const wrongs = []
+    let attempts = 0
+    while (wrongs.length < 3 && attempts < 50) {
+      attempts++
+      const w = randInt(15, 600)
+      if (w % d !== 0 && !wrongs.includes(w) && w !== good) wrongs.push(w)
+    }
+    if (wrongs.length < 3) continue
+    const q = `Ποιος από τους παρακάτω αριθμούς διαιρείται ακριβώς με το ${d};`
+    if (addQ(math, 'math', 'multiple-choice', q, good, shuffle([good, ...wrongs]))) made++
+  }
+}
+
+function genAreaE(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const triangle = rng() < 0.5
+    if (triangle) {
+      const base = randInt(2, 20) * 2
+      const height = randInt(3, 20)
+      const area = (base * height) / 2
+      const q = `Ένα τρίγωνο έχει βάση ${base} εκ. και ύψος ${height} εκ. Ποιο είναι το εμβαδόν του;`
+      const answer = `${area} τ.εκ.`
+      const isMc = rng() < mcRatio
+      const opts = isMc ? mcOptions(answer, [`${base * height} τ.εκ.`, `${area + base} τ.εκ.`, `${area - height} τ.εκ.`]) : undefined
+      const accepted = isMc ? undefined : [`${area}`, `${area} τ.εκ`, `${area} τ.εκ.`, `${area} τετραγωνικά εκατοστά`]
+      if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, answer, opts, accepted)) made++
+    } else {
+      const b = randInt(4, 25)
+      const h = randInt(3, 20)
+      const area = b * h
+      const q = `Ένα παραλληλόγραμμο έχει βάση ${b} εκ. και ύψος ${h} εκ. Ποιο είναι το εμβαδόν του;`
+      const answer = `${area} τ.εκ.`
+      const isMc = rng() < mcRatio
+      const opts = isMc ? mcOptions(answer, [`${2 * (b + h)} τ.εκ.`, `${area + b} τ.εκ.`, `${area - h} τ.εκ.`]) : undefined
+      const accepted = isMc ? undefined : [`${area}`, `${area} τ.εκ`, `${area} τ.εκ.`, `${area} τετραγωνικά εκατοστά`]
+      if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, answer, opts, accepted)) made++
+    }
+  }
+}
+
+// --- ΣΤ' μαθηματικά ---
+function genEquationsF(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const kind = pick(['add', 'sub', 'mul'])
+    let q, x
+    if (kind === 'add') {
+      x = randInt(3, 60)
+      const a = randInt(2, 50)
+      q = `Αν x + ${a} = ${x + a}, πόσο είναι το x;`
+    } else if (kind === 'sub') {
+      x = randInt(10, 90)
+      const a = randInt(2, x - 1)
+      q = `Αν x - ${a} = ${x - a}, πόσο είναι το x;`
+    } else {
+      x = randInt(3, 12)
+      const a = randInt(2, 9)
+      q = `Αν ${a} · x = ${a * x}, πόσο είναι το x;`
+    }
+    const isMc = rng() < mcRatio
+    const opts = isMc ? mcOptions(x, [x + 1, x - 1, x + 5]) : undefined
+    if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, x, opts)) made++
+  }
+}
+
+function gcd(a, b) {
+  return b === 0 ? a : gcd(b, a % b)
+}
+
+function genGcdLcmF(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 30) {
+    guard++
+    const a = randInt(4, 24)
+    const b = randInt(4, 24)
+    if (a === b) continue
+    const g = gcd(a, b)
+    const l = (a * b) / g
+    const askGcd = rng() < 0.5
+    if (askGcd && g === 1) continue
+    if (!askGcd && l > 100) continue
+    const answer = askGcd ? g : l
+    const q = `Ποιος είναι ο ${askGcd ? 'Μέγιστος Κοινός Διαιρέτης (ΜΚΔ)' : 'Ελάχιστο Κοινό Πολλαπλάσιο (ΕΚΠ)'} των αριθμών ${a} και ${b};`
+    const isMc = rng() < mcRatio
+    const opts = isMc ? mcOptions(answer, [askGcd ? l : g, answer * 2, answer + 1]) : undefined
+    if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, answer, opts)) made++
+  }
+}
+
+function genCircleF(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const kind = pick(['diameter', 'radius', 'circumference'])
+    if (kind === 'diameter') {
+      const r = randInt(2, 30)
+      const q = `Ένας κύκλος έχει ακτίνα ${r} εκ. Ποια είναι η διάμετρός του;`
+      const answer = `${r * 2} εκ.`
+      const isMc = rng() < mcRatio
+      const opts = isMc ? mcOptions(answer, [`${r} εκ.`, `${r * 4} εκ.`, `${r * 2 + 1} εκ.`]) : undefined
+      if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, answer, opts, isMc ? undefined : cmAccepted(r * 2))) made++
+    } else if (kind === 'radius') {
+      const r = randInt(2, 30)
+      const q = `Ένας κύκλος έχει διάμετρο ${r * 2} εκ. Ποια είναι η ακτίνα του;`
+      const answer = `${r} εκ.`
+      const isMc = rng() < mcRatio
+      const opts = isMc ? mcOptions(answer, [`${r * 2} εκ.`, `${r * 4} εκ.`, `${r + 1} εκ.`]) : undefined
+      if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, answer, opts, isMc ? undefined : cmAccepted(r))) made++
+    } else {
+      const d = pick([2, 5, 10, 20, 100])
+      const per = d * 314 // σε "εκατοστά × 100" για ακρίβεια: 3,14 × d
+      const answer = asDecimal(per)
+      const q = `Ένας κύκλος έχει διάμετρο ${d} εκ. Ποια είναι η περίμετρός του; (π = 3,14)`
+      const opts = mcOptions(`${answer} εκ.`, [`${asDecimal(per * 2)} εκ.`, `${asDecimal(Math.round(per / 2))} εκ.`, `${d * 3} εκ.`])
+      if (addQ(math, 'math', 'multiple-choice', q, `${answer} εκ.`, opts)) made++
+    }
+  }
+}
+
+function genVolumeF(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const cube = rng() < 0.5
+    if (cube) {
+      const a = randInt(2, 10)
+      const vol = a * a * a
+      const q = `Ένας κύβος έχει ακμή ${a} εκ. Ποιος είναι ο όγκος του;`
+      const answer = `${vol} κ.εκ.`
+      const isMc = rng() < mcRatio
+      const opts = isMc ? mcOptions(answer, [`${a * a} κ.εκ.`, `${a * 6} κ.εκ.`, `${vol + a} κ.εκ.`]) : undefined
+      const accepted = isMc ? undefined : [`${vol}`, `${vol} κ.εκ`, `${vol} κ.εκ.`, `${vol} κυβικά εκατοστά`]
+      if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, answer, opts, accepted)) made++
+    } else {
+      const l = randInt(2, 12)
+      const w = randInt(2, 10)
+      const h = randInt(2, 8)
+      const vol = l * w * h
+      const q = `Ένα ορθογώνιο παραλληλεπίπεδο έχει διαστάσεις ${l} x ${w} x ${h} εκ. Ποιος είναι ο όγκος του;`
+      const answer = `${vol} κ.εκ.`
+      const isMc = rng() < mcRatio
+      const opts = isMc ? mcOptions(answer, [`${l * w} κ.εκ.`, `${vol + l} κ.εκ.`, `${2 * (l + w + h)} κ.εκ.`]) : undefined
+      const accepted = isMc ? undefined : [`${vol}`, `${vol} κ.εκ`, `${vol} κ.εκ.`, `${vol} κυβικά εκατοστά`]
+      if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, answer, opts, accepted)) made++
+    }
+  }
+}
+
+function genSpeedF(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const v = pick([40, 50, 60, 70, 80, 90, 100, 110, 120])
+    const t = randInt(2, 6)
+    const askDistance = rng() < 0.6
+    if (askDistance) {
+      const q = `Ένα αυτοκίνητο κινείται με ${v} χλμ. την ώρα. Πόσα χιλιόμετρα θα διανύσει σε ${t} ώρες;`
+      const answer = v * t
+      const isMc = rng() < mcRatio
+      const opts = isMc ? mcOptions(answer, [answer + v, answer - v, answer + 10]) : undefined
+      if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, answer, opts)) made++
+    } else {
+      const s = v * t
+      const q = `Ένα αυτοκίνητο διένυσε ${s} χιλιόμετρα με σταθερή ταχύτητα ${v} χλμ. την ώρα. Πόσες ώρες ταξίδεψε;`
+      const isMc = rng() < mcRatio
+      const opts = isMc ? mcOptions(t, [t + 1, t - 1, t * 2]) : undefined
+      if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, t, opts)) made++
+    }
+  }
+}
+
+function genPercentProblemsF(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const pct = pick([10, 20, 25, 50])
+    const price = (100 / pct) * randInt(1, 8)
+    if (!Number.isInteger(price)) continue
+    const discount = (price * pct) / 100
+    const final = price - discount
+    const q = `Ένα παιχνίδι κοστίζει ${price}€ και έχει έκπτωση ${pct}%. Πόσο θα το πληρώσουμε;`
+    const isMc = rng() < mcRatio
+    const opts = isMc ? mcOptions(`${final}€`, [`${discount}€`, `${price}€`, `${final + 5}€`]) : undefined
+    if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, `${final}€`, opts, isMc ? undefined : moneyAccepted(final))) made++
+  }
+}
+
+// [κλάσμα1, κλάσμα2, απλοποιημένο άθροισμα, αποδεκτό μη απλοποιημένο]
+const HETERO_FRACTIONS = [
+  ['1/2', '1/4', '3/4', null], ['1/4', '1/4', '1/2', '2/4'], ['1/3', '1/6', '1/2', '3/6'],
+  ['1/2', '1/3', '5/6', null], ['1/4', '1/8', '3/8', null], ['1/2', '1/6', '2/3', '4/6'],
+  ['2/5', '1/5', '3/5', null], ['3/8', '1/8', '1/2', '4/8'], ['1/5', '3/10', '1/2', '5/10'],
+  ['1/6', '1/3', '1/2', '3/6'], ['1/2', '1/8', '5/8', null], ['1/3', '1/3', '2/3', null],
+]
+
+function genHeteroFractionsF(n, mcRatio) {
+  const chosen = pickN(HETERO_FRACTIONS, Math.min(n, HETERO_FRACTIONS.length))
+  for (const [f1, f2, sum, alt] of chosen) {
+    const q = `Πόσο κάνει ${f1} + ${f2};`
+    const isMc = rng() < mcRatio
+    let opts
+    if (isMc) {
+      const [num, den] = sum.split('/').map(Number)
+      opts = mcOptions(sum, [`${num + 1}/${den}`, `${num}/${den * 2}`, alt === null ? `${num - 1 > 0 ? num - 1 : num + 2}/${den}` : `${num + 2}/${den}`])
+    }
+    addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, sum, opts, isMc || !alt ? undefined : [alt])
+  }
+}
+
+// --- Γραμματική Ε'/ΣΤ' ---
+const TENSE_LABELS_EF = ['Παρατατικό', 'Αόριστο', 'Μέλλοντα', 'Παρακείμενο', 'Υπερσυντέλικο', 'Συντελεσμένο Μέλλοντα']
+
+function genVerbTensesEF(n, mcRatio, tenseCount) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 30) {
+    guard++
+    const [base, firstPerson, thirdPerson] = pick(VERBS)
+    const ap = thirdPerson[2].replace(/^θα /, '')
+    const first = [...firstPerson, `έχω ${ap}`, `είχα ${ap}`, `θα έχω ${ap}`]
+    const third = [...thirdPerson, `έχει ${ap}`, `είχε ${ap}`, `θα έχει ${ap}`]
+    const tense = randInt(0, tenseCount - 1)
+    const answer = first[tense]
+    const q = `Το ρήμα «${base}» στον ${TENSE_LABELS_EF[tense]} γίνεται:`
+    const isMc = rng() < mcRatio
+    let opts
+    if (isMc) {
+      const otherVerb = pick(VERBS.filter((v) => v[0] !== base))
+      const otherAp = otherVerb[2][2].replace(/^θα /, '')
+      const otherFirst = [...otherVerb[1], `έχω ${otherAp}`, `είχα ${otherAp}`, `θα έχω ${otherAp}`]
+      opts = mcOptions(answer, [...pickN(first.filter((_, i) => i !== tense), 2), otherFirst[tense]])
+    }
+    const accepted = isMc ? undefined : [third[tense]]
+    if (addQ(grammar, 'grammar', isMc ? 'multiple-choice' : 'text', q, answer, opts, accepted)) made++
+  }
+}
+
+const PASSIVE_VERBS = ['πλένομαι', 'ντύνομαι', 'κρύβομαι', 'σηκώνομαι', 'χτενίζομαι', 'ετοιμάζομαι', 'βρίσκομαι', 'φαίνομαι', 'κάθομαι', 'σκέφτομαι']
+
+function genVoicesEF(n) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const askPassive = rng() < 0.5
+    if (askPassive) {
+      const correct = pick(PASSIVE_VERBS)
+      const distractors = pickN(VERBS, 3).map((v) => v[0])
+      const q = 'Ποιο ρήμα βρίσκεται σε παθητική φωνή;'
+      if (addQ(grammar, 'grammar', 'multiple-choice', q, correct, shuffle([correct, ...distractors]))) made++
+    } else {
+      const correct = pick(VERBS)[0]
+      const distractors = pickN(PASSIVE_VERBS, 3)
+      const q = 'Ποιο ρήμα βρίσκεται σε ενεργητική φωνή;'
+      if (addQ(grammar, 'grammar', 'multiple-choice', q, correct, shuffle([correct, ...distractors]))) made++
+    }
+  }
+}
+
+// [σύνθετη λέξη, 'συνθετικό1 + συνθετικό2']
+const COMPOUND_WORDS = [
+  ['ηλιοβασίλεμα', 'ήλιος + βασίλεμα'], ['χιονάνθρωπος', 'χιόνι + άνθρωπος'],
+  ['ποδόσφαιρο', 'πόδι + σφαίρα'], ['ανεμόμυλος', 'άνεμος + μύλος'],
+  ['θαλασσοπούλι', 'θάλασσα + πουλί'], ['καλόκαρδος', 'καλός + καρδιά'],
+  ['μεγαλόσωμος', 'μεγάλος + σώμα'], ['ελαιόλαδο', 'ελιά + λάδι'],
+  ['σαπουνόφουσκα', 'σαπούνι + φούσκα'], ['χαρτοπετσέτα', 'χαρτί + πετσέτα'],
+  ['ψαρόβαρκα', 'ψάρι + βάρκα'], ['αλατοπίπερο', 'αλάτι + πιπέρι'],
+  ['μαχαιροπίρουνο', 'μαχαίρι + πιρούνι'], ['νυχτοπούλι', 'νύχτα + πουλί'],
+  ['βορειοδυτικός', 'βόρειος + δυτικός'], ['γλυκόξινος', 'γλυκός + ξινός'],
+  ['ασπρόμαυρος', 'άσπρος + μαύρος'], ['κοκκινομάλλης', 'κόκκινος + μαλλιά'],
+]
+
+function genCompoundsEF(n) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const [word, parts] = pick(COMPOUND_WORDS)
+    const q = `Από ποιες λέξεις είναι σύνθετη η λέξη «${word}»;`
+    const distractors = pickN(COMPOUND_WORDS.filter((c) => c[0] !== word), 3).map((c) => c[1])
+    const opts = mcOptions(parts, distractors)
+    if (addQ(grammar, 'grammar', 'multiple-choice', q, parts, opts)) made++
+  }
+}
+
+// [[3 λέξεις ίδιας οικογένειας], παρείσακτη λέξη]
+const WORD_FAMILIES = [
+  [['γράφω', 'γραφή', 'γράμμα'], 'παίζω'],
+  [['παίζω', 'παιχνίδι', 'παίκτης'], 'τρώω'],
+  [['τρέχω', 'τρέξιμο', 'τρεχάλα'], 'γελάω'],
+  [['θάλασσα', 'θαλασσινός', 'θαλασσοπούλι'], 'βουνό'],
+  [['άνθος', 'ανθίζω', 'ανθοδέσμη'], 'δέντρο'],
+  [['φως', 'φωτίζω', 'φωτεινός'], 'σκοτάδι'],
+  [['ζέστη', 'ζεστός', 'ζεσταίνω'], 'κρύο'],
+  [['χορός', 'χορεύω', 'χορευτής'], 'τραγούδι'],
+  [['διδάσκω', 'δάσκαλος', 'διδασκαλία'], 'μαθητής'],
+  [['μαγειρεύω', 'μάγειρας', 'μαγείρεμα'], 'φούρνος'],
+  [['ψάρι', 'ψαράς', 'ψάρεμα'], 'βάρκα'],
+  [['νερό', 'νερουλάς', 'νεροποντή'], 'φωτιά'],
+]
+
+function genWordFamiliesEF(n) {
+  const chosen = pickN(WORD_FAMILIES, Math.min(n, WORD_FAMILIES.length))
+  for (const [family, intruder] of chosen) {
+    const q = 'Ποια λέξη ΔΕΝ ανήκει στην ίδια οικογένεια λέξεων με τις υπόλοιπες;'
+    addQ(grammar, 'grammar', 'multiple-choice', q, intruder, shuffle([...family, intruder]))
+  }
+}
+
+// [μορφή ρήματος, έγκλιση]
+const MOOD_FORMS = []
+const IMPERATIVES = {
+  γράφω: 'γράψε', παίζω: 'παίξε', τρέχω: 'τρέξε', διαβάζω: 'διάβασε',
+  ανοίγω: 'άνοιξε', κλείνω: 'κλείσε', ακούω: 'άκουσε', μιλάω: 'μίλησε',
+  ζωγραφίζω: 'ζωγράφισε', καθαρίζω: 'καθάρισε', βοηθάω: 'βοήθησε',
+  απαντάω: 'απάντησε', σκουπίζω: 'σκούπισε', χορεύω: 'χόρεψε', μαγειρεύω: 'μαγείρεψε',
+}
+for (const verb of VERBS) {
+  const [base, , thirdPerson] = verb
+  const ap = thirdPerson[2].replace(/^θα /, '')
+  MOOD_FORMS.push([base.replace(/ω$/, 'ει'), 'Οριστική']) // παίζω -> παίζει, περπατάω -> περπατάει
+  MOOD_FORMS.push([`να ${ap}`, 'Υποτακτική'])
+  if (IMPERATIVES[base]) MOOD_FORMS.push([IMPERATIVES[base], 'Προστακτική'])
+}
+
+function genMoodsF(n) {
+  const MOODS = ['Οριστική', 'Υποτακτική', 'Προστακτική']
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const [form, mood] = pick(MOOD_FORMS)
+    if (!form) continue
+    const q = `Σε ποια έγκλιση βρίσκεται το ρήμα «${form}»;`
+    const opts = mcOptions(mood, MOODS)
+    if (addQ(grammar, 'grammar', 'multiple-choice', q, mood, opts)) made++
+  }
+}
+
+// [πρόταση, σχήμα λόγου]
+const FIGURES = [
+  ['Η βροχή έπεφτε όλη νύχτα.', 'κυριολεξία'], ['Είναι γρήγορος σαν αστραπή.', 'παρομοίωση'],
+  ['Έχει καρδιά από χρυσάφι.', 'μεταφορά'], ['Ο δρόμος ήταν κλειστός.', 'κυριολεξία'],
+  ['Τα μάγουλά της είναι σαν τριαντάφυλλα.', 'παρομοίωση'], ['Πνίγηκε στη δουλειά.', 'μεταφορά'],
+  ['Το παιδί έφαγε το μήλο.', 'κυριολεξία'], ['Είναι άσπρος σαν το χιόνι.', 'παρομοίωση'],
+  ['Μου ράγισε την καρδιά.', 'μεταφορά'], ['Πετάει από τη χαρά του.', 'μεταφορά'],
+  ['Το τρένο έφτασε στην ώρα του.', 'κυριολεξία'], ['Δουλεύει σαν μέλισσα.', 'παρομοίωση'],
+]
+
+function genFiguresF(n) {
+  const chosen = pickN(FIGURES, Math.min(n, FIGURES.length))
+  for (const [sentence, figure] of chosen) {
+    const q = `Τι σχήμα λόγου έχει η πρόταση: «${sentence}»`
+    addQ(grammar, 'grammar', 'multiple-choice', q, figure, mcOptions(figure, ['κυριολεξία', 'μεταφορά', 'παρομοίωση'].filter((f) => f !== figure)))
+  }
+}
+
+// --- Ορθογραφία Ε'/ΣΤ' ---
+const SPELLING_WORDS_E = [
+  'υπόσχεση', 'εξαίρεση', 'ενθουσιασμός', 'εντυπωσιακός', 'αποτελεσματικός',
+  'περιπέτεια', 'δημιουργία', 'πρωταγωνιστής', 'σκηνοθέτης', 'μετάφραση',
+  'παράγραφος', 'κεφάλαιο', 'περιεχόμενο', 'βιβλιοπωλείο', 'διεύθυνση',
+  'γραμματέας', 'πρόεδρος', 'υπουργός', 'δήμαρχος', 'περιφέρεια', 'οικονομία',
+  'βιομηχανία', 'γεωργία', 'κτηνοτροφία', 'αλιεία', 'τουρισμός', 'πολιτεία',
+  'κυβέρνηση', 'δικαιοσύνη', 'ισότητα', 'αλληλεγγύη', 'εθελοντής', 'συμμετοχή',
+  'εκπαίδευση', 'επιστήμη', 'εφεύρεση', 'ανακάλυψη', 'πείραμα', 'εργαστήριο',
+  'μικροσκόπιο', 'τηλεσκόπιο', 'θερμόμετρο', 'ηλεκτρικός', 'μαγνήτης',
+  'μπαταρία', 'καλώδιο', 'διακόπτης', 'ψηφιακός', 'οθόνη', 'πληκτρολόγιο',
+  'εκτυπωτής', 'πρόγραμμα', 'ασφαλής', 'προσεκτικός', 'δημοφιλής', 'διάσημος',
+  'ταλαντούχος', 'εμπιστοσύνη', 'ευθύνη', 'συνέπεια', 'επιμονή', 'αισιοδοξία',
+  'συγκίνηση', 'ενθάρρυνση', 'συγχαρητήρια', 'πρόσκληση', 'εορτασμός',
+  'παρέλαση', 'σημαιοφόρος', 'φωτοσύνθεση', 'οξυγόνο', 'διοξείδιο', 'κύτταρο',
+  'οργανισμός', 'μικρόβιο', 'εμβόλιο', 'πρόληψη', 'θεραπεία', 'ανάρρωση',
+]
+
+const SPELLING_WORDS_F = [
+  'αμφιβολία', 'ανεξαρτησία', 'δικαίωμα', 'υποχρέωση', 'πολίτευμα', 'σύνταγμα',
+  'βουλευτής', 'πρωθυπουργός', 'εκλογές', 'ψηφοφορία', 'πλειοψηφία', 'μειοψηφία',
+  'κοινοβούλιο', 'ειρηνικός', 'συνύπαρξη', 'συνεννόηση', 'συμφωνία', 'διαφωνία',
+  'επιχείρημα', 'συμπέρασμα', 'απόδειξη', 'υπόθεση', 'θεωρία', 'φαινόμενο',
+  'βαρύτητα', 'περιστροφή', 'περιφορά', 'δορυφόρος', 'διαστημόπλοιο',
+  'αστροναύτης', 'υγρότοπος', 'οικοσύστημα', 'ρύπανση', 'μόλυνση', 'προστασία',
+  'εξαφάνιση', 'κλιματικός', 'υπερθέρμανση', 'εξοικονόμηση', 'κατανάλωση',
+  'παραγωγή', 'εξαγωγή', 'εισαγωγή', 'εμπόριο', 'βιοτεχνία', 'ναυτιλία',
+  'αεροπορία', 'αυτοκινητόδρομος', 'πολυκατοικία', 'συγκοινωνία', 'κυκλοφορία',
+  'πεζοδρόμιο', 'ποδηλατόδρομος', 'περιβαλλοντικός', 'ανανεώσιμος', 'αειφορία',
+  'πολιτισμός', 'παράδοση', 'κληρονομιά', 'αρχαιολογία', 'ανασκαφή', 'έκθεμα',
+  'συλλογή', 'βιβλιοθηκάριος', 'εγκυκλοπαίδεια', 'λογοτεχνία', 'ποίηση',
+  'πεζογραφία', 'μυθιστόρημα', 'διήγημα', 'θεατρικός', 'σκηνικό', 'ηθοποιός',
+  'μουσικός', 'συνθέτης', 'μαέστρος', 'ορχήστρα', 'συναυλία', 'φεστιβάλ',
+]
+
+// --- Γεωγραφία/Φυσικά Ε' ---
+const ENVIRONMENT_E = [
+  ['Πώς λέγεται η ψηλότερη κορυφή του Ολύμπου;', 'Μύτικας', ['Σμόλικας', 'Ψηλορείτης', 'Παρνασσός']],
+  ['Ποιο είναι το δεύτερο ψηλότερο βουνό της Ελλάδας;', 'ο Σμόλικας', ['ο Παρνασσός', 'ο Ταΰγετος', 'ο Ψηλορείτης']],
+  ['Ποιο είναι το ψηλότερο βουνό της Κρήτης;', 'ο Ψηλορείτης', ['τα Λευκά Όρη', 'ο Ταΰγετος', 'η Δίκτη']],
+  ['Ποιο είναι το ψηλότερο βουνό της Πελοποννήσου;', 'ο Ταΰγετος', ['ο Πάρνωνας', 'το Μαίναλο', 'ο Χελμός']],
+  ['Ποιος είναι ο μεγαλύτερος κάμπος της Ελλάδας;', 'ο Θεσσαλικός', ['ο Μεσσηνιακός', 'της Μακεδονίας', 'της Ηλείας']],
+  ['Τι κλίμα έχει η Ελλάδα;', 'μεσογειακό', ['τροπικό', 'πολικό', 'ερημικό']],
+  ['Ο ποταμός Έβρος είναι φυσικό σύνορο με ποια χώρα;', 'την Τουρκία', ['την Αλβανία', 'την Ιταλία', 'τη Βουλγαρία μόνο']],
+  ['Πώς λέγεται η λίμνη των Ιωαννίνων;', 'Παμβώτιδα', ['Τριχωνίδα', 'Βεγορίτιδα', 'Κερκίνη']],
+  ['Ποια διώρυγα χωρίζει την Πελοπόννησο από τη Στερεά Ελλάδα;', 'της Κορίνθου', ['του Σουέζ', 'του Παναμά', 'της Πάτρας']],
+  ['Η γέφυρα Ρίου-Αντιρρίου συνδέει την Πελοπόννησο με...', 'τη Στερεά Ελλάδα', ['την Ήπειρο', 'τη Θεσσαλία', 'την Κρήτη']],
+  ['Ποιο νησί είναι το νοτιότερο σημείο της Ελλάδας (και της Ευρώπης);', 'η Γαύδος', ['η Κρήτη', 'η Ρόδος', 'τα Κύθηρα']],
+  ['Πώς λέγεται το φημισμένο φαράγγι της Κρήτης;', 'της Σαμαριάς', ['του Βίκου', 'του Λούσιου', 'της Πίνδου']],
+  ['Σε ποιο νησί υπάρχει το διάσημο ηφαίστειο με την καλντέρα;', 'στη Σαντορίνη', ['στη Νάξο', 'στην Πάρο', 'στην Κέρκυρα']],
+  ['Ποια είναι η μεγαλύτερη πόλη της Θεσσαλίας;', 'η Λάρισα', ['ο Βόλος', 'τα Τρίκαλα', 'η Καρδίτσα']],
+  ['Ποιο είναι το μεγαλύτερο λιμάνι της Ελλάδας;', 'ο Πειραιάς', ['η Θεσσαλονίκη', 'η Πάτρα', 'το Ηράκλειο']],
+  ['Σε ποιο γεωγραφικό διαμέρισμα ανήκει η Πάτρα;', 'στην Πελοπόννησο', ['στη Στερεά Ελλάδα', 'στην Ήπειρο', 'στη Θεσσαλία']],
+  ['Σε ποιο γεωγραφικό διαμέρισμα ανήκει ο Βόλος;', 'στη Θεσσαλία', ['στη Μακεδονία', 'στην Ήπειρο', 'στη Στερεά Ελλάδα']],
+  ['Σε ποιο γεωγραφικό διαμέρισμα ανήκουν τα Ιωάννινα;', 'στην Ήπειρο', ['στη Θεσσαλία', 'στη Μακεδονία', 'στη Θράκη']],
+  ['Ποιος ποταμός περνά μέσα από τη Λάρισα;', 'ο Πηνειός', ['ο Αχελώος', 'ο Αλιάκμονας', 'ο Σπερχειός']],
+  ['Ποια από τις παρακάτω είναι τεχνητή λίμνη;', 'του Πλαστήρα', ['η Τριχωνίδα', 'η Βόλβη', 'η Παμβώτιδα']],
+  ['Ποιο είναι το μεγαλύτερο νησί του Ιονίου;', 'η Κεφαλονιά', ['η Κέρκυρα', 'η Ζάκυνθος', 'η Λευκάδα']],
+  ['Πώς λέγεται το στενό που χωρίζει την Εύβοια από τη Στερεά;', 'πορθμός του Ευρίπου', ['στενό του Γιβραλτάρ', 'διώρυγα της Κορίνθου', 'στενά των Δαρδανελίων']],
+  ['Πόσους κατοίκους έχει περίπου η Ελλάδα;', 'περίπου 10 εκατομμύρια', ['περίπου 1 εκατομμύριο', 'περίπου 50 εκατομμύρια', 'περίπου 100 εκατομμύρια']],
+  ['Πότε φυσούν τα μελτέμια στο Αιγαίο;', 'το καλοκαίρι', ['τον χειμώνα', 'μόνο την άνοιξη', 'ποτέ']],
+  ['Ποιες είναι οι τρεις καταστάσεις της ύλης;', 'στερεή, υγρή, αέρια', ['ζεστή, κρύα, χλιαρή', 'μικρή, μεσαία, μεγάλη', 'σκληρή, μαλακή, εύθραυστη']],
+  ['Σε πόσους βαθμούς Κελσίου βράζει το νερό;', 'στους 100', ['στους 50', 'στους 0', 'στους 200']],
+  ['Σε πόσους βαθμούς Κελσίου παγώνει το νερό;', 'στους 0', ['στους 100', 'στους 10', 'στους -50']],
+  ['Ποιο υλικό είναι καλός αγωγός του ηλεκτρισμού;', 'ο χαλκός', ['το πλαστικό', 'το ξύλο', 'το γυαλί']],
+  ['Ποιο υλικό είναι μονωτής του ηλεκτρισμού;', 'το πλαστικό', ['ο χαλκός', 'το σίδερο', 'το αλουμίνιο']],
+  ['Τι χρειάζεται ένα απλό ηλεκτρικό κύκλωμα για να ανάψει το λαμπάκι;', 'μπαταρία και καλώδια', ['μόνο νερό', 'μόνο έναν μαγνήτη', 'τίποτα']],
+  ['Πού αρχίζει η πέψη της τροφής;', 'στο στόμα', ['στο στομάχι', 'στο έντερο', 'στον οισοφάγο']],
+  ['Στόμα → οισοφάγος → ...; Πού συνεχίζει η τροφή;', 'στο στομάχι', ['στους πνεύμονες', 'στην καρδιά', 'στα νεφρά']],
+  ['Ποιο αέριο χρειαζόμαστε από τον αέρα για να ζήσουμε;', 'το οξυγόνο', ['το διοξείδιο του άνθρακα', 'το ήλιο', 'το υδρογόνο']],
+  ['Ποιο αέριο παίρνουν τα φυτά για τη φωτοσύνθεση;', 'το διοξείδιο του άνθρακα', ['το οξυγόνο', 'το άζωτο', 'το ήλιο']],
+  ['Πώς λέγεται η διαδικασία με την οποία τα φυτά φτιάχνουν την τροφή τους;', 'φωτοσύνθεση', ['αναπνοή', 'εξάτμιση', 'πέψη']],
+  ['Από τι παράγεται ο ήχος;', 'από δονήσεις', ['από το φως', 'από τη ζέστη', 'από το νερό']],
+  ['Πώς ταξιδεύει το φως;', 'σε ευθείες γραμμές', ['σε κύκλους', 'σε ζιγκ-ζαγκ', 'δεν ταξιδεύει']],
+  ['Γράψε ένα βουνό της Ελλάδας.', 'Όλυμπος', null, ['Πίνδος', 'Σμόλικας', 'Ταΰγετος', 'Παρνασσός', 'Ψηλορείτης', 'Γκιώνα', 'Βαρδούσια', 'Χελμός', 'Μαίναλο', 'Όσσα', 'Πήλιο', 'Βέρμιο', 'Φαλακρό']],
+  ['Γράψε μία λίμνη της Ελλάδας.', 'Τριχωνίδα', null, ['Βόλβη', 'Παμβώτιδα', 'Βεγορίτιδα', 'Κερκίνη', 'Πρέσπα', 'Πρέσπες', 'Πλαστήρα', 'Δοϊράνη']],
+  ['Γράψε μία μεγάλη πόλη της Μακεδονίας.', 'Θεσσαλονίκη', null, ['Καβάλα', 'Σέρρες', 'Δράμα', 'Κατερίνη', 'Βέροια', 'Κοζάνη', 'Έδεσσα', 'Κιλκίς', 'Φλώρινα', 'Καστοριά', 'Γρεβενά']],
+]
+
+// --- Γεωγραφία/Φυσικά ΣΤ' ---
+const CAPITALS = [
+  ['η Γαλλία', 'το Παρίσι'], ['η Ιταλία', 'η Ρώμη'], ['η Ισπανία', 'η Μαδρίτη'],
+  ['η Γερμανία', 'το Βερολίνο'], ['το Ηνωμένο Βασίλειο', 'το Λονδίνο'],
+  ['η Πορτογαλία', 'η Λισαβόνα'], ['η Αυστρία', 'η Βιέννη'], ['η Ολλανδία', 'το Άμστερνταμ'],
+  ['το Βέλγιο', 'οι Βρυξέλλες'], ['η Ελβετία', 'η Βέρνη'], ['η Σουηδία', 'η Στοκχόλμη'],
+  ['η Νορβηγία', 'το Όσλο'], ['η Πολωνία', 'η Βαρσοβία'], ['η Ρωσία', 'η Μόσχα'],
+  ['η Τουρκία', 'η Άγκυρα'], ['η Αίγυπτος', 'το Κάιρο'], ['οι ΗΠΑ', 'η Ουάσινγκτον'],
+  ['η Κίνα', 'το Πεκίνο'], ['η Ιαπωνία', 'το Τόκιο'], ['η Κύπρος', 'η Λευκωσία'],
+]
+
+function genCapitalsF(n) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const [country, capital] = pick(CAPITALS)
+    const reverse = rng() < 0.4
+    if (reverse) {
+      const q = `Ποιας χώρας πρωτεύουσα είναι ${capital};`
+      const distractors = pickN(CAPITALS.filter((c) => c[0] !== country), 3).map((c) => c[0].replace(/^(η|το|οι) /, (m) => m))
+      const opts = mcOptions(country, distractors)
+      if (addQ(environment, 'environment', 'multiple-choice', q, country, opts)) made++
+    } else {
+      const q = `Ποια είναι η πρωτεύουσα της χώρας «${country.replace(/^(η|το|οι) /, '')}»;`
+      const distractors = pickN(CAPITALS.filter((c) => c[1] !== capital), 3).map((c) => c[1])
+      const opts = mcOptions(capital, distractors)
+      if (addQ(environment, 'environment', 'multiple-choice', q, capital, opts)) made++
+    }
+  }
+}
+
+const ENVIRONMENT_F = [
+  ['Πόσες είναι οι ήπειροι της Γης (μαζί με την Ανταρκτική);', '6', ['4', '5', '8']],
+  ['Πόσοι είναι οι ωκεανοί της Γης;', '5', ['3', '4', '7']],
+  ['Ποιος είναι ο μεγαλύτερος ωκεανός;', 'ο Ειρηνικός', ['ο Ατλαντικός', 'ο Ινδικός', 'ο Αρκτικός']],
+  ['Ποιο είναι το μεγαλύτερο σε μήκος ποτάμι της Ευρώπης;', 'ο Βόλγας', ['ο Δούναβης', 'ο Ρήνος', 'ο Σηκουάνας']],
+  ['Ποιο ποτάμι περνά μέσα από το Παρίσι;', 'ο Σηκουάνας', ['ο Τάμεσης', 'ο Τίβερης', 'ο Δούναβης']],
+  ['Ποιο ποτάμι περνά μέσα από το Λονδίνο;', 'ο Τάμεσης', ['ο Σηκουάνας', 'ο Ρήνος', 'ο Βόλγας']],
+  ['Ποια είναι η μεγαλύτερη οροσειρά της Ευρώπης;', 'οι Άλπεις', ['τα Πυρηναία', 'τα Καρπάθια', 'η Πίνδος']],
+  ['Σε ποια ήπειρο κυλά ο ποταμός Νείλος;', 'στην Αφρική', ['στην Ασία', 'στην Ευρώπη', 'στην Αμερική']],
+  ['Ποια είναι η μεγαλύτερη έρημος του κόσμου;', 'η Σαχάρα', ['η Γκόμπι', 'η Καλαχάρι', 'η Αραβική']],
+  ['Ποιο είναι το ψηλότερο βουνό του κόσμου;', 'το Έβερεστ', ['το Μον Μπλαν', 'ο Όλυμπος', 'το Κιλιμάντζαρο']],
+  ['Σε ποια οροσειρά βρίσκεται το Έβερεστ;', 'στα Ιμαλάια', ['στις Άλπεις', 'στις Άνδεις', 'στον Καύκασο']],
+  ['Ποιο είναι το κοινό νόμισμα πολλών χωρών της Ευρωπαϊκής Ένωσης;', 'το ευρώ', ['το δολάριο', 'η λίρα', 'το φράγκο']],
+  ['Σε ποια πόλη εδρεύουν τα κύρια όργανα της Ευρωπαϊκής Ένωσης;', 'στις Βρυξέλλες', ['στο Παρίσι', 'στη Ρώμη', 'στο Βερολίνο']],
+  ['Πόσοι πλανήτες υπάρχουν στο ηλιακό μας σύστημα;', '8', ['7', '9', '10']],
+  ['Ποιος είναι ο μεγαλύτερος πλανήτης του ηλιακού συστήματος;', 'ο Δίας', ['ο Κρόνος', 'η Γη', 'ο Άρης']],
+  ['Ποιος πλανήτης ονομάζεται «κόκκινος πλανήτης»;', 'ο Άρης', ['η Αφροδίτη', 'ο Ερμής', 'ο Ποσειδώνας']],
+  ['Ποιος πλανήτης έχει τα εντυπωσιακά δαχτυλίδια;', 'ο Κρόνος', ['ο Δίας', 'ο Άρης', 'ο Ουρανός']],
+  ['Ποια δύναμη μάς κρατά πάνω στο έδαφος;', 'η βαρύτητα', ['ο μαγνητισμός', 'ο ηλεκτρισμός', 'η τριβή μόνο']],
+  ['Με ποια μονάδα μετράμε τη θερμοκρασία;', 'με βαθμούς Κελσίου', ['με μέτρα', 'με κιλά', 'με λίτρα']],
+  ['Τι ταξιδεύει πιο γρήγορα: το φως ή ο ήχος;', 'το φως', ['ο ήχος', 'το ίδιο', 'κανένα από τα δύο']],
+  ['Ποιο σύστημα του σώματος μεταφέρει το αίμα;', 'το κυκλοφορικό', ['το αναπνευστικό', 'το πεπτικό', 'το νευρικό']],
+  ['Ποιο σύστημα του σώματος μάς βοηθά να αναπνέουμε;', 'το αναπνευστικό', ['το κυκλοφορικό', 'το μυϊκό', 'το πεπτικό']],
+  ['Τι μεταφέρουν τα ερυθρά αιμοσφαίρια;', 'οξυγόνο', ['νερό', 'τροφή', 'μικρόβια']],
+  ['Ποια αιμοσφαίρια πολεμούν τα μικρόβια;', 'τα λευκά', ['τα ερυθρά', 'τα αιμοπετάλια', 'κανένα']],
+  ['Ποιο όργανο καθαρίζει το αίμα από τις άχρηστες ουσίες;', 'τα νεφρά', ['οι πνεύμονες', 'το στομάχι', 'τα μάτια']],
+  ['Πόσο διαρκεί περίπου η περιφορά της Σελήνης γύρω από τη Γη;', 'περίπου έναν μήνα', ['μία ημέρα', 'έναν χρόνο', 'μία εβδομάδα']],
+  ['Πώς λέγεται το φαινόμενο όταν η Σελήνη κρύβει τον Ήλιο;', 'έκλειψη Ηλίου', ['έκλειψη Σελήνης', 'βόρειο σέλας', 'κομήτης']],
+  ['Γράψε έναν ωκεανό της Γης.', 'Ειρηνικός', null, ['Ατλαντικός', 'Ινδικός', 'Αρκτικός', 'Νότιος']],
+  ['Γράψε μία χώρα της Ευρώπης (εκτός Ελλάδας).', 'Γαλλία', null, ['Ιταλία', 'Ισπανία', 'Γερμανία', 'Πορτογαλία', 'Αυστρία', 'Ολλανδία', 'Βέλγιο', 'Ελβετία', 'Σουηδία', 'Νορβηγία', 'Πολωνία', 'Δανία', 'Φινλανδία', 'Ιρλανδία', 'Τσεχία', 'Ουγγαρία', 'Ρουμανία', 'Βουλγαρία', 'Κροατία', 'Σερβία', 'Αλβανία', 'Κύπρος', 'Μάλτα', 'Λουξεμβούργο', 'Αγγλία', 'Ηνωμένο Βασίλειο', 'Ρωσία', 'Ουκρανία']],
+  ['Γράψε έναν πλανήτη του ηλιακού μας συστήματος (εκτός της Γης).', 'Άρης', null, ['Ερμής', 'Αφροδίτη', 'Δίας', 'Κρόνος', 'Ουρανός', 'Ποσειδώνας']],
+]
+
+// ==================================================================
+// ASSEMBLE — six banks of 500 (Α'-ΣΤ'), ~65% MC each
 // ==================================================================
 
 function resetBuckets() {
@@ -1498,6 +2625,62 @@ function assembleAndWrite(outPath, label) {
   console.log(`[${label}] total: ${all.length}, MC: ${((mcTotal / all.length) * 100).toFixed(1)}%`)
   console.log(JSON.stringify(summarize(all)))
 }
+
+// ---- Α' Δημοτικού ----
+gradePrefix = 'a'
+resetBuckets()
+
+genAdditionSmall(45, 0.6, 10)
+genAdditionSmall(40, 0.6, 20)
+genSubtractionSmall(45, 0.6, 20)
+genNextPrev(30, 100)
+genCompareNumbers(25, 20)
+genOddEvenSmall(20, 20)
+genShapesOnly(5)
+genWordProblemsSmall(35, 0.4, 20)
+
+genLettersAB(40)
+genAlphabetOrder(40)
+genSyllables(40)
+genArticles(35)
+genNumber(25)
+
+genSpelling(125, 0.75, SPELLING_WORDS_A)
+genEnvironment(ENVIRONMENT_A)
+
+assembleAndWrite(OUT_A, "Α' Δημοτικού")
+
+// ---- Β' Δημοτικού ----
+gradePrefix = 'b'
+resetBuckets()
+
+genAdditionSmall(40, 0.6, 100)
+genSubtractionSmall(40, 0.6, 100)
+genMultiplicationTables(40, 0.6, [2, 3, 4, 5, 10])
+genDoublesHalves(25, 0.6)
+genPlaceValue2Digit(20)
+genClockB(20)
+genMoneyB(25, 0.5)
+genNextPrev(15, 1000)
+genCompareNumbers(15, 100)
+genWordProblemsSmall(30, 0.35, 100)
+
+genArticles(30)
+genGender(25)
+genPluralText(25)
+genNumber(15)
+genPresentConjugation(35, 0.55)
+genPunctuation(5)
+genDictionaryOrder(20)
+genSyllables(15)
+genSynonyms(15, 0.6)
+genAntonyms(15, 0.6)
+
+genSpelling(125, 0.7, SPELLING_WORDS_B)
+genEnvironment(ENVIRONMENT_B)
+genMonthsDays(15)
+
+assembleAndWrite(OUT_B, "Β' Δημοτικού")
 
 // ---- Γ' Δημοτικού ----
 gradePrefix = 'c'
@@ -1554,3 +2737,59 @@ genSpelling(125, 0.7, SPELLING_WORDS_D)
 genEnvironment(ENVIRONMENT_D)
 
 assembleAndWrite(OUT_D, "Δ' Δημοτικού")
+
+// ---- Ε' Δημοτικού ----
+gradePrefix = 'e'
+resetBuckets()
+
+genBigNumbersE(40, 0.65)
+genDecimalOpsE(40, 0.6)
+genFractionsE(30, 0.6)
+genPercentE(25, 0.6)
+genAverageE(20, 0.55)
+genDivisibilityE(20)
+genAreaE(30, 0.65)
+genWordProblemsD(30, 0.3)
+
+genVerbTensesEF(40, 0.55, 5) // έως Υπερσυντέλικο
+genVoicesEF(20)
+genCompoundsEF(18)
+genWordFamiliesEF(12)
+genComparativesD(25, 0.6)
+genGenitivesD(20, 0.5)
+genSynAntD(25, 0.55)
+
+genSpelling(125, 0.7, SPELLING_WORDS_E)
+genEnvironment(ENVIRONMENT_E)
+genMonthsDays(8)
+
+assembleAndWrite(OUT_E, "Ε' Δημοτικού")
+
+// ---- ΣΤ' Δημοτικού ----
+gradePrefix = 'f'
+resetBuckets()
+
+genEquationsF(35, 0.55)
+genGcdLcmF(25, 0.6)
+genCircleF(25, 0.65)
+genVolumeF(25, 0.65)
+genSpeedF(25, 0.5)
+genPercentProblemsF(25, 0.55)
+genHeteroFractionsF(12, 0.6)
+genDecimalOpsE(30, 0.6)
+genAreaE(20, 0.65)
+
+genVerbTensesEF(40, 0.55, 6) // έως Συντελεσμένο Μέλλοντα
+genMoodsF(30)
+genVoicesEF(15)
+genFiguresF(12)
+genCompoundsEF(15)
+genWordFamiliesEF(10)
+genGenitivesD(20, 0.5)
+genPronounsD(15)
+
+genSpelling(125, 0.7, SPELLING_WORDS_F)
+genEnvironment(ENVIRONMENT_F)
+genCapitalsF(25)
+
+assembleAndWrite(OUT_F, "ΣΤ' Δημοτικού")

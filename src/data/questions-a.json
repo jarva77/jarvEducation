@@ -1,0 +1,5812 @@
+[
+  {
+    "id": "a-m1",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μικρότερος: το 1 ή το 6;",
+    "answer": "1",
+    "options": [
+      "1",
+      "6"
+    ]
+  },
+  {
+    "id": "a-e1",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Τι λέμε όταν ζητάμε κάτι ευγενικά;",
+    "answer": "παρακαλώ",
+    "options": [
+      "γρήγορα",
+      "παρακαλώ",
+      "τίποτα",
+      "φύγε"
+    ]
+  },
+  {
+    "id": "a-m2",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 5 + 4;",
+    "answer": "9"
+  },
+  {
+    "id": "a-m3",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 14 - 3;",
+    "answer": "11",
+    "options": [
+      "13",
+      "11",
+      "12",
+      "10"
+    ]
+  },
+  {
+    "id": "a-s1",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: καλοκαίρ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "καλοκαίρι"
+    ]
+  },
+  {
+    "id": "a-e2",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Σε ποια εποχή πηγαίνουμε συνήθως για μπάνιο στη θάλασσα;",
+    "answer": "το καλοκαίρι",
+    "options": [
+      "το φθινόπωρο",
+      "τον χειμώνα",
+      "την άνοιξη",
+      "το καλοκαίρι"
+    ]
+  },
+  {
+    "id": "a-g1",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο από τα παρακάτω γράμματα είναι σύμφωνο;",
+    "answer": "δ",
+    "options": [
+      "δ",
+      "ι",
+      "η",
+      "ο"
+    ]
+  },
+  {
+    "id": "a-m4",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 5 + 3;",
+    "answer": "8"
+  },
+  {
+    "id": "a-m5",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 1 + 1;",
+    "answer": "2"
+  },
+  {
+    "id": "a-m6",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 12 + 8;",
+    "answer": "20"
+  },
+  {
+    "id": "a-s2",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "λιοντάρι",
+    "options": [
+      "λιοντάρι",
+      "λυοντάρι",
+      "ληοντάρι"
+    ]
+  },
+  {
+    "id": "a-g2",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως μετά το Ψ;",
+    "answer": "Ω",
+    "options": [
+      "Λ",
+      "Ε",
+      "Ω",
+      "Χ"
+    ]
+  },
+  {
+    "id": "a-m7",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μικρότερος: το 18 ή το 17;",
+    "answer": "17",
+    "options": [
+      "17",
+      "18"
+    ]
+  },
+  {
+    "id": "a-g3",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως μετά το Π;",
+    "answer": "Ρ",
+    "options": [
+      "Σ",
+      "Ψ",
+      "Ρ",
+      "Ω"
+    ]
+  },
+  {
+    "id": "a-m8",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 10 + 9;",
+    "answer": "19"
+  },
+  {
+    "id": "a-s3",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: ψάρ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "ψάρι"
+    ]
+  },
+  {
+    "id": "a-g4",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «μολύβια» βρίσκεται σε:",
+    "answer": "Πληθυντικός αριθμός",
+    "options": [
+      "Ενικός αριθμός",
+      "Πληθυντικός αριθμός"
+    ]
+  },
+  {
+    "id": "a-m9",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Θανάσης έχει 2 αχλάδια και παίρνει ακόμα 15. Πόσα αχλάδια έχει τώρα;",
+    "answer": "17"
+  },
+  {
+    "id": "a-m10",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι ζυγός;",
+    "answer": "6",
+    "options": [
+      19,
+      6,
+      17,
+      3
+    ]
+  },
+  {
+    "id": "a-g5",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «μπανάνα»;",
+    "answer": "3",
+    "options": [
+      "5",
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "id": "a-e3",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο μέσο μεταφοράς ταξιδεύει στη θάλασσα;",
+    "answer": "το πλοίο",
+    "options": [
+      "το πλοίο",
+      "το τρένο",
+      "το αυτοκίνητο",
+      "το ποδήλατο"
+    ]
+  },
+  {
+    "id": "a-m11",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 12 - 8;",
+    "answer": "4"
+  },
+  {
+    "id": "a-g6",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «πουλί» βρίσκεται σε:",
+    "answer": "Ενικός αριθμός",
+    "options": [
+      "Πληθυντικός αριθμός",
+      "Ενικός αριθμός"
+    ]
+  },
+  {
+    "id": "a-m12",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 1 + 4;",
+    "answer": "5"
+  },
+  {
+    "id": "a-m13",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 13 - 12;",
+    "answer": "1",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ]
+  },
+  {
+    "id": "a-m14",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσες πλευρές έχει ένα πεντάγωνο;",
+    "answer": "5",
+    "options": [
+      "7",
+      "5",
+      "6",
+      "4"
+    ]
+  },
+  {
+    "id": "a-m15",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 13 - 8;",
+    "answer": "5",
+    "options": [
+      "6",
+      "7",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "id": "a-m16",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 11 - 7;",
+    "answer": "4",
+    "options": [
+      "5",
+      "6",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "id": "a-m17",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μονός;",
+    "answer": "19",
+    "options": [
+      19,
+      10,
+      12,
+      18
+    ]
+  },
+  {
+    "id": "a-g7",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «τηλέφωνο»;",
+    "answer": "4",
+    "options": [
+      "3",
+      "5",
+      "6",
+      "4"
+    ]
+  },
+  {
+    "id": "a-g8",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως μετά το Α;",
+    "answer": "Β",
+    "options": [
+      "Ζ",
+      "Μ",
+      "Δ",
+      "Β"
+    ]
+  },
+  {
+    "id": "a-s4",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "άλογο",
+    "options": [
+      "άλωγο",
+      "άλογο"
+    ]
+  },
+  {
+    "id": "a-m18",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μικρότερος: το 14 ή το 19;",
+    "answer": "14",
+    "options": [
+      "14",
+      "19"
+    ]
+  },
+  {
+    "id": "a-s5",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "τούρτα",
+    "options": [
+      "τούρτα",
+      "τωύρτα"
+    ]
+  },
+  {
+    "id": "a-m19",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μικρότερος: το 9 ή το 7;",
+    "answer": "7",
+    "options": [
+      "9",
+      "7"
+    ]
+  },
+  {
+    "id": "a-g9",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ καρέκλα",
+    "answer": "η",
+    "options": [
+      "η",
+      "το",
+      "ο"
+    ]
+  },
+  {
+    "id": "a-s6",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ψάρι",
+    "options": [
+      "ψάρι",
+      "ψάρη",
+      "ψάρυ"
+    ]
+  },
+  {
+    "id": "a-s7",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ομπρέλα",
+    "options": [
+      "ωμπρέλα",
+      "ομπρέλα"
+    ]
+  },
+  {
+    "id": "a-s8",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: π__δί",
+    "answer": "αι",
+    "acceptedAnswers": [
+      "παιδί"
+    ]
+  },
+  {
+    "id": "a-s9",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "παράθυρο",
+    "options": [
+      "παράθιρο",
+      "παράθυρο",
+      "παράθηρο"
+    ]
+  },
+  {
+    "id": "a-e4",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο ζώο γαβγίζει;",
+    "answer": "ο σκύλος",
+    "options": [
+      "η κότα",
+      "ο σκύλος",
+      "το άλογο",
+      "η γάτα"
+    ]
+  },
+  {
+    "id": "a-m20",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως μετά το 70;",
+    "answer": "71",
+    "options": [
+      "80",
+      "71",
+      "70",
+      "72"
+    ]
+  },
+  {
+    "id": "a-g10",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ σχολείο",
+    "answer": "το",
+    "options": [
+      "η",
+      "ο",
+      "το"
+    ]
+  },
+  {
+    "id": "a-e5",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Με ποιο μέρος του σώματος βλέπουμε;",
+    "answer": "με τα μάτια",
+    "options": [
+      "με τα αυτιά",
+      "με τη μύτη",
+      "με τα χέρια",
+      "με τα μάτια"
+    ]
+  },
+  {
+    "id": "a-g11",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «κάρτα» βρίσκεται σε:",
+    "answer": "Ενικός αριθμός",
+    "options": [
+      "Ενικός αριθμός",
+      "Πληθυντικός αριθμός"
+    ]
+  },
+  {
+    "id": "a-g12",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο από τα παρακάτω γράμματα είναι σύμφωνο;",
+    "answer": "β",
+    "options": [
+      "β",
+      "α",
+      "ο",
+      "η"
+    ]
+  },
+  {
+    "id": "a-g13",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως πριν από το Φ;",
+    "answer": "Υ",
+    "options": [
+      "Κ",
+      "Υ",
+      "Ω",
+      "Ι"
+    ]
+  },
+  {
+    "id": "a-m21",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 17 - 12;",
+    "answer": "5",
+    "options": [
+      "7",
+      "6",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "id": "a-g14",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ οδηγός",
+    "answer": "ο",
+    "options": [
+      "ο",
+      "το",
+      "η"
+    ]
+  },
+  {
+    "id": "a-g15",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως μετά το Κ;",
+    "answer": "Λ",
+    "options": [
+      "Β",
+      "Π",
+      "Λ",
+      "Ε"
+    ]
+  },
+  {
+    "id": "a-m22",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 14 + 5;",
+    "answer": "19",
+    "options": [
+      "19",
+      "18",
+      "20",
+      "21"
+    ]
+  },
+  {
+    "id": "a-m23",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως πριν από το 88;",
+    "answer": "87",
+    "options": [
+      "98",
+      "86",
+      "87",
+      "88"
+    ]
+  },
+  {
+    "id": "a-s10",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "κουνέλι",
+    "options": [
+      "κουνέλη",
+      "κουνέλι",
+      "κουνέλυ"
+    ]
+  },
+  {
+    "id": "a-g16",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως μετά το Ο;",
+    "answer": "Π",
+    "options": [
+      "Η",
+      "Ω",
+      "Φ",
+      "Π"
+    ]
+  },
+  {
+    "id": "a-m24",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 14 - 12;",
+    "answer": "2"
+  },
+  {
+    "id": "a-m25",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ο Αντώνης έχει 5 παιχνίδια και παίρνει ακόμα 12. Πόσα παιχνίδια έχει τώρα;",
+    "answer": "17",
+    "options": [
+      "16",
+      "19",
+      "17",
+      "18"
+    ]
+  },
+  {
+    "id": "a-g17",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο από τα παρακάτω γράμματα είναι φωνήεν;",
+    "answer": "ω",
+    "options": [
+      "δ",
+      "γ",
+      "ω",
+      "ψ"
+    ]
+  },
+  {
+    "id": "a-g18",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «μαμά»;",
+    "answer": "2",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "1"
+    ]
+  },
+  {
+    "id": "a-m26",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Η Ελένη έχει 18 μήλα και δίνει 3 σε έναν φίλο. Πόσα μήλα μένουν;",
+    "answer": "15",
+    "options": [
+      "17",
+      "16",
+      "14",
+      "15"
+    ]
+  },
+  {
+    "id": "a-s11",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: δάσκαλ_ς",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "δάσκαλος"
+    ]
+  },
+  {
+    "id": "a-s12",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: φ_νή",
+    "answer": "ω",
+    "acceptedAnswers": [
+      "φωνή"
+    ]
+  },
+  {
+    "id": "a-g19",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ τούρτα",
+    "answer": "η",
+    "options": [
+      "το",
+      "η",
+      "ο"
+    ]
+  },
+  {
+    "id": "a-g20",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «καραμέλα»;",
+    "answer": "4",
+    "options": [
+      "3",
+      "4",
+      "6",
+      "5"
+    ]
+  },
+  {
+    "id": "a-g21",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ κάρτα",
+    "answer": "η",
+    "options": [
+      "η",
+      "το",
+      "ο"
+    ]
+  },
+  {
+    "id": "a-m27",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 5 - 1;",
+    "answer": "4",
+    "options": [
+      "4",
+      "3",
+      "6",
+      "5"
+    ]
+  },
+  {
+    "id": "a-g22",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «κάρτες» βρίσκεται σε:",
+    "answer": "Πληθυντικός αριθμός",
+    "options": [
+      "Πληθυντικός αριθμός",
+      "Ενικός αριθμός"
+    ]
+  },
+  {
+    "id": "a-s13",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "κήπος",
+    "options": [
+      "κήπως",
+      "κήπος"
+    ]
+  },
+  {
+    "id": "a-m28",
+    "category": "math",
+    "type": "text",
+    "question": "Η Κατερίνα έχει 3 αυτοκολλητάκια και παίρνει ακόμα 7. Πόσα αυτοκολλητάκια έχει τώρα;",
+    "answer": "10"
+  },
+  {
+    "id": "a-e6",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πόσα δάχτυλα έχουμε στα δύο χέρια μαζί;",
+    "answer": "10",
+    "options": [
+      "20",
+      "5",
+      "10",
+      "8"
+    ]
+  },
+  {
+    "id": "a-m29",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μεγαλύτερος: το 17 ή το 18;",
+    "answer": "18",
+    "options": [
+      "18",
+      "17"
+    ]
+  },
+  {
+    "id": "a-g23",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «ποτάμι»;",
+    "answer": "3",
+    "options": [
+      "5",
+      "2",
+      "4",
+      "3"
+    ]
+  },
+  {
+    "id": "a-s14",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: παγ_τό",
+    "answer": "ω",
+    "acceptedAnswers": [
+      "παγωτό"
+    ]
+  },
+  {
+    "id": "a-g24",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ ζωγράφος",
+    "answer": "ο",
+    "options": [
+      "το",
+      "η",
+      "ο"
+    ]
+  },
+  {
+    "id": "a-m30",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 18 + 1;",
+    "answer": "19"
+  },
+  {
+    "id": "a-m31",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Γιάννης έχει 15 μολύβια και δίνει 13 σε έναν φίλο. Πόσα μολύβια μένουν;",
+    "answer": "2"
+  },
+  {
+    "id": "a-g25",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ κήπος",
+    "answer": "ο",
+    "options": [
+      "το",
+      "η",
+      "ο"
+    ]
+  },
+  {
+    "id": "a-m32",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως πριν από το 35;",
+    "answer": "34",
+    "options": [
+      "34",
+      "33",
+      "35",
+      "45"
+    ]
+  },
+  {
+    "id": "a-s15",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: μάτ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "μάτι"
+    ]
+  },
+  {
+    "id": "a-e7",
+    "category": "environment",
+    "type": "text",
+    "question": "Γράψε ένα ζώο που ζει στη φάρμα.",
+    "answer": "αγελάδα",
+    "acceptedAnswers": [
+      "κότα",
+      "πρόβατο",
+      "κατσίκα",
+      "άλογο",
+      "γουρούνι",
+      "πάπια",
+      "γάιδαρος",
+      "κόκορας",
+      "κουνέλι"
+    ]
+  },
+  {
+    "id": "a-m33",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 13 - 9;",
+    "answer": "4",
+    "options": [
+      "6",
+      "5",
+      "4",
+      "3"
+    ]
+  },
+  {
+    "id": "a-e8",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Τι κρατάμε όταν βρέχει για να μη βραχούμε;",
+    "answer": "ομπρέλα",
+    "options": [
+      "ομπρέλα",
+      "βιβλίο",
+      "ποδήλατο",
+      "μπάλα"
+    ]
+  },
+  {
+    "id": "a-s16",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: αστέρ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "αστέρι"
+    ]
+  },
+  {
+    "id": "a-m34",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ο Θανάσης έχει 19 μπισκότα και δίνει 13 σε έναν φίλο. Πόσα μπισκότα μένουν;",
+    "answer": "6",
+    "options": [
+      "6",
+      "8",
+      "5",
+      "7"
+    ]
+  },
+  {
+    "id": "a-m35",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως πριν από το 89;",
+    "answer": "88",
+    "options": [
+      "99",
+      "89",
+      "87",
+      "88"
+    ]
+  },
+  {
+    "id": "a-m36",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 17 + 3;",
+    "answer": "20",
+    "options": [
+      "19",
+      "20",
+      "21",
+      "22"
+    ]
+  },
+  {
+    "id": "a-g26",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «ζάχαρη»;",
+    "answer": "3",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "id": "a-g27",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως μετά το Δ;",
+    "answer": "Ε",
+    "options": [
+      "Ρ",
+      "Μ",
+      "Γ",
+      "Ε"
+    ]
+  },
+  {
+    "id": "a-m37",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 5 + 5;",
+    "answer": "10",
+    "options": [
+      "9",
+      "11",
+      "10",
+      "12"
+    ]
+  },
+  {
+    "id": "a-s17",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "λουλούδι",
+    "options": [
+      "λουλούδι",
+      "λουλούδη",
+      "λουλούδυ"
+    ]
+  },
+  {
+    "id": "a-m38",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 13 - 11;",
+    "answer": "2",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "id": "a-m39",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 7 + 3;",
+    "answer": "10",
+    "options": [
+      "9",
+      "11",
+      "12",
+      "10"
+    ]
+  },
+  {
+    "id": "a-m40",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 3 + 12;",
+    "answer": "15",
+    "options": [
+      "16",
+      "15",
+      "14",
+      "17"
+    ]
+  },
+  {
+    "id": "a-e9",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Τι λέμε όταν κάποιος μάς δίνει ένα δώρο;",
+    "answer": "ευχαριστώ",
+    "options": [
+      "ευχαριστώ",
+      "αντίο",
+      "τίποτα",
+      "έλα"
+    ]
+  },
+  {
+    "id": "a-m41",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 3 + 17;",
+    "answer": "20",
+    "options": [
+      "20",
+      "21",
+      "19",
+      "22"
+    ]
+  },
+  {
+    "id": "a-m42",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 16 + 4;",
+    "answer": "20",
+    "options": [
+      "19",
+      "21",
+      "22",
+      "20"
+    ]
+  },
+  {
+    "id": "a-s18",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: μύτ_",
+    "answer": "η",
+    "acceptedAnswers": [
+      "μύτη"
+    ]
+  },
+  {
+    "id": "a-m43",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως πριν από το 10;",
+    "answer": "9",
+    "options": [
+      "20",
+      "9",
+      "10",
+      "8"
+    ]
+  },
+  {
+    "id": "a-m44",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 11 + 9;",
+    "answer": "20",
+    "options": [
+      "22",
+      "20",
+      "21",
+      "19"
+    ]
+  },
+  {
+    "id": "a-g28",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως μετά το Ξ;",
+    "answer": "Ο",
+    "options": [
+      "Γ",
+      "Τ",
+      "Ο",
+      "Δ"
+    ]
+  },
+  {
+    "id": "a-m45",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως μετά το 67;",
+    "answer": "68",
+    "options": [
+      "68",
+      "69",
+      "67",
+      "77"
+    ]
+  },
+  {
+    "id": "a-s19",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "χέρι",
+    "options": [
+      "χέρι",
+      "χέρη",
+      "χέρυ"
+    ]
+  },
+  {
+    "id": "a-m46",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 6 + 1;",
+    "answer": "7",
+    "options": [
+      "9",
+      "7",
+      "8",
+      "6"
+    ]
+  },
+  {
+    "id": "a-g29",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «παντελόνια» βρίσκεται σε:",
+    "answer": "Πληθυντικός αριθμός",
+    "options": [
+      "Ενικός αριθμός",
+      "Πληθυντικός αριθμός"
+    ]
+  },
+  {
+    "id": "a-m47",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως μετά το 71;",
+    "answer": "72",
+    "options": [
+      "73",
+      "81",
+      "71",
+      "72"
+    ]
+  },
+  {
+    "id": "a-m48",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 14 + 6;",
+    "answer": "20"
+  },
+  {
+    "id": "a-m49",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 12 + 1;",
+    "answer": "13"
+  },
+  {
+    "id": "a-m50",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι ζυγός;",
+    "answer": "4",
+    "options": [
+      15,
+      4,
+      7,
+      11
+    ]
+  },
+  {
+    "id": "a-g30",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως πριν από το Π;",
+    "answer": "Ο",
+    "options": [
+      "Λ",
+      "Ο",
+      "Ψ",
+      "Ζ"
+    ]
+  },
+  {
+    "id": "a-g31",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως μετά το Λ;",
+    "answer": "Μ",
+    "options": [
+      "Ρ",
+      "Θ",
+      "Μ",
+      "Δ"
+    ]
+  },
+  {
+    "id": "a-m51",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 6 + 2;",
+    "answer": "8",
+    "options": [
+      "8",
+      "10",
+      "9",
+      "7"
+    ]
+  },
+  {
+    "id": "a-g32",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως μετά το Γ;",
+    "answer": "Δ",
+    "options": [
+      "Θ",
+      "Υ",
+      "Λ",
+      "Δ"
+    ]
+  },
+  {
+    "id": "a-g33",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως μετά το Χ;",
+    "answer": "Ψ",
+    "options": [
+      "Ψ",
+      "Λ",
+      "Μ",
+      "Ζ"
+    ]
+  },
+  {
+    "id": "a-m52",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μονός;",
+    "answer": "15",
+    "options": [
+      8,
+      2,
+      12,
+      15
+    ]
+  },
+  {
+    "id": "a-m53",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι ζυγός;",
+    "answer": "12",
+    "options": [
+      5,
+      12,
+      19,
+      13
+    ]
+  },
+  {
+    "id": "a-s20",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "κεράσι",
+    "options": [
+      "κεράσι",
+      "κεράση",
+      "κεράσυ"
+    ]
+  },
+  {
+    "id": "a-m54",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 1 + 2;",
+    "answer": "3",
+    "options": [
+      "5",
+      "2",
+      "4",
+      "3"
+    ]
+  },
+  {
+    "id": "a-m55",
+    "category": "math",
+    "type": "text",
+    "question": "Η Δέσποινα έχει 3 παιχνίδια και δίνει 1 σε έναν φίλο. Πόσα παιχνίδια μένουν;",
+    "answer": "2"
+  },
+  {
+    "id": "a-m56",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Η Εύα έχει 13 αυγά και δίνει 10 σε έναν φίλο. Πόσα αυγά μένουν;",
+    "answer": "3",
+    "options": [
+      "4",
+      "3",
+      "2",
+      "5"
+    ]
+  },
+  {
+    "id": "a-e10",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πόσες ημέρες έχει μία εβδομάδα;",
+    "answer": "7",
+    "options": [
+      "7",
+      "5",
+      "6",
+      "10"
+    ]
+  },
+  {
+    "id": "a-e11",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Με ποιο μέρος του σώματος ακούμε;",
+    "answer": "με τα αυτιά",
+    "options": [
+      "με τα πόδια",
+      "με το στόμα",
+      "με τα αυτιά",
+      "με τα μάτια"
+    ]
+  },
+  {
+    "id": "a-s21",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "γιαγιά",
+    "options": [
+      "γηαγιά",
+      "γιαγιά",
+      "γυαγιά"
+    ]
+  },
+  {
+    "id": "a-m57",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 4 + 3;",
+    "answer": "7",
+    "options": [
+      "8",
+      "9",
+      "7",
+      "6"
+    ]
+  },
+  {
+    "id": "a-g34",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο από τα παρακάτω γράμματα είναι σύμφωνο;",
+    "answer": "σ",
+    "options": [
+      "η",
+      "ε",
+      "σ",
+      "ο"
+    ]
+  },
+  {
+    "id": "a-s22",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: ο_ρανός",
+    "answer": "υ",
+    "acceptedAnswers": [
+      "ουρανός"
+    ]
+  },
+  {
+    "id": "a-g35",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ εβδομάδα",
+    "answer": "η",
+    "options": [
+      "ο",
+      "η",
+      "το"
+    ]
+  },
+  {
+    "id": "a-s23",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "φίλος",
+    "options": [
+      "φίλως",
+      "φίλος"
+    ]
+  },
+  {
+    "id": "a-e12",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Τι χρώμα ανάβει το φανάρι για να περάσουν οι πεζοί;",
+    "answer": "πράσινο",
+    "options": [
+      "πράσινο",
+      "κόκκινο",
+      "κίτρινο",
+      "μπλε"
+    ]
+  },
+  {
+    "id": "a-g36",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως πριν από το Κ;",
+    "answer": "Ι",
+    "options": [
+      "Δ",
+      "Ν",
+      "Ι",
+      "Ξ"
+    ]
+  },
+  {
+    "id": "a-g37",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως πριν από το Γ;",
+    "answer": "Β",
+    "options": [
+      "Υ",
+      "Δ",
+      "Ζ",
+      "Β"
+    ]
+  },
+  {
+    "id": "a-m58",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 13 + 6;",
+    "answer": "19",
+    "options": [
+      "21",
+      "18",
+      "20",
+      "19"
+    ]
+  },
+  {
+    "id": "a-m59",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 10 - 5;",
+    "answer": "5",
+    "options": [
+      "5",
+      "4",
+      "7",
+      "6"
+    ]
+  },
+  {
+    "id": "a-m60",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 10 + 5;",
+    "answer": "15",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "14"
+    ]
+  },
+  {
+    "id": "a-m61",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 17 + 2;",
+    "answer": "19",
+    "options": [
+      "19",
+      "18",
+      "20",
+      "21"
+    ]
+  },
+  {
+    "id": "a-g38",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο από τα παρακάτω γράμματα είναι σύμφωνο;",
+    "answer": "φ",
+    "options": [
+      "ο",
+      "φ",
+      "ω",
+      "υ"
+    ]
+  },
+  {
+    "id": "a-g39",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ αστυνομικός",
+    "answer": "ο",
+    "options": [
+      "ο",
+      "η",
+      "το"
+    ]
+  },
+  {
+    "id": "a-g40",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο από τα παρακάτω γράμματα είναι σύμφωνο;",
+    "answer": "γ",
+    "options": [
+      "ι",
+      "γ",
+      "α",
+      "υ"
+    ]
+  },
+  {
+    "id": "a-e13",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πού πετάμε τα σκουπίδια;",
+    "answer": "στον κάδο",
+    "options": [
+      "στον κάδο",
+      "στο πάρκο",
+      "στον δρόμο",
+      "στη θάλασσα"
+    ]
+  },
+  {
+    "id": "a-m62",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 4 + 2;",
+    "answer": "6",
+    "options": [
+      "8",
+      "7",
+      "5",
+      "6"
+    ]
+  },
+  {
+    "id": "a-g41",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως πριν από το Ε;",
+    "answer": "Δ",
+    "options": [
+      "Δ",
+      "Φ",
+      "Τ",
+      "Α"
+    ]
+  },
+  {
+    "id": "a-s24",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "βιβλίο",
+    "options": [
+      "βιβλίο",
+      "βηβλίο",
+      "βυβλίο"
+    ]
+  },
+  {
+    "id": "a-s25",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "φωνή",
+    "options": [
+      "φονή",
+      "φωνή"
+    ]
+  },
+  {
+    "id": "a-m63",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Αλέξανδρος έχει 5 αυγά και δίνει 3 σε έναν φίλο. Πόσα αυγά μένουν;",
+    "answer": "2"
+  },
+  {
+    "id": "a-m64",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Παύλος έχει 4 τετράδια και δίνει 3 σε έναν φίλο. Πόσα τετράδια μένουν;",
+    "answer": "1"
+  },
+  {
+    "id": "a-m65",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μεγαλύτερος: το 6 ή το 16;",
+    "answer": "16",
+    "options": [
+      "16",
+      "6"
+    ]
+  },
+  {
+    "id": "a-s26",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "μέλισσα",
+    "options": [
+      "μέλισσα",
+      "μέλισα"
+    ]
+  },
+  {
+    "id": "a-e14",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο ζώο μάς δίνει το μαλλί;",
+    "answer": "το πρόβατο",
+    "options": [
+      "το ψάρι",
+      "η γάτα",
+      "το πρόβατο",
+      "η κότα"
+    ]
+  },
+  {
+    "id": "a-m66",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 2 + 7;",
+    "answer": "9"
+  },
+  {
+    "id": "a-m67",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως μετά το 46;",
+    "answer": "47",
+    "options": [
+      "47",
+      "56",
+      "46",
+      "48"
+    ]
+  },
+  {
+    "id": "a-m68",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσες πλευρές έχει ένα ορθογώνιο;",
+    "answer": "4",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "3"
+    ]
+  },
+  {
+    "id": "a-e15",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Από πού περνάμε τον δρόμο με ασφάλεια;",
+    "answer": "από τη διάβαση",
+    "options": [
+      "από όπου θέλουμε",
+      "από τη διάβαση",
+      "ανάμεσα από τα αυτοκίνητα",
+      "τρέχοντας"
+    ]
+  },
+  {
+    "id": "a-e16",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Τι πρέπει να κάνουμε πριν φάμε;",
+    "answer": "να πλύνουμε τα χέρια μας",
+    "options": [
+      "να κοιμηθούμε",
+      "να τρέξουμε",
+      "να πλύνουμε τα χέρια μας",
+      "τίποτα"
+    ]
+  },
+  {
+    "id": "a-m69",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μικρότερος: το 7 ή το 20;",
+    "answer": "7",
+    "options": [
+      "7",
+      "20"
+    ]
+  },
+  {
+    "id": "a-m70",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 6 + 12;",
+    "answer": "18"
+  },
+  {
+    "id": "a-g42",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως πριν από το Ο;",
+    "answer": "Ξ",
+    "options": [
+      "Τ",
+      "Μ",
+      "Α",
+      "Ξ"
+    ]
+  },
+  {
+    "id": "a-g43",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ πουλί",
+    "answer": "το",
+    "options": [
+      "το",
+      "ο",
+      "η"
+    ]
+  },
+  {
+    "id": "a-m71",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 11 - 6;",
+    "answer": "5"
+  },
+  {
+    "id": "a-s27",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "πιάτο",
+    "options": [
+      "πιάτο",
+      "πυάτο",
+      "πηάτο"
+    ]
+  },
+  {
+    "id": "a-g44",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο από τα παρακάτω γράμματα είναι σύμφωνο;",
+    "answer": "ζ",
+    "options": [
+      "η",
+      "ο",
+      "ζ",
+      "ε"
+    ]
+  },
+  {
+    "id": "a-m72",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 12 + 4;",
+    "answer": "16",
+    "options": [
+      "16",
+      "18",
+      "17",
+      "15"
+    ]
+  },
+  {
+    "id": "a-g45",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «μύτη»;",
+    "answer": "2",
+    "options": [
+      "1",
+      "3",
+      "2",
+      "4"
+    ]
+  },
+  {
+    "id": "a-m73",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μικρότερος: το 20 ή το 2;",
+    "answer": "2",
+    "options": [
+      "2",
+      "20"
+    ]
+  },
+  {
+    "id": "a-m74",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 10 + 10;",
+    "answer": "20"
+  },
+  {
+    "id": "a-s28",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "σπίτι",
+    "options": [
+      "σπίτη",
+      "σπίτυ",
+      "σπίτι"
+    ]
+  },
+  {
+    "id": "a-g46",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως πριν από το Τ;",
+    "answer": "Σ",
+    "options": [
+      "Σ",
+      "Χ",
+      "Ω",
+      "Δ"
+    ]
+  },
+  {
+    "id": "a-e17",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Σε ποια εποχή χιονίζει συνήθως;",
+    "answer": "τον χειμώνα",
+    "options": [
+      "την άνοιξη",
+      "το φθινόπωρο",
+      "το καλοκαίρι",
+      "τον χειμώνα"
+    ]
+  },
+  {
+    "id": "a-g47",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ βιβλίο",
+    "answer": "το",
+    "options": [
+      "η",
+      "το",
+      "ο"
+    ]
+  },
+  {
+    "id": "a-m75",
+    "category": "math",
+    "type": "text",
+    "question": "Η Ειρήνη έχει 4 πορτοκάλια και παίρνει ακόμα 16. Πόσα πορτοκάλια έχει τώρα;",
+    "answer": "20"
+  },
+  {
+    "id": "a-s29",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "κουζίνα",
+    "options": [
+      "κουζίνα",
+      "κοηζίνα",
+      "κοιζίνα"
+    ]
+  },
+  {
+    "id": "a-s30",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ζώο",
+    "options": [
+      "ζώο",
+      "ζώω"
+    ]
+  },
+  {
+    "id": "a-s31",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "λεμόνι",
+    "options": [
+      "λεμόνη",
+      "λεμόνι",
+      "λεμόνυ"
+    ]
+  },
+  {
+    "id": "a-e18",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο ζώο μάς δίνει τα αυγά;",
+    "answer": "η κότα",
+    "options": [
+      "η κότα",
+      "η γάτα",
+      "η αγελάδα",
+      "το πρόβατο"
+    ]
+  },
+  {
+    "id": "a-s32",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: καρπούζ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "καρπούζι"
+    ]
+  },
+  {
+    "id": "a-s33",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: α_τί",
+    "answer": "υ",
+    "acceptedAnswers": [
+      "αυτί"
+    ]
+  },
+  {
+    "id": "a-s34",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: κεράσ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "κεράσι"
+    ]
+  },
+  {
+    "id": "a-m76",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 1 + 7;",
+    "answer": "8",
+    "options": [
+      "7",
+      "10",
+      "9",
+      "8"
+    ]
+  },
+  {
+    "id": "a-g48",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «δασκάλες» βρίσκεται σε:",
+    "answer": "Πληθυντικός αριθμός",
+    "options": [
+      "Ενικός αριθμός",
+      "Πληθυντικός αριθμός"
+    ]
+  },
+  {
+    "id": "a-m77",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 9 + 5;",
+    "answer": "14"
+  },
+  {
+    "id": "a-m78",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως μετά το 38;",
+    "answer": "39",
+    "options": [
+      "40",
+      "48",
+      "39",
+      "38"
+    ]
+  },
+  {
+    "id": "a-g49",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «πόρτα»;",
+    "answer": "2",
+    "options": [
+      "4",
+      "2",
+      "3",
+      "1"
+    ]
+  },
+  {
+    "id": "a-m79",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως πριν από το 51;",
+    "answer": "50",
+    "options": [
+      "61",
+      "50",
+      "49",
+      "51"
+    ]
+  },
+  {
+    "id": "a-s35",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "σκύλος",
+    "options": [
+      "σκύλως",
+      "σκύλος"
+    ]
+  },
+  {
+    "id": "a-m80",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 4 + 1;",
+    "answer": "5"
+  },
+  {
+    "id": "a-e19",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια ημέρα έρχεται μετά την Κυριακή;",
+    "answer": "η Δευτέρα",
+    "options": [
+      "η Τρίτη",
+      "η Δευτέρα",
+      "το Σάββατο",
+      "η Παρασκευή"
+    ]
+  },
+  {
+    "id": "a-g50",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «πιπέρι»;",
+    "answer": "3",
+    "options": [
+      "4",
+      "3",
+      "2",
+      "5"
+    ]
+  },
+  {
+    "id": "a-m81",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Αντώνης έχει 5 κεράσια και παίρνει ακόμα 11. Πόσα κεράσια έχει τώρα;",
+    "answer": "16"
+  },
+  {
+    "id": "a-s36",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: λεμόν_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "λεμόνι"
+    ]
+  },
+  {
+    "id": "a-m82",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 3 + 2;",
+    "answer": "5",
+    "options": [
+      "4",
+      "6",
+      "7",
+      "5"
+    ]
+  },
+  {
+    "id": "a-m83",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως πριν από το 45;",
+    "answer": "44",
+    "options": [
+      "44",
+      "43",
+      "55",
+      "45"
+    ]
+  },
+  {
+    "id": "a-m84",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 6 + 4;",
+    "answer": "10"
+  },
+  {
+    "id": "a-m85",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μονός;",
+    "answer": "1",
+    "options": [
+      16,
+      1,
+      8,
+      18
+    ]
+  },
+  {
+    "id": "a-g51",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «παππούδες» βρίσκεται σε:",
+    "answer": "Πληθυντικός αριθμός",
+    "options": [
+      "Πληθυντικός αριθμός",
+      "Ενικός αριθμός"
+    ]
+  },
+  {
+    "id": "a-e20",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο μέσο μεταφοράς πετάει;",
+    "answer": "το αεροπλάνο",
+    "options": [
+      "το αεροπλάνο",
+      "το λεωφορείο",
+      "το τρένο",
+      "το ποδήλατο"
+    ]
+  },
+  {
+    "id": "a-m86",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Στέλιος έχει 2 μήλα και παίρνει ακόμα 9. Πόσα μήλα έχει τώρα;",
+    "answer": "11"
+  },
+  {
+    "id": "a-m87",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 17 - 9;",
+    "answer": "8"
+  },
+  {
+    "id": "a-g52",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο από τα παρακάτω γράμματα είναι σύμφωνο;",
+    "answer": "κ",
+    "options": [
+      "κ",
+      "υ",
+      "ω",
+      "ι"
+    ]
+  },
+  {
+    "id": "a-g53",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως μετά το Μ;",
+    "answer": "Ν",
+    "options": [
+      "Γ",
+      "Ν",
+      "Χ",
+      "Τ"
+    ]
+  },
+  {
+    "id": "a-s37",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "δρόμος",
+    "options": [
+      "δρόμως",
+      "δρόμος"
+    ]
+  },
+  {
+    "id": "a-e21",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Με τι μυρίζουμε;",
+    "answer": "με τη μύτη",
+    "options": [
+      "με τα μάτια",
+      "με τα χέρια",
+      "με τη μύτη",
+      "με τα αυτιά"
+    ]
+  },
+  {
+    "id": "a-g54",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «άνθρωποι» βρίσκεται σε:",
+    "answer": "Πληθυντικός αριθμός",
+    "options": [
+      "Πληθυντικός αριθμός",
+      "Ενικός αριθμός"
+    ]
+  },
+  {
+    "id": "a-m88",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Θανάσης έχει 2 αυτοκολλητάκια και παίρνει ακόμα 3. Πόσα αυτοκολλητάκια έχει τώρα;",
+    "answer": "5"
+  },
+  {
+    "id": "a-m89",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μονός;",
+    "answer": "13",
+    "options": [
+      14,
+      13,
+      18,
+      12
+    ]
+  },
+  {
+    "id": "a-m90",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Η Σοφία έχει 9 αυτοκολλητάκια και παίρνει ακόμα 5. Πόσα αυτοκολλητάκια έχει τώρα;",
+    "answer": "14",
+    "options": [
+      "16",
+      "15",
+      "14",
+      "13"
+    ]
+  },
+  {
+    "id": "a-g55",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ χαρτί",
+    "answer": "το",
+    "options": [
+      "ο",
+      "η",
+      "το"
+    ]
+  },
+  {
+    "id": "a-m91",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 17 - 4;",
+    "answer": "13",
+    "options": [
+      "15",
+      "13",
+      "14",
+      "12"
+    ]
+  },
+  {
+    "id": "a-s38",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: παππ_ύς",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "παππούς"
+    ]
+  },
+  {
+    "id": "a-s39",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "αστέρι",
+    "options": [
+      "αστέρυ",
+      "αστέρι",
+      "αστέρη"
+    ]
+  },
+  {
+    "id": "a-m92",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 6 - 3;",
+    "answer": "3",
+    "options": [
+      "5",
+      "3",
+      "4",
+      "2"
+    ]
+  },
+  {
+    "id": "a-g56",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «θάλασσα»;",
+    "answer": "3",
+    "options": [
+      "5",
+      "4",
+      "3",
+      "2"
+    ]
+  },
+  {
+    "id": "a-m93",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 5 + 1;",
+    "answer": "6",
+    "options": [
+      "7",
+      "6",
+      "8",
+      "5"
+    ]
+  },
+  {
+    "id": "a-g57",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «κολοκύθα»;",
+    "answer": "4",
+    "options": [
+      "3",
+      "6",
+      "5",
+      "4"
+    ]
+  },
+  {
+    "id": "a-g58",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «ντομάτα» βρίσκεται σε:",
+    "answer": "Ενικός αριθμός",
+    "options": [
+      "Πληθυντικός αριθμός",
+      "Ενικός αριθμός"
+    ]
+  },
+  {
+    "id": "a-e22",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο ζώο ζει στο νερό;",
+    "answer": "το ψάρι",
+    "options": [
+      "το ψάρι",
+      "το άλογο",
+      "η γάτα",
+      "η κότα"
+    ]
+  },
+  {
+    "id": "a-m94",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 13 + 4;",
+    "answer": "17",
+    "options": [
+      "18",
+      "19",
+      "17",
+      "16"
+    ]
+  },
+  {
+    "id": "a-m95",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 2 + 1;",
+    "answer": "3",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "4"
+    ]
+  },
+  {
+    "id": "a-m96",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 2 + 3;",
+    "answer": "5",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  {
+    "id": "a-g59",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο από τα παρακάτω γράμματα είναι σύμφωνο;",
+    "answer": "μ",
+    "options": [
+      "υ",
+      "ο",
+      "ε",
+      "μ"
+    ]
+  },
+  {
+    "id": "a-s40",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: κ_ύκλα",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "κούκλα"
+    ]
+  },
+  {
+    "id": "a-g60",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ ψαράς",
+    "answer": "ο",
+    "options": [
+      "η",
+      "το",
+      "ο"
+    ]
+  },
+  {
+    "id": "a-s41",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "παιδί",
+    "options": [
+      "παιδί",
+      "πεδί"
+    ]
+  },
+  {
+    "id": "a-g61",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως πριν από το Σ;",
+    "answer": "Ρ",
+    "options": [
+      "Θ",
+      "Ρ",
+      "Ζ",
+      "Χ"
+    ]
+  },
+  {
+    "id": "a-m97",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 2 + 18;",
+    "answer": "20",
+    "options": [
+      "19",
+      "21",
+      "20",
+      "22"
+    ]
+  },
+  {
+    "id": "a-s42",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: πεταλ_ύδα",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "πεταλούδα"
+    ]
+  },
+  {
+    "id": "a-g62",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο από τα παρακάτω γράμματα είναι φωνήεν;",
+    "answer": "α",
+    "options": [
+      "φ",
+      "α",
+      "σ",
+      "κ"
+    ]
+  },
+  {
+    "id": "a-e23",
+    "category": "environment",
+    "type": "text",
+    "question": "Γράψε μία εποχή του χρόνου.",
+    "answer": "άνοιξη",
+    "acceptedAnswers": [
+      "καλοκαίρι",
+      "φθινόπωρο",
+      "χειμώνας"
+    ]
+  },
+  {
+    "id": "a-g63",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «ποιητές» βρίσκεται σε:",
+    "answer": "Πληθυντικός αριθμός",
+    "options": [
+      "Πληθυντικός αριθμός",
+      "Ενικός αριθμός"
+    ]
+  },
+  {
+    "id": "a-g64",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «ψάρια» βρίσκεται σε:",
+    "answer": "Πληθυντικός αριθμός",
+    "options": [
+      "Ενικός αριθμός",
+      "Πληθυντικός αριθμός"
+    ]
+  },
+  {
+    "id": "a-m98",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 4 + 12;",
+    "answer": "16",
+    "options": [
+      "15",
+      "17",
+      "18",
+      "16"
+    ]
+  },
+  {
+    "id": "a-m99",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 11 + 3;",
+    "answer": "14"
+  },
+  {
+    "id": "a-m100",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Παύλος έχει 4 λουλούδια και δίνει 2 σε έναν φίλο. Πόσα λουλούδια μένουν;",
+    "answer": "2"
+  },
+  {
+    "id": "a-g65",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ μπανάνα",
+    "answer": "η",
+    "options": [
+      "ο",
+      "η",
+      "το"
+    ]
+  },
+  {
+    "id": "a-m101",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 17 - 13;",
+    "answer": "4",
+    "options": [
+      "6",
+      "3",
+      "5",
+      "4"
+    ]
+  },
+  {
+    "id": "a-m102",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μικρότερος: το 14 ή το 18;",
+    "answer": "14",
+    "options": [
+      "18",
+      "14"
+    ]
+  },
+  {
+    "id": "a-e24",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο ζώο νιαουρίζει;",
+    "answer": "η γάτα",
+    "options": [
+      "η αγελάδα",
+      "το πρόβατο",
+      "η γάτα",
+      "ο σκύλος"
+    ]
+  },
+  {
+    "id": "a-m103",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως μετά το 48;",
+    "answer": "49",
+    "options": [
+      "50",
+      "48",
+      "58",
+      "49"
+    ]
+  },
+  {
+    "id": "a-m104",
+    "category": "math",
+    "type": "text",
+    "question": "Η Μαρία έχει 18 καπέλα και δίνει 9 σε έναν φίλο. Πόσα καπέλα μένουν;",
+    "answer": "9"
+  },
+  {
+    "id": "a-g66",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «γόμα»;",
+    "answer": "2",
+    "options": [
+      "3",
+      "4",
+      "1",
+      "2"
+    ]
+  },
+  {
+    "id": "a-g67",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως μετά το Η;",
+    "answer": "Θ",
+    "options": [
+      "Ξ",
+      "Φ",
+      "Θ",
+      "Ρ"
+    ]
+  },
+  {
+    "id": "a-g68",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «παππούς» βρίσκεται σε:",
+    "answer": "Ενικός αριθμός",
+    "options": [
+      "Πληθυντικός αριθμός",
+      "Ενικός αριθμός"
+    ]
+  },
+  {
+    "id": "a-m105",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 8 + 1;",
+    "answer": "9",
+    "options": [
+      "9",
+      "11",
+      "10",
+      "8"
+    ]
+  },
+  {
+    "id": "a-g69",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «ελέφαντες» βρίσκεται σε:",
+    "answer": "Πληθυντικός αριθμός",
+    "options": [
+      "Ενικός αριθμός",
+      "Πληθυντικός αριθμός"
+    ]
+  },
+  {
+    "id": "a-g70",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ αδελφή",
+    "answer": "η",
+    "options": [
+      "ο",
+      "το",
+      "η"
+    ]
+  },
+  {
+    "id": "a-g71",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως πριν από το Λ;",
+    "answer": "Κ",
+    "options": [
+      "Ε",
+      "Τ",
+      "Η",
+      "Κ"
+    ]
+  },
+  {
+    "id": "a-m106",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 3 + 13;",
+    "answer": "16",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ]
+  },
+  {
+    "id": "a-g72",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «βράχοι» βρίσκεται σε:",
+    "answer": "Πληθυντικός αριθμός",
+    "options": [
+      "Πληθυντικός αριθμός",
+      "Ενικός αριθμός"
+    ]
+  },
+  {
+    "id": "a-e25",
+    "category": "environment",
+    "type": "text",
+    "question": "Γράψε ένα φρούτο.",
+    "answer": "μήλο",
+    "acceptedAnswers": [
+      "πορτοκάλι",
+      "μπανάνα",
+      "αχλάδι",
+      "σταφύλι",
+      "καρπούζι",
+      "πεπόνι",
+      "φράουλα",
+      "κεράσι",
+      "ροδάκινο",
+      "βερίκοκο",
+      "μανταρίνι",
+      "λεμόνι"
+    ]
+  },
+  {
+    "id": "a-g73",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «νερό»;",
+    "answer": "2",
+    "options": [
+      "2",
+      "4",
+      "3",
+      "1"
+    ]
+  },
+  {
+    "id": "a-g74",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως μετά το Φ;",
+    "answer": "Χ",
+    "options": [
+      "Γ",
+      "Χ",
+      "Ξ",
+      "Υ"
+    ]
+  },
+  {
+    "id": "a-g75",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ μολύβι",
+    "answer": "το",
+    "options": [
+      "το",
+      "ο",
+      "η"
+    ]
+  },
+  {
+    "id": "a-m107",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Η Δέσποινα έχει 20 τετράδια και δίνει 13 σε έναν φίλο. Πόσα τετράδια μένουν;",
+    "answer": "7",
+    "options": [
+      "7",
+      "6",
+      "8",
+      "9"
+    ]
+  },
+  {
+    "id": "a-m108",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 2 - 1;",
+    "answer": "1",
+    "options": [
+      "1",
+      "3",
+      "2",
+      "0"
+    ]
+  },
+  {
+    "id": "a-m109",
+    "category": "math",
+    "type": "text",
+    "question": "Η Κατερίνα έχει 2 κεράσια και παίρνει ακόμα 7. Πόσα κεράσια έχει τώρα;",
+    "answer": "9"
+  },
+  {
+    "id": "a-s43",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: πρόβατ_",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "πρόβατο"
+    ]
+  },
+  {
+    "id": "a-e26",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πόσα μάτια έχουμε;",
+    "answer": "2",
+    "options": [
+      "4",
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  {
+    "id": "a-s44",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "καρπούζι",
+    "options": [
+      "καρπούζι",
+      "καρπούζη",
+      "καρπούζυ"
+    ]
+  },
+  {
+    "id": "a-s45",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "τρένο",
+    "options": [
+      "τρένω",
+      "τρένο"
+    ]
+  },
+  {
+    "id": "a-m110",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Η Αγγελική έχει 8 καπέλα και παίρνει ακόμα 3. Πόσα καπέλα έχει τώρα;",
+    "answer": "11",
+    "options": [
+      "10",
+      "13",
+      "11",
+      "12"
+    ]
+  },
+  {
+    "id": "a-e27",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πού μένει η κότα;",
+    "answer": "στο κοτέτσι",
+    "options": [
+      "στη φωλιά στα δέντρα",
+      "στην κυψέλη",
+      "στο κοτέτσι",
+      "στη θάλασσα"
+    ]
+  },
+  {
+    "id": "a-g76",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ παιδί",
+    "answer": "το",
+    "options": [
+      "το",
+      "η",
+      "ο"
+    ]
+  },
+  {
+    "id": "a-m111",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μεγαλύτερος: το 4 ή το 5;",
+    "answer": "5",
+    "options": [
+      "5",
+      "4"
+    ]
+  },
+  {
+    "id": "a-e28",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πόσα πόδια έχει η γάτα;",
+    "answer": "4",
+    "options": [
+      "8",
+      "2",
+      "6",
+      "4"
+    ]
+  },
+  {
+    "id": "a-s46",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "πουλί",
+    "options": [
+      "ποιλί",
+      "πουλί",
+      "ποηλί"
+    ]
+  },
+  {
+    "id": "a-m112",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μεγαλύτερος: το 20 ή το 14;",
+    "answer": "20",
+    "options": [
+      "20",
+      "14"
+    ]
+  },
+  {
+    "id": "a-g77",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «αυτοκίνητο» βρίσκεται σε:",
+    "answer": "Ενικός αριθμός",
+    "options": [
+      "Πληθυντικός αριθμός",
+      "Ενικός αριθμός"
+    ]
+  },
+  {
+    "id": "a-s47",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: δέντρ_",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "δέντρο"
+    ]
+  },
+  {
+    "id": "a-m113",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μονός;",
+    "answer": "11",
+    "options": [
+      11,
+      16,
+      2,
+      20
+    ]
+  },
+  {
+    "id": "a-e29",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πού μένει το πουλί;",
+    "answer": "στη φωλιά",
+    "options": [
+      "στη φωλιά",
+      "στο κλουβί πάντα",
+      "στο κοτέτσι",
+      "στην κυψέλη"
+    ]
+  },
+  {
+    "id": "a-g78",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «γάλα»;",
+    "answer": "2",
+    "options": [
+      "4",
+      "1",
+      "3",
+      "2"
+    ]
+  },
+  {
+    "id": "a-g79",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως πριν από το Θ;",
+    "answer": "Η",
+    "options": [
+      "Ψ",
+      "Ε",
+      "Χ",
+      "Η"
+    ]
+  },
+  {
+    "id": "a-m114",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 13 - 1;",
+    "answer": "12"
+  },
+  {
+    "id": "a-m115",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 1 + 5;",
+    "answer": "6",
+    "options": [
+      "8",
+      "7",
+      "5",
+      "6"
+    ]
+  },
+  {
+    "id": "a-m116",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Η Ζωή έχει 9 αυγά και δίνει 1 σε έναν φίλο. Πόσα αυγά μένουν;",
+    "answer": "8",
+    "options": [
+      "9",
+      "8",
+      "10",
+      "7"
+    ]
+  },
+  {
+    "id": "a-g80",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ κάμερα",
+    "answer": "η",
+    "options": [
+      "η",
+      "ο",
+      "το"
+    ]
+  },
+  {
+    "id": "a-m117",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μονός;",
+    "answer": "17",
+    "options": [
+      4,
+      6,
+      2,
+      17
+    ]
+  },
+  {
+    "id": "a-s48",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "μάτι",
+    "options": [
+      "μάτι",
+      "μάτη",
+      "μάτυ"
+    ]
+  },
+  {
+    "id": "a-g81",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «σπίτι»;",
+    "answer": "2",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "1"
+    ]
+  },
+  {
+    "id": "a-m118",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 5 - 3;",
+    "answer": "2",
+    "options": [
+      "4",
+      "2",
+      "3",
+      "1"
+    ]
+  },
+  {
+    "id": "a-s49",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "παγωτό",
+    "options": [
+      "παγοτό",
+      "παγωτό"
+    ]
+  },
+  {
+    "id": "a-e30",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Σε ποια εποχή πέφτουν τα φύλλα των δέντρων;",
+    "answer": "το φθινόπωρο",
+    "options": [
+      "τον χειμώνα",
+      "το φθινόπωρο",
+      "την άνοιξη",
+      "το καλοκαίρι"
+    ]
+  },
+  {
+    "id": "a-s50",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "κρεβάτι",
+    "options": [
+      "κρεβάτυ",
+      "κρεβάτι",
+      "κρεβάτη"
+    ]
+  },
+  {
+    "id": "a-m119",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 19 - 9;",
+    "answer": "10",
+    "options": [
+      "9",
+      "11",
+      "10",
+      "12"
+    ]
+  },
+  {
+    "id": "a-g82",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «αρκούδα»;",
+    "answer": "3",
+    "options": [
+      "2",
+      "4",
+      "5",
+      "3"
+    ]
+  },
+  {
+    "id": "a-g83",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «ντομάτα»;",
+    "answer": "3",
+    "options": [
+      "3",
+      "5",
+      "2",
+      "4"
+    ]
+  },
+  {
+    "id": "a-m120",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 19 + 1;",
+    "answer": "20"
+  },
+  {
+    "id": "a-m121",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 4 + 5;",
+    "answer": "9"
+  },
+  {
+    "id": "a-g84",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως μετά το Ζ;",
+    "answer": "Η",
+    "options": [
+      "Ψ",
+      "Χ",
+      "Η",
+      "Ω"
+    ]
+  },
+  {
+    "id": "a-g85",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «αστέρι»;",
+    "answer": "3",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "id": "a-g86",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «βροχή»;",
+    "answer": "2",
+    "options": [
+      "4",
+      "3",
+      "2",
+      "1"
+    ]
+  },
+  {
+    "id": "a-s51",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: τ_ύρτα",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "τούρτα"
+    ]
+  },
+  {
+    "id": "a-s52",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: ψ_γείο",
+    "answer": "υ",
+    "acceptedAnswers": [
+      "ψυγείο"
+    ]
+  },
+  {
+    "id": "a-s53",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: μήλ_",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "μήλο"
+    ]
+  },
+  {
+    "id": "a-e31",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο ζώο λέγεται «βασιλιάς των ζώων»;",
+    "answer": "το λιοντάρι",
+    "options": [
+      "το άλογο",
+      "το λιοντάρι",
+      "η γάτα",
+      "ο σκύλος"
+    ]
+  },
+  {
+    "id": "a-m122",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 2 + 6;",
+    "answer": "8",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "7"
+    ]
+  },
+  {
+    "id": "a-m123",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι ζυγός;",
+    "answer": "14",
+    "options": [
+      17,
+      14,
+      15,
+      1
+    ]
+  },
+  {
+    "id": "a-g87",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «φούρνος»;",
+    "answer": "2",
+    "options": [
+      "2",
+      "4",
+      "3",
+      "1"
+    ]
+  },
+  {
+    "id": "a-m124",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως πριν από το 11;",
+    "answer": "10",
+    "options": [
+      "11",
+      "9",
+      "10",
+      "21"
+    ]
+  },
+  {
+    "id": "a-s54",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: κουνέλ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "κουνέλι"
+    ]
+  },
+  {
+    "id": "a-m125",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 18 - 14;",
+    "answer": "4",
+    "options": [
+      "4",
+      "6",
+      "5",
+      "3"
+    ]
+  },
+  {
+    "id": "a-m126",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 1 + 6;",
+    "answer": "7",
+    "options": [
+      "8",
+      "7",
+      "9",
+      "6"
+    ]
+  },
+  {
+    "id": "a-m127",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μικρότερος: το 2 ή το 20;",
+    "answer": "2",
+    "options": [
+      "20",
+      "2"
+    ]
+  },
+  {
+    "id": "a-m128",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως μετά το 88;",
+    "answer": "89",
+    "options": [
+      "89",
+      "88",
+      "90",
+      "98"
+    ]
+  },
+  {
+    "id": "a-g88",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ φίλος",
+    "answer": "ο",
+    "options": [
+      "το",
+      "η",
+      "ο"
+    ]
+  },
+  {
+    "id": "a-e32",
+    "category": "environment",
+    "type": "text",
+    "question": "Γράψε μία ημέρα της εβδομάδας.",
+    "answer": "Δευτέρα",
+    "acceptedAnswers": [
+      "Τρίτη",
+      "Τετάρτη",
+      "Πέμπτη",
+      "Παρασκευή",
+      "Σάββατο",
+      "Κυριακή"
+    ]
+  },
+  {
+    "id": "a-s55",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: _μπρέλα",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "ομπρέλα"
+    ]
+  },
+  {
+    "id": "a-e33",
+    "category": "environment",
+    "type": "text",
+    "question": "Γράψε ένα χρώμα.",
+    "answer": "κόκκινο",
+    "acceptedAnswers": [
+      "μπλε",
+      "πράσινο",
+      "κίτρινο",
+      "πορτοκαλί",
+      "μοβ",
+      "ροζ",
+      "μαύρο",
+      "άσπρο",
+      "καφέ",
+      "γκρι",
+      "γαλάζιο"
+    ]
+  },
+  {
+    "id": "a-m129",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μεγαλύτερος: το 7 ή το 11;",
+    "answer": "11",
+    "options": [
+      "7",
+      "11"
+    ]
+  },
+  {
+    "id": "a-g89",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «γειτονιές» βρίσκεται σε:",
+    "answer": "Πληθυντικός αριθμός",
+    "options": [
+      "Πληθυντικός αριθμός",
+      "Ενικός αριθμός"
+    ]
+  },
+  {
+    "id": "a-s56",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: λουλούδ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "λουλούδι"
+    ]
+  },
+  {
+    "id": "a-s57",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: _μέρα",
+    "answer": "η",
+    "acceptedAnswers": [
+      "ημέρα"
+    ]
+  },
+  {
+    "id": "a-m130",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως πριν από το 68;",
+    "answer": "67",
+    "options": [
+      "78",
+      "66",
+      "67",
+      "68"
+    ]
+  },
+  {
+    "id": "a-m131",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 5 + 10;",
+    "answer": "15"
+  },
+  {
+    "id": "a-g90",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «βουνό»;",
+    "answer": "2",
+    "options": [
+      "3",
+      "1",
+      "2",
+      "4"
+    ]
+  },
+  {
+    "id": "a-g91",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο από τα παρακάτω γράμματα είναι φωνήεν;",
+    "answer": "ε",
+    "options": [
+      "θ",
+      "β",
+      "ψ",
+      "ε"
+    ]
+  },
+  {
+    "id": "a-s58",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "παππούς",
+    "options": [
+      "παππωύς",
+      "παππούς"
+    ]
+  },
+  {
+    "id": "a-s59",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: δρόμ_ς",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "δρόμος"
+    ]
+  },
+  {
+    "id": "a-s60",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "πορτοκάλι",
+    "options": [
+      "πορτοκάλη",
+      "πορτοκάλυ",
+      "πορτοκάλι"
+    ]
+  },
+  {
+    "id": "a-m132",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι ζυγός;",
+    "answer": "20",
+    "options": [
+      20,
+      7,
+      9,
+      1
+    ]
+  },
+  {
+    "id": "a-m133",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 2 + 8;",
+    "answer": "10",
+    "options": [
+      "12",
+      "9",
+      "10",
+      "11"
+    ]
+  },
+  {
+    "id": "a-s61",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "φύλλο",
+    "options": [
+      "φύλλο",
+      "φύλο"
+    ]
+  },
+  {
+    "id": "a-g92",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «κουτιά» βρίσκεται σε:",
+    "answer": "Πληθυντικός αριθμός",
+    "options": [
+      "Ενικός αριθμός",
+      "Πληθυντικός αριθμός"
+    ]
+  },
+  {
+    "id": "a-g93",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «καρπούζι»;",
+    "answer": "3",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "id": "a-m134",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μονός;",
+    "answer": "9",
+    "options": [
+      9,
+      14,
+      18,
+      12
+    ]
+  },
+  {
+    "id": "a-m135",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 3 + 1;",
+    "answer": "4"
+  },
+  {
+    "id": "a-m136",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ο Γιάννης έχει 7 αυγά και παίρνει ακόμα 6. Πόσα αυγά έχει τώρα;",
+    "answer": "13",
+    "options": [
+      "13",
+      "15",
+      "12",
+      "14"
+    ]
+  },
+  {
+    "id": "a-m137",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 5 + 6;",
+    "answer": "11",
+    "options": [
+      "12",
+      "10",
+      "11",
+      "13"
+    ]
+  },
+  {
+    "id": "a-e34",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο ζώο μάς δίνει το γάλα που πίνουμε συνήθως;",
+    "answer": "η αγελάδα",
+    "options": [
+      "η αγελάδα",
+      "το ψάρι",
+      "ο σκύλος",
+      "η γάτα"
+    ]
+  },
+  {
+    "id": "a-s62",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: παράθ_ρο",
+    "answer": "υ",
+    "acceptedAnswers": [
+      "παράθυρο"
+    ]
+  },
+  {
+    "id": "a-g94",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «χέρι»;",
+    "answer": "2",
+    "options": [
+      "3",
+      "4",
+      "1",
+      "2"
+    ]
+  },
+  {
+    "id": "a-g95",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο από τα παρακάτω γράμματα είναι σύμφωνο;",
+    "answer": "χ",
+    "options": [
+      "χ",
+      "ε",
+      "ι",
+      "α"
+    ]
+  },
+  {
+    "id": "a-s63",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: τρέν_",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "τρένο"
+    ]
+  },
+  {
+    "id": "a-g96",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «γάτες» βρίσκεται σε:",
+    "answer": "Πληθυντικός αριθμός",
+    "options": [
+      "Ενικός αριθμός",
+      "Πληθυντικός αριθμός"
+    ]
+  },
+  {
+    "id": "a-e35",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πότε βουρτσίζουμε τα δόντια μας;",
+    "answer": "πρωί και βράδυ",
+    "options": [
+      "μία φορά τον μήνα",
+      "μόνο τις γιορτές",
+      "πρωί και βράδυ",
+      "ποτέ"
+    ]
+  },
+  {
+    "id": "a-m138",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μεγαλύτερος: το 13 ή το 10;",
+    "answer": "13",
+    "options": [
+      "10",
+      "13"
+    ]
+  },
+  {
+    "id": "a-m139",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως πριν από το 44;",
+    "answer": "43",
+    "options": [
+      "43",
+      "54",
+      "42",
+      "44"
+    ]
+  },
+  {
+    "id": "a-m140",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 8 - 4;",
+    "answer": "4",
+    "options": [
+      "6",
+      "4",
+      "5",
+      "3"
+    ]
+  },
+  {
+    "id": "a-m141",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως πριν από το 25;",
+    "answer": "24",
+    "options": [
+      "24",
+      "25",
+      "35",
+      "23"
+    ]
+  },
+  {
+    "id": "a-s64",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: κήπ_ς",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "κήπος"
+    ]
+  },
+  {
+    "id": "a-g97",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως μετά το Ν;",
+    "answer": "Ξ",
+    "options": [
+      "Δ",
+      "Τ",
+      "Ξ",
+      "Ρ"
+    ]
+  },
+  {
+    "id": "a-g98",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο από τα παρακάτω γράμματα είναι σύμφωνο;",
+    "answer": "π",
+    "options": [
+      "ο",
+      "π",
+      "α",
+      "υ"
+    ]
+  },
+  {
+    "id": "a-s65",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ποτήρι",
+    "options": [
+      "ποτήρη",
+      "ποτήρι",
+      "ποτήρυ"
+    ]
+  },
+  {
+    "id": "a-g99",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «μαθήματα» βρίσκεται σε:",
+    "answer": "Πληθυντικός αριθμός",
+    "options": [
+      "Πληθυντικός αριθμός",
+      "Ενικός αριθμός"
+    ]
+  },
+  {
+    "id": "a-g100",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως πριν από το Μ;",
+    "answer": "Λ",
+    "options": [
+      "Υ",
+      "Ο",
+      "Λ",
+      "Α"
+    ]
+  },
+  {
+    "id": "a-s66",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "τραπέζι",
+    "options": [
+      "τραπέζυ",
+      "τραπέζη",
+      "τραπέζι"
+    ]
+  },
+  {
+    "id": "a-s67",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: ποτήρ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "ποτήρι"
+    ]
+  },
+  {
+    "id": "a-s68",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "κούκλα",
+    "options": [
+      "κούκλα",
+      "κωύκλα"
+    ]
+  },
+  {
+    "id": "a-g101",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως πριν από το Ι;",
+    "answer": "Θ",
+    "options": [
+      "Ρ",
+      "Δ",
+      "Χ",
+      "Θ"
+    ]
+  },
+  {
+    "id": "a-s69",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ποντίκι",
+    "options": [
+      "ποντίκι",
+      "ποντίκυ",
+      "ποντίκη"
+    ]
+  },
+  {
+    "id": "a-s70",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "μύτη",
+    "options": [
+      "μύτι",
+      "μύτυ",
+      "μύτη"
+    ]
+  },
+  {
+    "id": "a-s71",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ήχος",
+    "options": [
+      "ήχως",
+      "ήχος"
+    ]
+  },
+  {
+    "id": "a-s72",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: γ_αγιά",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "γιαγιά"
+    ]
+  },
+  {
+    "id": "a-s73",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "χιόνι",
+    "options": [
+      "χηόνι",
+      "χυόνι",
+      "χιόνι"
+    ]
+  },
+  {
+    "id": "a-m142",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 7 - 5;",
+    "answer": "2",
+    "options": [
+      "3",
+      "4",
+      "1",
+      "2"
+    ]
+  },
+  {
+    "id": "a-s74",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: χ_όνι",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "χιόνι"
+    ]
+  },
+  {
+    "id": "a-m143",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 1 + 8;",
+    "answer": "9",
+    "options": [
+      "8",
+      "11",
+      "9",
+      "10"
+    ]
+  },
+  {
+    "id": "a-s75",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: φύ__ο",
+    "answer": "λλ",
+    "acceptedAnswers": [
+      "φύλλο"
+    ]
+  },
+  {
+    "id": "a-m144",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 6 + 11;",
+    "answer": "17"
+  },
+  {
+    "id": "a-m145",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 15 - 6;",
+    "answer": "9",
+    "options": [
+      "11",
+      "9",
+      "8",
+      "10"
+    ]
+  },
+  {
+    "id": "a-m146",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 18 - 12;",
+    "answer": "6",
+    "options": [
+      "6",
+      "5",
+      "7",
+      "8"
+    ]
+  },
+  {
+    "id": "a-m147",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 16 - 13;",
+    "answer": "3"
+  },
+  {
+    "id": "a-m148",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως μετά το 28;",
+    "answer": "29",
+    "options": [
+      "30",
+      "38",
+      "28",
+      "29"
+    ]
+  },
+  {
+    "id": "a-g102",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ αυτί",
+    "answer": "το",
+    "options": [
+      "ο",
+      "η",
+      "το"
+    ]
+  },
+  {
+    "id": "a-g103",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «πόδι»;",
+    "answer": "2",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "id": "a-m149",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 14 + 4;",
+    "answer": "18"
+  },
+  {
+    "id": "a-m150",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 7 + 1;",
+    "answer": "8",
+    "options": [
+      "10",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  {
+    "id": "a-m151",
+    "category": "math",
+    "type": "text",
+    "question": "Η Κατερίνα έχει 14 μολύβια και δίνει 9 σε έναν φίλο. Πόσα μολύβια μένουν;",
+    "answer": "5"
+  },
+  {
+    "id": "a-s76",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: κο_ζίνα",
+    "answer": "υ",
+    "acceptedAnswers": [
+      "κουζίνα"
+    ]
+  },
+  {
+    "id": "a-m152",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 17 + 1;",
+    "answer": "18",
+    "options": [
+      "19",
+      "20",
+      "18",
+      "17"
+    ]
+  },
+  {
+    "id": "a-g104",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ σταθμός",
+    "answer": "ο",
+    "options": [
+      "ο",
+      "το",
+      "η"
+    ]
+  },
+  {
+    "id": "a-s77",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: π_δήλατο",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "ποδήλατο"
+    ]
+  },
+  {
+    "id": "a-m153",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 15 - 3;",
+    "answer": "12"
+  },
+  {
+    "id": "a-g105",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «λύκος»;",
+    "answer": "2",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "3"
+    ]
+  },
+  {
+    "id": "a-s78",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: λ_οντάρι",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "λιοντάρι"
+    ]
+  },
+  {
+    "id": "a-m154",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 20 - 6;",
+    "answer": "14",
+    "options": [
+      "15",
+      "16",
+      "13",
+      "14"
+    ]
+  },
+  {
+    "id": "a-s79",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "δάσκαλος",
+    "options": [
+      "δάσκαλος",
+      "δάσκαλως"
+    ]
+  },
+  {
+    "id": "a-m155",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως μετά το 29;",
+    "answer": "30",
+    "options": [
+      "31",
+      "39",
+      "30",
+      "29"
+    ]
+  },
+  {
+    "id": "a-g106",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο από τα παρακάτω γράμματα είναι φωνήεν;",
+    "answer": "ι",
+    "options": [
+      "τ",
+      "ν",
+      "ι",
+      "β"
+    ]
+  },
+  {
+    "id": "a-s80",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: ποντίκ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "ποντίκι"
+    ]
+  },
+  {
+    "id": "a-m156",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μονός;",
+    "answer": "3",
+    "options": [
+      6,
+      14,
+      3,
+      16
+    ]
+  },
+  {
+    "id": "a-m157",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 9 + 1;",
+    "answer": "10"
+  },
+  {
+    "id": "a-m158",
+    "category": "math",
+    "type": "text",
+    "question": "Η Ελένη έχει 3 παιχνίδια και παίρνει ακόμα 3. Πόσα παιχνίδια έχει τώρα;",
+    "answer": "6"
+  },
+  {
+    "id": "a-g107",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ ελέφαντας",
+    "answer": "ο",
+    "options": [
+      "η",
+      "ο",
+      "το"
+    ]
+  },
+  {
+    "id": "a-e36",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο από τα παρακάτω είναι λαχανικό;",
+    "answer": "το καρότο",
+    "options": [
+      "το καρότο",
+      "το μήλο",
+      "η μπανάνα",
+      "το κεράσι"
+    ]
+  },
+  {
+    "id": "a-m159",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 2 + 5;",
+    "answer": "7",
+    "options": [
+      "9",
+      "7",
+      "6",
+      "8"
+    ]
+  },
+  {
+    "id": "a-s81",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: σκύλ_ς",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "σκύλος"
+    ]
+  },
+  {
+    "id": "a-s82",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: μέλι__α",
+    "answer": "σσ",
+    "acceptedAnswers": [
+      "μέλισσα"
+    ]
+  },
+  {
+    "id": "a-m160",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 8 + 6;",
+    "answer": "14"
+  },
+  {
+    "id": "a-e37",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πόσα πόδια έχει η κότα;",
+    "answer": "2",
+    "options": [
+      "4",
+      "8",
+      "6",
+      "2"
+    ]
+  },
+  {
+    "id": "a-g108",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «ζώα» βρίσκεται σε:",
+    "answer": "Πληθυντικός αριθμός",
+    "options": [
+      "Ενικός αριθμός",
+      "Πληθυντικός αριθμός"
+    ]
+  },
+  {
+    "id": "a-s83",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "δέντρο",
+    "options": [
+      "δέντρο",
+      "δέντρω"
+    ]
+  },
+  {
+    "id": "a-m161",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μικρότερος: το 3 ή το 16;",
+    "answer": "3",
+    "options": [
+      "3",
+      "16"
+    ]
+  },
+  {
+    "id": "a-m162",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 2 + 2;",
+    "answer": "4"
+  },
+  {
+    "id": "a-s84",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: μολύβ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "μολύβι"
+    ]
+  },
+  {
+    "id": "a-s85",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "φαγητό",
+    "options": [
+      "φαγυτό",
+      "φαγητό",
+      "φαγιτό"
+    ]
+  },
+  {
+    "id": "a-m163",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 17 - 1;",
+    "answer": "16",
+    "options": [
+      "17",
+      "16",
+      "15",
+      "18"
+    ]
+  },
+  {
+    "id": "a-m164",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι ζυγός;",
+    "answer": "16",
+    "options": [
+      3,
+      19,
+      17,
+      16
+    ]
+  },
+  {
+    "id": "a-e38",
+    "category": "environment",
+    "type": "text",
+    "question": "Γράψε ένα μέρος του σώματος.",
+    "answer": "χέρι",
+    "acceptedAnswers": [
+      "πόδι",
+      "μάτι",
+      "αυτί",
+      "μύτη",
+      "στόμα",
+      "κεφάλι",
+      "κοιλιά",
+      "πλάτη",
+      "δάχτυλο",
+      "μαλλιά"
+    ]
+  },
+  {
+    "id": "a-m165",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 10 + 7;",
+    "answer": "17",
+    "options": [
+      "19",
+      "16",
+      "17",
+      "18"
+    ]
+  },
+  {
+    "id": "a-e39",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Τι κάνουμε όταν το φανάρι των πεζών είναι κόκκινο;",
+    "answer": "περιμένουμε",
+    "options": [
+      "φωνάζουμε δυνατά",
+      "περιμένουμε",
+      "περνάμε αργά",
+      "περνάμε τρέχοντας"
+    ]
+  },
+  {
+    "id": "a-e40",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Σε ποια εποχή ανθίζουν τα περισσότερα λουλούδια;",
+    "answer": "την άνοιξη",
+    "options": [
+      "το φθινόπωρο",
+      "την άνοιξη",
+      "το καλοκαίρι",
+      "τον χειμώνα"
+    ]
+  },
+  {
+    "id": "a-g109",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως μετά το Θ;",
+    "answer": "Ι",
+    "options": [
+      "Ι",
+      "Σ",
+      "Ξ",
+      "Μ"
+    ]
+  },
+  {
+    "id": "a-m166",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 15 - 5;",
+    "answer": "10",
+    "options": [
+      "12",
+      "10",
+      "9",
+      "11"
+    ]
+  },
+  {
+    "id": "a-s86",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "πρόβατο",
+    "options": [
+      "πρόβατο",
+      "πρόβατω"
+    ]
+  },
+  {
+    "id": "a-m167",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μικρότερος: το 3 ή το 11;",
+    "answer": "3",
+    "options": [
+      "11",
+      "3"
+    ]
+  },
+  {
+    "id": "a-m168",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Η Κατερίνα έχει 10 αυτοκολλητάκια και δίνει 9 σε έναν φίλο. Πόσα αυτοκολλητάκια μένουν;",
+    "answer": "1",
+    "options": [
+      "3",
+      "1",
+      "2",
+      "0"
+    ]
+  },
+  {
+    "id": "a-m169",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 12 + 7;",
+    "answer": "19",
+    "options": [
+      "20",
+      "21",
+      "19",
+      "18"
+    ]
+  },
+  {
+    "id": "a-s87",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "δώρο",
+    "options": [
+      "δώρο",
+      "δώρω"
+    ]
+  },
+  {
+    "id": "a-s88",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "χειμώνας",
+    "options": [
+      "χειμώνας",
+      "χημώνας",
+      "χοιμώνας",
+      "χιμώνας"
+    ]
+  },
+  {
+    "id": "a-s89",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ήλιος",
+    "options": [
+      "ήλιος",
+      "ήλυος",
+      "ήληος"
+    ]
+  },
+  {
+    "id": "a-g110",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο από τα παρακάτω γράμματα είναι σύμφωνο;",
+    "answer": "ν",
+    "options": [
+      "ω",
+      "ο",
+      "ν",
+      "υ"
+    ]
+  },
+  {
+    "id": "a-m170",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Αλέξανδρος έχει 14 μπαλόνια και δίνει 8 σε έναν φίλο. Πόσα μπαλόνια μένουν;",
+    "answer": "6"
+  },
+  {
+    "id": "a-m171",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μεγαλύτερος: το 16 ή το 15;",
+    "answer": "16",
+    "options": [
+      "15",
+      "16"
+    ]
+  },
+  {
+    "id": "a-e41",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πού μένει η μέλισσα;",
+    "answer": "στην κυψέλη",
+    "options": [
+      "στη φωλιά",
+      "στη σπηλιά",
+      "στο κοτέτσι",
+      "στην κυψέλη"
+    ]
+  },
+  {
+    "id": "a-m172",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Μιχάλης έχει 10 κεράσια και δίνει 6 σε έναν φίλο. Πόσα κεράσια μένουν;",
+    "answer": "4"
+  },
+  {
+    "id": "a-g111",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ χώρα",
+    "answer": "η",
+    "options": [
+      "η",
+      "το",
+      "ο"
+    ]
+  },
+  {
+    "id": "a-m173",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 7 - 1;",
+    "answer": "6"
+  },
+  {
+    "id": "a-m174",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 14 - 7;",
+    "answer": "7",
+    "options": [
+      "9",
+      "7",
+      "8",
+      "6"
+    ]
+  },
+  {
+    "id": "a-g112",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως πριν από το Δ;",
+    "answer": "Γ",
+    "options": [
+      "Γ",
+      "Μ",
+      "Ξ",
+      "Ζ"
+    ]
+  },
+  {
+    "id": "a-e42",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πόσες εποχές έχει ο χρόνος;",
+    "answer": "4",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "id": "a-g113",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «δάσκαλοι» βρίσκεται σε:",
+    "answer": "Πληθυντικός αριθμός",
+    "options": [
+      "Πληθυντικός αριθμός",
+      "Ενικός αριθμός"
+    ]
+  },
+  {
+    "id": "a-m175",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 3 + 5;",
+    "answer": "8",
+    "options": [
+      "9",
+      "10",
+      "8",
+      "7"
+    ]
+  },
+  {
+    "id": "a-m176",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως μετά το 31;",
+    "answer": "32",
+    "options": [
+      "31",
+      "41",
+      "32",
+      "33"
+    ]
+  },
+  {
+    "id": "a-s90",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: κρεβάτ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "κρεβάτι"
+    ]
+  },
+  {
+    "id": "a-m177",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 3 + 4;",
+    "answer": "7",
+    "options": [
+      "9",
+      "8",
+      "7",
+      "6"
+    ]
+  },
+  {
+    "id": "a-g114",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «κεράσι»;",
+    "answer": "3",
+    "options": [
+      "5",
+      "2",
+      "4",
+      "3"
+    ]
+  },
+  {
+    "id": "a-s91",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: άλ_γο",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "άλογο"
+    ]
+  },
+  {
+    "id": "a-m178",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ο Νίκος έχει 10 μολύβια και δίνει 7 σε έναν φίλο. Πόσα μολύβια μένουν;",
+    "answer": "3",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "2"
+    ]
+  },
+  {
+    "id": "a-e43",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Τι χρώμα έχει ο ουρανός μια ηλιόλουστη μέρα;",
+    "answer": "γαλάζιο",
+    "options": [
+      "καφέ",
+      "μαύρο",
+      "πράσινο",
+      "γαλάζιο"
+    ]
+  },
+  {
+    "id": "a-m179",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσες πλευρές έχει ένα εξάγωνο;",
+    "answer": "6",
+    "options": [
+      "5",
+      "6",
+      "8",
+      "7"
+    ]
+  },
+  {
+    "id": "a-m180",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 3 + 14;",
+    "answer": "17"
+  },
+  {
+    "id": "a-s92",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: πόδ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "πόδι"
+    ]
+  },
+  {
+    "id": "a-e44",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Τι βλέπουμε στον ουρανό τη νύχτα;",
+    "answer": "το φεγγάρι και τα αστέρια",
+    "options": [
+      "τίποτα ποτέ",
+      "το φεγγάρι και τα αστέρια",
+      "το ουράνιο τόξο",
+      "τον ήλιο"
+    ]
+  },
+  {
+    "id": "a-g115",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «πεταλούδα»;",
+    "answer": "4",
+    "options": [
+      "6",
+      "5",
+      "4",
+      "3"
+    ]
+  },
+  {
+    "id": "a-s93",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ουρανός",
+    "options": [
+      "ουρανός",
+      "οηρανός",
+      "οιρανός"
+    ]
+  },
+  {
+    "id": "a-m181",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μικρότερος: το 6 ή το 15;",
+    "answer": "6",
+    "options": [
+      "15",
+      "6"
+    ]
+  },
+  {
+    "id": "a-m182",
+    "category": "math",
+    "type": "text",
+    "question": "Η Άννα έχει 6 αυγά και παίρνει ακόμα 4. Πόσα αυγά έχει τώρα;",
+    "answer": "10"
+  },
+  {
+    "id": "a-s94",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "μήλο",
+    "options": [
+      "μήλω",
+      "μήλο"
+    ]
+  },
+  {
+    "id": "a-m183",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Θανάσης έχει 6 αυτοκολλητάκια και παίρνει ακόμα 7. Πόσα αυτοκολλητάκια έχει τώρα;",
+    "answer": "13"
+  },
+  {
+    "id": "a-m184",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 7 - 4;",
+    "answer": "3",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "5"
+    ]
+  },
+  {
+    "id": "a-s95",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: σπίτ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "σπίτι"
+    ]
+  },
+  {
+    "id": "a-g116",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «φεγγάρι»;",
+    "answer": "3",
+    "options": [
+      "5",
+      "3",
+      "4",
+      "2"
+    ]
+  },
+  {
+    "id": "a-g117",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο από τα παρακάτω γράμματα είναι σύμφωνο;",
+    "answer": "τ",
+    "options": [
+      "ο",
+      "υ",
+      "τ",
+      "ι"
+    ]
+  },
+  {
+    "id": "a-m185",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 9 - 2;",
+    "answer": "7",
+    "options": [
+      "7",
+      "6",
+      "8",
+      "9"
+    ]
+  },
+  {
+    "id": "a-g118",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ μανάβης",
+    "answer": "ο",
+    "options": [
+      "η",
+      "το",
+      "ο"
+    ]
+  },
+  {
+    "id": "a-m186",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 3 + 7;",
+    "answer": "10"
+  },
+  {
+    "id": "a-g119",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ γειτονιά",
+    "answer": "η",
+    "options": [
+      "η",
+      "το",
+      "ο"
+    ]
+  },
+  {
+    "id": "a-g120",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως πριν από το Ν;",
+    "answer": "Μ",
+    "options": [
+      "Μ",
+      "Α",
+      "Β",
+      "Θ"
+    ]
+  },
+  {
+    "id": "a-m187",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 9 + 10;",
+    "answer": "19",
+    "options": [
+      "19",
+      "18",
+      "20",
+      "21"
+    ]
+  },
+  {
+    "id": "a-s96",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: β_βλίο",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "βιβλίο"
+    ]
+  },
+  {
+    "id": "a-g121",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως πριν από το Υ;",
+    "answer": "Τ",
+    "options": [
+      "Η",
+      "Ν",
+      "Ψ",
+      "Τ"
+    ]
+  },
+  {
+    "id": "a-m188",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 6 + 3;",
+    "answer": "9"
+  },
+  {
+    "id": "a-m189",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 16 - 1;",
+    "answer": "15"
+  },
+  {
+    "id": "a-s97",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: ήχ_ς",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "ήχος"
+    ]
+  },
+  {
+    "id": "a-g122",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ μάγειρας",
+    "answer": "ο",
+    "options": [
+      "το",
+      "η",
+      "ο"
+    ]
+  },
+  {
+    "id": "a-g123",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ τραγουδιστής",
+    "answer": "ο",
+    "options": [
+      "ο",
+      "το",
+      "η"
+    ]
+  },
+  {
+    "id": "a-m190",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 1 + 9;",
+    "answer": "10"
+  },
+  {
+    "id": "a-g124",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «ποτήρι»;",
+    "answer": "3",
+    "options": [
+      "2",
+      "4",
+      "3",
+      "5"
+    ]
+  },
+  {
+    "id": "a-m191",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 19 - 5;",
+    "answer": "14"
+  },
+  {
+    "id": "a-m192",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μικρότερος: το 8 ή το 10;",
+    "answer": "8",
+    "options": [
+      "8",
+      "10"
+    ]
+  },
+  {
+    "id": "a-m193",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 15 + 5;",
+    "answer": "20"
+  },
+  {
+    "id": "a-m194",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 8 + 2;",
+    "answer": "10"
+  },
+  {
+    "id": "a-e45",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο ζώο κουβαλά το σπίτι του στην πλάτη;",
+    "answer": "η χελώνα",
+    "options": [
+      "η χελώνα",
+      "ο σκύλος",
+      "η κότα",
+      "το άλογο"
+    ]
+  },
+  {
+    "id": "a-g125",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «σταθμός» βρίσκεται σε:",
+    "answer": "Ενικός αριθμός",
+    "options": [
+      "Ενικός αριθμός",
+      "Πληθυντικός αριθμός"
+    ]
+  },
+  {
+    "id": "a-g126",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο από τα παρακάτω γράμματα είναι σύμφωνο;",
+    "answer": "ρ",
+    "options": [
+      "υ",
+      "ρ",
+      "α",
+      "ε"
+    ]
+  },
+  {
+    "id": "a-m195",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μικρότερος: το 8 ή το 2;",
+    "answer": "2",
+    "options": [
+      "2",
+      "8"
+    ]
+  },
+  {
+    "id": "a-e46",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Τι φοράμε στα πόδια μας για να βγούμε έξω;",
+    "answer": "παπούτσια",
+    "options": [
+      "καπέλο",
+      "παπούτσια",
+      "γάντια",
+      "κασκόλ"
+    ]
+  },
+  {
+    "id": "a-m196",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως πριν από το 98;",
+    "answer": "97",
+    "options": [
+      "96",
+      "98",
+      "108",
+      "97"
+    ]
+  },
+  {
+    "id": "a-g127",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως μετά το Τ;",
+    "answer": "Υ",
+    "options": [
+      "Ε",
+      "Υ",
+      "Δ",
+      "Γ"
+    ]
+  },
+  {
+    "id": "a-m197",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως πριν από το 13;",
+    "answer": "12",
+    "options": [
+      "23",
+      "11",
+      "13",
+      "12"
+    ]
+  },
+  {
+    "id": "a-g128",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Η λέξη «κότες» βρίσκεται σε:",
+    "answer": "Πληθυντικός αριθμός",
+    "options": [
+      "Πληθυντικός αριθμός",
+      "Ενικός αριθμός"
+    ]
+  },
+  {
+    "id": "a-g129",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «αλάτι»;",
+    "answer": "3",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "4"
+    ]
+  },
+  {
+    "id": "a-m198",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μονός;",
+    "answer": "5",
+    "options": [
+      18,
+      5,
+      20,
+      10
+    ]
+  },
+  {
+    "id": "a-s98",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ψυγείο",
+    "options": [
+      "ψυγείο",
+      "ψιγείο",
+      "ψηγείο"
+    ]
+  },
+  {
+    "id": "a-g130",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο από τα παρακάτω γράμματα είναι σύμφωνο;",
+    "answer": "θ",
+    "options": [
+      "υ",
+      "θ",
+      "ε",
+      "α"
+    ]
+  },
+  {
+    "id": "a-g131",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ γάτα",
+    "answer": "η",
+    "options": [
+      "ο",
+      "η",
+      "το"
+    ]
+  },
+  {
+    "id": "a-m199",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 7 + 5;",
+    "answer": "12",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "11"
+    ]
+  },
+  {
+    "id": "a-e47",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Τι χρώμα έχει το γρασίδι;",
+    "answer": "πράσινο",
+    "options": [
+      "πράσινο",
+      "μπλε",
+      "κίτρινο",
+      "κόκκινο"
+    ]
+  },
+  {
+    "id": "a-g132",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο από τα παρακάτω γράμματα είναι σύμφωνο;",
+    "answer": "ψ",
+    "options": [
+      "ψ",
+      "α",
+      "ω",
+      "υ"
+    ]
+  },
+  {
+    "id": "a-m200",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως πριν από το 74;",
+    "answer": "73",
+    "options": [
+      "74",
+      "84",
+      "73",
+      "72"
+    ]
+  },
+  {
+    "id": "a-m201",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 4 + 4;",
+    "answer": "8",
+    "options": [
+      "7",
+      "9",
+      "10",
+      "8"
+    ]
+  },
+  {
+    "id": "a-g133",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «παπούτσι»;",
+    "answer": "3",
+    "options": [
+      "5",
+      "3",
+      "4",
+      "2"
+    ]
+  },
+  {
+    "id": "a-g134",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «σοκολάτα»;",
+    "answer": "4",
+    "options": [
+      "6",
+      "3",
+      "5",
+      "4"
+    ]
+  },
+  {
+    "id": "a-g135",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο άρθρο ταιριάζει: ___ γιαγιά",
+    "answer": "η",
+    "options": [
+      "η",
+      "το",
+      "ο"
+    ]
+  },
+  {
+    "id": "a-s99",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: ψ_μί",
+    "answer": "ω",
+    "acceptedAnswers": [
+      "ψωμί"
+    ]
+  },
+  {
+    "id": "a-g136",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «πορτοκάλι»;",
+    "answer": "4",
+    "options": [
+      "6",
+      "4",
+      "3",
+      "5"
+    ]
+  },
+  {
+    "id": "a-s100",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: χ__μώνας",
+    "answer": "ει",
+    "acceptedAnswers": [
+      "χειμώνας"
+    ]
+  },
+  {
+    "id": "a-m202",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μικρότερος: το 9 ή το 6;",
+    "answer": "6",
+    "options": [
+      "6",
+      "9"
+    ]
+  },
+  {
+    "id": "a-s101",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: χέρ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "χέρι"
+    ]
+  },
+  {
+    "id": "a-m203",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι ζυγός;",
+    "answer": "18",
+    "options": [
+      19,
+      1,
+      11,
+      18
+    ]
+  },
+  {
+    "id": "a-g137",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως πριν από το Ω;",
+    "answer": "Ψ",
+    "options": [
+      "Η",
+      "Ξ",
+      "Ψ",
+      "Γ"
+    ]
+  },
+  {
+    "id": "a-m204",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 8 - 7;",
+    "answer": "1",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "0"
+    ]
+  },
+  {
+    "id": "a-g138",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο γράμμα έρχεται αμέσως μετά το Ι;",
+    "answer": "Κ",
+    "options": [
+      "Ν",
+      "Γ",
+      "Δ",
+      "Κ"
+    ]
+  },
+  {
+    "id": "a-m205",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσες πλευρές έχει ένα τετράγωνο;",
+    "answer": "4",
+    "options": [
+      "5",
+      "3",
+      "6",
+      "4"
+    ]
+  },
+  {
+    "id": "a-g139",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο από τα παρακάτω γράμματα είναι φωνήεν;",
+    "answer": "υ",
+    "options": [
+      "υ",
+      "σ",
+      "θ",
+      "γ"
+    ]
+  },
+  {
+    "id": "a-m206",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως μετά το 20;",
+    "answer": "21",
+    "options": [
+      "30",
+      "21",
+      "22",
+      "20"
+    ]
+  },
+  {
+    "id": "a-m207",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Παύλος έχει 17 δώρα και δίνει 1 σε έναν φίλο. Πόσα δώρα μένουν;",
+    "answer": "16"
+  },
+  {
+    "id": "a-m208",
+    "category": "math",
+    "type": "text",
+    "question": "Η Μαρία έχει 9 αυτοκολλητάκια και παίρνει ακόμα 3. Πόσα αυτοκολλητάκια έχει τώρα;",
+    "answer": "12"
+  },
+  {
+    "id": "a-g140",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Πόσες συλλαβές έχει η λέξη «σελίδα»;",
+    "answer": "3",
+    "options": [
+      "5",
+      "4",
+      "3",
+      "2"
+    ]
+  },
+  {
+    "id": "a-s102",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: φίλ_ς",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "φίλος"
+    ]
+  },
+  {
+    "id": "a-m209",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 4 + 6;",
+    "answer": "10",
+    "options": [
+      "12",
+      "11",
+      "10",
+      "9"
+    ]
+  },
+  {
+    "id": "a-s103",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε το γράμμα που λείπει: βρ_χή",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "βροχή"
+    ]
+  },
+  {
+    "id": "a-m210",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός έρχεται αμέσως πριν από το 19;",
+    "answer": "18",
+    "options": [
+      "29",
+      "19",
+      "18",
+      "17"
+    ]
+  }
+]

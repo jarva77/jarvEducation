@@ -11,8 +11,12 @@ export type Phase = 'start' | 'quiz' | 'results' | 'history' | 'leaderboard' | '
 
 // per-grade banks are separate chunks, downloaded only when the grade is picked
 const GRADE_LOADERS: Record<Grade, () => Promise<{ default: unknown }>> = {
+  a: () => import('../data/questions-a.json'),
+  b: () => import('../data/questions-b.json'),
   c: () => import('../data/questions-c.json'),
   d: () => import('../data/questions-d.json'),
+  e: () => import('../data/questions-e.json'),
+  f: () => import('../data/questions-f.json'),
 }
 
 const GRADE_STORAGE_KEY = 'quiz-grade'
@@ -20,7 +24,7 @@ const GRADE_STORAGE_KEY = 'quiz-grade'
 function loadStoredGrade(): Grade {
   try {
     const raw = localStorage.getItem(GRADE_STORAGE_KEY)
-    if (raw === 'c' || raw === 'd') return raw
+    if (raw && ['a', 'b', 'c', 'd', 'e', 'f'].includes(raw)) return raw as Grade
   } catch {
     /* storage unavailable */
   }
