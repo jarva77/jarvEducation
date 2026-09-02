@@ -39,7 +39,7 @@ const emit = defineEmits<{ back: [] }>()
       <p>
         Μπορείς να ζητήσεις οποτεδήποτε τη διαγραφή του λογαριασμού και όλων των δεδομένων
         σου, στέλνοντας μήνυμα στο
-        <a href="mailto:jarva77@gmail.com">jarva77@gmail.com</a>. Η διαγραφή ολοκληρώνεται
+        <a href="mailto:quizgame@jarvantage.com">quizgame@jarvantage.com</a>. Η διαγραφή ολοκληρώνεται
         χειροκίνητα το συντομότερο δυνατό.
       </p>
       <p>
