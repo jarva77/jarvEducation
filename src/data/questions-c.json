@@ -608,8 +608,11 @@
     "id": "c-s7",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: καρότ___",
-    "answer": "καρότο"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: καρότ_",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "καρότο"
+    ]
   },
   {
     "id": "c-m30",
@@ -695,8 +698,11 @@
     "id": "c-s10",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: ψιθυρίζ___",
-    "answer": "ψιθυρίζω"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: ψιθυρίζ_",
+    "answer": "ω",
+    "acceptedAnswers": [
+      "ψιθυρίζω"
+    ]
   },
   {
     "id": "c-m32",
@@ -773,8 +779,11 @@
     "id": "c-s13",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: μέλ___",
-    "answer": "μέλι"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: μέλ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "μέλι"
+    ]
   },
   {
     "id": "c-g18",
@@ -851,8 +860,11 @@
     "id": "c-s14",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: πεπόν___",
-    "answer": "πεπόνι"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: πεπόν_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "πεπόνι"
+    ]
   },
   {
     "id": "c-m36",
@@ -1126,8 +1138,11 @@
     "id": "c-s19",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: φθινόπ___ρο",
-    "answer": "φθινόπωρο"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: φθινόπ_ρο",
+    "answer": "ω",
+    "acceptedAnswers": [
+      "φθινόπωρο"
+    ]
   },
   {
     "id": "c-g27",
@@ -1490,8 +1505,11 @@
     "id": "c-s23",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: κλαί___",
-    "answer": "κλαίω"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: κλαί_",
+    "answer": "ω",
+    "acceptedAnswers": [
+      "κλαίω"
+    ]
   },
   {
     "id": "c-s24",
@@ -2177,8 +2195,11 @@
     "id": "c-s32",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: ξύλ___",
-    "answer": "ξύλο"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: ξύλ_",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "ξύλο"
+    ]
   },
   {
     "id": "c-s33",
@@ -2354,8 +2375,11 @@
     "id": "c-s34",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: μπ___σκότο",
-    "answer": "μπισκότο"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: μπ_σκότο",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "μπισκότο"
+    ]
   },
   {
     "id": "c-m99",
@@ -2551,8 +2575,11 @@
     "id": "c-s37",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: πλένομ___",
-    "answer": "πλένομαι"
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: πλένομ__",
+    "answer": "αι",
+    "acceptedAnswers": [
+      "πλένομαι"
+    ]
   },
   {
     "id": "c-g64",
@@ -2637,8 +2664,11 @@
     "id": "c-s39",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: δέντρ___",
-    "answer": "δέντρο"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: δέντρ_",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "δέντρο"
+    ]
   },
   {
     "id": "c-s40",
@@ -2840,8 +2870,11 @@
     "id": "c-s48",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: τ___ύρτα",
-    "answer": "τούρτα"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: τ_ύρτα",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "τούρτα"
+    ]
   },
   {
     "id": "c-s49",
@@ -2920,8 +2953,11 @@
     "id": "c-s51",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: σκόρδ___",
-    "answer": "σκόρδο"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: σκόρδ_",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "σκόρδο"
+    ]
   },
   {
     "id": "c-m110",
@@ -2963,8 +2999,11 @@
     "id": "c-s53",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: καταλαβαίν___",
-    "answer": "καταλαβαίνω"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: καταλαβαίν_",
+    "answer": "ω",
+    "acceptedAnswers": [
+      "καταλαβαίνω"
+    ]
   },
   {
     "id": "c-m112",
@@ -3128,8 +3167,11 @@
     "id": "c-s55",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: παγ___τό",
-    "answer": "παγωτό"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: παγ_τό",
+    "answer": "ω",
+    "acceptedAnswers": [
+      "παγωτό"
+    ]
   },
   {
     "id": "c-g80",
@@ -3356,8 +3398,11 @@
     "id": "c-s62",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: όμ___ρφος",
-    "answer": "όμορφος"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: όμ_ρφος",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "όμορφος"
+    ]
   },
   {
     "id": "c-m122",
@@ -3592,8 +3637,11 @@
     "id": "c-s67",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: ψαλίδ___",
-    "answer": "ψαλίδι"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: ψαλίδ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "ψαλίδι"
+    ]
   },
   {
     "id": "c-m133",
@@ -3630,8 +3678,11 @@
     "id": "c-s68",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: πορτοκάλ___",
-    "answer": "πορτοκάλι"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: πορτοκάλ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "πορτοκάλι"
+    ]
   },
   {
     "id": "c-m135",
@@ -3651,8 +3702,11 @@
     "id": "c-s69",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: τραγούδ___",
-    "answer": "τραγούδι"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: τραγούδ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "τραγούδι"
+    ]
   },
   {
     "id": "c-m136",
@@ -3685,8 +3739,11 @@
     "id": "c-s70",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: ___γεία",
-    "answer": "υγεία"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: _γεία",
+    "answer": "υ",
+    "acceptedAnswers": [
+      "υγεία"
+    ]
   },
   {
     "id": "c-m138",
@@ -3850,8 +3907,11 @@
     "id": "c-s72",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: θάλα___α",
-    "answer": "θάλασσα"
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: θάλα__α",
+    "answer": "σσ",
+    "acceptedAnswers": [
+      "θάλασσα"
+    ]
   },
   {
     "id": "c-m145",
@@ -3864,8 +3924,11 @@
     "id": "c-s73",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: ξ___πνώ",
-    "answer": "ξυπνώ"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: ξ_πνώ",
+    "answer": "υ",
+    "acceptedAnswers": [
+      "ξυπνώ"
+    ]
   },
   {
     "id": "c-g97",
@@ -3915,8 +3978,11 @@
     "id": "c-s74",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: μαθ___τής",
-    "answer": "μαθητής"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: μαθ_τής",
+    "answer": "η",
+    "acceptedAnswers": [
+      "μαθητής"
+    ]
   },
   {
     "id": "c-m147",
@@ -4225,8 +4291,11 @@
     "id": "c-s78",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: εξ___χή",
-    "answer": "εξοχή"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: εξ_χή",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "εξοχή"
+    ]
   },
   {
     "id": "c-g107",
@@ -4315,8 +4384,11 @@
     "id": "c-s79",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: εξ___γώ",
-    "answer": "εξηγώ"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: εξ_γώ",
+    "answer": "η",
+    "acceptedAnswers": [
+      "εξηγώ"
+    ]
   },
   {
     "id": "c-g111",
@@ -4340,8 +4412,11 @@
     "id": "c-s80",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: ψάρ___",
-    "answer": "ψάρι"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: ψάρ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "ψάρι"
+    ]
   },
   {
     "id": "c-g112",
@@ -4468,8 +4543,11 @@
     "id": "c-s82",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: ποτήρ___",
-    "answer": "ποτήρι"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: ποτήρ_",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "ποτήρι"
+    ]
   },
   {
     "id": "c-m168",
@@ -4482,8 +4560,11 @@
     "id": "c-s83",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: μουσ___κή",
-    "answer": "μουσική"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: μουσ_κή",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "μουσική"
+    ]
   },
   {
     "id": "c-m169",
@@ -4799,15 +4880,21 @@
     "id": "c-s89",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: σκέφτομ___",
-    "answer": "σκέφτομαι"
+    "question": "Συμπλήρωσε τα γράμματα που λείπουν: σκέφτομ__",
+    "answer": "αι",
+    "acceptedAnswers": [
+      "σκέφτομαι"
+    ]
   },
   {
     "id": "c-s90",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: ___στορία",
-    "answer": "ιστορία"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: _στορία",
+    "answer": "ι",
+    "acceptedAnswers": [
+      "ιστορία"
+    ]
   },
   {
     "id": "c-g126",
@@ -4892,8 +4979,11 @@
     "id": "c-s91",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: σχ___λείο",
-    "answer": "σχολείο"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: σχ_λείο",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "σχολείο"
+    ]
   },
   {
     "id": "c-g128",
@@ -5453,8 +5543,11 @@
     "id": "c-s101",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: π___δήλατο",
-    "answer": "ποδήλατο"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: π_δήλατο",
+    "answer": "ο",
+    "acceptedAnswers": [
+      "ποδήλατο"
+    ]
   },
   {
     "id": "c-g139",
@@ -5486,8 +5579,11 @@
     "id": "c-s102",
     "category": "spelling",
     "type": "text",
-    "question": "Συμπλήρωσε σωστά τη λέξη: παράθ___ρο",
-    "answer": "παράθυρο"
+    "question": "Συμπλήρωσε το γράμμα που λείπει: παράθ_ρο",
+    "answer": "υ",
+    "acceptedAnswers": [
+      "παράθυρο"
+    ]
   },
   {
     "id": "c-m210",

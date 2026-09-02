@@ -922,9 +922,12 @@ function genSpelling(n, mcRatio, wordList = SPELLING_WORDS) {
     } else {
       const match = findConfusionMatch(correct)
       const { key, idx } = match
-      const blanked = correct.slice(0, idx) + '___' + correct.slice(idx + key.length)
-      const q = `Συμπλήρωσε σωστά τη λέξη: ${blanked}`
-      if (addQ(spelling, 'spelling', 'text', q, correct)) made++
+      // one underscore per missing letter, and the expected answer is
+      // just those letters (the full word is accepted too)
+      const blanked = correct.slice(0, idx) + '_'.repeat(key.length) + correct.slice(idx + key.length)
+      const what = key.length > 1 ? 'τα γράμματα που λείπουν' : 'το γράμμα που λείπει'
+      const q = `Συμπλήρωσε ${what}: ${blanked}`
+      if (addQ(spelling, 'spelling', 'text', q, key, undefined, [correct])) made++
     }
   }
 }
