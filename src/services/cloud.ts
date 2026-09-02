@@ -5,6 +5,7 @@ import type { AnsweredQuestion, Grade } from '../types'
 export interface PlayerEntry {
   uid: string
   name: string
+  photoURL: string | null
   totalPoints: number
   testsCount: number
   bestPercentage: number
@@ -48,7 +49,7 @@ export async function saveResultToCloud(user: User, answers: AnsweredQuestion[],
     playerRef,
     {
       name: publicName,
-      photoURL: null, // scrub any previously stored profile photo
+      photoURL: user.photoURL ?? null,
       totalPoints: increment(correct),
       testsCount: increment(1),
       bestPercentage: Math.max(prevBest, percentage),
@@ -69,6 +70,7 @@ export async function fetchLeaderboard(topN = 20): Promise<PlayerEntry[]> {
     return {
       uid: d.id,
       name: data.name ?? 'Ανώνυμος',
+      photoURL: data.photoURL ?? null,
       totalPoints: data.totalPoints ?? 0,
       testsCount: data.testsCount ?? 0,
       bestPercentage: data.bestPercentage ?? 0,

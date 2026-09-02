@@ -42,6 +42,8 @@ const medals = ['🥇', '🥈', '🥉']
         :class="{ me: user && p.uid === user.uid }"
       >
         <span class="player-rank">{{ medals[i] ?? i + 1 }}</span>
+        <img v-if="p.photoURL" :src="p.photoURL" class="player-avatar" alt="" referrerpolicy="no-referrer" />
+        <span v-else class="player-avatar player-avatar-fallback">🙂</span>
         <span class="player-name">{{ p.name }}</span>
         <span class="player-points">{{ p.totalPoints }} π.</span>
       </div>
