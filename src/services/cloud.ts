@@ -1,6 +1,6 @@
 import type { User } from 'firebase/auth'
 import { getFirebase } from '../firebase'
-import type { AnsweredQuestion } from '../types'
+import type { AnsweredQuestion, Grade } from '../types'
 
 export interface PlayerEntry {
   uid: string
@@ -12,7 +12,7 @@ export interface PlayerEntry {
 }
 
 /** Saves a finished test and updates the player's leaderboard aggregate. */
-export async function saveResultToCloud(user: User, answers: AnsweredQuestion[]) {
+export async function saveResultToCloud(user: User, answers: AnsweredQuestion[], grade?: Grade) {
   const fb = await getFirebase()
   if (!fb || answers.length === 0) return
   const { collection, doc, getDoc, increment, serverTimestamp, setDoc } = await import(
@@ -28,6 +28,7 @@ export async function saveResultToCloud(user: User, answers: AnsweredQuestion[])
     total: answers.length,
     correct,
     percentage,
+    grade: grade ?? null,
     createdAt: serverTimestamp(),
   })
 

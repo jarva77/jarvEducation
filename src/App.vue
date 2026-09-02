@@ -9,10 +9,13 @@ import { useQuiz } from './composables/useQuiz'
 
 const {
   phase,
+  grade,
   bankSize,
+  bankLoading,
   currentQuestion,
   progress,
   answers,
+  setGrade,
   startQuiz,
   submitAnswer,
   restart,
@@ -26,7 +29,10 @@ const {
     <StartScreen
       v-if="phase === 'start'"
       :bank-size="bankSize"
+      :grade="grade"
+      :loading="bankLoading"
       @start="startQuiz"
+      @grade-change="setGrade"
       @history="showHistory"
       @leaderboard="showLeaderboard"
     />

@@ -1,0 +1,5565 @@
+[
+  {
+    "id": "d-e1",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το νόμισμα της Ελλάδας;",
+    "answer": "το ευρώ",
+    "options": [
+      "η δραχμή",
+      "η λίρα",
+      "το ευρώ",
+      "το δολάριο"
+    ]
+  },
+  {
+    "id": "d-g1",
+    "category": "grammar",
+    "type": "text",
+    "question": "Ποιος είναι ο υπερθετικός βαθμός του επιθέτου «μεγάλος»;",
+    "answer": "μέγιστος",
+    "acceptedAnswers": [
+      "ο πιο μεγάλος",
+      "πολύ μεγάλος",
+      "ο μεγαλύτερος"
+    ]
+  },
+  {
+    "id": "d-g2",
+    "category": "grammar",
+    "type": "text",
+    "question": "Ποιος είναι ο υπερθετικός βαθμός του επιθέτου «κακός»;",
+    "answer": "χείριστος",
+    "acceptedAnswers": [
+      "ο πιο κακός",
+      "πολύ κακός",
+      "ο χειρότερος"
+    ]
+  },
+  {
+    "id": "d-s1",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ωκεανός",
+    "options": [
+      "οκεανός",
+      "ωκεανός"
+    ]
+  },
+  {
+    "id": "d-m1",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 2135 - 1072;",
+    "answer": "1063",
+    "options": [
+      "1163",
+      "1063",
+      "1073",
+      "963"
+    ]
+  },
+  {
+    "id": "d-m2",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Συμπλήρωσε το ισοδύναμο κλάσμα: 1/4 = ;/8",
+    "answer": "2",
+    "options": [
+      "3",
+      "8",
+      "1",
+      "2"
+    ]
+  },
+  {
+    "id": "d-m3",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Στρογγυλοποίησε τον αριθμό 4479 στην πλησιέστερη εκατοντάδα.",
+    "answer": "4500",
+    "options": [
+      "4600",
+      "4400",
+      "4500",
+      "4479"
+    ]
+  },
+  {
+    "id": "d-g3",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική ενικού της λέξης «το σχολείο».",
+    "answer": "του σχολείου",
+    "acceptedAnswers": [
+      "σχολείου"
+    ]
+  },
+  {
+    "id": "d-e2",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πόσο διαρκεί μία πλήρης περιστροφή της Γης γύρω από τον εαυτό της;",
+    "answer": "24 ώρες",
+    "options": [
+      "12 ώρες",
+      "365 ημέρες",
+      "48 ώρες",
+      "24 ώρες"
+    ]
+  },
+  {
+    "id": "d-m4",
+    "category": "math",
+    "type": "text",
+    "question": "Στη διαίρεση 47 : 8, ποιο είναι το πηλίκο;",
+    "answer": "5"
+  },
+  {
+    "id": "d-e3",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πού γεννήθηκαν οι Ολυμπιακοί Αγώνες;",
+    "answer": "στην Αρχαία Ολυμπία",
+    "options": [
+      "στην Αρχαία Ολυμπία",
+      "στην Αθήνα",
+      "στους Δελφούς",
+      "στη Σπάρτη"
+    ]
+  },
+  {
+    "id": "d-m5",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Συμπλήρωσε το ισοδύναμο κλάσμα: 1/3 = ;/6",
+    "answer": "2",
+    "options": [
+      "6",
+      "3",
+      "2",
+      "1"
+    ]
+  },
+  {
+    "id": "d-m6",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Στέλιος είχε 600€. Ξόδεψε 184€ για ρούχα και 127€ για παπούτσια. Πόσα ευρώ έμειναν;",
+    "answer": "289€",
+    "acceptedAnswers": [
+      "289",
+      "289 ευρώ",
+      "289€"
+    ]
+  },
+  {
+    "id": "d-m7",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Στρογγυλοποίησε τον αριθμό 2559 στην πλησιέστερη εκατοντάδα.",
+    "answer": "2600",
+    "options": [
+      "2600",
+      "2700",
+      "2500",
+      "2559"
+    ]
+  },
+  {
+    "id": "d-g4",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «πηδάω» στον Παρακείμενο γίνεται:",
+    "answer": "έχω πηδήσει",
+    "acceptedAnswers": [
+      "έχει πηδήσει"
+    ]
+  },
+  {
+    "id": "d-g5",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «δίνω» στον Μέλλοντα γίνεται:",
+    "answer": "θα δώσω",
+    "options": [
+      "θα δώσω",
+      "έδωσα",
+      "έχω δώσει",
+      "έδινα"
+    ]
+  },
+  {
+    "id": "d-s2",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ζωγραφιά",
+    "options": [
+      "ζωγραφιά",
+      "ζογραφιά"
+    ]
+  },
+  {
+    "id": "d-s3",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "διατροφή",
+    "options": [
+      "δυατροφή",
+      "διατροφή",
+      "δηατροφή"
+    ]
+  },
+  {
+    "id": "d-m8",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 9 x 100;",
+    "answer": "900"
+  },
+  {
+    "id": "d-g6",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε ένα συνώνυμο της λέξης «λαμπερός».",
+    "answer": "φωτεινός"
+  },
+  {
+    "id": "d-m9",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 9863 - 8076;",
+    "answer": "1787",
+    "options": [
+      "1687",
+      "1887",
+      "1787",
+      "1797"
+    ]
+  },
+  {
+    "id": "d-m10",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Σε ένα θέατρο υπάρχουν 16 σειρές με 17 καθίσματα η καθεμία. Πόσα καθίσματα έχει συνολικά; (Δέσποινα θέλει να το υπολογίσει!)",
+    "answer": "272",
+    "options": [
+      "280",
+      "292",
+      "272",
+      "268"
+    ]
+  },
+  {
+    "id": "d-g7",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «καθαρίζω» στον Αόριστο γίνεται:",
+    "answer": "καθάρισα",
+    "acceptedAnswers": [
+      "καθάρισε"
+    ]
+  },
+  {
+    "id": "d-e4",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πού βρίσκεται ο Παρθενώνας;",
+    "answer": "στην Ακρόπολη της Αθήνας",
+    "options": [
+      "στην Αρχαία Ολυμπία",
+      "στους Δελφούς",
+      "στην Ακρόπολη της Αθήνας",
+      "στη Θεσσαλονίκη"
+    ]
+  },
+  {
+    "id": "d-e5",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πόσο διαρκεί μία πλήρης περιφορά της Γης γύρω από τον Ήλιο;",
+    "answer": "1 χρόνο",
+    "options": [
+      "1 χρόνο",
+      "1 ημέρα",
+      "1 εβδομάδα",
+      "1 μήνα"
+    ]
+  },
+  {
+    "id": "d-m11",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 3,43€ + 14,05€;",
+    "answer": "17,48€",
+    "options": [
+      "17,48€",
+      "18,48€",
+      "16,48€",
+      "17,58€"
+    ]
+  },
+  {
+    "id": "d-e6",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η πρωτεύουσα της Κρήτης;",
+    "answer": "το Ηράκλειο",
+    "options": [
+      "το Ηράκλειο",
+      "το Ρέθυμνο",
+      "τα Χανιά",
+      "ο Άγιος Νικόλαος"
+    ]
+  },
+  {
+    "id": "d-g8",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «φτιάχνω» στον Μέλλοντα γίνεται:",
+    "answer": "θα φτιάξω",
+    "options": [
+      "έφτιαξα",
+      "θα φτιάξω",
+      "έφτιαχνα",
+      "έχω φτιάξει"
+    ]
+  },
+  {
+    "id": "d-s4",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: ξ___ρασία",
+    "answer": "ξηρασία"
+  },
+  {
+    "id": "d-m12",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 300 : 100;",
+    "answer": "3",
+    "options": [
+      "4",
+      "30",
+      "1",
+      "3"
+    ]
+  },
+  {
+    "id": "d-m13",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 46 x 10;",
+    "answer": "460"
+  },
+  {
+    "id": "d-m14",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 2719 + 201;",
+    "answer": "2920",
+    "options": [
+      "2920",
+      "2930",
+      "2820",
+      "3020"
+    ]
+  },
+  {
+    "id": "d-m15",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιο κλάσμα ισούται με μία ολόκληρη μονάδα;",
+    "answer": "2/2",
+    "options": [
+      "2/3",
+      "1/2",
+      "2/2"
+    ]
+  },
+  {
+    "id": "d-g9",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη είναι αντωνυμία;",
+    "answer": "αυτοί",
+    "options": [
+      "πίνω",
+      "μικρός",
+      "αυτοί",
+      "τσάντα"
+    ]
+  },
+  {
+    "id": "d-g10",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο συγκριτικός βαθμός του επιθέτου «σοφός»;",
+    "answer": "σοφότερος",
+    "options": [
+      "σοφότατος",
+      "σοφός",
+      "σοφότερος",
+      "μικρότερος"
+    ]
+  },
+  {
+    "id": "d-m16",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Η ώρα είναι 6:30. Τι ώρα θα είναι σε 70 λεπτά;",
+    "answer": "7:40",
+    "options": [
+      "7:40",
+      "8:40",
+      "7:50"
+    ]
+  },
+  {
+    "id": "d-g11",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η γενική ενικού της λέξης «ο κήπος»;",
+    "answer": "του κήπου",
+    "options": [
+      "του κήπου",
+      "ο κήπος",
+      "της μητέρας",
+      "των κήπων"
+    ]
+  },
+  {
+    "id": "d-m17",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Η ώρα είναι 4:15. Τι ώρα θα είναι σε 90 λεπτά;",
+    "answer": "5:45",
+    "options": [
+      "5:45",
+      "6:45",
+      "5:55"
+    ]
+  },
+  {
+    "id": "d-g12",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η γενική πληθυντικού της λέξης «η τάξη»;",
+    "answer": "των τάξεων",
+    "options": [
+      "των φίλων",
+      "της τάξης",
+      "των τάξεων",
+      "η τάξη"
+    ]
+  },
+  {
+    "id": "d-m18",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Στη διαίρεση 111 : 7, ποιο είναι το πηλίκο;",
+    "answer": "15",
+    "options": [
+      "14",
+      "15",
+      "6",
+      "16"
+    ]
+  },
+  {
+    "id": "d-e7",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Σε ποιο νησιωτικό σύμπλεγμα ανήκει η Ρόδος;",
+    "answer": "στα Δωδεκάνησα",
+    "options": [
+      "στα Δωδεκάνησα",
+      "στις Σποράδες",
+      "στα Επτάνησα",
+      "στις Κυκλάδες"
+    ]
+  },
+  {
+    "id": "d-m19",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 1700 : 100;",
+    "answer": "17",
+    "options": [
+      "170",
+      "2",
+      "18",
+      "17"
+    ]
+  },
+  {
+    "id": "d-g13",
+    "category": "grammar",
+    "type": "text",
+    "question": "Ποιος είναι ο υπερθετικός βαθμός του επιθέτου «όμορφος»;",
+    "answer": "ομορφότατος",
+    "acceptedAnswers": [
+      "ο πιο όμορφος",
+      "πολύ όμορφος",
+      "ο ομορφότερος"
+    ]
+  },
+  {
+    "id": "d-s5",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "υπομονή",
+    "options": [
+      "ηπομονή",
+      "ιπομονή",
+      "υπομονή"
+    ]
+  },
+  {
+    "id": "d-m20",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Η ώρα είναι 2:30. Τι ώρα θα είναι σε 70 λεπτά;",
+    "answer": "3:40",
+    "options": [
+      "3:40",
+      "3:50",
+      "4:40"
+    ]
+  },
+  {
+    "id": "d-g14",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «βλέπω» στον Παρακείμενο γίνεται:",
+    "answer": "έχω δει",
+    "options": [
+      "έχω δει",
+      "έβλεπα",
+      "θα δω",
+      "είδα"
+    ]
+  },
+  {
+    "id": "d-m21",
+    "category": "math",
+    "type": "text",
+    "question": "Στη διαίρεση 43 : 3, ποιο είναι το υπόλοιπο;",
+    "answer": "1"
+  },
+  {
+    "id": "d-m22",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα τετράγωνο έχει πλευρά 9 εκατοστά. Ποιο είναι το εμβαδόν του;",
+    "answer": "81 τ.εκ.",
+    "options": [
+      "81 τ.εκ.",
+      "36 τ.εκ.",
+      "72 τ.εκ.",
+      "90 τ.εκ."
+    ]
+  },
+  {
+    "id": "d-e8",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο φυσικός δορυφόρος της Γης;",
+    "answer": "η Σελήνη",
+    "options": [
+      "η Αφροδίτη",
+      "ο Ήλιος",
+      "ο Άρης",
+      "η Σελήνη"
+    ]
+  },
+  {
+    "id": "d-m23",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα τετράγωνο έχει πλευρά 16 εκατοστά. Ποιο είναι το εμβαδόν του;",
+    "answer": "256 τ.εκ.",
+    "options": [
+      "256 τ.εκ.",
+      "272 τ.εκ.",
+      "64 τ.εκ.",
+      "240 τ.εκ."
+    ]
+  },
+  {
+    "id": "d-m24",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 41 x 100;",
+    "answer": "4100",
+    "options": [
+      "5100",
+      "4100",
+      "4000",
+      "4200"
+    ]
+  },
+  {
+    "id": "d-s6",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: νίκ___",
+    "answer": "νίκη"
+  },
+  {
+    "id": "d-s7",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ιστορία",
+    "options": [
+      "ιστορία",
+      "υστορία",
+      "ηστορία"
+    ]
+  },
+  {
+    "id": "d-g15",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η γενική ενικού της λέξης «ο πατέρας»;",
+    "answer": "του πατέρα",
+    "options": [
+      "της τάξης",
+      "ο πατέρας",
+      "του πατέρα",
+      "των πατέρων"
+    ]
+  },
+  {
+    "id": "d-s8",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: ___στορία",
+    "answer": "ιστορία"
+  },
+  {
+    "id": "d-e9",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο όργανο χρησιμοποιούμε για την όσφρηση;",
+    "answer": "τη μύτη",
+    "options": [
+      "τη μύτη",
+      "τα μάτια",
+      "τη γλώσσα",
+      "τα αυτιά"
+    ]
+  },
+  {
+    "id": "d-m25",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 5003 + 4185;",
+    "answer": "9188"
+  },
+  {
+    "id": "d-g16",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «τρέχω» στον Παρατατικό γίνεται:",
+    "answer": "έτρεχα",
+    "acceptedAnswers": [
+      "έτρεχε"
+    ]
+  },
+  {
+    "id": "d-e10",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο όργανο στέλνει το αίμα σε όλο το σώμα;",
+    "answer": "η καρδιά",
+    "options": [
+      "η καρδιά",
+      "το στομάχι",
+      "ο εγκέφαλος",
+      "οι πνεύμονες"
+    ]
+  },
+  {
+    "id": "d-s9",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "εγκέφαλος",
+    "options": [
+      "εγκέφαλως",
+      "εγκέφαλος"
+    ]
+  },
+  {
+    "id": "d-g17",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη είναι αντωνυμία;",
+    "answer": "ποιος",
+    "options": [
+      "ποιος",
+      "ποτήρι",
+      "βαρύς",
+      "βλέπω"
+    ]
+  },
+  {
+    "id": "d-e11",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Τι εκτρέφει ο μελισσοκόμος;",
+    "answer": "μέλισσες",
+    "options": [
+      "κότες",
+      "μέλισσες",
+      "αγελάδες",
+      "πρόβατα"
+    ]
+  },
+  {
+    "id": "d-m26",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα τετράγωνο έχει πλευρά 7 εκατοστά. Ποιο είναι το εμβαδόν του;",
+    "answer": "49 τ.εκ.",
+    "options": [
+      "28 τ.εκ.",
+      "49 τ.εκ.",
+      "56 τ.εκ.",
+      "42 τ.εκ."
+    ]
+  },
+  {
+    "id": "d-s10",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "περισσότερο",
+    "options": [
+      "περισότερο",
+      "περισσότερο"
+    ]
+  },
+  {
+    "id": "d-m27",
+    "category": "math",
+    "type": "text",
+    "question": "Στη διαίρεση 106 : 8, ποιο είναι το πηλίκο;",
+    "answer": "13"
+  },
+  {
+    "id": "d-m28",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Συμπλήρωσε το ισοδύναμο κλάσμα: 2/3 = ;/9",
+    "answer": "6",
+    "options": [
+      "7",
+      "6",
+      "9",
+      "5"
+    ]
+  },
+  {
+    "id": "d-s11",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: π___δήλατο",
+    "answer": "ποδήλατο"
+  },
+  {
+    "id": "d-g18",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική πληθυντικού της λέξης «ο μαθητής».",
+    "answer": "των μαθητών",
+    "acceptedAnswers": [
+      "μαθητών"
+    ]
+  },
+  {
+    "id": "d-m29",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα τετράγωνο έχει πλευρά 13 εκατοστά. Ποιο είναι το εμβαδόν του;",
+    "answer": "169 τ.εκ.",
+    "options": [
+      "156 τ.εκ.",
+      "182 τ.εκ.",
+      "169 τ.εκ.",
+      "52 τ.εκ."
+    ]
+  },
+  {
+    "id": "d-g19",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «μιλάω» στον Παρατατικό γίνεται:",
+    "answer": "μιλούσα",
+    "options": [
+      "έχω μιλήσει",
+      "μιλούσα",
+      "θα μιλήσω",
+      "μίλησα"
+    ]
+  },
+  {
+    "id": "d-s12",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "συνήθεια",
+    "options": [
+      "συνήθια",
+      "συνήθοια",
+      "συνήθηα",
+      "συνήθεια"
+    ]
+  },
+  {
+    "id": "d-m30",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Η ώρα είναι 10:45. Τι ώρα θα είναι σε 90 λεπτά;",
+    "answer": "12:15",
+    "options": [
+      "12:25",
+      "1:15",
+      "12:15"
+    ]
+  },
+  {
+    "id": "d-g20",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική ενικού της λέξης «το παράθυρο».",
+    "answer": "του παραθύρου",
+    "acceptedAnswers": [
+      "παραθύρου"
+    ]
+  },
+  {
+    "id": "d-g21",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο υπερθετικός βαθμός του επιθέτου «φτηνός»;",
+    "answer": "φτηνότατος",
+    "options": [
+      "φτηνότατος",
+      "μέγιστος",
+      "φτηνός",
+      "φτηνότερος"
+    ]
+  },
+  {
+    "id": "d-g22",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «σκουπίζω» στον Παρακείμενο γίνεται:",
+    "answer": "έχω σκουπίσει",
+    "acceptedAnswers": [
+      "έχει σκουπίσει"
+    ]
+  },
+  {
+    "id": "d-s13",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "πρωτεύουσα",
+    "options": [
+      "πρωτεύουσα",
+      "προτεύουσα"
+    ]
+  },
+  {
+    "id": "d-m31",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 3686 - 3043;",
+    "answer": "643"
+  },
+  {
+    "id": "d-m32",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Στρογγυλοποίησε τον αριθμό 5460 στην πλησιέστερη εκατοντάδα.",
+    "answer": "5500",
+    "options": [
+      "5460",
+      "5500",
+      "5600",
+      "5400"
+    ]
+  },
+  {
+    "id": "d-s14",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: χ___ρότερα",
+    "answer": "χειρότερα"
+  },
+  {
+    "id": "d-s15",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: υγι___νή",
+    "answer": "υγιεινή"
+  },
+  {
+    "id": "d-g23",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «διαβάζω» στον Αόριστο γίνεται:",
+    "answer": "διάβασα",
+    "options": [
+      "έχω διαβάσει",
+      "θα διαβάσω",
+      "διάβασα",
+      "διάβαζα"
+    ]
+  },
+  {
+    "id": "d-e12",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Σε ποια ήπειρο βρίσκεται η Ελλάδα;",
+    "answer": "στην Ευρώπη",
+    "options": [
+      "στην Αμερική",
+      "στην Ευρώπη",
+      "στην Ασία",
+      "στην Αφρική"
+    ]
+  },
+  {
+    "id": "d-m33",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιο κλάσμα είναι μεγαλύτερο: 5/8 ή 4/8;",
+    "answer": "5/8",
+    "options": [
+      "5/8",
+      "4/8"
+    ]
+  },
+  {
+    "id": "d-m34",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 41 x 10;",
+    "answer": "410",
+    "options": [
+      "400",
+      "420",
+      "410",
+      "510"
+    ]
+  },
+  {
+    "id": "d-m35",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Στη διαίρεση 38 : 3, ποιο είναι το πηλίκο;",
+    "answer": "12",
+    "options": [
+      "11",
+      "13",
+      "2",
+      "12"
+    ]
+  },
+  {
+    "id": "d-e13",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πώς λέγεται ο χάρτης που δείχνει βουνά, ποτάμια και λίμνες;",
+    "answer": "γεωφυσικός",
+    "options": [
+      "γεωφυσικός",
+      "οδικός",
+      "ιστορικός",
+      "πολιτικός"
+    ]
+  },
+  {
+    "id": "d-s16",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "μήνυμα",
+    "options": [
+      "μήνημα",
+      "μήνυμα",
+      "μήνιμα"
+    ]
+  },
+  {
+    "id": "d-m36",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 1406 - 391;",
+    "answer": "1015"
+  },
+  {
+    "id": "d-e14",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο προϊόν μάς δίνουν οι μέλισσες;",
+    "answer": "το μέλι",
+    "options": [
+      "τα αυγά",
+      "το μέλι",
+      "το γάλα",
+      "το μαλλί"
+    ]
+  },
+  {
+    "id": "d-m37",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 3134 - 765;",
+    "answer": "2369"
+  },
+  {
+    "id": "d-m38",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 860 : 10;",
+    "answer": "86"
+  },
+  {
+    "id": "d-g24",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «κλαίω» στον Παρακείμενο γίνεται:",
+    "answer": "έχω κλάψει",
+    "acceptedAnswers": [
+      "έχει κλάψει"
+    ]
+  },
+  {
+    "id": "d-g25",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «γελάω» στον Παρατατικό γίνεται:",
+    "answer": "γελούσα",
+    "options": [
+      "γελούσα",
+      "θα γελάσω",
+      "γέλασα",
+      "έχω γελάσει"
+    ]
+  },
+  {
+    "id": "d-m39",
+    "category": "math",
+    "type": "text",
+    "question": "Η Χριστίνα μοιράζει εξίσου 210 καραμέλες σε 5 παιδιά. Πόσες παίρνει το καθένα;",
+    "answer": "42"
+  },
+  {
+    "id": "d-m40",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 5835 - 3429;",
+    "answer": "2406"
+  },
+  {
+    "id": "d-m41",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μεγαλύτερος; 7,2 ή 2,3;",
+    "answer": "7,2",
+    "options": [
+      "2,3",
+      "7,2"
+    ]
+  },
+  {
+    "id": "d-s17",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "απλώνω",
+    "options": [
+      "απλώνο",
+      "απλώνω"
+    ]
+  },
+  {
+    "id": "d-s18",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: διορθών___",
+    "answer": "διορθώνω"
+  },
+  {
+    "id": "d-g26",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «παίρνω» στον Παρακείμενο γίνεται:",
+    "answer": "έχω πάρει",
+    "options": [
+      "έχω πάρει",
+      "θα πάρω",
+      "πήρα",
+      "έπαιρνα"
+    ]
+  },
+  {
+    "id": "d-s19",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ποδήλατο",
+    "options": [
+      "πωδήλατο",
+      "ποδήλατο"
+    ]
+  },
+  {
+    "id": "d-m42",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα ορθογώνιο έχει μήκος 22 και πλάτος 15 εκατοστά. Ποιο είναι το εμβαδόν του;",
+    "answer": "330 τ.εκ.",
+    "acceptedAnswers": [
+      "330",
+      "330 τ.εκ",
+      "330 τ.εκ.",
+      "330 τετραγωνικά εκατοστά"
+    ]
+  },
+  {
+    "id": "d-g27",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική ενικού της λέξης «ο πατέρας».",
+    "answer": "του πατέρα",
+    "acceptedAnswers": [
+      "πατέρα"
+    ]
+  },
+  {
+    "id": "d-m43",
+    "category": "math",
+    "type": "text",
+    "question": "Πώς γράφεται το κλάσμα 3/10 ως δεκαδικός αριθμός;",
+    "answer": "0,3",
+    "acceptedAnswers": [
+      "0,3",
+      "0.3"
+    ]
+  },
+  {
+    "id": "d-g28",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη είναι αντωνυμία;",
+    "answer": "αυτός",
+    "options": [
+      "αυτός",
+      "φρούτο",
+      "φωτεινός",
+      "γράφω"
+    ]
+  },
+  {
+    "id": "d-g29",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «ανοίγω» στον Παρακείμενο γίνεται:",
+    "answer": "έχω ανοίξει",
+    "options": [
+      "άνοιξα",
+      "θα ανοίξω",
+      "έχω ανοίξει",
+      "άνοιγα"
+    ]
+  },
+  {
+    "id": "d-e15",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η μεγαλύτερη ήπειρος της Γης;",
+    "answer": "η Ασία",
+    "options": [
+      "η Ασία",
+      "η Αφρική",
+      "η Αμερική",
+      "η Ευρώπη"
+    ]
+  },
+  {
+    "id": "d-g30",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε το αντίθετο της λέξης «ξεχνάω».",
+    "answer": "θυμάμαι"
+  },
+  {
+    "id": "d-e16",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Τι μας προστατεύει από τον ήλιο το καλοκαίρι;",
+    "answer": "το αντηλιακό και το καπέλο",
+    "options": [
+      "το αντηλιακό και το καπέλο",
+      "το μπουφάν",
+      "το παγωτό",
+      "τα γυαλιά μυωπίας"
+    ]
+  },
+  {
+    "id": "d-m44",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Αντώνης μοιράζει εξίσου 102 καραμέλες σε 6 παιδιά. Πόσες παίρνει το καθένα;",
+    "answer": "17"
+  },
+  {
+    "id": "d-g31",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική ενικού της λέξης «ο δάσκαλος».",
+    "answer": "του δασκάλου",
+    "acceptedAnswers": [
+      "δασκάλου"
+    ]
+  },
+  {
+    "id": "d-s20",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "θύελλα",
+    "options": [
+      "θύελα",
+      "θύελλα"
+    ]
+  },
+  {
+    "id": "d-m45",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Στρογγυλοποίησε τον αριθμό 5166 στην πλησιέστερη εκατοντάδα.",
+    "answer": "5200",
+    "options": [
+      "5200",
+      "5166",
+      "5300",
+      "5100"
+    ]
+  },
+  {
+    "id": "d-g32",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη είναι αντωνυμία;",
+    "answer": "τίποτα",
+    "options": [
+      "σοκολάτα",
+      "ρωτάω",
+      "τίποτα",
+      "στενός"
+    ]
+  },
+  {
+    "id": "d-e17",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το δεύτερο μεγαλύτερο νησί της Ελλάδας;",
+    "answer": "η Εύβοια",
+    "options": [
+      "η Κέρκυρα",
+      "η Κρήτη",
+      "η Εύβοια",
+      "η Χίος"
+    ]
+  },
+  {
+    "id": "d-s21",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "επιμέλεια",
+    "options": [
+      "επιμέλοια",
+      "επιμέλια",
+      "επιμέληα",
+      "επιμέλεια"
+    ]
+  },
+  {
+    "id": "d-m46",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Συμπλήρωσε το ισοδύναμο κλάσμα: 1/3 = ;/9",
+    "answer": "3",
+    "options": [
+      "9",
+      "4",
+      "2",
+      "3"
+    ]
+  },
+  {
+    "id": "d-g33",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε το αντίθετο της λέξης «θάρρος».",
+    "answer": "φόβος"
+  },
+  {
+    "id": "d-g34",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το συνώνυμο της λέξης «γιορτή»;",
+    "answer": "εορτή",
+    "options": [
+      "φοβιτσιάρης",
+      "γιατρός",
+      "οδός",
+      "εορτή"
+    ]
+  },
+  {
+    "id": "d-s22",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ταχύτητα",
+    "options": [
+      "ταχύτητα",
+      "ταχύτιτα",
+      "ταχύτυτα"
+    ]
+  },
+  {
+    "id": "d-s23",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "δημοκρατία",
+    "options": [
+      "διμοκρατία",
+      "δυμοκρατία",
+      "δημοκρατία"
+    ]
+  },
+  {
+    "id": "d-s24",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "πνεύμονες",
+    "options": [
+      "πνεύμονες",
+      "πνεύμωνες"
+    ]
+  },
+  {
+    "id": "d-m47",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 8725 - 6689;",
+    "answer": "2036"
+  },
+  {
+    "id": "d-e18",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πόσα δόντια έχει ένας ενήλικας με πλήρη οδοντοστοιχία;",
+    "answer": "32",
+    "options": [
+      "36",
+      "28",
+      "32",
+      "30"
+    ]
+  },
+  {
+    "id": "d-g35",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο υπερθετικός βαθμός του επιθέτου «πλούσιος»;",
+    "answer": "πλουσιότατος",
+    "options": [
+      "ακριβότατος",
+      "πλούσιος",
+      "πλουσιότερος",
+      "πλουσιότατος"
+    ]
+  },
+  {
+    "id": "d-m48",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Γιώργος αγόρασε 6 λουλούδια των 2€ το καθένα και πλήρωσε με 20€. Πόσα ρέστα πήρε;",
+    "answer": "8€",
+    "acceptedAnswers": [
+      "8",
+      "8 ευρώ",
+      "8€"
+    ]
+  },
+  {
+    "id": "d-m49",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 77 x 10;",
+    "answer": "770",
+    "options": [
+      "770",
+      "780",
+      "870",
+      "760"
+    ]
+  },
+  {
+    "id": "d-m50",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 92 x 8;",
+    "answer": "736",
+    "options": [
+      "736",
+      "744",
+      "728",
+      "816"
+    ]
+  },
+  {
+    "id": "d-e19",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το μεγαλύτερο νησί της Ελλάδας;",
+    "answer": "η Κρήτη",
+    "options": [
+      "η Κρήτη",
+      "η Λέσβος",
+      "η Εύβοια",
+      "η Ρόδος"
+    ]
+  },
+  {
+    "id": "d-m51",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 7843 + 414;",
+    "answer": "8257"
+  },
+  {
+    "id": "d-g36",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «γελάω» στον Παρακείμενο γίνεται:",
+    "answer": "έχω γελάσει",
+    "options": [
+      "γέλασα",
+      "θα γελάσω",
+      "γελούσα",
+      "έχω γελάσει"
+    ]
+  },
+  {
+    "id": "d-g37",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «περπατάω» στον Παρατατικό γίνεται:",
+    "answer": "περπατούσα",
+    "acceptedAnswers": [
+      "περπατούσε"
+    ]
+  },
+  {
+    "id": "d-s25",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: σ___σμός",
+    "answer": "σεισμός"
+  },
+  {
+    "id": "d-e20",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πώς λέγεται το επάγγελμα αυτού που καλλιεργεί τη γη;",
+    "answer": "γεωργός",
+    "options": [
+      "κτηνοτρόφος",
+      "ναυτικός",
+      "γεωργός",
+      "μελισσοκόμος"
+    ]
+  },
+  {
+    "id": "d-m52",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 7390 + 2011;",
+    "answer": "9401"
+  },
+  {
+    "id": "d-g38",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο υπερθετικός βαθμός του επιθέτου «δυνατός»;",
+    "answer": "δυνατότατος",
+    "options": [
+      "δυνατότερος",
+      "δυνατότατος",
+      "δυνατός",
+      "σοφότατος"
+    ]
+  },
+  {
+    "id": "d-s26",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: βρ___ντή",
+    "answer": "βροντή"
+  },
+  {
+    "id": "d-e21",
+    "category": "environment",
+    "type": "text",
+    "question": "Γράψε μία χώρα που συνορεύει με την Ελλάδα.",
+    "answer": "Αλβανία",
+    "acceptedAnswers": [
+      "Βόρεια Μακεδονία",
+      "Βουλγαρία",
+      "Τουρκία"
+    ]
+  },
+  {
+    "id": "d-m53",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 24 x 100;",
+    "answer": "2400"
+  },
+  {
+    "id": "d-m54",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα ορθογώνιο έχει μήκος 7 και πλάτος 15 εκατοστά. Ποιο είναι το εμβαδόν του;",
+    "answer": "105 τ.εκ.",
+    "options": [
+      "112 τ.εκ.",
+      "105 τ.εκ.",
+      "44 τ.εκ.",
+      "90 τ.εκ."
+    ]
+  },
+  {
+    "id": "d-e22",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Σε ποια θάλασσα βρίσκονται οι Κυκλάδες;",
+    "answer": "στο Αιγαίο",
+    "options": [
+      "στο Αιγαίο",
+      "στη Μαύρη Θάλασσα",
+      "στο Ιόνιο",
+      "στη Μεσόγειο της Ισπανίας"
+    ]
+  },
+  {
+    "id": "d-g39",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «τρώω» στον Μέλλοντα γίνεται:",
+    "answer": "θα φάω",
+    "options": [
+      "έτρωγα",
+      "έχω φάει",
+      "θα φάω",
+      "έφαγα"
+    ]
+  },
+  {
+    "id": "d-s27",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "τηλεόραση",
+    "options": [
+      "τηλεόραση",
+      "τυλεόραση",
+      "τιλεόραση"
+    ]
+  },
+  {
+    "id": "d-g40",
+    "category": "grammar",
+    "type": "text",
+    "question": "Ποιος είναι ο υπερθετικός βαθμός του επιθέτου «ζεστός»;",
+    "answer": "ζεστότατος",
+    "acceptedAnswers": [
+      "ο πιο ζεστός",
+      "πολύ ζεστός",
+      "ο ζεστότερος"
+    ]
+  },
+  {
+    "id": "d-m55",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 610 : 10;",
+    "answer": "61"
+  },
+  {
+    "id": "d-g41",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «πηδάω» στον Μέλλοντα γίνεται:",
+    "answer": "θα πηδήσω",
+    "acceptedAnswers": [
+      "θα πηδήσει"
+    ]
+  },
+  {
+    "id": "d-m56",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Στη διαίρεση 95 : 8, ποιο είναι το υπόλοιπο;",
+    "answer": "7",
+    "options": [
+      "11",
+      "8",
+      "7",
+      "1"
+    ]
+  },
+  {
+    "id": "d-s28",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "σηκώνω",
+    "options": [
+      "σηκώνω",
+      "σηκώνο"
+    ]
+  },
+  {
+    "id": "d-g42",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «τραγουδάω» στον Αόριστο γίνεται:",
+    "answer": "τραγούδησα",
+    "acceptedAnswers": [
+      "τραγούδησε"
+    ]
+  },
+  {
+    "id": "d-g43",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε ένα συνώνυμο της λέξης «όμορφος».",
+    "answer": "πανέμορφος"
+  },
+  {
+    "id": "d-m57",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μεγαλύτερος; 8,2 ή 5,1;",
+    "answer": "8,2",
+    "options": [
+      "8,2",
+      "5,1"
+    ]
+  },
+  {
+    "id": "d-m58",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Στη διαίρεση 59 : 7, ποιο είναι το πηλίκο;",
+    "answer": "8",
+    "options": [
+      "8",
+      "9",
+      "3",
+      "7"
+    ]
+  },
+  {
+    "id": "d-m59",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα ορθογώνιο έχει μήκος 24 και πλάτος 21 εκατοστά. Ποιο είναι το εμβαδόν του;",
+    "answer": "504 τ.εκ.",
+    "acceptedAnswers": [
+      "504",
+      "504 τ.εκ",
+      "504 τ.εκ.",
+      "504 τετραγωνικά εκατοστά"
+    ]
+  },
+  {
+    "id": "d-s29",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: δικ___ολογία",
+    "answer": "δικαιολογία"
+  },
+  {
+    "id": "d-g44",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη είναι αντωνυμία;",
+    "answer": "εσείς",
+    "options": [
+      "εσείς",
+      "ακούω",
+      "μηχανή",
+      "ελαφρύς"
+    ]
+  },
+  {
+    "id": "d-m60",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 11,94€ + 4,65€;",
+    "answer": "16,59€",
+    "options": [
+      "16,59€",
+      "15,59€",
+      "16,69€",
+      "17,59€"
+    ]
+  },
+  {
+    "id": "d-m61",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Στρογγυλοποίησε τον αριθμό 8327 στην πλησιέστερη χιλιάδα.",
+    "answer": "8000",
+    "options": [
+      "7000",
+      "8327",
+      "8000",
+      "9000"
+    ]
+  },
+  {
+    "id": "d-m62",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μεγαλύτερος; 7,7 ή 7,1;",
+    "answer": "7,7",
+    "options": [
+      "7,7",
+      "7,1"
+    ]
+  },
+  {
+    "id": "d-g45",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη είναι αντωνυμία;",
+    "answer": "εμείς",
+    "options": [
+      "στενός",
+      "εμείς",
+      "πηδάω",
+      "δρόμος"
+    ]
+  },
+  {
+    "id": "d-g46",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο συγκριτικός βαθμός του επιθέτου «καλός»;",
+    "answer": "καλύτερος",
+    "options": [
+      "άριστος",
+      "καλύτερος",
+      "ελαφρύτερος",
+      "καλός"
+    ]
+  },
+  {
+    "id": "d-g47",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το αντίθετο της λέξης «εργατικός»;",
+    "answer": "τεμπέλης",
+    "options": [
+      "ήρεμος",
+      "χωρίζω",
+      "νίκη",
+      "τεμπέλης"
+    ]
+  },
+  {
+    "id": "d-g48",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «βοηθάω» στον Αόριστο γίνεται:",
+    "answer": "βοήθησα",
+    "options": [
+      "βοηθούσα",
+      "έχω βοηθήσει",
+      "βοήθησα",
+      "θα βοηθήσω"
+    ]
+  },
+  {
+    "id": "d-m63",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα τετράγωνο έχει πλευρά 4 εκατοστά. Ποιο είναι το εμβαδόν του;",
+    "answer": "16 τ.εκ.",
+    "acceptedAnswers": [
+      "16",
+      "16 τ.εκ",
+      "16 τ.εκ.",
+      "16 τετραγωνικά εκατοστά"
+    ]
+  },
+  {
+    "id": "d-s30",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ηλεκτρισμός",
+    "options": [
+      "υλεκτρισμός",
+      "ιλεκτρισμός",
+      "ηλεκτρισμός"
+    ]
+  },
+  {
+    "id": "d-g49",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε ένα συνώνυμο της λέξης «πανέμορφος».",
+    "answer": "όμορφος"
+  },
+  {
+    "id": "d-m64",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πώς γράφεται το κλάσμα 5/10 ως δεκαδικός αριθμός;",
+    "answer": "0,5",
+    "options": [
+      "5,0",
+      "0,05",
+      "0,5",
+      "5"
+    ]
+  },
+  {
+    "id": "d-m65",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Θανάσης είχε 600€. Ξόδεψε 95€ για ρούχα και 50€ για παπούτσια. Πόσα ευρώ έμειναν;",
+    "answer": "455€",
+    "acceptedAnswers": [
+      "455",
+      "455 ευρώ",
+      "455€"
+    ]
+  },
+  {
+    "id": "d-g50",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε ένα συνώνυμο της λέξης «πεντακάθαρος».",
+    "answer": "καθαρός"
+  },
+  {
+    "id": "d-s31",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "πολεμιστής",
+    "options": [
+      "πολεμιστής",
+      "πολεμυστής",
+      "πολεμηστής"
+    ]
+  },
+  {
+    "id": "d-s32",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "νίκη",
+    "options": [
+      "νίκι",
+      "νίκυ",
+      "νίκη"
+    ]
+  },
+  {
+    "id": "d-m66",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Στρογγυλοποίησε τον αριθμό 4842 στην πλησιέστερη χιλιάδα.",
+    "answer": "5000",
+    "options": [
+      "4000",
+      "5000",
+      "6000",
+      "4842"
+    ]
+  },
+  {
+    "id": "d-m67",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 365 + 1211;",
+    "answer": "1576",
+    "options": [
+      "1676",
+      "1586",
+      "1576",
+      "1476"
+    ]
+  },
+  {
+    "id": "d-m68",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιο κλάσμα είναι μεγαλύτερο: 4/8 ή 1/8;",
+    "answer": "4/8",
+    "options": [
+      "1/8",
+      "4/8"
+    ]
+  },
+  {
+    "id": "d-e23",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο όργανο ελέγχει όλες τις λειτουργίες του σώματος;",
+    "answer": "ο εγκέφαλος",
+    "options": [
+      "ο εγκέφαλος",
+      "η καρδιά",
+      "τα νεφρά",
+      "οι μύες"
+    ]
+  },
+  {
+    "id": "d-e24",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια οροσειρά διασχίζει την ηπειρωτική Ελλάδα από τον βορρά προς τον νότο;",
+    "answer": "η Πίνδος",
+    "options": [
+      "η Πίνδος",
+      "ο Ταΰγετος",
+      "ο Όλυμπος",
+      "η Ροδόπη"
+    ]
+  },
+  {
+    "id": "d-m69",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιο κλάσμα ισούται με μία ολόκληρη μονάδα;",
+    "answer": "10/10",
+    "options": [
+      "10/10",
+      "1/10",
+      "10/11",
+      "9/10"
+    ]
+  },
+  {
+    "id": "d-g51",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το συνώνυμο της λέξης «ταχύς»;",
+    "answer": "γρήγορος",
+    "options": [
+      "γρήγορος",
+      "πανέμορφος",
+      "εορτή",
+      "λαμπερός"
+    ]
+  },
+  {
+    "id": "d-g52",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το αντίθετο της λέξης «αδειάζω»;",
+    "answer": "γεμίζω",
+    "options": [
+      "αλήθεια",
+      "φόβος",
+      "γεμίζω",
+      "λύνω"
+    ]
+  },
+  {
+    "id": "d-m70",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιο κλάσμα ισούται με μία ολόκληρη μονάδα;",
+    "answer": "4/4",
+    "options": [
+      "1/4",
+      "4/4",
+      "3/4",
+      "4/5"
+    ]
+  },
+  {
+    "id": "d-m71",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 6417 + 2115;",
+    "answer": "8532"
+  },
+  {
+    "id": "d-m72",
+    "category": "math",
+    "type": "text",
+    "question": "Η ώρα είναι 1:30. Τι ώρα θα είναι σε 90 λεπτά;",
+    "answer": "3:00"
+  },
+  {
+    "id": "d-g53",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική ενικού της λέξης «το βιβλίο».",
+    "answer": "του βιβλίου",
+    "acceptedAnswers": [
+      "βιβλίου"
+    ]
+  },
+  {
+    "id": "d-s33",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ευγένεια",
+    "options": [
+      "ευγένεια",
+      "ευγένηα",
+      "ευγένια",
+      "ευγένοια"
+    ]
+  },
+  {
+    "id": "d-s34",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "λιμάνι",
+    "options": [
+      "λυμάνι",
+      "λημάνι",
+      "λιμάνι"
+    ]
+  },
+  {
+    "id": "d-m73",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 7 x 100;",
+    "answer": "700"
+  },
+  {
+    "id": "d-m74",
+    "category": "math",
+    "type": "text",
+    "question": "Σε ένα θέατρο υπάρχουν 20 σειρές με 13 καθίσματα η καθεμία. Πόσα καθίσματα έχει συνολικά; (Σοφία θέλει να το υπολογίσει!)",
+    "answer": "260"
+  },
+  {
+    "id": "d-g54",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η γενική ενικού της λέξης «η θάλασσα»;",
+    "answer": "της θάλασσας",
+    "options": [
+      "των θαλασσών",
+      "η θάλασσα",
+      "της θάλασσας",
+      "του σχολείου"
+    ]
+  },
+  {
+    "id": "d-m75",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Στη διαίρεση 47 : 5, ποιο είναι το πηλίκο;",
+    "answer": "9",
+    "options": [
+      "2",
+      "9",
+      "10",
+      "8"
+    ]
+  },
+  {
+    "id": "d-m76",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 5341 - 4911;",
+    "answer": "430",
+    "options": [
+      "430",
+      "330",
+      "440",
+      "530"
+    ]
+  },
+  {
+    "id": "d-e25",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Τι μεταφέρει το οξυγόνο σε όλο μας το σώμα;",
+    "answer": "το αίμα",
+    "options": [
+      "τα δάκρυα",
+      "το νερό",
+      "ο ιδρώτας",
+      "το αίμα"
+    ]
+  },
+  {
+    "id": "d-g55",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «κερδίζω» στον Αόριστο γίνεται:",
+    "answer": "κέρδισα",
+    "options": [
+      "θα κερδίσω",
+      "κέρδιζα",
+      "κέρδισα",
+      "έχω κερδίσει"
+    ]
+  },
+  {
+    "id": "d-m77",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Πέτρος αγόρασε 7 μολύβια των 2€ το καθένα και πλήρωσε με 50€. Πόσα ρέστα πήρε;",
+    "answer": "36€",
+    "acceptedAnswers": [
+      "36",
+      "36 ευρώ",
+      "36€"
+    ]
+  },
+  {
+    "id": "d-g56",
+    "category": "grammar",
+    "type": "text",
+    "question": "Ποιος είναι ο συγκριτικός βαθμός του επιθέτου «φτηνός»;",
+    "answer": "φτηνότερος",
+    "acceptedAnswers": [
+      "πιο φτηνός"
+    ]
+  },
+  {
+    "id": "d-g57",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο συγκριτικός βαθμός του επιθέτου «ακριβός»;",
+    "answer": "ακριβότερος",
+    "options": [
+      "ακριβός",
+      "ακριβότερος",
+      "ακριβότατος",
+      "ομορφότερος"
+    ]
+  },
+  {
+    "id": "d-g58",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «βρίσκω» στον Παρακείμενο γίνεται:",
+    "answer": "έχω βρει",
+    "options": [
+      "θα βρω",
+      "βρήκα",
+      "έβρισκα",
+      "έχω βρει"
+    ]
+  },
+  {
+    "id": "d-g59",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη είναι αντωνυμία;",
+    "answer": "εγώ",
+    "options": [
+      "στενός",
+      "εγώ",
+      "απαντάω",
+      "αστυνομικός"
+    ]
+  },
+  {
+    "id": "d-s35",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: λε___φορείο",
+    "answer": "λεωφορείο"
+  },
+  {
+    "id": "d-g60",
+    "category": "grammar",
+    "type": "text",
+    "question": "Ποιος είναι ο συγκριτικός βαθμός του επιθέτου «νέος»;",
+    "answer": "νεότερος",
+    "acceptedAnswers": [
+      "πιο νέος"
+    ]
+  },
+  {
+    "id": "d-g61",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το συνώνυμο της λέξης «φωτεινός»;",
+    "answer": "λαμπερός",
+    "options": [
+      "γιορτή",
+      "σημαντικός",
+      "δειλός",
+      "λαμπερός"
+    ]
+  },
+  {
+    "id": "d-m78",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 5526 - 261;",
+    "answer": "5265"
+  },
+  {
+    "id": "d-m79",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Στρογγυλοποίησε τον αριθμό 8289 στην πλησιέστερη εκατοντάδα.",
+    "answer": "8300",
+    "options": [
+      "8200",
+      "8300",
+      "8289",
+      "8400"
+    ]
+  },
+  {
+    "id": "d-s36",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: σ___μαία",
+    "answer": "σημαία"
+  },
+  {
+    "id": "d-g62",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική πληθυντικού της λέξης «το βιβλίο».",
+    "answer": "των βιβλίων",
+    "acceptedAnswers": [
+      "βιβλίων"
+    ]
+  },
+  {
+    "id": "d-m80",
+    "category": "math",
+    "type": "text",
+    "question": "Στη διαίρεση 124 : 5, ποιο είναι το υπόλοιπο;",
+    "answer": "4"
+  },
+  {
+    "id": "d-g63",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το αντίθετο της λέξης «θάρρος»;",
+    "answer": "φόβος",
+    "options": [
+      "χωρίζω",
+      "ανάβω",
+      "ψέμα",
+      "φόβος"
+    ]
+  },
+  {
+    "id": "d-m81",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα ορθογώνιο έχει μήκος 5 και πλάτος 25 εκατοστά. Ποιο είναι το εμβαδόν του;",
+    "answer": "125 τ.εκ.",
+    "acceptedAnswers": [
+      "125",
+      "125 τ.εκ",
+      "125 τ.εκ.",
+      "125 τετραγωνικά εκατοστά"
+    ]
+  },
+  {
+    "id": "d-g64",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η γενική ενικού της λέξης «το παιδί»;",
+    "answer": "του παιδιού",
+    "options": [
+      "των παιδιών",
+      "του ανθρώπου",
+      "του παιδιού",
+      "το παιδί"
+    ]
+  },
+  {
+    "id": "d-g65",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «φεύγω» στον Αόριστο γίνεται:",
+    "answer": "έφυγα",
+    "options": [
+      "θα φύγω",
+      "έφευγα",
+      "έχω φύγει",
+      "έφυγα"
+    ]
+  },
+  {
+    "id": "d-m82",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 7484 + 1656;",
+    "answer": "9140",
+    "options": [
+      "9040",
+      "9240",
+      "9150",
+      "9140"
+    ]
+  },
+  {
+    "id": "d-g66",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «μιλάω» στον Μέλλοντα γίνεται:",
+    "answer": "θα μιλήσω",
+    "options": [
+      "μίλησα",
+      "θα μιλήσω",
+      "μιλούσα",
+      "έχω μιλήσει"
+    ]
+  },
+  {
+    "id": "d-s37",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ορθογραφία",
+    "options": [
+      "ορθογραφία",
+      "ωρθογραφία"
+    ]
+  },
+  {
+    "id": "d-m83",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 5376 - 3247;",
+    "answer": "2129"
+  },
+  {
+    "id": "d-m84",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 26 x 100;",
+    "answer": "2600",
+    "options": [
+      "2700",
+      "3600",
+      "2500",
+      "2600"
+    ]
+  },
+  {
+    "id": "d-g67",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η γενική πληθυντικού της λέξης «το δέντρο»;",
+    "answer": "των δέντρων",
+    "options": [
+      "το δέντρο",
+      "των δέντρων",
+      "των πόλεων",
+      "του δέντρου"
+    ]
+  },
+  {
+    "id": "d-g68",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο υπερθετικός βαθμός του επιθέτου «ψηλός»;",
+    "answer": "ψηλότατος",
+    "options": [
+      "ψηλός",
+      "ψηλότερος",
+      "ψηλότατος",
+      "πλατύτατος"
+    ]
+  },
+  {
+    "id": "d-g69",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «πίνω» στον Παρακείμενο γίνεται:",
+    "answer": "έχω πιει",
+    "acceptedAnswers": [
+      "έχει πιει"
+    ]
+  },
+  {
+    "id": "d-g70",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε ένα συνώνυμο της λέξης «ζεστός».",
+    "answer": "καυτός"
+  },
+  {
+    "id": "d-e26",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Τι παράγουν οι ανεμογεννήτριες;",
+    "answer": "ηλεκτρική ενέργεια",
+    "options": [
+      "ζέστη",
+      "νερό",
+      "πετρέλαιο",
+      "ηλεκτρική ενέργεια"
+    ]
+  },
+  {
+    "id": "d-e27",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Σε ποιον κάδο πετάμε το χαρτί για ανακύκλωση;",
+    "answer": "στον μπλε κάδο",
+    "options": [
+      "στον καφέ κάδο",
+      "στον μπλε κάδο",
+      "σε όποιον κάδο θέλουμε",
+      "στον πράσινο κάδο"
+    ]
+  },
+  {
+    "id": "d-e28",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πόσα γεωγραφικά διαμερίσματα έχει η Ελλάδα;",
+    "answer": "9",
+    "options": [
+      "10",
+      "13",
+      "7",
+      "9"
+    ]
+  },
+  {
+    "id": "d-m85",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 7150 + 961;",
+    "answer": "8111",
+    "options": [
+      "8011",
+      "8211",
+      "8121",
+      "8111"
+    ]
+  },
+  {
+    "id": "d-g71",
+    "category": "grammar",
+    "type": "text",
+    "question": "Ποιος είναι ο υπερθετικός βαθμός του επιθέτου «μικρός»;",
+    "answer": "ελάχιστος",
+    "acceptedAnswers": [
+      "ο πιο μικρός",
+      "πολύ μικρός",
+      "ο μικρότερος"
+    ]
+  },
+  {
+    "id": "d-g72",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η γενική πληθυντικού της λέξης «ο ουρανός»;",
+    "answer": "των ουρανών",
+    "options": [
+      "του ουρανού",
+      "ο ουρανός",
+      "των ουρανών",
+      "των ανθρώπων"
+    ]
+  },
+  {
+    "id": "d-m86",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα τετράγωνο έχει πλευρά 12 εκατοστά. Ποιο είναι το εμβαδόν του;",
+    "answer": "144 τ.εκ.",
+    "options": [
+      "156 τ.εκ.",
+      "132 τ.εκ.",
+      "144 τ.εκ.",
+      "48 τ.εκ."
+    ]
+  },
+  {
+    "id": "d-m87",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 7961 + 1212;",
+    "answer": "9173",
+    "options": [
+      "9273",
+      "9183",
+      "9173",
+      "9073"
+    ]
+  },
+  {
+    "id": "d-s38",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: βιβλιοθήκ___",
+    "answer": "βιβλιοθήκη"
+  },
+  {
+    "id": "d-e29",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο από τα παρακάτω ΔΕΝ εξοικονομεί νερό;",
+    "answer": "να αφήνουμε τη βρύση ανοιχτή",
+    "options": [
+      "να κλείνουμε τη βρύση όταν βουρτσίζουμε τα δόντια",
+      "να ποτίζουμε το βράδυ",
+      "να κάνουμε γρήγορο ντους",
+      "να αφήνουμε τη βρύση ανοιχτή"
+    ]
+  },
+  {
+    "id": "d-m88",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 6366 + 711;",
+    "answer": "7077"
+  },
+  {
+    "id": "d-s39",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: πληρών___",
+    "answer": "πληρώνω"
+  },
+  {
+    "id": "d-s40",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "βροντή",
+    "options": [
+      "βρωντή",
+      "βροντή"
+    ]
+  },
+  {
+    "id": "d-m89",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιο κλάσμα ισούται με μία ολόκληρη μονάδα;",
+    "answer": "8/8",
+    "options": [
+      "7/8",
+      "8/9",
+      "1/8",
+      "8/8"
+    ]
+  },
+  {
+    "id": "d-s41",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "πρωταθλητής",
+    "options": [
+      "πρωταθλητής",
+      "προταθλητής"
+    ]
+  },
+  {
+    "id": "d-g73",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «γράφω» στον Παρακείμενο γίνεται:",
+    "answer": "έχω γράψει",
+    "acceptedAnswers": [
+      "έχει γράψει"
+    ]
+  },
+  {
+    "id": "d-g74",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική πληθυντικού της λέξης «ο φίλος».",
+    "answer": "των φίλων",
+    "acceptedAnswers": [
+      "φίλων"
+    ]
+  },
+  {
+    "id": "d-s42",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: εγκέφαλ___ς",
+    "answer": "εγκέφαλος"
+  },
+  {
+    "id": "d-m90",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 4086 - 3053;",
+    "answer": "1033",
+    "options": [
+      "1033",
+      "1043",
+      "933",
+      "1133"
+    ]
+  },
+  {
+    "id": "d-m91",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 38 x 10;",
+    "answer": "380",
+    "options": [
+      "390",
+      "480",
+      "370",
+      "380"
+    ]
+  },
+  {
+    "id": "d-e30",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο μεγαλύτερος ποταμός που κυλά ολόκληρος σε ελληνικό έδαφος;",
+    "answer": "ο Αλιάκμονας",
+    "options": [
+      "ο Πηνειός",
+      "ο Αχελώος",
+      "ο Αλιάκμονας",
+      "ο Σπερχειός"
+    ]
+  },
+  {
+    "id": "d-s43",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "θάρρος",
+    "options": [
+      "θάρος",
+      "θάρρος"
+    ]
+  },
+  {
+    "id": "d-g75",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη είναι αντωνυμία;",
+    "answer": "όλοι",
+    "options": [
+      "αδύνατος",
+      "όλοι",
+      "σχολείο",
+      "δίνω"
+    ]
+  },
+  {
+    "id": "d-m92",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιο κλάσμα είναι μεγαλύτερο: 2/7 ή 5/7;",
+    "answer": "5/7",
+    "options": [
+      "2/7",
+      "5/7"
+    ]
+  },
+  {
+    "id": "d-s44",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "πολιτισμός",
+    "options": [
+      "πολυτισμός",
+      "πολιτισμός",
+      "πολητισμός"
+    ]
+  },
+  {
+    "id": "d-m93",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 122 x 2;",
+    "answer": "244",
+    "options": [
+      "246",
+      "242",
+      "244",
+      "264"
+    ]
+  },
+  {
+    "id": "d-s45",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "συνεργασία",
+    "options": [
+      "σινεργασία",
+      "συνεργασία",
+      "σηνεργασία"
+    ]
+  },
+  {
+    "id": "d-e31",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Με ποιο όργανο αναπνέουμε;",
+    "answer": "με τους πνεύμονες",
+    "options": [
+      "με την καρδιά",
+      "με το συκώτι",
+      "με τους πνεύμονες",
+      "με το στομάχι"
+    ]
+  },
+  {
+    "id": "d-s46",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: πρ___ταθλητής",
+    "answer": "πρωταθλητής"
+  },
+  {
+    "id": "d-g76",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική πληθυντικού της λέξης «ο δάσκαλος».",
+    "answer": "των δασκάλων",
+    "acceptedAnswers": [
+      "δασκάλων"
+    ]
+  },
+  {
+    "id": "d-g77",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο συγκριτικός βαθμός του επιθέτου «βαρύς»;",
+    "answer": "βαρύτερος",
+    "options": [
+      "βαρύτερος",
+      "κρυότερος",
+      "βαρύτατος",
+      "βαρύς"
+    ]
+  },
+  {
+    "id": "d-m94",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μεγαλύτερος; 7,7 ή 8,8;",
+    "answer": "8,8",
+    "options": [
+      "7,7",
+      "8,8"
+    ]
+  },
+  {
+    "id": "d-m95",
+    "category": "math",
+    "type": "text",
+    "question": "Η ώρα είναι 8:45. Τι ώρα θα είναι σε 70 λεπτά;",
+    "answer": "9:55"
+  },
+  {
+    "id": "d-g78",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η γενική ενικού της λέξης «ο δάσκαλος»;",
+    "answer": "του δασκάλου",
+    "options": [
+      "ο δάσκαλος",
+      "των δασκάλων",
+      "της μητέρας",
+      "του δασκάλου"
+    ]
+  },
+  {
+    "id": "d-s47",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: υπολογ___στής",
+    "answer": "υπολογιστής"
+  },
+  {
+    "id": "d-e32",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Με ποια από τις παρακάτω χώρες ΔΕΝ συνορεύει η Ελλάδα;",
+    "answer": "με την Ιταλία",
+    "options": [
+      "με την Αλβανία",
+      "με την Ιταλία",
+      "με την Τουρκία",
+      "με τη Βουλγαρία"
+    ]
+  },
+  {
+    "id": "d-m96",
+    "category": "math",
+    "type": "text",
+    "question": "Η Σοφία μοιράζει εξίσου 360 καραμέλες σε 6 παιδιά. Πόσες παίρνει το καθένα;",
+    "answer": "60"
+  },
+  {
+    "id": "d-m97",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ο Δημήτρης μοιράζει εξίσου 330 καραμέλες σε 6 παιδιά. Πόσες παίρνει το καθένα;",
+    "answer": "55",
+    "options": [
+      "64",
+      "48",
+      "75",
+      "55"
+    ]
+  },
+  {
+    "id": "d-m98",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 3473 + 4893;",
+    "answer": "8366"
+  },
+  {
+    "id": "d-m99",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 76 x 8;",
+    "answer": "608",
+    "options": [
+      "600",
+      "608",
+      "616",
+      "688"
+    ]
+  },
+  {
+    "id": "d-s48",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "αθλητής",
+    "options": [
+      "αθλιτής",
+      "αθλητής",
+      "αθλυτής"
+    ]
+  },
+  {
+    "id": "d-m100",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Μιχάλης ταξιδεύει 426 χιλιόμετρα. Έχει διανύσει ήδη 82. Πόσα χιλιόμετρα μένουν ακόμα;",
+    "answer": "344"
+  },
+  {
+    "id": "d-s49",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: αλήθ___α",
+    "answer": "αλήθεια"
+  },
+  {
+    "id": "d-g79",
+    "category": "grammar",
+    "type": "text",
+    "question": "Ποιος είναι ο συγκριτικός βαθμός του επιθέτου «πλατύς»;",
+    "answer": "πλατύτερος",
+    "acceptedAnswers": [
+      "πιο πλατύς"
+    ]
+  },
+  {
+    "id": "d-m101",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 3793 - 1582;",
+    "answer": "2211",
+    "options": [
+      "2221",
+      "2111",
+      "2311",
+      "2211"
+    ]
+  },
+  {
+    "id": "d-g80",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «φωνάζω» στον Μέλλοντα γίνεται:",
+    "answer": "θα φωνάξω",
+    "options": [
+      "έχω φωνάξει",
+      "θα φωνάξω",
+      "φώναζα",
+      "φώναξα"
+    ]
+  },
+  {
+    "id": "d-s50",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: ευγέν___α",
+    "answer": "ευγένεια"
+  },
+  {
+    "id": "d-e33",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η μεγαλύτερη φυσική λίμνη της Ελλάδας;",
+    "answer": "η Τριχωνίδα",
+    "options": [
+      "η Βόλβη",
+      "η Τριχωνίδα",
+      "η Βεγορίτιδα",
+      "η λίμνη Πλαστήρα"
+    ]
+  },
+  {
+    "id": "d-g81",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «μαγειρεύω» στον Μέλλοντα γίνεται:",
+    "answer": "θα μαγειρέψω",
+    "options": [
+      "έχω μαγειρέψει",
+      "μαγείρεψα",
+      "μαγείρευα",
+      "θα μαγειρέψω"
+    ]
+  },
+  {
+    "id": "d-g82",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το αντίθετο της λέξης «ενώνω»;",
+    "answer": "χωρίζω",
+    "options": [
+      "τεμπέλης",
+      "σβήνω",
+      "χωρίζω",
+      "ανεβαίνω"
+    ]
+  },
+  {
+    "id": "d-s51",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "δικαιολογία",
+    "options": [
+      "δικαιολογία",
+      "δικεολογία"
+    ]
+  },
+  {
+    "id": "d-e34",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Τι προκαλεί το λιώσιμο των πάγων στους πόλους;",
+    "answer": "η υπερθέρμανση του πλανήτη",
+    "options": [
+      "οι βροχές",
+      "ο άνεμος",
+      "τα κύματα",
+      "η υπερθέρμανση του πλανήτη"
+    ]
+  },
+  {
+    "id": "d-e35",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Σε ποιο γεωγραφικό διαμέρισμα βρίσκεται η Αθήνα;",
+    "answer": "στη Στερεά Ελλάδα",
+    "options": [
+      "στην Πελοπόννησο",
+      "στη Στερεά Ελλάδα",
+      "στη Μακεδονία",
+      "στη Θεσσαλία"
+    ]
+  },
+  {
+    "id": "d-g83",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο συγκριτικός βαθμός του επιθέτου «παλιός»;",
+    "answer": "παλιότερος",
+    "options": [
+      "παλιός",
+      "μεγαλύτερος",
+      "παλιότερος",
+      "παλιότατος"
+    ]
+  },
+  {
+    "id": "d-s52",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ορχήστρα",
+    "options": [
+      "ωρχήστρα",
+      "ορχήστρα"
+    ]
+  },
+  {
+    "id": "d-s53",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "καταιγίδα",
+    "options": [
+      "κατεγίδα",
+      "καταιγίδα"
+    ]
+  },
+  {
+    "id": "d-g84",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το αντίθετο της λέξης «ήρεμος»;",
+    "answer": "νευρικός",
+    "options": [
+      "ασχήμια",
+      "ήττα",
+      "νευρικός",
+      "ελευθερία"
+    ]
+  },
+  {
+    "id": "d-m102",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 3038 - 1488;",
+    "answer": "1550",
+    "options": [
+      "1650",
+      "1450",
+      "1560",
+      "1550"
+    ]
+  },
+  {
+    "id": "d-g85",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «παίζω» στον Παρακείμενο γίνεται:",
+    "answer": "έχω παίξει",
+    "acceptedAnswers": [
+      "έχει παίξει"
+    ]
+  },
+  {
+    "id": "d-m103",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 2148 + 971;",
+    "answer": "3119",
+    "options": [
+      "3129",
+      "3019",
+      "3219",
+      "3119"
+    ]
+  },
+  {
+    "id": "d-g86",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε το αντίθετο της λέξης «αγοράζω».",
+    "answer": "πουλάω"
+  },
+  {
+    "id": "d-g87",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη είναι αντωνυμία;",
+    "answer": "αυτή",
+    "options": [
+      "σκοτεινός",
+      "πλένω",
+      "αυτή",
+      "πόλη"
+    ]
+  },
+  {
+    "id": "d-m104",
+    "category": "math",
+    "type": "text",
+    "question": "Στη διαίρεση 50 : 7, ποιο είναι το πηλίκο;",
+    "answer": "7"
+  },
+  {
+    "id": "d-m105",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 204 x 3;",
+    "answer": "612",
+    "options": [
+      "612",
+      "609",
+      "615",
+      "642"
+    ]
+  },
+  {
+    "id": "d-m106",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 9,98€ + 7,57€;",
+    "answer": "17,55€",
+    "options": [
+      "17,55€",
+      "16,55€",
+      "18,55€",
+      "17,65€"
+    ]
+  },
+  {
+    "id": "d-g88",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε ένα συνώνυμο της λέξης «σπουδαίος».",
+    "answer": "σημαντικός"
+  },
+  {
+    "id": "d-m107",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 2224 + 578;",
+    "answer": "2802",
+    "options": [
+      "2812",
+      "2902",
+      "2802",
+      "2702"
+    ]
+  },
+  {
+    "id": "d-s54",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "θερμοκρασία",
+    "options": [
+      "θερμωκρασία",
+      "θερμοκρασία"
+    ]
+  },
+  {
+    "id": "d-e36",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Σε ποιο νησιωτικό σύμπλεγμα ανήκει η Σκιάθος;",
+    "answer": "στις Σποράδες",
+    "options": [
+      "στα Επτάνησα",
+      "στις Κυκλάδες",
+      "στις Σποράδες",
+      "στα Δωδεκάνησα"
+    ]
+  },
+  {
+    "id": "d-m108",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 3,53€ + 7,32€;",
+    "answer": "10,85€",
+    "options": [
+      "10,95€",
+      "10,85€",
+      "11,85€",
+      "9,85€"
+    ]
+  },
+  {
+    "id": "d-m109",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 2257 + 6295;",
+    "answer": "8552",
+    "options": [
+      "8452",
+      "8562",
+      "8652",
+      "8552"
+    ]
+  },
+  {
+    "id": "d-e37",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το ψηλότερο βουνό της Ελλάδας;",
+    "answer": "ο Όλυμπος",
+    "options": [
+      "η Πίνδος",
+      "ο Ταΰγετος",
+      "ο Όλυμπος",
+      "ο Παρνασσός"
+    ]
+  },
+  {
+    "id": "d-s55",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: ___λικρίνεια",
+    "answer": "ειλικρίνεια"
+  },
+  {
+    "id": "d-m110",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Αντώνης είχε 900€. Ξόδεψε 125€ για ρούχα και 65€ για παπούτσια. Πόσα ευρώ έμειναν;",
+    "answer": "710€",
+    "acceptedAnswers": [
+      "710",
+      "710 ευρώ",
+      "710€"
+    ]
+  },
+  {
+    "id": "d-m111",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 4,85€ + 14,87€;",
+    "answer": "19,72€",
+    "acceptedAnswers": [
+      "19,72",
+      "19.72",
+      "19,72€",
+      "19.72€",
+      "19,72 €"
+    ]
+  },
+  {
+    "id": "d-m112",
+    "category": "math",
+    "type": "text",
+    "question": "Στη διαίρεση 73 : 5, ποιο είναι το υπόλοιπο;",
+    "answer": "3"
+  },
+  {
+    "id": "d-g89",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το αντίθετο της λέξης «σβήνω»;",
+    "answer": "ανάβω",
+    "options": [
+      "αδειάζω",
+      "νευρικός",
+      "ψέμα",
+      "ανάβω"
+    ]
+  },
+  {
+    "id": "d-g90",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο συγκριτικός βαθμός του επιθέτου «κακός»;",
+    "answer": "χειρότερος",
+    "options": [
+      "χειρότερος",
+      "κακός",
+      "χείριστος",
+      "κρυότερος"
+    ]
+  },
+  {
+    "id": "d-s56",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: σ___νεργασία",
+    "answer": "συνεργασία"
+  },
+  {
+    "id": "d-g91",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «στέλνω» στον Παρατατικό γίνεται:",
+    "answer": "έστελνα",
+    "options": [
+      "έχω στείλει",
+      "έστειλα",
+      "έστελνα",
+      "θα στείλω"
+    ]
+  },
+  {
+    "id": "d-m113",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Συμπλήρωσε το ισοδύναμο κλάσμα: 1/4 = ;/12",
+    "answer": "3",
+    "options": [
+      "12",
+      "2",
+      "4",
+      "3"
+    ]
+  },
+  {
+    "id": "d-m114",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μεγαλύτερος; 4,0 ή 8,7;",
+    "answer": "8,7",
+    "options": [
+      "8,7",
+      "4,0"
+    ]
+  },
+  {
+    "id": "d-g92",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο συγκριτικός βαθμός του επιθέτου «ψηλός»;",
+    "answer": "ψηλότερος",
+    "options": [
+      "ψηλός",
+      "ψηλότερος",
+      "ψηλότατος",
+      "πλουσιότερος"
+    ]
+  },
+  {
+    "id": "d-m115",
+    "category": "math",
+    "type": "text",
+    "question": "Συμπλήρωσε το ισοδύναμο κλάσμα: 2/3 = ;/12",
+    "answer": "8"
+  },
+  {
+    "id": "d-s57",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: ταχύτ___τα",
+    "answer": "ταχύτητα"
+  },
+  {
+    "id": "d-s58",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: απ___τέλεσμα",
+    "answer": "αποτέλεσμα"
+  },
+  {
+    "id": "d-m116",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 16 x 3;",
+    "answer": "48"
+  },
+  {
+    "id": "d-g93",
+    "category": "grammar",
+    "type": "text",
+    "question": "Ποιος είναι ο συγκριτικός βαθμός του επιθέτου «γρήγορος»;",
+    "answer": "γρηγορότερος",
+    "acceptedAnswers": [
+      "πιο γρήγορος"
+    ]
+  },
+  {
+    "id": "d-s59",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "θέατρο",
+    "options": [
+      "θέατρο",
+      "θέατρω"
+    ]
+  },
+  {
+    "id": "d-m117",
+    "category": "math",
+    "type": "text",
+    "question": "Στη διαίρεση 81 : 5, ποιο είναι το υπόλοιπο;",
+    "answer": "1"
+  },
+  {
+    "id": "d-m118",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 5768 + 2329;",
+    "answer": "8097",
+    "options": [
+      "8097",
+      "8107",
+      "8197",
+      "7997"
+    ]
+  },
+  {
+    "id": "d-m119",
+    "category": "math",
+    "type": "text",
+    "question": "Η Βασιλική μοιράζει εξίσου 185 καραμέλες σε 5 παιδιά. Πόσες παίρνει το καθένα;",
+    "answer": "37"
+  },
+  {
+    "id": "d-s60",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: ζ___γραφιά",
+    "answer": "ζωγραφιά"
+  },
+  {
+    "id": "d-g94",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η γενική ενικού της λέξης «η πόλη»;",
+    "answer": "της πόλης",
+    "options": [
+      "του τραπεζιού",
+      "η πόλη",
+      "των πόλεων",
+      "της πόλης"
+    ]
+  },
+  {
+    "id": "d-g95",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «γεννάω» στον Παρατατικό γίνεται:",
+    "answer": "γεννούσα",
+    "options": [
+      "θα γεννήσω",
+      "έχω γεννήσει",
+      "γέννησα",
+      "γεννούσα"
+    ]
+  },
+  {
+    "id": "d-m120",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 28 x 7;",
+    "answer": "196"
+  },
+  {
+    "id": "d-e38",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Γύρω από τι περιφέρεται η Γη;",
+    "answer": "γύρω από τον Ήλιο",
+    "options": [
+      "γύρω από τον Ήλιο",
+      "γύρω από τη Σελήνη",
+      "γύρω από τον Άρη",
+      "γύρω από τα αστέρια"
+    ]
+  },
+  {
+    "id": "d-m121",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μεγαλύτερος; 9,0 ή 9,8;",
+    "answer": "9,8",
+    "options": [
+      "9,0",
+      "9,8"
+    ]
+  },
+  {
+    "id": "d-m122",
+    "category": "math",
+    "type": "text",
+    "question": "Η ώρα είναι 8:15. Τι ώρα θα είναι σε 45 λεπτά;",
+    "answer": "9:00"
+  },
+  {
+    "id": "d-g96",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «χάνω» στον Μέλλοντα γίνεται:",
+    "answer": "θα χάσω",
+    "options": [
+      "θα χάσω",
+      "έχασα",
+      "έχω χάσει",
+      "έχανα"
+    ]
+  },
+  {
+    "id": "d-m123",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιο κλάσμα ισούται με μία ολόκληρη μονάδα;",
+    "answer": "5/5",
+    "options": [
+      "5/6",
+      "4/5",
+      "5/5",
+      "1/5"
+    ]
+  },
+  {
+    "id": "d-e39",
+    "category": "environment",
+    "type": "text",
+    "question": "Γράψε μία ήπειρο της Γης.",
+    "answer": "Ευρώπη",
+    "acceptedAnswers": [
+      "Ασία",
+      "Αφρική",
+      "Αμερική",
+      "Βόρεια Αμερική",
+      "Νότια Αμερική",
+      "Ωκεανία",
+      "Ανταρκτική"
+    ]
+  },
+  {
+    "id": "d-m124",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα ορθογώνιο έχει μήκος 18 και πλάτος 5 εκατοστά. Ποιο είναι το εμβαδόν του;",
+    "answer": "90 τ.εκ.",
+    "acceptedAnswers": [
+      "90",
+      "90 τ.εκ",
+      "90 τ.εκ.",
+      "90 τετραγωνικά εκατοστά"
+    ]
+  },
+  {
+    "id": "d-s61",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "λεωφορείο",
+    "options": [
+      "λεοφορείο",
+      "λεωφορείο"
+    ]
+  },
+  {
+    "id": "d-s62",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "σύννεφο",
+    "options": [
+      "σύννεφω",
+      "σύννεφο"
+    ]
+  },
+  {
+    "id": "d-m125",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 3857 + 2901;",
+    "answer": "6758",
+    "options": [
+      "6858",
+      "6658",
+      "6758",
+      "6768"
+    ]
+  },
+  {
+    "id": "d-s63",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: κίνδ___νος",
+    "answer": "κίνδυνος"
+  },
+  {
+    "id": "d-g97",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το αντίθετο της λέξης «αλήθεια»;",
+    "answer": "ψέμα",
+    "options": [
+      "σκλαβιά",
+      "νευρικός",
+      "ψέμα",
+      "χωρίζω"
+    ]
+  },
+  {
+    "id": "d-s64",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ειρήνη",
+    "options": [
+      "ηρήνη",
+      "οιρήνη",
+      "ιρήνη",
+      "ειρήνη"
+    ]
+  },
+  {
+    "id": "d-g98",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το συνώνυμο της λέξης «φοβιτσιάρης»;",
+    "answer": "δειλός",
+    "options": [
+      "ταχύς",
+      "εορτή",
+      "παγωμένος",
+      "δειλός"
+    ]
+  },
+  {
+    "id": "d-e40",
+    "category": "environment",
+    "type": "text",
+    "question": "Γράψε ένα γεωγραφικό διαμέρισμα της Ελλάδας.",
+    "answer": "Μακεδονία",
+    "acceptedAnswers": [
+      "Θράκη",
+      "Ήπειρος",
+      "Θεσσαλία",
+      "Στερεά Ελλάδα",
+      "Πελοπόννησος",
+      "Κρήτη",
+      "Νησιά Αιγαίου",
+      "Επτάνησα",
+      "Ιόνια νησιά",
+      "νησιά Ιονίου"
+    ]
+  },
+  {
+    "id": "d-m126",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 57 x 10;",
+    "answer": "570"
+  },
+  {
+    "id": "d-g99",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη είναι αντωνυμία;",
+    "answer": "κανένας",
+    "options": [
+      "ώρα",
+      "κανένας",
+      "άσχημος",
+      "ζωγραφίζω"
+    ]
+  },
+  {
+    "id": "d-e41",
+    "category": "environment",
+    "type": "text",
+    "question": "Γράψε μία ανανεώσιμη πηγή ενέργειας.",
+    "answer": "ο ήλιος",
+    "acceptedAnswers": [
+      "ο άνεμος",
+      "το νερό",
+      "η γεωθερμία",
+      "η βιομάζα",
+      "ηλιακή ενέργεια",
+      "αιολική ενέργεια"
+    ]
+  },
+  {
+    "id": "d-g100",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική ενικού της λέξης «το τραπέζι».",
+    "answer": "του τραπεζιού",
+    "acceptedAnswers": [
+      "τραπεζιού"
+    ]
+  },
+  {
+    "id": "d-s65",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: ___κεανός",
+    "answer": "ωκεανός"
+  },
+  {
+    "id": "d-e42",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιος πλανήτης βρίσκεται πιο κοντά στον Ήλιο;",
+    "answer": "ο Ερμής",
+    "options": [
+      "η Γη",
+      "ο Ερμής",
+      "η Αφροδίτη",
+      "ο Άρης"
+    ]
+  },
+  {
+    "id": "d-g101",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «φτιάχνω» στον Αόριστο γίνεται:",
+    "answer": "έφτιαξα",
+    "acceptedAnswers": [
+      "έφτιαξε"
+    ]
+  },
+  {
+    "id": "d-s66",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "βασίλισσα",
+    "options": [
+      "βασίλισσα",
+      "βασίλισα"
+    ]
+  },
+  {
+    "id": "d-g102",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «ψάχνω» στον Μέλλοντα γίνεται:",
+    "answer": "θα ψάξω",
+    "acceptedAnswers": [
+      "θα ψάξει"
+    ]
+  },
+  {
+    "id": "d-s67",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: γε___γραφία",
+    "answer": "γεωγραφία"
+  },
+  {
+    "id": "d-m127",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 6332 + 3502;",
+    "answer": "9834",
+    "options": [
+      "9734",
+      "9844",
+      "9934",
+      "9834"
+    ]
+  },
+  {
+    "id": "d-g103",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική ενικού της λέξης «ο ουρανός».",
+    "answer": "του ουρανού",
+    "acceptedAnswers": [
+      "ουρανού"
+    ]
+  },
+  {
+    "id": "d-g104",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε ένα συνώνυμο της λέξης «σιωπηλός».",
+    "answer": "αμίλητος"
+  },
+  {
+    "id": "d-s68",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: ___ρήνη",
+    "answer": "ειρήνη"
+  },
+  {
+    "id": "d-m128",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 32 x 7;",
+    "answer": "224",
+    "options": [
+      "224",
+      "217",
+      "294",
+      "231"
+    ]
+  },
+  {
+    "id": "d-m129",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Στρογγυλοποίησε τον αριθμό 6094 στην πλησιέστερη χιλιάδα.",
+    "answer": "6000",
+    "options": [
+      "6000",
+      "5000",
+      "7000",
+      "6094"
+    ]
+  },
+  {
+    "id": "d-m130",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Στρογγυλοποίησε τον αριθμό 8729 στην πλησιέστερη χιλιάδα.",
+    "answer": "9000",
+    "options": [
+      "9000",
+      "10000",
+      "8000",
+      "8729"
+    ]
+  },
+  {
+    "id": "d-m131",
+    "category": "math",
+    "type": "text",
+    "question": "Συμπλήρωσε το ισοδύναμο κλάσμα: 2/3 = ;/6",
+    "answer": "4"
+  },
+  {
+    "id": "d-g105",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «γελάω» στον Αόριστο γίνεται:",
+    "answer": "γέλασα",
+    "options": [
+      "γελούσα",
+      "έχω γελάσει",
+      "θα γελάσω",
+      "γέλασα"
+    ]
+  },
+  {
+    "id": "d-m132",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 787 + 1726;",
+    "answer": "2513",
+    "options": [
+      "2413",
+      "2613",
+      "2523",
+      "2513"
+    ]
+  },
+  {
+    "id": "d-m133",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα τετράγωνο έχει πλευρά 11 εκατοστά. Ποιο είναι το εμβαδόν του;",
+    "answer": "121 τ.εκ.",
+    "acceptedAnswers": [
+      "121",
+      "121 τ.εκ",
+      "121 τ.εκ.",
+      "121 τετραγωνικά εκατοστά"
+    ]
+  },
+  {
+    "id": "d-m134",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιο κλάσμα είναι μεγαλύτερο: 9/10 ή 7/10;",
+    "answer": "9/10",
+    "options": [
+      "7/10",
+      "9/10"
+    ]
+  },
+  {
+    "id": "d-g106",
+    "category": "grammar",
+    "type": "text",
+    "question": "Ποιος είναι ο συγκριτικός βαθμός του επιθέτου «όμορφος»;",
+    "answer": "ομορφότερος",
+    "acceptedAnswers": [
+      "πιο όμορφος"
+    ]
+  },
+  {
+    "id": "d-g107",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική πληθυντικού της λέξης «η θάλασσα».",
+    "answer": "των θαλασσών",
+    "acceptedAnswers": [
+      "θαλασσών"
+    ]
+  },
+  {
+    "id": "d-m135",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Στη διαίρεση 86 : 5, ποιο είναι το πηλίκο;",
+    "answer": "17",
+    "options": [
+      "1",
+      "16",
+      "18",
+      "17"
+    ]
+  },
+  {
+    "id": "d-m136",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 7538 - 3749;",
+    "answer": "3789",
+    "options": [
+      "3889",
+      "3689",
+      "3789",
+      "3799"
+    ]
+  },
+  {
+    "id": "d-m137",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Θανάσης μοιράζει εξίσου 102 καραμέλες σε 6 παιδιά. Πόσες παίρνει το καθένα;",
+    "answer": "17"
+  },
+  {
+    "id": "d-g108",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το αντίθετο της λέξης «λύνω»;",
+    "answer": "δένω",
+    "options": [
+      "πουλάω",
+      "ανεβαίνω",
+      "ψέμα",
+      "δένω"
+    ]
+  },
+  {
+    "id": "d-s69",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: βιταμίν___",
+    "answer": "βιταμίνη"
+  },
+  {
+    "id": "d-s70",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "διορθώνω",
+    "options": [
+      "διορθώνο",
+      "διορθώνω"
+    ]
+  },
+  {
+    "id": "d-m138",
+    "category": "math",
+    "type": "text",
+    "question": "Σε ένα θέατρο υπάρχουν 26 σειρές με 24 καθίσματα η καθεμία. Πόσα καθίσματα έχει συνολικά; (Αλέξανδρος θέλει να το υπολογίσει!)",
+    "answer": "624"
+  },
+  {
+    "id": "d-s71",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: ___πομονή",
+    "answer": "υπομονή"
+  },
+  {
+    "id": "d-s72",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "κίνδυνος",
+    "options": [
+      "κίνδυνος",
+      "κίνδηνος",
+      "κίνδινος"
+    ]
+  },
+  {
+    "id": "d-s73",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: αθλ___τής",
+    "answer": "αθλητής"
+  },
+  {
+    "id": "d-m139",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Στρογγυλοποίησε τον αριθμό 7216 στην πλησιέστερη εκατοντάδα.",
+    "answer": "7200",
+    "options": [
+      "7100",
+      "7216",
+      "7300",
+      "7200"
+    ]
+  },
+  {
+    "id": "d-m140",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 882 - 186;",
+    "answer": "696",
+    "options": [
+      "796",
+      "706",
+      "696",
+      "596"
+    ]
+  },
+  {
+    "id": "d-m141",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μεγαλύτερος; 8,4 ή 3,6;",
+    "answer": "8,4",
+    "options": [
+      "8,4",
+      "3,6"
+    ]
+  },
+  {
+    "id": "d-m142",
+    "category": "math",
+    "type": "text",
+    "question": "Στη διαίρεση 54 : 8, ποιο είναι το υπόλοιπο;",
+    "answer": "6"
+  },
+  {
+    "id": "d-m143",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 8,36€ + 12,78€;",
+    "answer": "21,14€",
+    "acceptedAnswers": [
+      "21,14",
+      "21.14",
+      "21,14€",
+      "21.14€",
+      "21,14 €"
+    ]
+  },
+  {
+    "id": "d-g109",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε ένα συνώνυμο της λέξης «γιατρός».",
+    "answer": "ιατρός"
+  },
+  {
+    "id": "d-m144",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Στρογγυλοποίησε τον αριθμό 1769 στην πλησιέστερη χιλιάδα.",
+    "answer": "2000",
+    "options": [
+      "2000",
+      "3000",
+      "1000",
+      "1769"
+    ]
+  },
+  {
+    "id": "d-m145",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Αντώνης μοιράζει εξίσου 164 καραμέλες σε 4 παιδιά. Πόσες παίρνει το καθένα;",
+    "answer": "41"
+  },
+  {
+    "id": "d-m146",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Συμπλήρωσε το ισοδύναμο κλάσμα: 1/3 = ;/12",
+    "answer": "4",
+    "options": [
+      "3",
+      "4",
+      "12",
+      "5"
+    ]
+  },
+  {
+    "id": "d-s74",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "βιβλιοθήκη",
+    "options": [
+      "βιβλιοθήκι",
+      "βιβλιοθήκυ",
+      "βιβλιοθήκη"
+    ]
+  },
+  {
+    "id": "d-g110",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο υπερθετικός βαθμός του επιθέτου «κρύος»;",
+    "answer": "κρυότατος",
+    "options": [
+      "κρυότερος",
+      "κρυότατος",
+      "κρύος",
+      "μέγιστος"
+    ]
+  },
+  {
+    "id": "d-g111",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «πίνω» στον Παρατατικό γίνεται:",
+    "answer": "έπινα",
+    "options": [
+      "ήπια",
+      "έπινα",
+      "θα πιω",
+      "έχω πιει"
+    ]
+  },
+  {
+    "id": "d-m147",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 1621 - 1410;",
+    "answer": "211",
+    "options": [
+      "221",
+      "311",
+      "211",
+      "111"
+    ]
+  },
+  {
+    "id": "d-m148",
+    "category": "math",
+    "type": "text",
+    "question": "Σε ένα θέατρο υπάρχουν 14 σειρές με 14 καθίσματα η καθεμία. Πόσα καθίσματα έχει συνολικά; (Στέλιος θέλει να το υπολογίσει!)",
+    "answer": "196"
+  },
+  {
+    "id": "d-s75",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "βοήθεια",
+    "options": [
+      "βοήθοια",
+      "βοήθηα",
+      "βοήθια",
+      "βοήθεια"
+    ]
+  },
+  {
+    "id": "d-s76",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: θά___ος",
+    "answer": "θάρρος"
+  },
+  {
+    "id": "d-m149",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 4315 - 2352;",
+    "answer": "1963",
+    "options": [
+      "1863",
+      "1973",
+      "2063",
+      "1963"
+    ]
+  },
+  {
+    "id": "d-s77",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: βοήθ___α",
+    "answer": "βοήθεια"
+  },
+  {
+    "id": "d-g112",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική ενικού της λέξης «η τάξη».",
+    "answer": "της τάξης",
+    "acceptedAnswers": [
+      "τάξης"
+    ]
+  },
+  {
+    "id": "d-m150",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 2453 + 2644;",
+    "answer": "5097"
+  },
+  {
+    "id": "d-m151",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 70 x 7;",
+    "answer": "490"
+  },
+  {
+    "id": "d-s78",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ήπειρος",
+    "options": [
+      "ήποιρος",
+      "ήπιρος",
+      "ήπηρος",
+      "ήπειρος"
+    ]
+  },
+  {
+    "id": "d-s79",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "προτεραιότητα",
+    "options": [
+      "προτεραιότητα",
+      "προτερεότητα"
+    ]
+  },
+  {
+    "id": "d-g113",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «απαντάω» στον Αόριστο γίνεται:",
+    "answer": "απάντησα",
+    "acceptedAnswers": [
+      "απάντησε"
+    ]
+  },
+  {
+    "id": "d-g114",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε το αντίθετο της λέξης «τεμπέλης».",
+    "answer": "εργατικός"
+  },
+  {
+    "id": "d-m152",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 514 - 296;",
+    "answer": "218",
+    "options": [
+      "118",
+      "228",
+      "218",
+      "318"
+    ]
+  },
+  {
+    "id": "d-m153",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πώς γράφεται το κλάσμα 85/100 ως δεκαδικός αριθμός;",
+    "answer": "0,85",
+    "options": [
+      "0,09",
+      "85",
+      "8,5",
+      "0,85"
+    ]
+  },
+  {
+    "id": "d-g115",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το αντίθετο της λέξης «σκλαβιά»;",
+    "answer": "ελευθερία",
+    "options": [
+      "ελευθερία",
+      "ομορφιά",
+      "ψέμα",
+      "λύνω"
+    ]
+  },
+  {
+    "id": "d-m154",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 1897 + 276;",
+    "answer": "2173"
+  },
+  {
+    "id": "d-m155",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Μιχάλης είχε 900€. Ξόδεψε 129€ για ρούχα και 176€ για παπούτσια. Πόσα ευρώ έμειναν;",
+    "answer": "595€",
+    "acceptedAnswers": [
+      "595",
+      "595 ευρώ",
+      "595€"
+    ]
+  },
+  {
+    "id": "d-g116",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «δουλεύω» στον Αόριστο γίνεται:",
+    "answer": "δούλεψα",
+    "acceptedAnswers": [
+      "δούλεψε"
+    ]
+  },
+  {
+    "id": "d-g117",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε ένα συνώνυμο της λέξης «εορτή».",
+    "answer": "γιορτή"
+  },
+  {
+    "id": "d-m156",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 3307 - 1356;",
+    "answer": "1951",
+    "options": [
+      "1951",
+      "1851",
+      "1961",
+      "2051"
+    ]
+  },
+  {
+    "id": "d-g118",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο υπερθετικός βαθμός του επιθέτου «καλός»;",
+    "answer": "άριστος",
+    "options": [
+      "καλός",
+      "άριστος",
+      "καλύτερος",
+      "μέγιστος"
+    ]
+  },
+  {
+    "id": "d-g119",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιο είναι το αντίθετο της λέξης «ξεχνάω»;",
+    "answer": "θυμάμαι",
+    "options": [
+      "δένω",
+      "γενναιόδωρος",
+      "αδειάζω",
+      "θυμάμαι"
+    ]
+  },
+  {
+    "id": "d-g120",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική ενικού της λέξης «η χώρα».",
+    "answer": "της χώρας",
+    "acceptedAnswers": [
+      "χώρας"
+    ]
+  },
+  {
+    "id": "d-m157",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 6500 : 100;",
+    "answer": "65",
+    "options": [
+      "650",
+      "7",
+      "66",
+      "65"
+    ]
+  },
+  {
+    "id": "d-m158",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα ορθογώνιο έχει μήκος 23 και πλάτος 11 εκατοστά. Ποιο είναι το εμβαδόν του;",
+    "answer": "253 τ.εκ.",
+    "options": [
+      "68 τ.εκ.",
+      "253 τ.εκ.",
+      "276 τ.εκ.",
+      "242 τ.εκ."
+    ]
+  },
+  {
+    "id": "d-m159",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 577 - 283;",
+    "answer": "294",
+    "options": [
+      "304",
+      "394",
+      "194",
+      "294"
+    ]
+  },
+  {
+    "id": "d-s80",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "λιγότερο",
+    "options": [
+      "λυγότερο",
+      "ληγότερο",
+      "λιγότερο"
+    ]
+  },
+  {
+    "id": "d-s81",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "περιοδικό",
+    "options": [
+      "περυοδικό",
+      "περιοδικό",
+      "περηοδικό"
+    ]
+  },
+  {
+    "id": "d-m160",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Στη διαίρεση 104 : 6, ποιο είναι το υπόλοιπο;",
+    "answer": "2",
+    "options": [
+      "17",
+      "4",
+      "3",
+      "2"
+    ]
+  },
+  {
+    "id": "d-g121",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «τρέχω» στον Αόριστο γίνεται:",
+    "answer": "έτρεξα",
+    "acceptedAnswers": [
+      "έτρεξε"
+    ]
+  },
+  {
+    "id": "d-m161",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Στρογγυλοποίησε τον αριθμό 5273 στην πλησιέστερη χιλιάδα.",
+    "answer": "5000",
+    "options": [
+      "5000",
+      "4000",
+      "6000",
+      "5273"
+    ]
+  },
+  {
+    "id": "d-s82",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "καρδιά",
+    "options": [
+      "καρδιά",
+      "καρδυά",
+      "καρδηά"
+    ]
+  },
+  {
+    "id": "d-m162",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 8424 - 958;",
+    "answer": "7466",
+    "options": [
+      "7466",
+      "7566",
+      "7366",
+      "7476"
+    ]
+  },
+  {
+    "id": "d-s83",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "κολυμβητήριο",
+    "options": [
+      "κολυμβιτήριο",
+      "κολυμβητήριο",
+      "κολυμβυτήριο"
+    ]
+  },
+  {
+    "id": "d-s84",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: σύννεφ___",
+    "answer": "σύννεφο"
+  },
+  {
+    "id": "d-m163",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μεγαλύτερος; 7,3 ή 2,9;",
+    "answer": "7,3",
+    "options": [
+      "2,9",
+      "7,3"
+    ]
+  },
+  {
+    "id": "d-m164",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα ορθογώνιο έχει μήκος 15 και πλάτος 6 εκατοστά. Ποιο είναι το εμβαδόν του;",
+    "answer": "90 τ.εκ.",
+    "options": [
+      "84 τ.εκ.",
+      "90 τ.εκ.",
+      "42 τ.εκ.",
+      "105 τ.εκ."
+    ]
+  },
+  {
+    "id": "d-m165",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 14 x 9;",
+    "answer": "126"
+  },
+  {
+    "id": "d-s85",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "υγρασία",
+    "options": [
+      "ιγρασία",
+      "ηγρασία",
+      "υγρασία"
+    ]
+  },
+  {
+    "id": "d-m166",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 8482 + 1430;",
+    "answer": "9912"
+  },
+  {
+    "id": "d-m167",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιο κλάσμα ισούται με μία ολόκληρη μονάδα;",
+    "answer": "3/3",
+    "options": [
+      "1/3",
+      "2/3",
+      "3/4",
+      "3/3"
+    ]
+  },
+  {
+    "id": "d-m168",
+    "category": "math",
+    "type": "text",
+    "question": "Σε ένα θέατρο υπάρχουν 29 σειρές με 21 καθίσματα η καθεμία. Πόσα καθίσματα έχει συνολικά; (Ζωή θέλει να το υπολογίσει!)",
+    "answer": "609"
+  },
+  {
+    "id": "d-g122",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «δουλεύω» στον Παρακείμενο γίνεται:",
+    "answer": "έχω δουλέψει",
+    "options": [
+      "δούλεψα",
+      "έχω δουλέψει",
+      "θα δουλέψω",
+      "δούλευα"
+    ]
+  },
+  {
+    "id": "d-g123",
+    "category": "grammar",
+    "type": "text",
+    "question": "Ποιος είναι ο υπερθετικός βαθμός του επιθέτου «νέος»;",
+    "answer": "νεότατος",
+    "acceptedAnswers": [
+      "ο πιο νέος",
+      "πολύ νέος",
+      "ο νεότερος"
+    ]
+  },
+  {
+    "id": "d-m169",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 84 x 6;",
+    "answer": "504",
+    "options": [
+      "498",
+      "564",
+      "504",
+      "510"
+    ]
+  },
+  {
+    "id": "d-m170",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 5204 - 1049;",
+    "answer": "4155",
+    "options": [
+      "4155",
+      "4055",
+      "4255",
+      "4165"
+    ]
+  },
+  {
+    "id": "d-g124",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «γράφω» στον Μέλλοντα γίνεται:",
+    "answer": "θα γράψω",
+    "options": [
+      "έγραφα",
+      "έχω γράψει",
+      "θα γράψω",
+      "έγραψα"
+    ]
+  },
+  {
+    "id": "d-s86",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: κιν___ματογράφος",
+    "answer": "κινηματογράφος"
+  },
+  {
+    "id": "d-m171",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μεγαλύτερος; 8,9 ή 4,4;",
+    "answer": "8,9",
+    "options": [
+      "8,9",
+      "4,4"
+    ]
+  },
+  {
+    "id": "d-m172",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μεγαλύτερος; 6,4 ή 2,8;",
+    "answer": "6,4",
+    "options": [
+      "2,8",
+      "6,4"
+    ]
+  },
+  {
+    "id": "d-s87",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "υγιεινή",
+    "options": [
+      "υγιινή",
+      "υγιηνή",
+      "υγιοινή",
+      "υγιεινή"
+    ]
+  },
+  {
+    "id": "d-s88",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ενδιαφέρον",
+    "options": [
+      "ενδιαφέρον",
+      "ενδηαφέρον",
+      "ενδυαφέρον"
+    ]
+  },
+  {
+    "id": "d-m173",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 5010 - 2105;",
+    "answer": "2905",
+    "options": [
+      "2905",
+      "2915",
+      "2805",
+      "3005"
+    ]
+  },
+  {
+    "id": "d-g125",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο συγκριτικός βαθμός του επιθέτου «κρύος»;",
+    "answer": "κρυότερος",
+    "options": [
+      "κρύος",
+      "κρυότερος",
+      "κρυότατος",
+      "ακριβότερος"
+    ]
+  },
+  {
+    "id": "d-m174",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 55 x 10;",
+    "answer": "550",
+    "options": [
+      "560",
+      "550",
+      "650",
+      "540"
+    ]
+  },
+  {
+    "id": "d-m175",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 2946 - 1569;",
+    "answer": "1377"
+  },
+  {
+    "id": "d-e43",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Πού συνεχίζεται η χώνεψη της τροφής μετά το στόμα;",
+    "answer": "στο στομάχι",
+    "options": [
+      "στον εγκέφαλο",
+      "στους πνεύμονες",
+      "στο στομάχι",
+      "στην καρδιά"
+    ]
+  },
+  {
+    "id": "d-g126",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική ενικού της λέξης «η αδελφή».",
+    "answer": "της αδελφής",
+    "acceptedAnswers": [
+      "αδελφής"
+    ]
+  },
+  {
+    "id": "d-e44",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Σε ποιο νησιωτικό σύμπλεγμα ανήκει η Κέρκυρα;",
+    "answer": "στα Επτάνησα",
+    "options": [
+      "στις Σποράδες",
+      "στις Κυκλάδες",
+      "στα Δωδεκάνησα",
+      "στα Επτάνησα"
+    ]
+  },
+  {
+    "id": "d-m176",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 5037 + 3328;",
+    "answer": "8365"
+  },
+  {
+    "id": "d-g127",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο συγκριτικός βαθμός του επιθέτου «πλούσιος»;",
+    "answer": "πλουσιότερος",
+    "options": [
+      "χειρότερος",
+      "πλούσιος",
+      "πλουσιότερος",
+      "πλουσιότατος"
+    ]
+  },
+  {
+    "id": "d-g128",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο υπερθετικός βαθμός του επιθέτου «γρήγορος»;",
+    "answer": "γρηγορότατος",
+    "options": [
+      "μέγιστος",
+      "γρήγορος",
+      "γρηγορότατος",
+      "γρηγορότερος"
+    ]
+  },
+  {
+    "id": "d-m177",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 578 + 3543;",
+    "answer": "4121",
+    "options": [
+      "4131",
+      "4121",
+      "4021",
+      "4221"
+    ]
+  },
+  {
+    "id": "d-s89",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: α___τοκράτορας",
+    "answer": "αυτοκράτορας"
+  },
+  {
+    "id": "d-m178",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 8491 - 5709;",
+    "answer": "2782"
+  },
+  {
+    "id": "d-g129",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια λέξη είναι αντωνυμία;",
+    "answer": "εσύ",
+    "options": [
+      "βρίσκω",
+      "ψαράς",
+      "εσύ",
+      "όμορφος"
+    ]
+  },
+  {
+    "id": "d-s90",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "χερσόνησος",
+    "options": [
+      "χερσόνισος",
+      "χερσόνυσος",
+      "χερσόνησος"
+    ]
+  },
+  {
+    "id": "d-m179",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιος αριθμός είναι μεγαλύτερος; 1,6 ή 8,1;",
+    "answer": "8,1",
+    "options": [
+      "1,6",
+      "8,1"
+    ]
+  },
+  {
+    "id": "d-g130",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η γενική ενικού της λέξης «ο ουρανός»;",
+    "answer": "του ουρανού",
+    "options": [
+      "του ουρανού",
+      "των ουρανών",
+      "του δέντρου",
+      "ο ουρανός"
+    ]
+  },
+  {
+    "id": "d-m180",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα ορθογώνιο έχει μήκος 17 και πλάτος 3 εκατοστά. Ποιο είναι το εμβαδόν του;",
+    "answer": "51 τ.εκ.",
+    "options": [
+      "68 τ.εκ.",
+      "51 τ.εκ.",
+      "48 τ.εκ.",
+      "40 τ.εκ."
+    ]
+  },
+  {
+    "id": "d-s91",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: φυσ___κή",
+    "answer": "φυσική"
+  },
+  {
+    "id": "d-m181",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 137 x 4;",
+    "answer": "548",
+    "options": [
+      "544",
+      "588",
+      "552",
+      "548"
+    ]
+  },
+  {
+    "id": "d-m182",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 1425 + 2392;",
+    "answer": "3817",
+    "options": [
+      "3827",
+      "3917",
+      "3817",
+      "3717"
+    ]
+  },
+  {
+    "id": "d-s92",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "διαγώνισμα",
+    "options": [
+      "διαγώνισμα",
+      "δηαγώνισμα",
+      "δυαγώνισμα"
+    ]
+  },
+  {
+    "id": "d-m183",
+    "category": "math",
+    "type": "text",
+    "question": "Η ώρα είναι 7:15. Τι ώρα θα είναι σε 20 λεπτά;",
+    "answer": "7:35"
+  },
+  {
+    "id": "d-s93",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "πληθυσμός",
+    "options": [
+      "πλιθυσμός",
+      "πλυθυσμός",
+      "πληθυσμός"
+    ]
+  },
+  {
+    "id": "d-m184",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 1692 + 3756;",
+    "answer": "5448",
+    "options": [
+      "5348",
+      "5448",
+      "5548",
+      "5458"
+    ]
+  },
+  {
+    "id": "d-m185",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα ορθογώνιο έχει μήκος 7 και πλάτος 5 εκατοστά. Ποιο είναι το εμβαδόν του;",
+    "answer": "35 τ.εκ.",
+    "acceptedAnswers": [
+      "35",
+      "35 τ.εκ",
+      "35 τ.εκ.",
+      "35 τετραγωνικά εκατοστά"
+    ]
+  },
+  {
+    "id": "d-g131",
+    "category": "grammar",
+    "type": "text",
+    "question": "Ποιος είναι ο συγκριτικός βαθμός του επιθέτου «ζεστός»;",
+    "answer": "ζεστότερος",
+    "acceptedAnswers": [
+      "πιο ζεστός"
+    ]
+  },
+  {
+    "id": "d-m186",
+    "category": "math",
+    "type": "text",
+    "question": "Η Χριστίνα είχε 400€. Ξόδεψε 129€ για ρούχα και 81€ για παπούτσια. Πόσα ευρώ έμειναν;",
+    "answer": "190€",
+    "acceptedAnswers": [
+      "190",
+      "190 ευρώ",
+      "190€"
+    ]
+  },
+  {
+    "id": "d-m187",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ένα ορθογώνιο έχει μήκος 3 και πλάτος 4 εκατοστά. Ποιο είναι το εμβαδόν του;",
+    "answer": "12 τ.εκ.",
+    "options": [
+      "12 τ.εκ.",
+      "14 τ.εκ.",
+      "15 τ.εκ.",
+      "8 τ.εκ."
+    ]
+  },
+  {
+    "id": "d-g132",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο υπερθετικός βαθμός του επιθέτου «παλιός»;",
+    "answer": "παλιότατος",
+    "options": [
+      "ακριβότατος",
+      "παλιότατος",
+      "παλιός",
+      "παλιότερος"
+    ]
+  },
+  {
+    "id": "d-m188",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 56 x 100;",
+    "answer": "5600"
+  },
+  {
+    "id": "d-g133",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η γενική πληθυντικού της λέξης «το τραπέζι»;",
+    "answer": "των τραπεζιών",
+    "options": [
+      "των πατέρων",
+      "των τραπεζιών",
+      "το τραπέζι",
+      "του τραπεζιού"
+    ]
+  },
+  {
+    "id": "d-m189",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 6818 + 2923;",
+    "answer": "9741",
+    "options": [
+      "9741",
+      "9841",
+      "9641",
+      "9751"
+    ]
+  },
+  {
+    "id": "d-s94",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "γυμναστήριο",
+    "options": [
+      "γυμναστήριο",
+      "γυμναστήρηο",
+      "γυμναστήρυο"
+    ]
+  },
+  {
+    "id": "d-g134",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποια είναι η γενική πληθυντικού της λέξης «η χώρα»;",
+    "answer": "των χωρών",
+    "options": [
+      "της χώρας",
+      "των ανθρώπων",
+      "των χωρών",
+      "η χώρα"
+    ]
+  },
+  {
+    "id": "d-g135",
+    "category": "grammar",
+    "type": "text",
+    "question": "Γράψε τη γενική πληθυντικού της λέξης «το τραπέζι».",
+    "answer": "των τραπεζιών",
+    "acceptedAnswers": [
+      "τραπεζιών"
+    ]
+  },
+  {
+    "id": "d-s95",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: λ___μάνι",
+    "answer": "λιμάνι"
+  },
+  {
+    "id": "d-m190",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Στη διαίρεση 73 : 8, ποιο είναι το υπόλοιπο;",
+    "answer": "1",
+    "options": [
+      "1",
+      "9",
+      "2",
+      "7"
+    ]
+  },
+  {
+    "id": "d-m191",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 1812 - 1142;",
+    "answer": "670",
+    "options": [
+      "770",
+      "670",
+      "680",
+      "570"
+    ]
+  },
+  {
+    "id": "d-e45",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια από τις παρακάτω είναι ανανεώσιμη πηγή ενέργειας;",
+    "answer": "ο ήλιος",
+    "options": [
+      "το πετρέλαιο",
+      "το φυσικό αέριο",
+      "ο ήλιος",
+      "το κάρβουνο"
+    ]
+  },
+  {
+    "id": "d-g136",
+    "category": "grammar",
+    "type": "text",
+    "question": "Ποιος είναι ο υπερθετικός βαθμός του επιθέτου «ελαφρύς»;",
+    "answer": "ελαφρύτατος",
+    "acceptedAnswers": [
+      "ο πιο ελαφρύς",
+      "πολύ ελαφρύς",
+      "ο ελαφρύτερος"
+    ]
+  },
+  {
+    "id": "d-s96",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "περιβάλλον",
+    "options": [
+      "περιβάλον",
+      "περιβάλλον"
+    ]
+  },
+  {
+    "id": "d-s97",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "ελευθερία",
+    "options": [
+      "ελευθερία",
+      "ελειθερία",
+      "ελεηθερία"
+    ]
+  },
+  {
+    "id": "d-m192",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 1228 - 260;",
+    "answer": "968",
+    "options": [
+      "978",
+      "968",
+      "868",
+      "1068"
+    ]
+  },
+  {
+    "id": "d-m193",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Ποιο κλάσμα ισούται με μία ολόκληρη μονάδα;",
+    "answer": "6/6",
+    "options": [
+      "5/6",
+      "6/7",
+      "6/6",
+      "1/6"
+    ]
+  },
+  {
+    "id": "d-g137",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «φωνάζω» στον Αόριστο γίνεται:",
+    "answer": "φώναξα",
+    "options": [
+      "θα φωνάξω",
+      "φώναξα",
+      "έχω φωνάξει",
+      "φώναζα"
+    ]
+  },
+  {
+    "id": "d-m194",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Στρογγυλοποίησε τον αριθμό 7077 στην πλησιέστερη εκατοντάδα.",
+    "answer": "7100",
+    "options": [
+      "7077",
+      "7100",
+      "7200",
+      "7000"
+    ]
+  },
+  {
+    "id": "d-m195",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 1753 - 552;",
+    "answer": "1201"
+  },
+  {
+    "id": "d-m196",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Στρογγυλοποίησε τον αριθμό 7742 στην πλησιέστερη εκατοντάδα.",
+    "answer": "7700",
+    "options": [
+      "7700",
+      "7742",
+      "7600",
+      "7800"
+    ]
+  },
+  {
+    "id": "d-m197",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Συμπλήρωσε το ισοδύναμο κλάσμα: 1/2 = ;/8",
+    "answer": "4",
+    "options": [
+      "3",
+      "4",
+      "8",
+      "5"
+    ]
+  },
+  {
+    "id": "d-e46",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποια θάλασσα βρέχει τη δυτική Ελλάδα;",
+    "answer": "το Ιόνιο",
+    "options": [
+      "η Μαύρη Θάλασσα",
+      "το Αιγαίο",
+      "το Λιβυκό",
+      "το Ιόνιο"
+    ]
+  },
+  {
+    "id": "d-m198",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 7685 - 2233;",
+    "answer": "5452",
+    "options": [
+      "5462",
+      "5452",
+      "5352",
+      "5552"
+    ]
+  },
+  {
+    "id": "d-m199",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 2281 - 1779;",
+    "answer": "502"
+  },
+  {
+    "id": "d-s98",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: ηφαίστ___ο",
+    "answer": "ηφαίστειο"
+  },
+  {
+    "id": "d-m200",
+    "category": "math",
+    "type": "text",
+    "question": "Στη διαίρεση 262 : 9, ποιο είναι το πηλίκο;",
+    "answer": "29"
+  },
+  {
+    "id": "d-m201",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 57 x 100;",
+    "answer": "5700",
+    "options": [
+      "5700",
+      "5800",
+      "5600",
+      "6700"
+    ]
+  },
+  {
+    "id": "d-s99",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: πλ___μμύρα",
+    "answer": "πλημμύρα"
+  },
+  {
+    "id": "d-m202",
+    "category": "math",
+    "type": "text",
+    "question": "Ο Πέτρος είχε 500€. Ξόδεψε 84€ για ρούχα και 195€ για παπούτσια. Πόσα ευρώ έμειναν;",
+    "answer": "221€",
+    "acceptedAnswers": [
+      "221",
+      "221 ευρώ",
+      "221€"
+    ]
+  },
+  {
+    "id": "d-g138",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Το ρήμα «κλαίω» στον Μέλλοντα γίνεται:",
+    "answer": "θα κλάψω",
+    "options": [
+      "έχω κλάψει",
+      "έκλαιγα",
+      "θα κλάψω",
+      "έκλαψα"
+    ]
+  },
+  {
+    "id": "d-m203",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Στη διαίρεση 231 : 9, ποιο είναι το υπόλοιπο;",
+    "answer": "6",
+    "options": [
+      "6",
+      "7",
+      "25",
+      "3"
+    ]
+  },
+  {
+    "id": "d-m204",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 17 x 10;",
+    "answer": "170",
+    "options": [
+      "160",
+      "270",
+      "180",
+      "170"
+    ]
+  },
+  {
+    "id": "d-m205",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 5254 + 790;",
+    "answer": "6044",
+    "options": [
+      "6054",
+      "6044",
+      "6144",
+      "5944"
+    ]
+  },
+  {
+    "id": "d-s100",
+    "category": "spelling",
+    "type": "multiple-choice",
+    "question": "Ποια γραφή είναι σωστή;",
+    "answer": "βιταμίνη",
+    "options": [
+      "βιταμίνι",
+      "βιταμίνυ",
+      "βιταμίνη"
+    ]
+  },
+  {
+    "id": "d-e47",
+    "category": "environment",
+    "type": "multiple-choice",
+    "question": "Ποιο αρχαίο θέατρο είναι διάσημο για την ακουστική του;",
+    "answer": "της Επιδαύρου",
+    "options": [
+      "της Επιδαύρου",
+      "των Δελφών",
+      "του Ηρωδείου",
+      "της Δωδώνης"
+    ]
+  },
+  {
+    "id": "d-s101",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: μήν___μα",
+    "answer": "μήνυμα"
+  },
+  {
+    "id": "d-m206",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 9000 : 100;",
+    "answer": "90",
+    "options": [
+      "9",
+      "90",
+      "900",
+      "91"
+    ]
+  },
+  {
+    "id": "d-m207",
+    "category": "math",
+    "type": "text",
+    "question": "Ένα ορθογώνιο έχει μήκος 3 και πλάτος 23 εκατοστά. Ποιο είναι το εμβαδόν του;",
+    "answer": "69 τ.εκ.",
+    "acceptedAnswers": [
+      "69",
+      "69 τ.εκ",
+      "69 τ.εκ.",
+      "69 τετραγωνικά εκατοστά"
+    ]
+  },
+  {
+    "id": "d-m208",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 4935 - 4183;",
+    "answer": "752"
+  },
+  {
+    "id": "d-g139",
+    "category": "grammar",
+    "type": "text",
+    "question": "Το ρήμα «χτενίζω» στον Αόριστο γίνεται:",
+    "answer": "χτένισα",
+    "acceptedAnswers": [
+      "χτένισε"
+    ]
+  },
+  {
+    "id": "d-m209",
+    "category": "math",
+    "type": "text",
+    "question": "Πόσο κάνει 6762 - 667;",
+    "answer": "6095"
+  },
+  {
+    "id": "d-g140",
+    "category": "grammar",
+    "type": "multiple-choice",
+    "question": "Ποιος είναι ο συγκριτικός βαθμός του επιθέτου «φτωχός»;",
+    "answer": "φτωχότερος",
+    "options": [
+      "μεγαλύτερος",
+      "φτωχότερος",
+      "φτωχότατος",
+      "φτωχός"
+    ]
+  },
+  {
+    "id": "d-s102",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: ___πεύθυνος",
+    "answer": "υπεύθυνος"
+  },
+  {
+    "id": "d-s103",
+    "category": "spelling",
+    "type": "text",
+    "question": "Συμπλήρωσε σωστά τη λέξη: θερμ___κρασία",
+    "answer": "θερμοκρασία"
+  },
+  {
+    "id": "d-m210",
+    "category": "math",
+    "type": "multiple-choice",
+    "question": "Πόσο κάνει 346 x 3;",
+    "answer": "1038",
+    "options": [
+      "1038",
+      "1068",
+      "1035",
+      "1041"
+    ]
+  }
+]

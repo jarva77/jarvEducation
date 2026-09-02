@@ -1,11 +1,12 @@
 import { ref } from 'vue'
-import type { AnsweredQuestion, Category } from '../types'
+import type { AnsweredQuestion, Category, Grade } from '../types'
 
 export interface HistoryEntry {
   date: string // ISO timestamp
   total: number
   correct: number
   percentage: number
+  grade?: Grade
   byCategory: Partial<Record<Category, { correct: number; total: number }>>
 }
 
@@ -33,7 +34,7 @@ function persist() {
 }
 
 export function useHistory() {
-  function recordResult(answers: AnsweredQuestion[]) {
+  function recordResult(answers: AnsweredQuestion[], grade?: Grade) {
     if (answers.length === 0) return
     const correct = answers.filter((a) => a.isCorrect).length
     const byCategory: HistoryEntry['byCategory'] = {}
@@ -48,6 +49,7 @@ export function useHistory() {
       total: answers.length,
       correct,
       percentage: Math.round((correct / answers.length) * 100),
+      grade,
       byCategory,
     })
     persist()

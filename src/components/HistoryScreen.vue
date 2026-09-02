@@ -2,7 +2,7 @@
 import { computed, ref } from 'vue'
 import { useHistory } from '../composables/useHistory'
 import type { Category } from '../types'
-import { CATEGORY_EMOJI, CATEGORY_LABELS } from '../types'
+import { CATEGORY_EMOJI, CATEGORY_LABELS, GRADE_LABELS } from '../types'
 
 const emit = defineEmits<{ back: [] }>()
 const { history, clearHistory } = useHistory()
@@ -109,7 +109,9 @@ function onClear() {
       <div class="history-list">
         <div v-for="(e, i) in entries" :key="i" class="history-item">
           <div class="history-item-main">
-            <span class="history-date">{{ formatDate(e.date) }}</span>
+            <span class="history-date">
+              {{ formatDate(e.date) }}<template v-if="e.grade"> · {{ GRADE_LABELS[e.grade] }}</template>
+            </span>
             <span class="history-score">{{ e.correct }} / {{ e.total }}</span>
             <span class="history-pct" :style="{ color: barColor(e.percentage) }">{{ e.percentage }}%</span>
           </div>

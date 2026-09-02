@@ -1,4 +1,10 @@
 export type Category = 'math' | 'grammar' | 'spelling' | 'environment'
+export type Grade = 'c' | 'd'
+
+export const GRADE_LABELS: Record<Grade, string> = {
+  c: "Γ' Δημοτικού",
+  d: "Δ' Δημοτικού",
+}
 export type QuestionType = 'multiple-choice' | 'text'
 
 export interface Question {

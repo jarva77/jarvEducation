@@ -5,7 +5,8 @@ import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
-const OUT_PATH = join(__dirname, '../src/data/questions.json')
+const OUT_C = join(__dirname, '../src/data/questions-c.json')
+const OUT_D = join(__dirname, '../src/data/questions-d.json')
 
 // ---------- seeded RNG ----------
 function mulberry32(seed) {
@@ -35,6 +36,8 @@ function pickN(arr, n) {
 
 const seenQuestions = new Set()
 let idCounters = { math: 0, grammar: 0, spelling: 0, environment: 0 }
+// 'c' (Γ') or 'd' (Δ') — prefixes ids so feedback docs never collide across grades
+let gradePrefix = 'c'
 
 function addQ(bucket, category, type, question, answer, options, acceptedAnswers) {
   const key = category + '|' + question + '|' + answer
@@ -42,7 +45,7 @@ function addQ(bucket, category, type, question, answer, options, acceptedAnswers
   seenQuestions.add(key)
   idCounters[category]++
   const q = {
-    id: category[0] + idCounters[category],
+    id: `${gradePrefix}-${category[0]}${idCounters[category]}`,
     category,
     type,
     question,
@@ -892,8 +895,8 @@ function genPartsOfSpeech(n) {
 }
 
 // ---- ENVIRONMENT ----
-function genEnvironment() {
-  for (const [q, answer, wrongs, accepted] of ENVIRONMENT_QUESTIONS) {
+function genEnvironment(list = ENVIRONMENT_QUESTIONS) {
+  for (const [q, answer, wrongs, accepted] of list) {
     if (wrongs) {
       addQ(environment, 'environment', 'multiple-choice', q, answer, mcOptions(answer, wrongs))
     } else {
@@ -903,8 +906,8 @@ function genEnvironment() {
 }
 
 // ---- SPELLING ----
-function genSpelling(n, mcRatio) {
-  const withVariants = SPELLING_WORDS.map((w) => ({ w, v: buildSpellingVariants(w) })).filter((x) => x.v)
+function genSpelling(n, mcRatio, wordList = SPELLING_WORDS) {
+  const withVariants = wordList.map((w) => ({ w, v: buildSpellingVariants(w) })).filter((x) => x.v)
   let made = 0, guard = 0
   while (made < n && guard < n * 30) {
     guard++
@@ -927,57 +930,535 @@ function genSpelling(n, mcRatio) {
 }
 
 // ==================================================================
-// ASSEMBLE — targets: 450 math / 300 grammar / 250 spelling, ~65% MC
+// Δ' ΔΗΜΟΤΙΚΟΥ — data & generators
 // ==================================================================
 
-genAddition(75, 0.6)
-genSubtraction(75, 0.6)
-genMultiplication(75, 0.65)
-genDivision(60, 0.65)
-genRounding(40)
-genGeometry(35, 0.85)
-genMeasurement(30, 0.6)
-genTime(25, 0.55)
-genComparisonAndSequence(35, 0.7)
-genWordProblems(50, 0.3)
-
-genArticles(70)
-genGender(70)
-genPluralText(60)
-genNumber(40)
-genVerbTenses(60, 0.55)
-genSynonyms(45, 0.55)
-genAntonyms(40, 0.6)
-genSentenceTypes(24)
-genPartsOfSpeech(50)
-
-genSpelling(250, 0.7)
-genEnvironment()
-
-// Trim each bucket to its target size (generators intentionally overshoot a bit);
-// spelling absorbs the remainder so the total lands exactly on 1000.
-const TOTAL_TARGET = 1000
-const MATH_TARGET = 420
-const GRAMMAR_TARGET = 280
-const finalEnvironment = shuffle(environment)
-const SPELLING_TARGET = TOTAL_TARGET - MATH_TARGET - GRAMMAR_TARGET - finalEnvironment.length
-
-const finalMath = shuffle(math).slice(0, MATH_TARGET)
-const finalGrammar = shuffle(grammar).slice(0, GRAMMAR_TARGET)
-const finalSpelling = shuffle(spelling).slice(0, SPELLING_TARGET)
-
-const all = shuffle([...finalMath, ...finalGrammar, ...finalSpelling, ...finalEnvironment])
-
-// re-number ids sequentially per category for readability
-const counters = { math: 0, grammar: 0, spelling: 0, environment: 0 }
-for (const q of all) {
-  counters[q.category]++
-  q.id = q.category[0] + counters[q.category]
+// αριθμοί ως 10.000, δεκαδικοί, εμβαδόν, διαίρεση με υπόλοιπο
+function genAdditionD(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const a = randInt(150, 8500)
+    const b = randInt(150, 9999 - a)
+    const sum = a + b
+    const isMc = rng() < mcRatio
+    const q = `Πόσο κάνει ${a} + ${b};`
+    const opts = isMc ? mcOptions(sum, [sum + 100, sum - 100, sum + 10]) : undefined
+    if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, sum, opts)) made++
+  }
 }
 
-writeFileSync(OUT_PATH, JSON.stringify(all, null, 2) + '\n', 'utf-8')
+function genSubtractionD(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const a = randInt(500, 9900)
+    const b = randInt(100, a - 50)
+    const diff = a - b
+    const isMc = rng() < mcRatio
+    const q = `Πόσο κάνει ${a} - ${b};`
+    const opts = isMc ? mcOptions(diff, [diff + 100, diff - 100 > 0 ? diff - 100 : diff + 200, diff + 10]) : undefined
+    if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, diff, opts)) made++
+  }
+}
 
-// ---- summary ----
+function genMultiplicationD(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const kind = pick(['2x1', '3x1', 'x10', 'x100'])
+    let a, b
+    if (kind === '2x1') { a = randInt(12, 99); b = randInt(3, 9) }
+    else if (kind === '3x1') { a = randInt(102, 400); b = randInt(2, 5) }
+    else if (kind === 'x10') { a = randInt(12, 99); b = 10 }
+    else { a = randInt(3, 60); b = 100 }
+    const prod = a * b
+    const isMc = rng() < mcRatio
+    const q = `Πόσο κάνει ${a} x ${b};`
+    const opts = isMc ? mcOptions(prod, [prod + b, prod - b, prod + 10 * b]) : undefined
+    if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, prod, opts)) made++
+  }
+}
+
+function genDivisionD(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const kind = pick(['remainder-q', 'remainder-r', 'exact10'])
+    if (kind === 'exact10') {
+      const b = pick([10, 100])
+      const quotient = randInt(3, 90)
+      const a = quotient * b
+      const isMc = rng() < mcRatio
+      const q = `Πόσο κάνει ${a} : ${b};`
+      const opts = isMc ? mcOptions(quotient, [quotient * 10, Math.max(1, Math.round(quotient / 10)), quotient + 1]) : undefined
+      if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, quotient, opts)) made++
+    } else {
+      const b = randInt(3, 9)
+      const quotient = randInt(4, 30)
+      const r = randInt(1, b - 1)
+      const a = b * quotient + r
+      const askQuotient = kind === 'remainder-q'
+      const answer = askQuotient ? quotient : r
+      const isMc = rng() < mcRatio
+      const q = `Στη διαίρεση ${a} : ${b}, ποιο είναι το ${askQuotient ? 'πηλίκο' : 'υπόλοιπο'};`
+      const opts = isMc
+        ? mcOptions(answer, askQuotient ? [quotient + 1, quotient - 1, r] : [r + 1, b - r, quotient])
+        : undefined
+      if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, answer, opts)) made++
+    }
+  }
+}
+
+const asDecimal = (cents) => (cents / 100).toFixed(2).replace(/0$/, '').replace(/\.$/, '').replace('.', ',')
+const decimalAccepted = (cents, suffix = '') => {
+  const comma = asDecimal(cents)
+  const dot = comma.replace(',', '.')
+  const list = [comma, dot]
+  if (suffix) list.push(`${comma}${suffix}`, `${dot}${suffix}`, `${comma} ${suffix.trim()}`)
+  return [...new Set(list)]
+}
+
+function genDecimalsD(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const kind = pick(['fraction', 'money-add', 'compare'])
+    if (kind === 'fraction') {
+      const tenths = rng() < 0.6
+      const num = tenths ? randInt(1, 9) : randInt(1, 99)
+      const den = tenths ? 10 : 100
+      const cents = tenths ? num * 10 : num
+      const answer = asDecimal(cents)
+      const isMc = rng() < mcRatio
+      const q = `Πώς γράφεται το κλάσμα ${num}/${den} ως δεκαδικός αριθμός;`
+      const wrongA = asDecimal(cents * 10 <= 999 ? cents * 10 : cents + 10)
+      const wrongB = asDecimal(Math.max(1, Math.round(cents / 10)))
+      const opts = isMc ? mcOptions(answer, [wrongA, wrongB, String(num)]) : undefined
+      if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, answer, opts, isMc ? undefined : decimalAccepted(cents))) made++
+    } else if (kind === 'money-add') {
+      const a = randInt(105, 1500)
+      const b = randInt(105, 1500)
+      const sum = a + b
+      const q = `Πόσο κάνει ${asDecimal(a)}€ + ${asDecimal(b)}€;`
+      const isMc = rng() < mcRatio
+      const answer = `${asDecimal(sum)}€`
+      const opts = isMc ? mcOptions(answer, [`${asDecimal(sum + 100)}€`, `${asDecimal(sum - 100)}€`, `${asDecimal(sum + 10)}€`]) : undefined
+      if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, answer, opts, isMc ? undefined : decimalAccepted(sum, '€'))) made++
+    } else {
+      const a = randInt(11, 99)
+      const b = randInt(11, 99)
+      if (a === b) continue
+      const bigger = Math.max(a, b)
+      const q = `Ποιος αριθμός είναι μεγαλύτερος;`
+      const opts = mcOptions(asDecimal(bigger * 10) , [asDecimal(Math.min(a, b) * 10)])
+      if (opts.length < 2) continue
+      if (addQ(math, 'math', 'multiple-choice', q + ` ${asDecimal(a * 10)} ή ${asDecimal(b * 10)};`, asDecimal(bigger * 10), mcOptions(asDecimal(bigger * 10), [asDecimal(Math.min(a, b) * 10)]))) made++
+    }
+  }
+}
+
+function genFractionsD(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const kind = pick(['equivalent', 'compare', 'whole'])
+    if (kind === 'equivalent') {
+      const base = pick([[1, 2], [1, 3], [1, 4], [2, 3], [3, 4]])
+      const k = pick([2, 3, 4])
+      const answer = base[0] * k
+      const q = `Συμπλήρωσε το ισοδύναμο κλάσμα: ${base[0]}/${base[1]} = ;/${base[1] * k}`
+      const isMc = rng() < mcRatio
+      const opts = isMc ? mcOptions(answer, [answer + 1, answer - 1 > 0 ? answer - 1 : answer + 2, base[1] * k]) : undefined
+      if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, answer, opts)) made++
+    } else if (kind === 'compare') {
+      const den = pick([5, 6, 7, 8, 9, 10])
+      const a = randInt(1, den - 1)
+      const b = randInt(1, den - 1)
+      if (a === b) continue
+      const bigger = Math.max(a, b)
+      const q = `Ποιο κλάσμα είναι μεγαλύτερο: ${a}/${den} ή ${b}/${den};`
+      const opts = mcOptions(`${bigger}/${den}`, [`${Math.min(a, b)}/${den}`])
+      if (addQ(math, 'math', 'multiple-choice', q, `${bigger}/${den}`, opts)) made++
+    } else {
+      const den = pick([2, 3, 4, 5, 6, 8, 10])
+      const q = `Ποιο κλάσμα ισούται με μία ολόκληρη μονάδα;`
+      const opts = mcOptions(`${den}/${den}`, [`${den}/${den + 1}`, `1/${den}`, `${den - 1}/${den}`])
+      if (addQ(math, 'math', 'multiple-choice', q, `${den}/${den}`, opts)) made++
+    }
+  }
+}
+
+function genAreaD(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const square = rng() < 0.4
+    if (square) {
+      const side = randInt(3, 20)
+      const area = side * side
+      const isMc = rng() < mcRatio
+      const q = `Ένα τετράγωνο έχει πλευρά ${side} εκατοστά. Ποιο είναι το εμβαδόν του;`
+      const answer = `${area} τ.εκ.`
+      const opts = isMc ? mcOptions(answer, [`${side * 4} τ.εκ.`, `${area + side} τ.εκ.`, `${area - side} τ.εκ.`]) : undefined
+      const accepted = isMc ? undefined : [`${area}`, `${area} τ.εκ`, `${area} τ.εκ.`, `${area} τετραγωνικά εκατοστά`]
+      if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, answer, opts, accepted)) made++
+    } else {
+      const w = randInt(3, 25)
+      const h = randInt(3, 25)
+      if (w === h) continue
+      const area = w * h
+      const isMc = rng() < mcRatio
+      const q = `Ένα ορθογώνιο έχει μήκος ${w} και πλάτος ${h} εκατοστά. Ποιο είναι το εμβαδόν του;`
+      const answer = `${area} τ.εκ.`
+      const opts = isMc ? mcOptions(answer, [`${2 * (w + h)} τ.εκ.`, `${area + w} τ.εκ.`, `${area - h} τ.εκ.`]) : undefined
+      const accepted = isMc ? undefined : [`${area}`, `${area} τ.εκ`, `${area} τ.εκ.`, `${area} τετραγωνικά εκατοστά`]
+      if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, answer, opts, accepted)) made++
+    }
+  }
+}
+
+function genRoundingD(n) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const toThousand = rng() < 0.5
+    const num = toThousand ? randInt(1050, 9950) : randInt(105, 9985)
+    const base = toThousand ? 1000 : 100
+    const rounded = Math.round(num / base) * base
+    const q = `Στρογγυλοποίησε τον αριθμό ${num} στην πλησιέστερη ${toThousand ? 'χιλιάδα' : 'εκατοντάδα'}.`
+    const opts = mcOptions(rounded, [rounded + base, rounded - base, num])
+    if (addQ(math, 'math', 'multiple-choice', q, rounded, opts)) made++
+  }
+}
+
+function genTimeD(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const startH = randInt(1, 11)
+    const startM = pick([0, 15, 30, 45])
+    const addM = pick([20, 30, 45, 50, 70, 90])
+    const total = startH * 60 + startM + addM
+    const endH = Math.floor(total / 60) > 12 ? Math.floor(total / 60) - 12 : Math.floor(total / 60)
+    const endM = total % 60
+    const answer = `${endH}:${String(endM).padStart(2, '0')}`
+    const startStr = `${startH}:${String(startM).padStart(2, '0')}`
+    const q = `Η ώρα είναι ${startStr}. Τι ώρα θα είναι σε ${addM} λεπτά;`
+    const isMc = rng() < mcRatio
+    const wrong1 = `${endH}:${String((endM + 10) % 60).padStart(2, '0')}`
+    const wrong2 = `${(endH % 12) + 1}:${String(endM).padStart(2, '0')}`
+    const opts = isMc ? mcOptions(answer, [wrong1, wrong2]) : undefined
+    if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', q, answer, opts)) made++
+  }
+}
+
+function genWordProblemsD(n, mcRatio) {
+  let made = 0, guard = 0
+  const templates = [
+    () => {
+      const name = pick(NAMES)
+      const item = pick(ITEMS)
+      const count = randInt(3, 9)
+      const price = randInt(2, 8)
+      const paid = pick([20, 50])
+      const cost = count * price
+      if (cost >= paid) return null
+      return {
+        q: `${fullName(name)} αγόρασε ${count} ${item} των ${price}€ το καθένα και πλήρωσε με ${paid}€. Πόσα ρέστα πήρε;`,
+        a: `${paid - cost}€`,
+        accepted: moneyAccepted(paid - cost),
+      }
+    },
+    () => {
+      const name = pick(NAMES)
+      const total = randInt(4, 9) * 100
+      const spent1 = randInt(50, 200)
+      const spent2 = randInt(50, 200)
+      if (spent1 + spent2 >= total) return null
+      return {
+        q: `${fullName(name)} είχε ${total}€. Ξόδεψε ${spent1}€ για ρούχα και ${spent2}€ για παπούτσια. Πόσα ευρώ έμειναν;`,
+        a: `${total - spent1 - spent2}€`,
+        accepted: moneyAccepted(total - spent1 - spent2),
+      }
+    },
+    () => {
+      const name = pick(NAMES)
+      const rows = randInt(12, 30)
+      const perRow = randInt(12, 25)
+      return {
+        q: `Σε ένα θέατρο υπάρχουν ${rows} σειρές με ${perRow} καθίσματα η καθεμία. Πόσα καθίσματα έχει συνολικά; (${name.name} θέλει να το υπολογίσει!)`,
+        a: rows * perRow,
+      }
+    },
+    () => {
+      const name = pick(NAMES)
+      const km = randInt(120, 480)
+      const done = randInt(40, km - 40)
+      return {
+        q: `${fullName(name)} ταξιδεύει ${km} χιλιόμετρα. Έχει διανύσει ήδη ${done}. Πόσα χιλιόμετρα μένουν ακόμα;`,
+        a: km - done,
+      }
+    },
+    () => {
+      const name = pick(NAMES)
+      const kids = pick([3, 4, 5, 6])
+      const each = randInt(15, 60)
+      return {
+        q: `${fullName(name)} μοιράζει εξίσου ${kids * each} καραμέλες σε ${kids} παιδιά. Πόσες παίρνει το καθένα;`,
+        a: each,
+      }
+    },
+  ]
+  while (made < n && guard < n * 30) {
+    guard++
+    const result = pick(templates)()
+    if (!result) continue
+    const isMc = rng() < mcRatio && typeof result.a !== 'string'
+    let opts
+    if (isMc) {
+      const base = Number(result.a)
+      opts = mcOptions(result.a, [base + randInt(2, 9), base - randInt(2, 9), base + 20])
+    }
+    if (addQ(math, 'math', isMc ? 'multiple-choice' : 'text', result.q, result.a, opts, isMc ? undefined : result.accepted)) made++
+  }
+}
+
+// --- Γραμματική Δ' ---
+const TENSE_LABELS_D = ['Παρατατικό', 'Αόριστο', 'Μέλλοντα', 'Παρακείμενο']
+function genVerbTensesD(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 30) {
+    guard++
+    const [base, firstPerson, thirdPerson] = pick(VERBS)
+    const aparemfato = thirdPerson[2].replace(/^θα /, '')
+    const first = [...firstPerson, `έχω ${aparemfato}`]
+    const third = [...thirdPerson, `έχει ${aparemfato}`]
+    const tense = randInt(0, 3)
+    const answer = first[tense]
+    const q = `Το ρήμα «${base}» στον ${TENSE_LABELS_D[tense]} γίνεται:`
+    const isMc = rng() < mcRatio
+    let opts
+    if (isMc) {
+      const otherVerb = pick(VERBS.filter((v) => v[0] !== base))
+      const otherAp = otherVerb[2][2].replace(/^θα /, '')
+      const otherFirst = [...otherVerb[1], `έχω ${otherAp}`]
+      opts = mcOptions(answer, [...first.filter((_, i) => i !== tense), otherFirst[tense]])
+    }
+    const accepted = isMc ? undefined : [third[tense]]
+    if (addQ(grammar, 'grammar', isMc ? 'multiple-choice' : 'text', q, answer, opts, accepted)) made++
+  }
+}
+
+// [θετικός, συγκριτικός, υπερθετικός]
+const COMPARATIVES = [
+  ['ψηλός', 'ψηλότερος', 'ψηλότατος'], ['μεγάλος', 'μεγαλύτερος', 'μέγιστος'],
+  ['μικρός', 'μικρότερος', 'ελάχιστος'], ['καλός', 'καλύτερος', 'άριστος'],
+  ['κακός', 'χειρότερος', 'χείριστος'], ['γρήγορος', 'γρηγορότερος', 'γρηγορότατος'],
+  ['δυνατός', 'δυνατότερος', 'δυνατότατος'], ['όμορφος', 'ομορφότερος', 'ομορφότατος'],
+  ['ακριβός', 'ακριβότερος', 'ακριβότατος'], ['φτηνός', 'φτηνότερος', 'φτηνότατος'],
+  ['βαρύς', 'βαρύτερος', 'βαρύτατος'], ['ελαφρύς', 'ελαφρύτερος', 'ελαφρύτατος'],
+  ['πλατύς', 'πλατύτερος', 'πλατύτατος'], ['παλιός', 'παλιότερος', 'παλιότατος'],
+  ['νέος', 'νεότερος', 'νεότατος'], ['σοφός', 'σοφότερος', 'σοφότατος'],
+  ['πλούσιος', 'πλουσιότερος', 'πλουσιότατος'], ['φτωχός', 'φτωχότερος', 'φτωχότατος'],
+  ['ζεστός', 'ζεστότερος', 'ζεστότατος'], ['κρύος', 'κρυότερος', 'κρυότατος'],
+]
+
+function genComparativesD(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 30) {
+    guard++
+    const [positive, comparative, superlative] = pick(COMPARATIVES)
+    const askComparative = rng() < 0.55
+    const answer = askComparative ? comparative : superlative
+    const label = askComparative ? 'συγκριτικός' : 'υπερθετικός'
+    const q = `Ποιος είναι ο ${label} βαθμός του επιθέτου «${positive}»;`
+    const isMc = rng() < mcRatio
+    let opts
+    if (isMc) {
+      const other = pick(COMPARATIVES.filter((c) => c[0] !== positive))
+      opts = mcOptions(answer, [askComparative ? superlative : comparative, positive, askComparative ? other[1] : other[2]])
+    }
+    const accepted = isMc
+      ? undefined
+      : askComparative
+        ? [`πιο ${positive}`]
+        : [`ο πιο ${positive}`, `πολύ ${positive}`, `ο ${comparative}`]
+    if (addQ(grammar, 'grammar', isMc ? 'multiple-choice' : 'text', q, answer, opts, accepted)) made++
+  }
+}
+
+// [ονομαστική με άρθρο, γενική ενικού, γενική πληθυντικού]
+const GENITIVES = [
+  ['το παιδί', 'του παιδιού', 'των παιδιών'], ['το βιβλίο', 'του βιβλίου', 'των βιβλίων'],
+  ['ο δάσκαλος', 'του δασκάλου', 'των δασκάλων'], ['η μητέρα', 'της μητέρας', 'των μητέρων'],
+  ['ο πατέρας', 'του πατέρα', 'των πατέρων'], ['η πόλη', 'της πόλης', 'των πόλεων'],
+  ['το τραπέζι', 'του τραπεζιού', 'των τραπεζιών'], ['ο φίλος', 'του φίλου', 'των φίλων'],
+  ['η θάλασσα', 'της θάλασσας', 'των θαλασσών'], ['το σχολείο', 'του σχολείου', 'των σχολείων'],
+  ['ο κήπος', 'του κήπου', 'των κήπων'], ['η αδελφή', 'της αδελφής', 'των αδελφών'],
+  ['το παράθυρο', 'του παραθύρου', 'των παραθύρων'], ['ο μαθητής', 'του μαθητή', 'των μαθητών'],
+  ['η τάξη', 'της τάξης', 'των τάξεων'], ['το όνομα', 'του ονόματος', 'των ονομάτων'],
+  ['ο άνθρωπος', 'του ανθρώπου', 'των ανθρώπων'], ['η χώρα', 'της χώρας', 'των χωρών'],
+  ['το δέντρο', 'του δέντρου', 'των δέντρων'], ['ο ουρανός', 'του ουρανού', 'των ουρανών'],
+]
+
+function genGenitivesD(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 30) {
+    guard++
+    const [nom, genS, genP] = pick(GENITIVES)
+    const singular = rng() < 0.6
+    const answer = singular ? genS : genP
+    const q = `Γράψε τη γενική ${singular ? 'ενικού' : 'πληθυντικού'} της λέξης «${nom}».`
+    const isMc = rng() < mcRatio
+    let opts
+    if (isMc) {
+      const other = pick(GENITIVES.filter((g) => g[0] !== nom))
+      opts = mcOptions(answer, [singular ? genP : genS, nom, singular ? other[1] : other[2]])
+    }
+    const accepted = isMc ? undefined : [answer.split(' ')[1]]
+    const qText = isMc ? `Ποια είναι η γενική ${singular ? 'ενικού' : 'πληθυντικού'} της λέξης «${nom}»;` : q
+    if (addQ(grammar, 'grammar', isMc ? 'multiple-choice' : 'text', qText, answer, opts, accepted)) made++
+  }
+}
+
+const PRONOUNS = ['εγώ', 'εσύ', 'αυτός', 'αυτή', 'εμείς', 'εσείς', 'αυτοί', 'κάποιος', 'κανένας', 'τίποτα', 'ποιος', 'όλοι']
+
+function genPronounsD(n) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 20) {
+    guard++
+    const correct = pick(PRONOUNS)
+    const distractors = [pick(NOUNS)[0], pick(ADJECTIVES), pick(VERBS)[0]]
+    const q = 'Ποια λέξη είναι αντωνυμία;'
+    const opts = shuffle([correct, ...distractors])
+    if (addQ(grammar, 'grammar', 'multiple-choice', q, correct, opts)) made++
+  }
+}
+
+const SYNONYMS_D = [
+  ['γρήγορος', 'ταχύς'], ['σπουδαίος', 'σημαντικός'], ['σιωπηλός', 'αμίλητος'],
+  ['φωτεινός', 'λαμπερός'], ['καθαρός', 'πεντακάθαρος'], ['δειλός', 'φοβιτσιάρης'],
+  ['όμορφος', 'πανέμορφος'], ['κρύος', 'παγωμένος'], ['ζεστός', 'καυτός'],
+  ['δρόμος', 'οδός'], ['σπίτι', 'κατοικία'], ['γιατρός', 'ιατρός'],
+  ['γιορτή', 'εορτή'], ['σκέφτομαι', 'συλλογίζομαι'],
+]
+
+const ANTONYMS_D = [
+  ['θάρρος', 'φόβος'], ['εργατικός', 'τεμπέλης'], ['γενναιόδωρος', 'τσιγκούνης'],
+  ['ήρεμος', 'νευρικός'], ['αγοράζω', 'πουλάω'], ['ανεβαίνω', 'κατεβαίνω'],
+  ['θυμάμαι', 'ξεχνάω'], ['ενώνω', 'χωρίζω'], ['γεμίζω', 'αδειάζω'],
+  ['ανάβω', 'σβήνω'], ['δένω', 'λύνω'], ['χτίζω', 'γκρεμίζω'],
+  ['νίκη', 'ήττα'], ['αλήθεια', 'ψέμα'], ['ελευθερία', 'σκλαβιά'], ['ομορφιά', 'ασχήμια'],
+]
+
+function genSynAntD(n, mcRatio) {
+  let made = 0, guard = 0
+  while (made < n && guard < n * 30) {
+    guard++
+    const synMode = rng() < 0.5
+    const pairs = synMode ? SYNONYMS_D : ANTONYMS_D
+    const pair = pick(pairs)
+    const reversed = rng() < 0.5
+    const [word, target] = reversed ? [pair[1], pair[0]] : pair
+    const isMc = rng() < mcRatio
+    const kind = synMode ? 'συνώνυμο' : 'αντίθετο'
+    const q = isMc ? `Ποιο είναι το ${kind} της λέξης «${word}»;` : `Γράψε ${synMode ? 'ένα συνώνυμο' : 'το αντίθετο'} της λέξης «${word}».`
+    let opts
+    if (isMc) {
+      const distractors = pickN(pairs.filter((p) => p !== pair), 3).map((p) => pick(p))
+      opts = mcOptions(target, distractors)
+    }
+    if (addQ(grammar, 'grammar', isMc ? 'multiple-choice' : 'text', q, target, opts)) made++
+  }
+}
+
+// --- Ορθογραφία Δ' (δυσκολότερο λεξιλόγιο) ---
+const SPELLING_WORDS_D = [
+  'τελειώνω', 'πληρώνω', 'απλώνω', 'σηκώνω', 'διορθώνω', 'δικαιολογία', 'αλήθεια',
+  'βοήθεια', 'συγγνώμη', 'περιβάλλον', 'θάρρος', 'γραμματική', 'ορθογραφία',
+  'βιβλιοθήκη', 'ενδιαφέρον', 'υπεύθυνος', 'ευγένεια', 'ευγνωμοσύνη', 'ειλικρίνεια',
+  'σύννεφο', 'θύελλα', 'καταιγίδα', 'αστραπή', 'βροντή', 'πλημμύρα', 'ξηρασία',
+  'σεισμός', 'ηφαίστειο', 'ενέργεια', 'ηλεκτρισμός', 'θερμοκρασία', 'υγρασία',
+  'εγκέφαλος', 'καρδιά', 'πνεύμονες', 'στομάχι', 'σκελετός', 'υγιεινή', 'άσκηση',
+  'διατροφή', 'βιταμίνη', 'πρωτεύουσα', 'πληθυσμός', 'ήπειρος', 'ωκεανός',
+  'χερσόνησος', 'προσπάθεια', 'επιμέλεια', 'συνεργασία', 'υπομονή', 'επανάληψη',
+  'διαγώνισμα', 'αποτέλεσμα', 'περισσότερο', 'λιγότερο', 'καλύτερα', 'χειρότερα',
+  'εντύπωση', 'συνήθεια', 'ασφάλεια', 'κίνδυνος', 'προτεραιότητα', 'ελευθερία',
+  'δημοκρατία', 'πολιτισμός', 'παράδοση', 'μουσείο', 'ζωγραφιά', 'ορχήστρα',
+  'θέατρο', 'κινηματογράφος', 'τηλεόραση', 'υπολογιστής', 'διαδίκτυο', 'μήνυμα',
+  'επικοινωνία', 'εφημερίδα', 'περιοδικό', 'συγγραφέας', 'ποιητής', 'ήρωας',
+  'βασίλισσα', 'πριγκίπισσα', 'αυτοκράτορας', 'πολεμιστής', 'ειρήνη', 'νίκη',
+  'σημαία', 'πατρίδα', 'γεωγραφία', 'ιστορία', 'μαθηματικά', 'φυσική',
+  'καλλιτέχνης', 'αθλητής', 'πρωταθλητής', 'γυμναστήριο', 'κολυμβητήριο', 'ποδήλατο',
+  'κυκλοφορία', 'λεωφορείο', 'αεροδρόμιο', 'λιμάνι', 'σιδηρόδρομος', 'ταχύτητα',
+]
+
+// --- Μελέτη Περιβάλλοντος Δ' (γεωγραφία Ελλάδας, σώμα, ενέργεια, πολιτισμός) ---
+const ENVIRONMENT_D = [
+  ['Ποιο είναι το ψηλότερο βουνό της Ελλάδας;', 'ο Όλυμπος', ['η Πίνδος', 'ο Ταΰγετος', 'ο Παρνασσός']],
+  ['Ποια είναι η δεύτερη μεγαλύτερη πόλη της Ελλάδας;', 'η Θεσσαλονίκη', ['η Πάτρα', 'το Ηράκλειο', 'η Λάρισα']],
+  ['Ποιο είναι το μεγαλύτερο νησί της Ελλάδας;', 'η Κρήτη', ['η Εύβοια', 'η Ρόδος', 'η Λέσβος']],
+  ['Ποιο είναι το δεύτερο μεγαλύτερο νησί της Ελλάδας;', 'η Εύβοια', ['η Κρήτη', 'η Κέρκυρα', 'η Χίος']],
+  ['Σε ποια θάλασσα βρίσκονται οι Κυκλάδες;', 'στο Αιγαίο', ['στο Ιόνιο', 'στη Μαύρη Θάλασσα', 'στη Μεσόγειο της Ισπανίας']],
+  ['Σε ποιο νησιωτικό σύμπλεγμα ανήκει η Κέρκυρα;', 'στα Επτάνησα', ['στις Κυκλάδες', 'στα Δωδεκάνησα', 'στις Σποράδες']],
+  ['Σε ποιο νησιωτικό σύμπλεγμα ανήκει η Ρόδος;', 'στα Δωδεκάνησα', ['στα Επτάνησα', 'στις Κυκλάδες', 'στις Σποράδες']],
+  ['Σε ποιο νησιωτικό σύμπλεγμα ανήκει η Σκιάθος;', 'στις Σποράδες', ['στα Δωδεκάνησα', 'στα Επτάνησα', 'στις Κυκλάδες']],
+  ['Ποιος είναι ο μεγαλύτερος ποταμός που κυλά ολόκληρος σε ελληνικό έδαφος;', 'ο Αλιάκμονας', ['ο Αχελώος', 'ο Πηνειός', 'ο Σπερχειός']],
+  ['Ποια είναι η μεγαλύτερη φυσική λίμνη της Ελλάδας;', 'η Τριχωνίδα', ['η Βόλβη', 'η Βεγορίτιδα', 'η λίμνη Πλαστήρα']],
+  ['Ποια οροσειρά διασχίζει την ηπειρωτική Ελλάδα από τον βορρά προς τον νότο;', 'η Πίνδος', ['ο Όλυμπος', 'η Ροδόπη', 'ο Ταΰγετος']],
+  ['Με ποια από τις παρακάτω χώρες ΔΕΝ συνορεύει η Ελλάδα;', 'με την Ιταλία', ['με την Αλβανία', 'με τη Βουλγαρία', 'με την Τουρκία']],
+  ['Γράψε μία χώρα που συνορεύει με την Ελλάδα.', 'Αλβανία', null, ['Βόρεια Μακεδονία', 'Βουλγαρία', 'Τουρκία']],
+  ['Ποια θάλασσα βρέχει τη δυτική Ελλάδα;', 'το Ιόνιο', ['το Αιγαίο', 'το Λιβυκό', 'η Μαύρη Θάλασσα']],
+  ['Πόσα γεωγραφικά διαμερίσματα έχει η Ελλάδα;', '9', ['7', '10', '13']],
+  ['Γράψε ένα γεωγραφικό διαμέρισμα της Ελλάδας.', 'Μακεδονία', null, ['Θράκη', 'Ήπειρος', 'Θεσσαλία', 'Στερεά Ελλάδα', 'Πελοπόννησος', 'Κρήτη', 'Νησιά Αιγαίου', 'Επτάνησα', 'Ιόνια νησιά', 'νησιά Ιονίου']],
+  ['Ποια είναι η πρωτεύουσα της Κρήτης;', 'το Ηράκλειο', ['τα Χανιά', 'το Ρέθυμνο', 'ο Άγιος Νικόλαος']],
+  ['Σε ποιο γεωγραφικό διαμέρισμα βρίσκεται η Αθήνα;', 'στη Στερεά Ελλάδα', ['στην Πελοπόννησο', 'στη Θεσσαλία', 'στη Μακεδονία']],
+  ['Ποιο όργανο στέλνει το αίμα σε όλο το σώμα;', 'η καρδιά', ['ο εγκέφαλος', 'οι πνεύμονες', 'το στομάχι']],
+  ['Με ποιο όργανο αναπνέουμε;', 'με τους πνεύμονες', ['με την καρδιά', 'με το στομάχι', 'με το συκώτι']],
+  ['Ποιο όργανο ελέγχει όλες τις λειτουργίες του σώματος;', 'ο εγκέφαλος', ['η καρδιά', 'οι μύες', 'τα νεφρά']],
+  ['Πού συνεχίζεται η χώνεψη της τροφής μετά το στόμα;', 'στο στομάχι', ['στους πνεύμονες', 'στην καρδιά', 'στον εγκέφαλο']],
+  ['Πόσα δόντια έχει ένας ενήλικας με πλήρη οδοντοστοιχία;', '32', ['28', '30', '36']],
+  ['Τι μεταφέρει το οξυγόνο σε όλο μας το σώμα;', 'το αίμα', ['ο ιδρώτας', 'το νερό', 'τα δάκρυα']],
+  ['Ποιο όργανο χρησιμοποιούμε για την όσφρηση;', 'τη μύτη', ['τα αυτιά', 'τα μάτια', 'τη γλώσσα']],
+  ['Τι μας προστατεύει από τον ήλιο το καλοκαίρι;', 'το αντηλιακό και το καπέλο', ['το παγωτό', 'τα γυαλιά μυωπίας', 'το μπουφάν']],
+  ['Ποια από τις παρακάτω είναι ανανεώσιμη πηγή ενέργειας;', 'ο ήλιος', ['το πετρέλαιο', 'το κάρβουνο', 'το φυσικό αέριο']],
+  ['Γράψε μία ανανεώσιμη πηγή ενέργειας.', 'ο ήλιος', null, ['ο άνεμος', 'το νερό', 'η γεωθερμία', 'η βιομάζα', 'ηλιακή ενέργεια', 'αιολική ενέργεια']],
+  ['Τι παράγουν οι ανεμογεννήτριες;', 'ηλεκτρική ενέργεια', ['νερό', 'πετρέλαιο', 'ζέστη']],
+  ['Γύρω από τι περιφέρεται η Γη;', 'γύρω από τον Ήλιο', ['γύρω από τη Σελήνη', 'γύρω από τον Άρη', 'γύρω από τα αστέρια']],
+  ['Πόσο διαρκεί μία πλήρης περιστροφή της Γης γύρω από τον εαυτό της;', '24 ώρες', ['12 ώρες', '48 ώρες', '365 ημέρες']],
+  ['Πόσο διαρκεί μία πλήρης περιφορά της Γης γύρω από τον Ήλιο;', '1 χρόνο', ['1 μήνα', '1 εβδομάδα', '1 ημέρα']],
+  ['Ποιος πλανήτης βρίσκεται πιο κοντά στον Ήλιο;', 'ο Ερμής', ['η Αφροδίτη', 'η Γη', 'ο Άρης']],
+  ['Ποιος είναι ο φυσικός δορυφόρος της Γης;', 'η Σελήνη', ['ο Ήλιος', 'ο Άρης', 'η Αφροδίτη']],
+  ['Ποιο είναι το νόμισμα της Ελλάδας;', 'το ευρώ', ['η δραχμή', 'το δολάριο', 'η λίρα']],
+  ['Ποιο αρχαίο θέατρο είναι διάσημο για την ακουστική του;', 'της Επιδαύρου', ['του Ηρωδείου', 'της Δωδώνης', 'των Δελφών']],
+  ['Πού βρίσκεται ο Παρθενώνας;', 'στην Ακρόπολη της Αθήνας', ['στην Αρχαία Ολυμπία', 'στους Δελφούς', 'στη Θεσσαλονίκη']],
+  ['Πού γεννήθηκαν οι Ολυμπιακοί Αγώνες;', 'στην Αρχαία Ολυμπία', ['στην Αθήνα', 'στη Σπάρτη', 'στους Δελφούς']],
+  ['Σε ποιον κάδο πετάμε το χαρτί για ανακύκλωση;', 'στον μπλε κάδο', ['στον πράσινο κάδο', 'στον καφέ κάδο', 'σε όποιον κάδο θέλουμε']],
+  ['Τι προκαλεί το λιώσιμο των πάγων στους πόλους;', 'η υπερθέρμανση του πλανήτη', ['οι βροχές', 'ο άνεμος', 'τα κύματα']],
+  ['Ποιο από τα παρακάτω ΔΕΝ εξοικονομεί νερό;', 'να αφήνουμε τη βρύση ανοιχτή', ['να κλείνουμε τη βρύση όταν βουρτσίζουμε τα δόντια', 'να κάνουμε γρήγορο ντους', 'να ποτίζουμε το βράδυ']],
+  ['Πώς λέγεται ο χάρτης που δείχνει βουνά, ποτάμια και λίμνες;', 'γεωφυσικός', ['πολιτικός', 'οδικός', 'ιστορικός']],
+  ['Ποια είναι η μεγαλύτερη ήπειρος της Γης;', 'η Ασία', ['η Ευρώπη', 'η Αφρική', 'η Αμερική']],
+  ['Σε ποια ήπειρο βρίσκεται η Ελλάδα;', 'στην Ευρώπη', ['στην Ασία', 'στην Αφρική', 'στην Αμερική']],
+  ['Γράψε μία ήπειρο της Γης.', 'Ευρώπη', null, ['Ασία', 'Αφρική', 'Αμερική', 'Βόρεια Αμερική', 'Νότια Αμερική', 'Ωκεανία', 'Ανταρκτική']],
+  ['Πώς λέγεται το επάγγελμα αυτού που καλλιεργεί τη γη;', 'γεωργός', ['ναυτικός', 'κτηνοτρόφος', 'μελισσοκόμος']],
+  ['Τι εκτρέφει ο μελισσοκόμος;', 'μέλισσες', ['πρόβατα', 'κότες', 'αγελάδες']],
+  ['Ποιο προϊόν μάς δίνουν οι μέλισσες;', 'το μέλι', ['το γάλα', 'το μαλλί', 'τα αυγά']],
+]
+
+// ==================================================================
+// ASSEMBLE — two banks of 500 (Γ' και Δ'), ~65% MC each
+// ==================================================================
+
+function resetBuckets() {
+  math.length = 0
+  grammar.length = 0
+  spelling.length = 0
+  environment.length = 0
+  seenQuestions.clear()
+  idCounters = { math: 0, grammar: 0, spelling: 0, environment: 0 }
+}
+
 function summarize(list) {
   const byCat = {}
   for (const q of list) {
@@ -987,8 +1468,86 @@ function summarize(list) {
   }
   return byCat
 }
-const summary = summarize(all)
-console.log(`Total questions: ${all.length}`)
-console.log(JSON.stringify(summary, null, 2))
-const mcTotal = all.filter((q) => q.type === 'multiple-choice').length
-console.log(`MC ratio: ${((mcTotal / all.length) * 100).toFixed(1)}%`)
+
+function assembleAndWrite(outPath, label) {
+  const TOTAL_TARGET = 500
+  const MATH_TARGET = 210
+  const GRAMMAR_TARGET = 140
+  const ENV_TARGET = 47
+  const finalEnvironment = shuffle(environment).slice(0, ENV_TARGET)
+  const SPELLING_TARGET = TOTAL_TARGET - MATH_TARGET - GRAMMAR_TARGET - finalEnvironment.length
+
+  const all = shuffle([
+    ...shuffle(math).slice(0, MATH_TARGET),
+    ...shuffle(grammar).slice(0, GRAMMAR_TARGET),
+    ...shuffle(spelling).slice(0, SPELLING_TARGET),
+    ...finalEnvironment,
+  ])
+
+  const counters = { math: 0, grammar: 0, spelling: 0, environment: 0 }
+  for (const q of all) {
+    counters[q.category]++
+    q.id = `${gradePrefix}-${q.category[0]}${counters[q.category]}`
+  }
+
+  writeFileSync(outPath, JSON.stringify(all, null, 2) + '\n', 'utf-8')
+  const mcTotal = all.filter((q) => q.type === 'multiple-choice').length
+  console.log(`[${label}] total: ${all.length}, MC: ${((mcTotal / all.length) * 100).toFixed(1)}%`)
+  console.log(JSON.stringify(summarize(all)))
+}
+
+// ---- Γ' Δημοτικού ----
+gradePrefix = 'c'
+resetBuckets()
+
+genAddition(38, 0.6)
+genSubtraction(38, 0.6)
+genMultiplication(38, 0.65)
+genDivision(30, 0.65)
+genRounding(20)
+genGeometry(18, 0.85)
+genMeasurement(15, 0.6)
+genTime(13, 0.55)
+genComparisonAndSequence(18, 0.7)
+genWordProblems(25, 0.3)
+
+genArticles(35)
+genGender(35)
+genPluralText(30)
+genNumber(20)
+genVerbTenses(30, 0.55)
+genSynonyms(23, 0.55)
+genAntonyms(20, 0.6)
+genSentenceTypes(12)
+genPartsOfSpeech(25)
+
+genSpelling(125, 0.7)
+genEnvironment()
+
+assembleAndWrite(OUT_C, "Γ' Δημοτικού")
+
+// ---- Δ' Δημοτικού ----
+gradePrefix = 'd'
+resetBuckets()
+
+genAdditionD(40, 0.6)
+genSubtractionD(40, 0.6)
+genMultiplicationD(35, 0.65)
+genDivisionD(35, 0.6)
+genDecimalsD(30, 0.6)
+genFractionsD(22, 0.7)
+genAreaD(25, 0.7)
+genRoundingD(20)
+genTimeD(15, 0.55)
+genWordProblemsD(30, 0.3)
+
+genVerbTensesD(45, 0.55)
+genComparativesD(35, 0.6)
+genGenitivesD(30, 0.5)
+genPronounsD(20)
+genSynAntD(30, 0.55)
+
+genSpelling(125, 0.7, SPELLING_WORDS_D)
+genEnvironment(ENVIRONMENT_D)
+
+assembleAndWrite(OUT_D, "Δ' Δημοτικού")

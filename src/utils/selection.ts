@@ -10,10 +10,19 @@ function shuffle<T>(items: T[]): T[] {
 }
 
 /**
- * Picks `count` questions from the bank, sampling as evenly as possible
- * across categories so a run doesn't end up all-math or all-spelling.
+ * Picks `count` questions from the bank (optionally restricted to selected
+ * categories), sampling as evenly as possible across categories so a run
+ * doesn't end up all-math or all-spelling.
  */
-export function pickQuestions(bank: Question[], count: number): Question[] {
+export function pickQuestions(
+  fullBank: Question[],
+  count: number,
+  categories?: Category[],
+): Question[] {
+  const bank =
+    categories && categories.length > 0
+      ? fullBank.filter((q) => categories.includes(q.category))
+      : fullBank
   const total = Math.min(count, bank.length)
   const byCategory = new Map<Category, Question[]>()
   for (const q of bank) {
@@ -21,8 +30,8 @@ export function pickQuestions(bank: Question[], count: number): Question[] {
     list.push(q)
     byCategory.set(q.category, list)
   }
-  const categories = [...byCategory.keys()]
-  const pools = categories.map((c) => shuffle(byCategory.get(c)!))
+  const presentCategories = [...byCategory.keys()]
+  const pools = presentCategories.map((c) => shuffle(byCategory.get(c)!))
 
   const picked: Question[] = []
   let i = 0
