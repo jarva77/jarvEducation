@@ -2,6 +2,7 @@
 import HistoryScreen from './components/HistoryScreen.vue'
 import LeaderboardScreen from './components/LeaderboardScreen.vue'
 import PoweredBy from './components/PoweredBy.vue'
+import PrivacyScreen from './components/PrivacyScreen.vue'
 import QuizScreen from './components/QuizScreen.vue'
 import ResultsScreen from './components/ResultsScreen.vue'
 import StartScreen from './components/StartScreen.vue'
@@ -21,6 +22,7 @@ const {
   restart,
   showHistory,
   showLeaderboard,
+  showPrivacy,
 } = useQuiz()
 </script>
 
@@ -35,6 +37,7 @@ const {
       @grade-change="setGrade"
       @history="showHistory"
       @leaderboard="showLeaderboard"
+      @privacy="showPrivacy"
     />
 
     <QuizScreen
@@ -50,6 +53,8 @@ const {
     <HistoryScreen v-else-if="phase === 'history'" @back="restart" />
 
     <LeaderboardScreen v-else-if="phase === 'leaderboard'" @back="restart" />
+
+    <PrivacyScreen v-else-if="phase === 'privacy'" @back="restart" />
 
     <PoweredBy />
   </main>

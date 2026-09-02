@@ -5,10 +5,17 @@ import type { AnsweredQuestion, Grade } from '../types'
 export interface PlayerEntry {
   uid: string
   name: string
-  photoURL: string | null
   totalPoints: number
   testsCount: number
   bestPercentage: number
+}
+
+/** Data minimization: "Γιάννης Παπαδόπουλος" -> "Γιάννης Π." for public display. */
+export function shortName(displayName: string | null): string {
+  if (!displayName?.trim()) return 'Ανώνυμος'
+  const parts = displayName.trim().split(/\s+/)
+  if (parts.length === 1) return parts[0]
+  return `${parts[0]} ${parts[1][0]}.`
 }
 
 /** Saves a finished test and updates the player's leaderboard aggregate. */
@@ -21,10 +28,12 @@ export async function saveResultToCloud(user: User, answers: AnsweredQuestion[],
   const correct = answers.filter((a) => a.isCorrect).length
   const percentage = Math.round((correct / answers.length) * 100)
 
+  const publicName = shortName(user.displayName)
+
   const resultRef = doc(collection(fb.db, 'results'))
   await setDoc(resultRef, {
     uid: user.uid,
-    name: user.displayName ?? 'Ανώνυμος',
+    name: publicName,
     total: answers.length,
     correct,
     percentage,
@@ -38,8 +47,8 @@ export async function saveResultToCloud(user: User, answers: AnsweredQuestion[],
   await setDoc(
     playerRef,
     {
-      name: user.displayName ?? 'Ανώνυμος',
-      photoURL: user.photoURL ?? null,
+      name: publicName,
+      photoURL: null, // scrub any previously stored profile photo
       totalPoints: increment(correct),
       testsCount: increment(1),
       bestPercentage: Math.max(prevBest, percentage),
@@ -60,7 +69,6 @@ export async function fetchLeaderboard(topN = 20): Promise<PlayerEntry[]> {
     return {
       uid: d.id,
       name: data.name ?? 'Ανώνυμος',
-      photoURL: data.photoURL ?? null,
       totalPoints: data.totalPoints ?? 0,
       testsCount: data.testsCount ?? 0,
       bestPercentage: data.bestPercentage ?? 0,

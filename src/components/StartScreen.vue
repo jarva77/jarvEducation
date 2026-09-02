@@ -10,6 +10,7 @@ const emit = defineEmits<{
   gradeChange: [grade: Grade]
   history: []
   leaderboard: []
+  privacy: []
 }>()
 
 const { user, cloudEnabled, signInWithGoogle, signOut } = useAuth()
@@ -118,5 +119,7 @@ function start() {
       <button class="history-link" @click="emit('history')">📊 Ιστορικό &amp; πρόοδος</button>
       <button v-if="cloudEnabled" class="history-link" @click="emit('leaderboard')">🏆 Βαθμολογία</button>
     </div>
+
+    <button class="privacy-link" @click="emit('privacy')">🔒 Απόρρητο</button>
   </section>
 </template>

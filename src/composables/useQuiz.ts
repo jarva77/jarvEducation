@@ -7,7 +7,7 @@ import { playCorrect, playWrong } from '../utils/sound'
 import { useAuth } from './useAuth'
 import { useHistory } from './useHistory'
 
-export type Phase = 'start' | 'quiz' | 'results' | 'history' | 'leaderboard'
+export type Phase = 'start' | 'quiz' | 'results' | 'history' | 'leaderboard' | 'privacy'
 
 // per-grade banks are separate chunks, downloaded only when the grade is picked
 const GRADE_LOADERS: Record<Grade, () => Promise<{ default: unknown }>> = {
@@ -123,6 +123,10 @@ export function useQuiz() {
     phase.value = 'leaderboard'
   }
 
+  function showPrivacy() {
+    phase.value = 'privacy'
+  }
+
   return {
     phase,
     grade,
@@ -138,5 +142,6 @@ export function useQuiz() {
     restart,
     showHistory,
     showLeaderboard,
+    showPrivacy,
   }
 }
