@@ -1,14 +1,16 @@
 import { computed, ref } from 'vue'
 import rawQuestions from '../data/questions.json'
 import type { AnsweredQuestion, Question } from '../types'
+import { saveResultToCloud } from '../services/cloud'
 import { isAnswerCorrect } from '../utils/grading'
 import { pickQuestions } from '../utils/selection'
 import { playCorrect, playWrong } from '../utils/sound'
+import { useAuth } from './useAuth'
 import { useHistory } from './useHistory'
 
 const bank = rawQuestions as Question[]
 
-export type Phase = 'start' | 'quiz' | 'results' | 'history'
+export type Phase = 'start' | 'quiz' | 'results' | 'history' | 'leaderboard'
 
 const phase = ref<Phase>('start')
 const quizQuestions = ref<Question[]>([])
@@ -17,6 +19,7 @@ const answers = ref<AnsweredQuestion[]>([])
 
 export function useQuiz() {
   const { recordResult } = useHistory()
+  const { user } = useAuth()
   const currentQuestion = computed(() => quizQuestions.value[currentIndex.value])
   const progress = computed(() => ({
     current: currentIndex.value + 1,
@@ -47,6 +50,12 @@ export function useQuiz() {
       currentIndex.value++
     } else {
       recordResult(answers.value)
+      if (user.value) {
+        // fire-and-forget: cloud saving must never block the results screen
+        void saveResultToCloud(user.value, answers.value).catch((e) =>
+          console.error('cloud save failed', e),
+        )
+      }
       phase.value = 'results'
     }
   }
@@ -62,6 +71,10 @@ export function useQuiz() {
     phase.value = 'history'
   }
 
+  function showLeaderboard() {
+    phase.value = 'leaderboard'
+  }
+
   return {
     phase,
     bankSize: bank.length,
@@ -73,5 +86,6 @@ export function useQuiz() {
     submitAnswer,
     restart,
     showHistory,
+    showLeaderboard,
   }
 }

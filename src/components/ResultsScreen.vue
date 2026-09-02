@@ -1,11 +1,34 @@
 <script setup lang="ts">
 import confetti from 'canvas-confetti'
-import { computed, onMounted } from 'vue'
+import { computed, onMounted, reactive, ref } from 'vue'
+import { useAuth } from '../composables/useAuth'
+import { submitQuestionFeedback } from '../services/cloud'
 import type { AnsweredQuestion, Category } from '../types'
 import { CATEGORY_EMOJI, CATEGORY_LABELS } from '../types'
 
 const props = defineProps<{ answers: AnsweredQuestion[] }>()
 const emit = defineEmits<{ restart: [] }>()
+
+const { user, cloudEnabled } = useAuth()
+const showFeedback = ref(false)
+const givenRatings = reactive<Record<string, number>>({})
+const reported = reactive<Record<string, boolean>>({})
+
+function rate(a: AnsweredQuestion, rating: number) {
+  if (!user.value || givenRatings[a.question.id]) return
+  givenRatings[a.question.id] = rating
+  void submitQuestionFeedback(user.value, a.question.id, a.question.question, rating, false).catch(
+    (e) => console.error('feedback failed', e),
+  )
+}
+
+function report(a: AnsweredQuestion) {
+  if (!user.value || reported[a.question.id]) return
+  reported[a.question.id] = true
+  void submitQuestionFeedback(user.value, a.question.id, a.question.question, null, true).catch(
+    (e) => console.error('report failed', e),
+  )
+}
 
 const total = computed(() => props.answers.length)
 const correct = computed(() => props.answers.filter((a) => a.isCorrect).length)
@@ -75,6 +98,38 @@ onMounted(() => {
         <p class="wrong-question">{{ a.question.question }}</p>
         <p class="wrong-answer">Η απάντησή σου: <strong>{{ a.userAnswer }}</strong></p>
         <p class="correct-answer">Σωστή απάντηση: <strong>{{ a.question.answer }}</strong></p>
+      </div>
+    </div>
+
+    <div v-if="cloudEnabled && user" class="feedback-section">
+      <button class="history-link" @click="showFeedback = !showFeedback">
+        {{ showFeedback ? 'Απόκρυψη αξιολόγησης' : '⭐ Αξιολόγησε τις ερωτήσεις' }}
+      </button>
+      <div v-if="showFeedback" class="feedback-list">
+        <div v-for="a in answers" :key="a.question.id" class="feedback-item">
+          <p class="feedback-question">{{ a.question.question }}</p>
+          <div class="feedback-controls">
+            <span class="stars">
+              <button
+                v-for="s in 5"
+                :key="s"
+                class="star-btn"
+                :class="{ active: (givenRatings[a.question.id] ?? 0) >= s }"
+                :disabled="!!givenRatings[a.question.id]"
+                :title="`Βαθμολογία ${s}/5`"
+                @click="rate(a, s)"
+              >★</button>
+            </span>
+            <button
+              class="report-btn"
+              :class="{ done: reported[a.question.id] }"
+              :disabled="reported[a.question.id]"
+              @click="report(a)"
+            >
+              {{ reported[a.question.id] ? '🚩 Καταγράφηκε' : '🚩 Κάτι δεν πάει καλά' }}
+            </button>
+          </div>
+        </div>
       </div>
     </div>
 

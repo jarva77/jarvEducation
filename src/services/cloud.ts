@@ -1,0 +1,95 @@
+import type { User } from 'firebase/auth'
+import { getFirebase } from '../firebase'
+import type { AnsweredQuestion } from '../types'
+
+export interface PlayerEntry {
+  uid: string
+  name: string
+  photoURL: string | null
+  totalPoints: number
+  testsCount: number
+  bestPercentage: number
+}
+
+/** Saves a finished test and updates the player's leaderboard aggregate. */
+export async function saveResultToCloud(user: User, answers: AnsweredQuestion[]) {
+  const fb = await getFirebase()
+  if (!fb || answers.length === 0) return
+  const { collection, doc, getDoc, increment, serverTimestamp, setDoc } = await import(
+    'firebase/firestore'
+  )
+  const correct = answers.filter((a) => a.isCorrect).length
+  const percentage = Math.round((correct / answers.length) * 100)
+
+  const resultRef = doc(collection(fb.db, 'results'))
+  await setDoc(resultRef, {
+    uid: user.uid,
+    name: user.displayName ?? 'Ανώνυμος',
+    total: answers.length,
+    correct,
+    percentage,
+    createdAt: serverTimestamp(),
+  })
+
+  const playerRef = doc(fb.db, 'players', user.uid)
+  const existing = await getDoc(playerRef)
+  const prevBest = existing.exists() ? (existing.data().bestPercentage ?? 0) : 0
+  await setDoc(
+    playerRef,
+    {
+      name: user.displayName ?? 'Ανώνυμος',
+      photoURL: user.photoURL ?? null,
+      totalPoints: increment(correct),
+      testsCount: increment(1),
+      bestPercentage: Math.max(prevBest, percentage),
+      updatedAt: serverTimestamp(),
+    },
+    { merge: true },
+  )
+}
+
+export async function fetchLeaderboard(topN = 20): Promise<PlayerEntry[]> {
+  const fb = await getFirebase()
+  if (!fb) return []
+  const { collection, getDocs, limit, orderBy, query } = await import('firebase/firestore')
+  const q = query(collection(fb.db, 'players'), orderBy('totalPoints', 'desc'), limit(topN))
+  const snap = await getDocs(q)
+  return snap.docs.map((d) => {
+    const data = d.data()
+    return {
+      uid: d.id,
+      name: data.name ?? 'Ανώνυμος',
+      photoURL: data.photoURL ?? null,
+      totalPoints: data.totalPoints ?? 0,
+      testsCount: data.testsCount ?? 0,
+      bestPercentage: data.bestPercentage ?? 0,
+    }
+  })
+}
+
+/** Records a 1-5 rating and/or a "something's wrong" report for a question. */
+export async function submitQuestionFeedback(
+  user: User,
+  questionId: string,
+  questionText: string,
+  rating: number | null,
+  report: boolean,
+) {
+  const fb = await getFirebase()
+  if (!fb) return
+  const { doc, increment, serverTimestamp, setDoc } = await import('firebase/firestore')
+  const feedbackRef = doc(fb.db, 'feedback', questionId)
+  const payload: Record<string, unknown> = {
+    question: questionText,
+    updatedAt: serverTimestamp(),
+  }
+  if (rating !== null) {
+    payload.ratingSum = increment(rating)
+    payload.ratingCount = increment(1)
+  }
+  if (report) {
+    payload.reportCount = increment(1)
+    payload[`reporters.${user.uid}`] = true
+  }
+  await setDoc(feedbackRef, payload, { merge: true })
+}
