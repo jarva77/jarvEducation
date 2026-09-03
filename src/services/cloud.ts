@@ -78,6 +78,65 @@ export async function fetchLeaderboard(topN = 20): Promise<PlayerEntry[]> {
   })
 }
 
+export const MAX_SIGNUP_SLOTS = 50
+
+/**
+ * A brand-new sign-in claims one of a fixed number of slots — a cheap
+ * safety net to stay within the Firebase free tier. There's no backend
+ * here, so this is enforced with a Firestore transaction rather than a
+ * hard server-side guarantee; good enough for a small, non-adversarial
+ * user base. Returns false only when this is a first-ever sign-in AND
+ * the app is already at capacity; a user who has signed in before
+ * always gets true, regardless of the current count.
+ */
+export async function claimSignupSlot(uid: string, limit = MAX_SIGNUP_SLOTS): Promise<boolean> {
+  const fb = await getFirebase()
+  if (!fb) return true
+  const { doc, runTransaction, serverTimestamp } = await import('firebase/firestore')
+  const signupRef = doc(fb.db, 'signups', uid)
+  const counterRef = doc(fb.db, 'meta', 'userCount')
+  return runTransaction(fb.db, async (tx) => {
+    const signupSnap = await tx.get(signupRef)
+    if (signupSnap.exists()) return true
+    const counterSnap = await tx.get(counterRef)
+    const count = (counterSnap.exists() ? counterSnap.data().count : 0) ?? 0
+    if (count >= limit) return false
+    tx.set(signupRef, { createdAt: serverTimestamp() })
+    tx.set(counterRef, { count: count + 1 }, { merge: true })
+    return true
+  })
+}
+
+/** Deletes every cloud trace of a user: their leaderboard entry, all their test
+ *  results, and their claimed signup slot (freeing it up for someone else). */
+export async function deleteAccountData(uid: string): Promise<void> {
+  const fb = await getFirebase()
+  if (!fb) return
+  const { collection, doc, getDocs, increment, query, where, writeBatch } = await import(
+    'firebase/firestore'
+  )
+
+  const resultsQuery = query(collection(fb.db, 'results'), where('uid', '==', uid))
+  const snap = await getDocs(resultsQuery)
+  const deleteRefs = [
+    ...snap.docs.map((d) => d.ref),
+    doc(fb.db, 'players', uid),
+    doc(fb.db, 'signups', uid),
+  ]
+
+  // batched writes cap at 500 ops — chunk defensively, though a single
+  // player is very unlikely to ever have that many results
+  const CHUNK = 450
+  for (let i = 0; i < deleteRefs.length; i += CHUNK) {
+    const batch = writeBatch(fb.db)
+    for (const ref of deleteRefs.slice(i, i + CHUNK)) batch.delete(ref)
+    if (i === 0) {
+      batch.set(doc(fb.db, 'meta', 'userCount'), { count: increment(-1) }, { merge: true })
+    }
+    await batch.commit()
+  }
+}
+
 /** Records a 1-5 rating and/or a "something's wrong" report for a question. */
 export async function submitQuestionFeedback(
   user: User,

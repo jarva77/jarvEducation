@@ -1,5 +1,31 @@
 <script setup lang="ts">
+import { ref } from 'vue'
+import { useAuth } from '../composables/useAuth'
+
 const emit = defineEmits<{ back: [] }>()
+
+const { user, cloudEnabled, deleteAccount } = useAuth()
+
+const showConfirm = ref(false)
+const deleting = ref(false)
+const deleteError = ref('')
+const deleted = ref(false)
+
+async function confirmDelete() {
+  deleting.value = true
+  deleteError.value = ''
+  try {
+    await deleteAccount()
+    deleted.value = true
+    showConfirm.value = false
+    window.setTimeout(() => emit('back'), 2000)
+  } catch (e) {
+    console.error('account deletion failed', e)
+    deleteError.value = 'Κάτι πήγε στραβά. Δοκίμασε ξανά σε λίγο, ή γράψε στο quizgame@jarvantage.com.'
+  } finally {
+    deleting.value = false
+  }
+}
 </script>
 
 <template>
@@ -36,7 +62,12 @@ const emit = defineEmits<{ back: [] }>()
       </p>
 
       <h3>Τα δικαιώματά σου</h3>
-      <p>
+      <p v-if="cloudEnabled && user">
+        Μπορείς να διαγράψεις τον λογαριασμό σου και όλα τα δεδομένα σου μόνος/η σου, οποιαδήποτε
+        στιγμή, με το κουμπί παρακάτω. Εναλλακτικά, στείλε μήνυμα στο
+        <a href="mailto:quizgame@jarvantage.com">quizgame@jarvantage.com</a>.
+      </p>
+      <p v-else>
         Μπορείς να ζητήσεις οποτεδήποτε τη διαγραφή του λογαριασμού και όλων των δεδομένων
         σου, στέλνοντας μήνυμα στο
         <a href="mailto:quizgame@jarvantage.com">quizgame@jarvantage.com</a>. Η διαγραφή ολοκληρώνεται
@@ -46,8 +77,39 @@ const emit = defineEmits<{ back: [] }>()
         Η εφαρμογή απευθύνεται σε παιδιά — αν είσαι γονέας/κηδεμόνας και έχεις οποιαδήποτε
         ερώτηση, επικοινώνησε στο ίδιο email.
       </p>
+
+      <template v-if="cloudEnabled && user">
+        <h3>Διαγραφή λογαριασμού</h3>
+        <p v-if="deleted" class="delete-success-msg">
+          Ο λογαριασμός σου και όλα τα δεδομένα σου διαγράφηκαν. Σε πάμε στην αρχική...
+        </p>
+        <template v-else>
+          <p>
+            Θα διαγραφούν οριστικά: ο λογαριασμός σου, η θέση σου στη Βαθμολογία, όλα τα
+            αποτελέσματα των τεστ σου στο cloud, και το τοπικό ιστορικό στη συσκευή αυτή. Δεν
+            μπορεί να αναιρεθεί.
+          </p>
+          <p v-if="deleteError" class="delete-error-msg">{{ deleteError }}</p>
+          <button class="danger-btn" @click="showConfirm = true">Διαγραφή λογαριασμού</button>
+        </template>
+      </template>
     </div>
 
     <button class="primary-btn back-btn" @click="emit('back')">Πίσω</button>
+
+    <div v-if="showConfirm" class="modal-backdrop" @click.self="!deleting && (showConfirm = false)">
+      <div class="modal-card">
+        <p class="modal-text">
+          Θα διαγραφούν οριστικά ο λογαριασμός σου, η βαθμολογία σου και όλα τα αποτελέσματά σου.
+          Δεν μπορεί να αναιρεθεί. Σίγουρα θέλεις να συνεχίσεις;
+        </p>
+        <div class="modal-actions">
+          <button class="modal-cancel-btn" :disabled="deleting" @click="showConfirm = false">Άκυρο</button>
+          <button class="modal-confirm-btn" :disabled="deleting" @click="confirmDelete">
+            {{ deleting ? 'Διαγραφή...' : 'Ναι, διαγραφή' }}
+          </button>
+        </div>
+      </div>
+    </div>
   </section>
 </template>
