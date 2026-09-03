@@ -3,6 +3,18 @@
 Εκπαιδευτική εφαρμογή quiz για τον γιο του χρήστη (και συμμαθητές του). Ζωντανή στο
 **https://quiz.jarvantage.com** — repo: `jarva77/jarvEducation` (GitHub).
 
+## Δομή φακέλων (από 2026-09-03)
+
+Όλα τα projects της εταιρείας Jarvantage ζουν κάτω από `D:\src\jarvantage\`, ένας φάκελος
+(και ένα git repo) ανά project:
+
+- `D:\src\jarvantage\jarvantageEducation\` — **αυτό το repo** (quiz app). Παλιά θέση
+  `D:\src\jarvantageEducation` — δεν υπάρχει πλέον.
+- `D:\src\jarvantage\jarvantageWebSite\` — το μελλοντικό εταιρικό site για το root
+  `jarvantage.com` (βλ. «Domain & email»). Ακόμα κενό, χωρίς repo.
+
+Νέα εταιρικά projects μπαίνουν ως sibling φάκελοι στο `D:\src\jarvantage\`.
+
 ## Stack & Deploy
 
 - Vue 3 + TypeScript + Vite, client-only SPA. Dev server: `npm run dev` (launch config: `.claude/launch.json`, name `jarvantage-education`).
@@ -44,7 +56,7 @@
 - **Λήψη:** Cloudflare Email Routing → όλα στο jarva77@gmail.com: `info@jarvantage.com` (γενικό εταιρικό), `contact@jarvantage.com`, `quizgame@jarvantage.com` (το app· ο χρήστης το θέλει μη δεσμευτικό, το app είναι πειραματικό).
 - **Αποστολή:** Gmail «Send mail as» και για τα 3, μέσω **Resend** SMTP (`smtp.resend.com:465` SSL, user `resend`, password = Resend API key «Sending access»). Domain verified στο Resend, EU region (eu-west-1), records στο `send.jarvantage.com` + `resend._domainkey`. Free: 100/μέρα, 3000/μήνα. Αν χρειαστεί ποτέ το app να στέλνει email, το Resend είναι έτοιμο.
 - DMARC: `p=quarantine; adkim=r; aspf=r` (mail-tester: fully authenticated). SPF root = Cloudflare Email Routing.
-- Root `jarvantage.com`: Papaki parking page (A 195.110.124.140, μόνο HTTP). **Ο χρήστης σχεδιάζει εταιρικό site εκεί** (πιστεύει ότι το απαιτεί ο νόμος· ΙΚΕ άρθ. 47 / ΟΕ-ΕΕ άρθ. 251 Ν.4072/2012) — ΜΗΝ προτείνεις redirect στο quiz. Ξεχωριστό repo όταν ξεκινήσει· χρειάζονται επωνυμία/έδρα/ΓΕΜΗ/ΑΦΜ, τι κάνει η εταιρεία, γλώσσες, Cloudflare Pages vs GitHub Pages. Όνομα αποστολέα στο Gmail: «Jarvantage L.P.».
+- Root `jarvantage.com`: Papaki parking page (A 195.110.124.140, μόνο HTTP). **Ο χρήστης σχεδιάζει εταιρικό site εκεί** (πιστεύει ότι το απαιτεί ο νόμος· ΙΚΕ άρθ. 47 / ΟΕ-ΕΕ άρθ. 251 Ν.4072/2012) — ΜΗΝ προτείνεις redirect στο quiz. Ξεχωριστό repo όταν ξεκινήσει, στον φάκελο `D:\src\jarvantage\jarvantageWebSite\`· χρειάζονται επωνυμία/έδρα/ΓΕΜΗ/ΑΦΜ, τι κάνει η εταιρεία, γλώσσες, Cloudflare Pages vs GitHub Pages. Όνομα αποστολέα στο Gmail: «Jarvantage L.P.».
 
 ## Παρκαρισμένες ιδέες (εγκεκριμένες για «αργότερα»)
 
