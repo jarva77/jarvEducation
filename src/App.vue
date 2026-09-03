@@ -1,45 +1,65 @@
 <script setup lang="ts">
+import { ref } from 'vue'
 import HistoryScreen from './components/HistoryScreen.vue'
+import HomeScreen from './components/HomeScreen.vue'
+import IntroSplash from './components/IntroSplash.vue'
 import LeaderboardScreen from './components/LeaderboardScreen.vue'
+import OptionsScreen from './components/OptionsScreen.vue'
 import PoweredBy from './components/PoweredBy.vue'
 import PrivacyScreen from './components/PrivacyScreen.vue'
 import QuizScreen from './components/QuizScreen.vue'
 import ResultsScreen from './components/ResultsScreen.vue'
-import StartScreen from './components/StartScreen.vue'
 import { useQuiz } from './composables/useQuiz'
 
 const {
   phase,
-  grade,
-  bank,
-  bankSize,
-  bankLoading,
   currentQuestion,
   progress,
   answers,
-  setGrade,
   startQuiz,
   submitAnswer,
   restart,
+  showOptions,
   showHistory,
   showLeaderboard,
   showPrivacy,
 } = useQuiz()
+
+const INTRO_SEEN_KEY = 'quiz-intro-seen'
+function hasSeenIntro(): boolean {
+  try {
+    return localStorage.getItem(INTRO_SEEN_KEY) === '1'
+  } catch {
+    return true
+  }
+}
+const showIntro = ref(!hasSeenIntro())
+function finishIntro() {
+  showIntro.value = false
+  try {
+    localStorage.setItem(INTRO_SEEN_KEY, '1')
+  } catch {
+    /* storage unavailable */
+  }
+}
 </script>
 
 <template>
-  <main class="app-shell">
-    <StartScreen
-      v-if="phase === 'start'"
-      :bank="bank"
-      :bank-size="bankSize"
-      :grade="grade"
-      :loading="bankLoading"
-      @start="startQuiz"
-      @grade-change="setGrade"
+  <IntroSplash v-if="showIntro" @done="finishIntro" />
+
+  <main v-else class="app-shell">
+    <HomeScreen
+      v-if="phase === 'home'"
+      @new-quiz="showOptions"
       @history="showHistory"
       @leaderboard="showLeaderboard"
       @privacy="showPrivacy"
+    />
+
+    <OptionsScreen
+      v-else-if="phase === 'options'"
+      @start="startQuiz"
+      @home="restart"
     />
 
     <QuizScreen

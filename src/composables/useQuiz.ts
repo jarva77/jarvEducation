@@ -7,53 +7,15 @@ import { playCorrect, playWrong } from '../utils/sound'
 import { useAuth } from './useAuth'
 import { useHistory } from './useHistory'
 
-export type Phase = 'start' | 'quiz' | 'results' | 'history' | 'leaderboard' | 'privacy'
+export type Phase = 'home' | 'options' | 'quiz' | 'results' | 'history' | 'leaderboard' | 'privacy'
 
-// per-grade banks are separate chunks, downloaded only when the grade is picked
-const GRADE_LOADERS: Record<Grade, () => Promise<{ default: unknown }>> = {
-  a: () => import('../data/questions-a.json'),
-  b: () => import('../data/questions-b.json'),
-  c: () => import('../data/questions-c.json'),
-  d: () => import('../data/questions-d.json'),
-  e: () => import('../data/questions-e.json'),
-  f: () => import('../data/questions-f.json'),
-}
-
-const GRADE_STORAGE_KEY = 'quiz-grade'
-
-function loadStoredGrade(): Grade {
-  try {
-    const raw = localStorage.getItem(GRADE_STORAGE_KEY)
-    if (raw && ['a', 'b', 'c', 'd', 'e', 'f'].includes(raw)) return raw as Grade
-  } catch {
-    /* storage unavailable */
-  }
-  return 'd'
-}
-
-const phase = ref<Phase>('start')
+const phase = ref<Phase>('home')
 const quizQuestions = ref<Question[]>([])
 const currentIndex = ref(0)
 const answers = ref<AnsweredQuestion[]>([])
-
-const grade = ref<Grade>(loadStoredGrade())
-const bank = ref<Question[]>([])
-const bankLoading = ref(false)
-
-async function loadBank(g: Grade) {
-  bankLoading.value = true
-  try {
-    const mod = await GRADE_LOADERS[g]()
-    bank.value = mod.default as Question[]
-  } catch (e) {
-    console.error('bank load failed', e)
-    bank.value = []
-  } finally {
-    bankLoading.value = false
-  }
-}
-
-void loadBank(grade.value)
+// the grade to attribute a result to in history/leaderboard — only set when
+// the quiz drew from a single grade; left undefined for mixed-grade quizzes
+const quizGrade = ref<Grade | undefined>(undefined)
 
 export function useQuiz() {
   const { recordResult } = useHistory()
@@ -64,34 +26,34 @@ export function useQuiz() {
     total: quizQuestions.value.length,
   }))
   const score = computed(() => answers.value.filter((a) => a.isCorrect).length)
-  const bankSize = computed(() => bank.value.length)
 
-  function setGrade(g: Grade) {
-    if (g === grade.value) return
-    grade.value = g
-    try {
-      localStorage.setItem(GRADE_STORAGE_KEY, g)
-    } catch {
-      /* storage unavailable */
-    }
-    void loadBank(g)
-  }
-
-  function startQuiz(count: number, categories?: Category[]) {
-    const picked = pickQuestions(bank.value, count, categories)
+  function startQuiz(count: number, grades: Grade[], categories: Category[], bank: Question[]) {
+    const picked = pickQuestions(bank, count, categories)
     if (picked.length === 0) return
     quizQuestions.value = picked
     currentIndex.value = 0
     answers.value = []
+    quizGrade.value = grades.length === 1 ? grades[0] : undefined
     phase.value = 'quiz'
   }
 
+  // The quiz must never freeze on a submitted answer — isAnswerCorrect()
+  // already can't throw (see grading.ts), and every other risky step here
+  // (sound, local/cloud history) is isolated so a failure there degrades
+  // gracefully instead of blocking the player from moving to the next
+  // question or seeing their results.
   function submitAnswer(userAnswer: string) {
     const question = currentQuestion.value
     if (!question) return
     const isCorrect = isAnswerCorrect(userAnswer, question)
-    if (isCorrect) playCorrect()
-    else playWrong()
+
+    try {
+      if (isCorrect) playCorrect()
+      else playWrong()
+    } catch (e) {
+      console.error('sound playback failed', e)
+    }
+
     answers.value.push({
       question,
       userAnswer,
@@ -100,23 +62,32 @@ export function useQuiz() {
 
     if (currentIndex.value + 1 < quizQuestions.value.length) {
       currentIndex.value++
-    } else {
-      recordResult(answers.value, grade.value)
-      if (user.value) {
-        // fire-and-forget: cloud saving must never block the results screen
-        void saveResultToCloud(user.value, answers.value, grade.value).catch((e) =>
-          console.error('cloud save failed', e),
-        )
-      }
-      phase.value = 'results'
+      return
     }
+
+    try {
+      recordResult(answers.value, quizGrade.value)
+    } catch (e) {
+      console.error('saving local history failed', e)
+    }
+    if (user.value) {
+      // fire-and-forget: cloud saving must never block the results screen
+      void saveResultToCloud(user.value, answers.value, quizGrade.value).catch((e) =>
+        console.error('cloud save failed', e),
+      )
+    }
+    phase.value = 'results'
   }
 
   function restart() {
-    phase.value = 'start'
+    phase.value = 'home'
     quizQuestions.value = []
     currentIndex.value = 0
     answers.value = []
+  }
+
+  function showOptions() {
+    phase.value = 'options'
   }
 
   function showHistory() {
@@ -133,18 +104,14 @@ export function useQuiz() {
 
   return {
     phase,
-    grade,
-    bank,
-    bankSize,
-    bankLoading,
     currentQuestion,
     progress,
     answers,
     score,
-    setGrade,
     startQuiz,
     submitAnswer,
     restart,
+    showOptions,
     showHistory,
     showLeaderboard,
     showPrivacy,

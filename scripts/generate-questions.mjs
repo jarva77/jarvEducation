@@ -64,7 +64,9 @@ function addQ(bucket, category, type, question, answer, options, acceptedAnswers
     question,
     answer: String(answer),
   }
-  if (options) q.options = options
+  // options must be strings — a couple of math generators pass raw numbers,
+  // which crashes grading.ts's normalizeAnswer() (calls .trim() on the value)
+  if (options) q.options = options.map(String)
   if (acceptedAnswers?.length) q.acceptedAnswers = acceptedAnswers.map(String)
   bucket.push(q)
   return true
