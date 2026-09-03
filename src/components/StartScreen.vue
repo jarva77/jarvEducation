@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, ref, watch } from 'vue'
 import { useAuth } from '../composables/useAuth'
-import type { Category, Grade } from '../types'
+import type { Category, Grade, Question } from '../types'
 import { CATEGORY_EMOJI, CATEGORY_LABELS, GRADE_LABELS } from '../types'
 
-const props = defineProps<{ bankSize: number; grade: Grade; loading: boolean }>()
+const props = defineProps<{ bank: Question[]; bankSize: number; grade: Grade; loading: boolean }>()
 const emit = defineEmits<{
   start: [count: number, categories: Category[]]
   gradeChange: [grade: Grade]
@@ -16,9 +16,24 @@ const emit = defineEmits<{
 const { user, cloudEnabled, signInWithGoogle, signOut } = useAuth()
 
 const GRADES: Grade[] = ['a', 'b', 'c', 'd', 'e', 'f']
-const ALL_CATEGORIES = Object.keys(CATEGORY_LABELS) as Category[]
+const CATEGORY_ORDER = Object.keys(CATEGORY_LABELS) as Category[]
 
-const selectedCategories = ref<Category[]>([...ALL_CATEGORIES])
+// only the subjects actually present in the current grade's bank (eg. Α'
+// has no Ιστορία yet), ordered to match CATEGORY_LABELS
+const availableCategories = computed(() => {
+  const present = new Set(props.bank.map((q) => q.category))
+  return CATEGORY_ORDER.filter((c) => present.has(c))
+})
+
+const selectedCategories = ref<Category[]>([])
+watch(
+  availableCategories,
+  (cats) => {
+    selectedCategories.value = [...cats]
+  },
+  { immediate: true },
+)
+
 const count = ref(20)
 const presets = [10, 20, 50, 100]
 
@@ -74,7 +89,7 @@ function start() {
     <p class="label">📚 Μαθήματα</p>
     <div class="category-checks">
       <label
-        v-for="cat in ALL_CATEGORIES"
+        v-for="cat in availableCategories"
         :key="cat"
         class="category-chip"
         :class="['chip-' + cat, { selected: selectedCategories.includes(cat) }]"

@@ -134,6 +134,7 @@ export function useQuiz() {
   return {
     phase,
     grade,
+    bank,
     bankSize,
     bankLoading,
     currentQuestion,

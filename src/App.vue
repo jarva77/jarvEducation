@@ -11,6 +11,7 @@ import { useQuiz } from './composables/useQuiz'
 const {
   phase,
   grade,
+  bank,
   bankSize,
   bankLoading,
   currentQuestion,
@@ -30,6 +31,7 @@ const {
   <main class="app-shell">
     <StartScreen
       v-if="phase === 'start'"
+      :bank="bank"
       :bank-size="bankSize"
       :grade="grade"
       :loading="bankLoading"

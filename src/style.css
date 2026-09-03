@@ -19,6 +19,14 @@
   --cat-spelling-bg: #fef3c7;
   --cat-environment: #22c55e;
   --cat-environment-bg: #dcfce7;
+  --cat-history: #b45309;
+  --cat-history-bg: #fef0d5;
+  --cat-religion: #6d28d9;
+  --cat-religion-bg: #ede9fe;
+  --cat-geography: #0d9488;
+  --cat-geography-bg: #ccfbf1;
+  --cat-science: #dc2626;
+  --cat-science-bg: #fee2e2;
   font-family: 'Nunito', 'Segoe UI', system-ui, -apple-system, sans-serif;
 }
 
@@ -260,6 +268,10 @@ h1 {
 .category-chip.selected.chip-grammar { border-color: var(--cat-grammar); background: var(--cat-grammar-bg); color: #7e22ce; }
 .category-chip.selected.chip-spelling { border-color: var(--cat-spelling); background: var(--cat-spelling-bg); color: #b45309; }
 .category-chip.selected.chip-environment { border-color: var(--cat-environment); background: var(--cat-environment-bg); color: #15803d; }
+.category-chip.selected.chip-history { border-color: var(--cat-history); background: var(--cat-history-bg); color: #92400e; }
+.category-chip.selected.chip-religion { border-color: var(--cat-religion); background: var(--cat-religion-bg); color: #6d28d9; }
+.category-chip.selected.chip-geography { border-color: var(--cat-geography); background: var(--cat-geography-bg); color: #0f766e; }
+.category-chip.selected.chip-science { border-color: var(--cat-science); background: var(--cat-science-bg); color: #b91c1c; }
 
 .warning-msg {
   color: var(--color-incorrect);
@@ -322,6 +334,10 @@ h1 {
 .category-badge.cat-grammar { background: var(--cat-grammar-bg); color: #7e22ce; }
 .category-badge.cat-spelling { background: var(--cat-spelling-bg); color: #b45309; }
 .category-badge.cat-environment { background: var(--cat-environment-bg); color: #15803d; }
+.category-badge.cat-history { background: var(--cat-history-bg); color: #92400e; }
+.category-badge.cat-religion { background: var(--cat-religion-bg); color: #6d28d9; }
+.category-badge.cat-geography { background: var(--cat-geography-bg); color: #0f766e; }
+.category-badge.cat-science { background: var(--cat-science-bg); color: #b91c1c; }
 
 .progress-bar {
   height: 14px;
@@ -605,6 +621,10 @@ h1 {
 .category-row.cat-grammar { background: var(--cat-grammar-bg); color: #7e22ce; }
 .category-row.cat-spelling { background: var(--cat-spelling-bg); color: #b45309; }
 .category-row.cat-environment { background: var(--cat-environment-bg); color: #15803d; }
+.category-row.cat-history { background: var(--cat-history-bg); color: #92400e; }
+.category-row.cat-religion { background: var(--cat-religion-bg); color: #6d28d9; }
+.category-row.cat-geography { background: var(--cat-geography-bg); color: #0f766e; }
+.category-row.cat-science { background: var(--cat-science-bg); color: #b91c1c; }
 
 .wrong-list h3 {
   margin: 1.5rem 0 0.75rem;

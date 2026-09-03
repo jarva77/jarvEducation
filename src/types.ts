@@ -1,4 +1,12 @@
-export type Category = 'math' | 'grammar' | 'spelling' | 'environment'
+export type Category =
+  | 'math'
+  | 'grammar'
+  | 'spelling'
+  | 'environment'
+  | 'history'
+  | 'religion'
+  | 'geography'
+  | 'science'
 export type Grade = 'a' | 'b' | 'c' | 'd' | 'e' | 'f'
 
 export const GRADE_LABELS: Record<Grade, string> = {
@@ -33,6 +41,10 @@ export const CATEGORY_LABELS: Record<Category, string> = {
   grammar: 'Γραμματική',
   spelling: 'Ορθογραφία',
   environment: 'Μελέτη Περιβάλλοντος',
+  history: 'Ιστορία',
+  religion: 'Θρησκευτικά',
+  geography: 'Γεωγραφία',
+  science: 'Φυσικές Επιστήμες',
 }
 
 export const CATEGORY_EMOJI: Record<Category, string> = {
@@ -40,4 +52,8 @@ export const CATEGORY_EMOJI: Record<Category, string> = {
   grammar: '📖',
   spelling: '✏️',
   environment: '🌍',
+  history: '📜',
+  religion: '🕊️',
+  geography: '🗺️',
+  science: '🔬',
 }
