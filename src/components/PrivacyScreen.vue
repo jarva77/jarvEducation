@@ -11,6 +11,8 @@ const deleting = ref(false)
 const deleteError = ref('')
 const deleted = ref(false)
 
+const versionLabel = `v ${__APP_VERSION__}.${__BUILD_TIMESTAMP__}`
+
 async function confirmDelete() {
   deleting.value = true
   deleteError.value = ''
@@ -94,6 +96,8 @@ async function confirmDelete() {
         </template>
       </template>
     </div>
+
+    <p class="version-row">{{ versionLabel }}</p>
 
     <button class="primary-btn back-btn" @click="emit('back')">Πίσω</button>
 

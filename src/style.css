@@ -928,6 +928,14 @@ h1 {
   font-weight: 700;
 }
 
+.version-row {
+  text-align: center;
+  color: var(--color-muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin: 1rem 0 0;
+}
+
 .privacy-screen .back-btn {
   width: 100%;
   margin-top: 1rem;
