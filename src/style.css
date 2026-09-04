@@ -872,6 +872,23 @@ h1 {
   cursor: default;
 }
 
+.feedback-submit-btn {
+  margin-top: 0.4rem;
+  align-self: center;
+}
+
+.feedback-submit-btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.feedback-thanks {
+  margin-top: 0.4rem;
+  text-align: center;
+  font-weight: 700;
+  color: var(--color-correct, var(--color-accent));
+}
+
 /* Privacy */
 .privacy-link {
   display: block;

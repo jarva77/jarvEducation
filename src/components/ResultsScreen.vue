@@ -11,23 +11,42 @@ const emit = defineEmits<{ restart: [] }>()
 
 const { user, cloudEnabled } = useAuth()
 const showFeedback = ref(false)
-const givenRatings = reactive<Record<string, number>>({})
-const reported = reactive<Record<string, boolean>>({})
+const draftRatings = reactive<Record<string, number>>({})
+const draftReported = reactive<Record<string, boolean>>({})
+const submitted = ref(false)
+const submitting = ref(false)
 
-function rate(a: AnsweredQuestion, rating: number) {
-  if (!user.value || givenRatings[a.question.id]) return
-  givenRatings[a.question.id] = rating
-  void submitQuestionFeedback(user.value, a.question.id, a.question.question, rating, false).catch(
-    (e) => console.error('feedback failed', e),
-  )
+const hasDrafts = computed(
+  () => Object.keys(draftRatings).length > 0 || Object.values(draftReported).some(Boolean),
+)
+
+function setRating(a: AnsweredQuestion, rating: number) {
+  if (submitted.value) return
+  draftRatings[a.question.id] = draftRatings[a.question.id] === rating ? 0 : rating
 }
 
-function report(a: AnsweredQuestion) {
-  if (!user.value || reported[a.question.id]) return
-  reported[a.question.id] = true
-  void submitQuestionFeedback(user.value, a.question.id, a.question.question, null, true).catch(
-    (e) => console.error('report failed', e),
-  )
+function toggleReport(a: AnsweredQuestion) {
+  if (submitted.value) return
+  draftReported[a.question.id] = !draftReported[a.question.id]
+}
+
+async function submitFeedback() {
+  if (!user.value || submitted.value || submitting.value) return
+  submitting.value = true
+  const jobs = props.answers
+    .filter((a) => draftRatings[a.question.id] || draftReported[a.question.id])
+    .map((a) =>
+      submitQuestionFeedback(
+        user.value!,
+        a.question.id,
+        a.question.question,
+        draftRatings[a.question.id] || null,
+        !!draftReported[a.question.id],
+      ).catch((e) => console.error('feedback failed', e)),
+    )
+  await Promise.allSettled(jobs)
+  submitting.value = false
+  submitted.value = true
 }
 
 const total = computed(() => props.answers.length)
@@ -114,22 +133,31 @@ onMounted(() => {
                 v-for="s in 5"
                 :key="s"
                 class="star-btn"
-                :class="{ active: (givenRatings[a.question.id] ?? 0) >= s }"
-                :disabled="!!givenRatings[a.question.id]"
+                :class="{ active: (draftRatings[a.question.id] ?? 0) >= s }"
+                :disabled="submitted"
                 :title="`Βαθμολογία ${s}/5`"
-                @click="rate(a, s)"
+                @click="setRating(a, s)"
               >★</button>
             </span>
             <button
               class="report-btn"
-              :class="{ done: reported[a.question.id] }"
-              :disabled="reported[a.question.id]"
-              @click="report(a)"
+              :class="{ done: draftReported[a.question.id] }"
+              :disabled="submitted"
+              @click="toggleReport(a)"
             >
-              {{ reported[a.question.id] ? '🚩 Καταγράφηκε' : '🚩 Κάτι δεν πάει καλά' }}
+              {{ draftReported[a.question.id] ? '🚩 Θα αναφερθεί (πάτα ξανά για ακύρωση)' : '🚩 Κάτι δεν πάει καλά' }}
             </button>
           </div>
         </div>
+        <button
+          v-if="!submitted"
+          class="primary-btn feedback-submit-btn"
+          :disabled="!hasDrafts || submitting"
+          @click="submitFeedback"
+        >
+          {{ submitting ? 'Υποβολή...' : 'Υποβολή αξιολόγησης' }}
+        </button>
+        <p v-else class="feedback-thanks">Ευχαριστούμε για την αξιολόγηση! 🙏</p>
       </div>
     </div>
 
