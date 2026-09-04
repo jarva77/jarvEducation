@@ -1351,11 +1351,11 @@ h1 {
 }
 
 .intro-brain-left {
-  clip-path: inset(0 50% 0 0);
+  clip-path: inset(0 54% 0 0);
 }
 
 .intro-brain-right {
-  clip-path: inset(0 0 0 50%);
+  clip-path: inset(0 0 0 46%);
 }
 
 /* slide straight apart like window panels, no rotation */

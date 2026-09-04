@@ -25,22 +25,9 @@ const {
   showPrivacy,
 } = useQuiz()
 
-const INTRO_SEEN_KEY = 'quiz-intro-seen'
-function hasSeenIntro(): boolean {
-  try {
-    return localStorage.getItem(INTRO_SEEN_KEY) === '1'
-  } catch {
-    return true
-  }
-}
-const showIntro = ref(!hasSeenIntro())
+const showIntro = ref(true)
 function finishIntro() {
   showIntro.value = false
-  try {
-    localStorage.setItem(INTRO_SEEN_KEY, '1')
-  } catch {
-    /* storage unavailable */
-  }
 }
 </script>
 
