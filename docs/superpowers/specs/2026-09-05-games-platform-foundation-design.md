@@ -58,7 +58,7 @@ domain, είναι το φυσικό σημείο για να σερβίρει �
                 path: /primeQuiz/*    │      path: /geoQuiz/*
                          ┌────────────┴─────────────┐
                          ▼                           ▼
-              primeQuiz.pages.dev          geoQuiz.pages.dev
+              primequiz.pages.dev       jarvantage-geoquiz.pages.dev
               (Cloudflare Pages,           (Cloudflare Pages,
                private repo primeQuiz)      private repo geoQuiz)
 ```
